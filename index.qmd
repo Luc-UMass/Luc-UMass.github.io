@@ -1,8 +1,9 @@
 ---
 title: "Mywebsite"
 resources: 
-    - pdf/ql2.pdf 
+    - pdf/ql2.pdf
     - pdf/ql3.pdf
+    
 ---
 
 This is a Quarto website.
@@ -14,4 +15,6 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 <https://luc-umass.github.io/pdf/ql3.pdf>
 
-<https://pdf/ql3.pdf>s
+
+
+[ql3.pdf](pdf/ql3.pdf)
