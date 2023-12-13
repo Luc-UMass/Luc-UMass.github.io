@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "LucRey-Bellet"
+  title: "Luc-Umass.github.io"
   navbar:
     left:
       - href: index.qmd

@@ -1,5 +1,5 @@
 ---
-title: "LucRey-Bellet"
+title: "Luc-Umass.github.io"
 ---
 
 This is a Quarto website.
