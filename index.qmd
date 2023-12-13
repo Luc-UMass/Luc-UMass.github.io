@@ -7,4 +7,4 @@ This is a Quarto website.
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 
-<a href:/pdf/ql2.pdf > QL2 </a>
+<https://luc-umass.github.io/pdf/ql2.pdf>
