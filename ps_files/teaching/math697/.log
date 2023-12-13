@@ -1,0 +1,34 @@
+This is pdfTeX, Version 3.14159-14h-released-20010417 (Web2C 7.3.3.1) (format=pdflatex 2003.2.18)  20 SEP 2007 10:25
+**prob1.tex
+(/usr/share/texmf/tex/latex/tools/.tex{/usr/share/texmf/pdftex/config/pdftex.cf
+g}
+LaTeX2e <2001/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, i
+talian, nohyphenation, loaded.
+File ignored)
+*\end
+
+*
+Runaway argument?
+! Paragraph ended before \end was complete.
+<to be read again> 
+                   \par 
+<*> 
+    
+? q
+OK, entering \batchmode...
+! Emergency stop.
+<*> 
+    
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 6 strings out of 50453
+ 126 string characters out of 688420
+ 44238 words of memory out of 1500001
+ 3102 multiletter control sequences out of 10000+25000
+ 3640 words of font info for 14 fonts, out of 400000 for 1000
+ 14 hyphenation exceptions out of 10000
+ 5i,0n,1p,89b,7s stack positions out of 3000i,500n,3000p,50000b,5000s
+No pages of output.

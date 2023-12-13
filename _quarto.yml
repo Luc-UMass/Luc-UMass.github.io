@@ -3,13 +3,26 @@ project:
   output-dir: docs
   
 website:
-  title: "Mywebsite"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-
+  title: "Home page of Luc Rey-Bellet"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Publications"
+        contents:
+          - text: Articles 
+            file: publications.qmd
+          - text: Lecture Notes
+            file: lecturenotes.qmd
+          - text: Book  
+          - file: books.qmd
+     
+      - section: "Teaching"
+        contents:
+          - teachging.qmd
+      
+      - about.qmd      
+  
 format:
   html:
     theme: cosmo

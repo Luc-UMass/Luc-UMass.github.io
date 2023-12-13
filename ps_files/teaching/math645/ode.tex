@@ -1,0 +1,4087 @@
+ \documentclass[12pt]{report}
+\usepackage{graphicx}
+%%%%%%%% AHP Layout %%%%%%%%%%%%
+
+
+%
+% Page dimensions:
+%
+%\oddsidemargin 7mm       % Remember this is 1 inch less than actual
+%\evensidemargin 7mm
+%\textwidth 15cm
+%\topmargin 0mm           % Remember this is 1 inch less than actual
+%\headsep 0.9in              % Between head and body of text
+%\headsep 20pt              % Between head and body of text
+%\textheight 22cm
+
+
+\advance\voffset by -3mm
+\advance\hoffset by -5mm
+\setlength{\textwidth}{155mm}
+\setlength{\textheight}{210mm}
+
+\pagestyle{headings}
+
+
+
+%%%%%%%%%%%%%%%%%%
+
+%%%%%   Symbols
+
+%%%%%%%%%%%%%%%%%%
+
+\newcommand{\calB}{{\cal B}}
+\newcommand{\calC}{{\cal C}}
+\newcommand{\calF}{{\cal F}}
+\newcommand{\calH}{{\cal H}}
+\newcommand{\calL}{{\cal L}}
+\newcommand{\calM}{{\cal M}}
+\newcommand{\calO}{{\cal O}}
+\newcommand{\calP}{{\cal P}}
+\newcommand{\calR}{{\cal R}}
+\newcommand{\calS}{{\cal S}}
+\newcommand{\calU}{{\cal U}}
+\newcommand{\calW}{{\cal W}}
+
+
+
+\newcommand{\bE}{{\bf E}}
+\newcommand{\bC}{{\bf C}}
+\newcommand{\bH}{{\bf H}}
+\newcommand{\bK}{{\bf K}}
+\newcommand{\bP}{{\bf P}}
+\newcommand{\bR}{{\bf R}}
+\newcommand{\bZ}{{\bf Z}}
+
+
+\newcommand{\tA}{{\tilde A}}
+\newcommand{\tC}{{\tilde C}}
+\newcommand{\tG}{{\tilde G}}
+\newcommand{\tH}{{\tilde H}}
+\newcommand{\tL}{{\tilde L}}
+\newcommand{\tP}{{\tilde P}}
+\newcommand{\tS}{{\tilde S}}
+\newcommand{\tT}{{\tilde T}}
+\newcommand{\tU}{{\tilde U}}
+\newcommand{\tV}{{\tilde V}}
+\newcommand{\tX}{{\tilde X}}
+
+
+
+\newcommand{\trace}{{\rm tr}}
+\newcommand{\spec}{{\rm spec}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%  Theorems
+
+%%%%%%%%%%%%%%%%%%%%%%
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{definition}[theorem]{Definition}
+
+\newcommand{\proof}{\noindent {\em Proof:~}}  
+
+%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%    Racourcis
+
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\newcommand{\nn}{\nonumber} 
+\newcommand{\real}{{\bf R}}
+\newcommand{\complex}{{\bf C}}
+
+\def\bd{\begin{displaymath}}
+\def\ed{\end{displaymath}}
+
+\def\eqref#1{(\ref{#1})} 
+\def\qed{\hbox{\hskip 6pt\vrule width6pt height7pt depth1pt
+    \hskip1pt}\bigskip}  
+\def\to{\rightarrow}
+
+\def\runinend{\enspace}
+\def\ackname{Acknowledgement\runinend}%
+%
+\def\acknowledgements{\par\addvspace{17pt}\rmfamily
+\def\ackname{Acknowledgements\runinend}%
+\trivlist\if!\ackname!\item[]\else
+\item[\hskip\labelsep
+{\bf\ackname}]\fi}%
+\def\endacknowledgements{\endtrivlist\addvspace{6pt}}%
+%
+
+
+\begin{document} 
+
+\thispagestyle{empty}
+
+\begin{center}
+{\bf \Large Differential Equations}
+\end{center}
+%\vspace{.5cm}
+\begin{center}
+{\bf \Large and}
+\end{center}
+%\vspace{.5cm}
+\begin{center}
+{\bf \Large Dynamical Systems}
+\end{center}
+
+\vspace{1cm}
+
+
+\begin{center}
+{\Large Classnotes for Math 645}
+\end{center}
+\begin{center}
+{\Large University of Massachusetts}
+\end{center}
+\begin{center}
+{\Large v3: Fall 2008}
+\end{center}
+
+\vspace{1cm}
+\begin{center}
+{\Large Luc Rey-Bellet} 
+\end{center}
+\begin{center}
+{\Large  Department of Mathematics and Statistics}
+\end{center}
+\begin{center}
+{\Large  University of Massachusetts}
+\end{center}
+\begin{center} 
+{\Large Amherst, MA 01003}
+\end{center}
+
+\tableofcontents
+
+
+
+
+\chapter{Existence and Uniqueness}
+\thispagestyle{empty}
+\section{Introduction}
+An {\em ordinary differential equation (ODE)} is given by a relation of the form 
+\begin{equation}\label{genode}
+F(t, x, x', x'', \cdots, x^{(m)}) \,=\, 0 \,,
+\end{equation}
+where $t \in \bR$, $x,x', \cdots, x^{(m)} \in \bR^n$ and the function $F$
+is defined on some open set of $\bR \times \bR^n \times \cdots \times
+\bR^n$.  A function $x : I \to \bR^n$, where $I$ is an interval in $\bR$, is a solution of
+\eqref{genode} if $x(t)$ is of class $\calC^m$ (i.e., $m$-times
+continuously differentiable) and if
+\begin{equation}
+F(t, x(t), x'(t), x''(t), \cdots, x^{(m)}(t)) \,=\, 0 \, \quad {\rm
+~for~all~} t \in I \,.
+\end{equation}
+We say that the ODE is of order $m$ if the maximal order of
+the derivative occurring in \eqref{genode} is $m$. 
+
+\begin{example}{\rm {\bf Clairaut equation (1734)}  Let us consider the first 
+order equation
+\begin{equation}\label{clairaut}
+x - t x' + f(x')\,=\,0 \,,
+\end{equation}
+where $f$ is some given function. It is given, in implicit form, by a
+nonlinear equation in $x'$. It is easy to verify that the lines $x(t)
+= Ct -f(C)$ are solutions of \eqref{clairaut} for any $C$.  Consider
+for example $f(z) = z^2 +z$, then one sees easily that given a point
+$(t_0, x_0)$ there exists either $0$ or $2$ such solutions passing by
+the point $(t_0, x_0)$ (see Figure \ref{figclairault}). }
+\end{example}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=3in]{clairaultnew}
+\caption{Some solutions for Clairault equation for $f(z)=z^2 +z$.}
+\label{figclairault}
+\end{center}
+\end{figure}
+
+As we see from this example, it is in general very difficult to obtain
+results on the uniqueness or existence of solutions for general
+equations of the form \eqref{genode}. We will therefore 
+restrict ourselves to situations where \eqref{genode} can be solved as a function of
+$x^{(m)}$,
+\begin{equation}\label{mode}
+x^{(m)} \,=\, g(t, x, x', \cdots, x^{(m-1)}) \,.
+\end{equation}
+Such an equation is called an {\em explicit} ODE of order $m$. One can always reduce 
+an ODE of order $m$ to a first order ODE for a vector in a space of larger dimension. 
+For example we can introduce the new variables 
+\begin{equation}
+x_1 = x\,, x_2 = x' \,, x_3 = x''\, \cdots, x_m =x^{(m-1)} \,,
+\end{equation}
+and rewrite \eqref{mode} as the system 
+\begin{eqnarray}
+x'_1\,&=&\, x_2 \,, \nn \\
+x'_2\,&=&\, x_3 \,, \nn \\
+   \,&\vdots&\,  \\
+x'_{m-1}\,&=&\, x_m \,, \nn \\
+x'_{m}\,&=&\, g(t, x_1, x_2, \cdots, x_m) \,. \nn 
+\end{eqnarray}
+This is an equation of order $1$ for the supervector $x = (x_1,
+\cdots, x_m) \in \bR^{nm}$ (each $x_i$ is in $\bR^n$) and it has the
+form $x' = f(t,x)$.  Therefore, in general, it is sufficient to
+consider the case of first order equations (m=1).
+
+
+If $f$ does not depend explicitly on $t$, i.e., $f(t,x)=f(x)$, the
+ODE $x' =f(x)$ is called {\em autonomous}.  The function $f: U \to
+\bR^n$, where $U$ is an open set of $\bR^n$, defines a {\em vector
+field}.  A solution of $x' =f(x)$ is then a parametrized curve $x(t)$ which
+is tangent to the vector field $f(x)$ at any point, see figures \ref{prpr} and \eqref{vdpol}.   
+
+Note a non-autonomous ODE $x'=f(t,x)$ with $x\in \bR^n$ can be written as an autonomous 
+ODE in $\bR^{n+1}$ by setting 
+\begin{equation}
+y\,=\, \left( \begin{array}{c} x \\ t \end{array} \right) \,\quad \quad  y' \,=\, \left( \begin{array}{c}  x' \\ t' \end{array} \right)
+\,=\, \left( \begin{array}{c}  f(t,x) \\ 1 \end{array} \right) \,\equiv \, F(y)\,.
+\end{equation}
+
+
+\begin{example}\label{prprey}{ \rm  
+{\bf Predator-Prey equation} Let us consider the equation
+\begin{equation}
+x' = x (\alpha - \beta y) \,, \quad  y' = y (\gamma x - \delta) \,,
+\end{equation}
+where $\alpha, \beta, \gamma, \delta$ are given positive constants. Here $x(t)$
+is the population of the preys and $y(t)$ is the population of the
+predators.  If the population of predators $y$ is below the threshold
+$\alpha/\beta$ then $x$ is increasing while if $y$ is above
+$\alpha/\beta$ then $x$ is decreasing. The opposite holds for the
+population $y$. In order to study the solutions, let us divide the
+first equation, by the second one and consider $x$ as a function of
+$y$. We obtain
+\begin{equation}
+\frac{dx}{dy} \,=\, \frac{x}{y} \frac{ (\alpha - \beta y)}{ (\gamma x
+- \delta)} \, \quad {\rm or} \quad \frac{ (\gamma x - \delta)}{x} dx
+\,=\, \frac{ (\alpha - \beta y)}{y} dy \,.
+\end{equation}
+Integrating gives 
+\begin{equation}\label{lc}
+\gamma x - \delta \log x  \,=\, \alpha \log y - \beta y + {\rm Const.}
+\end{equation}
+One can verify that the level curves \eqref{lc} are closed bounded curves 
+and each solution $(x(t), y(t))$ stays on a level curve of
+\eqref{lc} for any $t \in \bR$. This suggests that the solutions are
+periodic (see Figure \ref{prpr}).  
+}
+\end{example}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=3in]{predator-prey}
+\caption{The vector field
+for the predator-prey equation with $\alpha=1$, $\beta=2$, $\gamma=3$,
+$\delta=2$ and the solutions passing through the point $(1,1)$ and
+$(0.5,0.5)$.}
+\label{prpr}
+\end{center}
+\end{figure}
+
+\begin{example}{\rm {\bf van der Pol equation}. The van der Pol equation
+\begin{equation} \label{vdp}
+x''\,=\, \epsilon(1-x^2) x' - x \,.
+\end{equation}
+It can written as a first order system by setting $y=x'$
+\begin{eqnarray}
+x' \,&=&\, y \,,\nn \\
+y' \,&=&\, \epsilon(1-x^2)y -x \,.
+\end{eqnarray}  
+It is a perturbation of the harmonic oscillator ($\epsilon=0$) $x'' +x
+\,=\, 0$ whose solutions are the periodic solution $x(t) = A
+\cos(t-\phi)$ and $y(t) = x'(t) =-A \sin(t- \phi)$ (circles).  When
+$\epsilon >0$ one observes that one periodic solution survives which
+is the deformation of a circle of radius $2$ and all other solution
+are attracted to this periodic solution (limit cycle), see Figure \ref{vdpol}.
+}
+\end{example}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=3in]{vanderPol}
+\caption{The vector field for the van der Pol equation with
+$\epsilon=0.1$ as well as two solutions passing through the points
+$(.1,.2)$ and $(2,3)$.}
+\label{vdpol}
+\end{center}
+\end{figure}
+
+We will discuss these examples in more details later. For now we
+observe that, in both cases, the solutions curves never
+intersect. This means that there are never two solutions passing by
+the same point.  Our first goal will be to find sufficient conditions
+for the problem
+\begin{equation}\label{ivp}
+x' = f(t,x) \,, \quad \, x(t_0) =x_0 \,,
+\end{equation} 
+to have a unique solution.  We say that $t_0$ and $x_0$ are the {\em
+initial values} and the problem \eqref{ivp} is called a Cauchy Problem
+or an initial value problem (IVP).
+
+
+\section{Banach fixed point theorem}  We will need some (simple) tools of 
+functional analysis.  Let $E$ be a vector space with addition $+$ and
+multiplication by scalar $\lambda$ in $ \bR$ or $\bC$.  A {\em norm} on $E$
+is a map $\| \cdot \| : E \to \bR$ which satisfies the following three
+properties
+\begin{itemize}
+\item{\bf N1} $\|x\| \ge 0 \quad {\rm and} \quad \|x\|=0 \,\, 
+{\rm ~if~and~only~if~} x=0\,,$
+\item{\bf N2} $\|\lambda x \| \,=\, |\lambda| \|x\| \,,$
+\item{\bf N3}  $\| x + y \| \,\le\, \|x\| + \|y\|  \quad 
+{\rm (triangle~inequality)} \,.$
+\end{itemize}  
+A vector space $E$ equipped with a norm $\| \cdot \|$ is called a {\em normed vector space}. 
+
+In a normed vector space $E$ we can define the convergence of sequence $\{ x_n\}$.  
+We say that the sequence $\{x_n\}$ {\em converges} to $x \in E$, if for
+any $\epsilon >0$, there exists $N \ge 1$ such that, for all $n \ge N$,
+we have $\|x_n - x\| \le \epsilon$.
+
+We say that $\{x_n\}$ is a {\em Cauchy sequence} if for any $\epsilon
+>0$, there exists $N \ge 1$ such that, for all $n, m \ge N$, we have
+$\|x_n - x_m\| \le \epsilon$.
+
+
+\begin{definition}{\rm  A normed vector space $E$ is said to be {\em complete} if every Cauchy
+sequence in $E$ converges to an element of $E$. A complete normed
+vector space $E$ is called a {\em Banach space}.  }
+\end{definition}
+
+
+
+
+Let $\| \cdot \|$ and $\| \cdot \|_{\star}$ denote two norms on the vector space $E$.  We say 
+that the norms $\| \cdot \|$ and $\| \cdot \|_{\star}$ are {\em equivalent} if there exist positive 
+constants $c$ and $C$ such that 
+$$
+c \| x \| \leq  \| x \|_{\star} \leq C \|x\| \quad {\rm for~all~}x \in E \,.
+$$
+It is easy to check that the equivalence of norm defines an equivalence relation.  Furthermore 
+if a Cauchy sequence for a norm $\| \cdot\|$ is also a Cauchy sequence for an equivalent norm 
+$\| \cdot \|_{\star}$. 
+
+
+\begin{example}{\rm 
+The vector space $E=\bR^n$ or $\bC^n$ with the euclidean norm 
+$\|x\|_2 = (\sum_i x_i^2)^{1/2}$ is a Banach space.  Other examples of norms are 
+$\|x\|_1 = \sum_i |x_i|$ or $x_\infty = \sup_i |x_i|$.   In any case $\bR^n$ or $\bC^n$ equipped with any norm 
+is a Banach space, since all norm are equivalent in a finite-dimensional space (see exercises). 
+}
+\end{example}
+
+The previous example shows that for finite dimensional vector spaces the choice of a norm does not matter much. 
+For infinite-dimensional vector spaces the situation is very different as the following example demonstrate. 
+
+\begin{prop}\label{cx} Let 
+\begin{equation}
+\calC ([0,1])\,=\, \left\{ f\,:\, [0,1] \to \bR^n \,;\, f {\rm
+~continuous} \right\} \,.
+\end{equation}
+With the norm 
+\begin{equation}
+\|f\|_\infty \,=\, \sup_{t \in [0,1]} |f(t)| \,.
+\end{equation}
+$\calC ([0,1])$ is a Banach space.  With either of the norms 
+\begin{equation} 
+\|f\|_1 \,=\, \int _0^1 |f(t)|\,dt \,, \quad {\rm ~or~} \quad \|f\|_2
+\,=\, \left(\int _0^1 |f(t)|^2 \,dt \right)^{1/2} \,,
+\end{equation}
+$\calC ([0,1])$ is not complete.
+\end{prop}
+
+\proof We let the reader verify that $\|f\|_1$, $\|f\|_2$, and
+$\|f\|_\infty$ are norms.
+
+Let $\{f_n\}$ be a Cauchy sequence for the norm $\| \cdot
+\|_\infty$. We have then
+\begin{equation}\label{c1}
+|f_n(t) - f_m(t) | \, \le \, \|f_n - f_m \|_\infty \,\le \, \epsilon
+ \quad {\rm for~all~} n,m \ge N\,.
+\end{equation}
+This implies that, for any $t$, $\{f_n(t)\}$ is a Cauchy sequence in
+$\bR$ which is complete.  Therefore $\{f_n(t)\}$ converges to an
+element of $\bR$ which we call $f(t)$. It remains to show that the
+function $f(t)$ is continuous.  Taking the limit $m \to \infty$ in
+\eqref{c1}, we have
+\begin{equation}
+|f_n(t) - f(t) | \,\le\, \epsilon  \quad {\rm ~for~all~} n \ge N \,,
+\end{equation}
+where $N$ depends on $\epsilon$ but not on $t$. This means that
+$f_n(t)$ converges uniformly to $f(t)$ and therefore $f(t)$ is
+continuous.
+
+Let us consider the sequence $\{f_n\}$ of piecewise linear continuous
+functions, where $f_n(t) =0$ on $[0, 1/2 - 1/n]$ and $f_n(t) =1$ on
+$[1/2 + 1/n, 1]$ and linearly interpolating in between.  One verifies
+easily that for any $m \ge n$ we have $\| f_n - f_m \|_1 \le 1/n$ and
+$\| f_n - f_m \|_2 \le 1/\sqrt{n}$. Therefore $\{f_n\}$ is a Cauchy
+sequence. But the limit function is not continuous and therefore the
+sequence does not converge in $\calC ([0,1])$.  \hfill \qed
+
+We have also 
+\begin{prop}\label{bx}  
+Let $X$ be an arbitrary set and let us consider the space   
+\begin{equation}
+\calB (X)\,=\, \left\{ f\,:\, X  \to \bR \,;\, f {\rm ~bounded} \right\} \,.
+\end{equation}
+with the norm 
+\begin{equation}
+\|f\|_\infty \,=\, \sup_{x \in X} |f(x)| \,.
+\end{equation}
+Then $\calB(X)$ is a Banach space.  
+\end{prop}
+
+\proof The proof is almost identical to the first part the previous
+proposition and is left to the reader.
+
+
+In a Banach space $E$ we can define basic topological concepts as in $\bR^n$. 
+\begin{itemize}
+\item A {\em open ball} of radius $r$ and center $a$ is the set
+$B_\epsilon(a)\,=\,\{ x \in E \;;\, \|x-a\| \,<\, r\}$.
+\item A {\em neighborhood of $a$} is a set $V$ such that $B_\epsilon(a)
+\subset V$ for some $\epsilon >0$.
+\item A set $U \subset E$ is {\em open} if $U$ is a neighborhood of
+each of its element, i.e., for any $x \in U$, there exists $\epsilon
+>0$ such that $B_\epsilon(x) \subset U$.
+\item A set $V \subset E$ is {\em closed} if the limit of any convergent
+sequence $\{x_n\}$ is in $V$.
+\item A set $K$ is compact if any sequence $\{x_n\}$ with $x_n \in K$ 
+has a subsequence which converges in $K$.
+\item Let $E$ and $F$ be two Banach spaces and $U \subset E$. A
+function $f: U \to F$ is continuous at $x_0 \in U$ if for all $\epsilon
+> 0$, there exists $\delta >0$ such that $x \in U$ and $\|x -
+x_0\| < \delta$ implies that $\|f(x) - f(x_0)\| < \epsilon$.
+\item The map $x \mapsto \|x \|$ is a continuous function of $E$ to
+$\bR$, since $\left| \|x\| -\|x_0\| \right| \le \|x - x_0\|$ by the
+triangle inequality.
+\end{itemize}
+Certain properties which are true in finite dimensional Banach spaces
+are not true in infinite dimensional Banach spaces such as the
+function spaces we have considered in Propositions \ref{cx} and
+\ref{bx}.  For example we show that
+\begin{itemize}
+\item The closed ball $\{ x \in E \,;\, \|x\| \le 1\}$ is not 
+necessarily compact. 
+\item Two norms on a Banach space are not always equivalent. 
+\item The theorem of Bolzano-Weierstrass which says each bounded
+sequence has a convergent subsequence is not necessarily true.
+\item The equivalence of $K$ compact and $K$ closed and bounded is not
+necessarily true.
+\end{itemize}
+The proposition \ref{cx} shows that $\| \cdot\|_\infty$ and $\|\cdot
+\|_1$ are not equivalent. For, if they were equivalent, any Cauchy
+sequence for $\| \cdot\|_1$ would be a Cauchy sequence $\|\cdot
+\|_\infty$. But we have constructed explicitly a Cauchy sequence for
+$\| \cdot\|_1$ which is not a Cauchy sequence for $\|\cdot
+\|_\infty$.  Let us consider the Banach space $\calB([0,1])$ and let
+$f_n(t)$ to be equal to $1$ if $ 1/(n+1) < t \le 1/n$ and $0$
+otherwise.  We have $\|f_n\|_\infty =1$ for all $n$ and $\| f_n - f_m
+\|_\infty =1$ for any $n,m$. Therefore $\{f_n\}$ cannot have a
+convergent subsequence. This shows at the same time, that the unit
+ball is not compact, that Bolzano-Weierstrass fails, and that closed
+bounded sets are not necessarily compact. 
+
+
+Let us suppose that we want to solve a nonlinear equation in a Banach
+space $E$. Let $f$ be a function from $E$ to $E$ then we might want to
+solve
+\begin{eqnarray}
+f(x)\,&=&\, x\,\, \quad {\rm find~a~fixed~point~of~}f \,.
+\end{eqnarray}
+The next theorem will provide a sufficient condition for the
+existence of a fixed point.
+
+\begin{theorem} {\bf (Banach Fixed Point Theorem (1922))}  Let $E$ be a Banach 
+space, 
+$D \subset E$ closed and $f : D \to E$ a map which satisfies
+\begin{enumerate}
+\item $f(D) \subset D$\,. 
+\item $f$ is a contraction on $D$, i.e., there exists $\alpha < 1$ such that, 
+\begin{equation}
+\|f(x) - f(y) \| \le \alpha \|x-y\|\,, \quad {\rm ~for~all~} x,y \in D\,.
+\end{equation}
+\end{enumerate}
+Then $f$ has a unique fixed point $x$ in $D$,  $f(x)=x$. 
+\end{theorem}
+
+\proof We first show uniqueness. Let us suppose that there are two
+fixed points $x$ and $y$, i.e., $f(x)=x$ and $f(y)=y$. Since $f$ is a 
+contraction we have
+\begin{equation}
+\|x - y \| \,=\, \| f(x) - f(y) \| \le \alpha \|x - y\| 
+\end{equation}
+with $\alpha < 1$, this is possible only if $x=y$. 
+
+To prove the existence we choose an arbitrary $x_0 \in D$ and we
+consider the iteration $x_1=f(x_0), \cdots, x_{n+1}=f(x_n), \cdots$.
+Since $f(D) \subset D $ this implies that $x_n \in D$ for any $n$. Let
+us show that $\{x_n\}$ is a Cauchy sequence.  We have $\| x_{n+1} -
+x_n\| = \| f(x_n) - f(x_{n-1})\| \le \alpha \| x_n -
+x_{n-1}\|$. Iterating this inequality we obtain
+\begin{equation}
+\| x_{n+1} - x_n \| \le \alpha^n \| x_1 - x_0\| \,.
+\end{equation}
+If $m > n$ this implies that
+\begin{eqnarray}
+\| x_m - x_n \| \,&\le& \,  \|x_m - x_{m-1}\| + \| x_{m-1} - x_{m-2}\| 
++ \cdots \|x_{n+1} - x_n \| \nn \\
+\,&\le& \,  \left(\alpha^{m-1} + \alpha^{m-2} + \cdots \alpha^n \right) 
+\|x_1 - x_0\|  \nn \\
+\,&\le& \,  \frac{\alpha^n}{1 -\alpha} \|x_1 - x_0 \| \,.
+ \end{eqnarray}
+ Therefore $\{ x_n\}$ is a Cauchy sequence since $\alpha^n \to 0$.
+ Since $E$ is a Banach space, this sequence converges to $x \in E$. The
+ limit $x$ is in $D$ since $D$ is closed. Since $f$ is a contraction,
+ it is continuous and we have
+ \begin{equation}
+ x = \lim_{n \to \infty} x_{n+1} = f (\lim_{n \to \infty} x_n) = f(x) \,,
+ \end{equation} 
+ i.e., $x$ is a fixed point of $f$. \hfill \qed
+ 
+The proof of the theorem is constructive and provides the following
+algorithm to construct a fixed point.
+
+\vspace{2mm}
+\noindent {\bf Method of successive approximations:}  To solve $f(x)=x$
+\begin{itemize}
+\item Choose an arbitrary $x_0$. 
+\item Iterate: $x_{n+1} = f(x_n)$. 
+ \end{itemize}
+Even if the hypotheses of the theorem are difficult to check, one
+might apply this algorithm. If the algorithm converges this gives a fixed
+point, although not necessarily a unique one.
+
+\begin{example}{\rm 
+The function $f(x)= \cos(x)$ has a fixed point on $D=[0,1]$.  By the
+mean value theorem there is $\xi \in (x,y)$ such that $\cos(x) -
+\cos(y) = \sin(\xi)(y-x)$, thus $|\cos(x) - \cos(y)| \leq \sup_{t \in
+[0,1]} |\sin(t)||x-y| \leq \sin(1) |x-y| $, and $\sin(1) <1$. 
+One observes a quite rapid convergence to the solution $0.7390\cdots$. 
+For example we have $x_0=0$, $x_1=1$, $x_2=0.5403$, $x_2=0.8575$, 
+$x_3=0.6542$, $x_4=0.7934$, $x_5=0.7013$, $x_6=0.7639$, $\cdots$. 
+}
+\end{example}
+
+\begin{example}{\rm   
+Consider the Banach space $\calC([0,1])$ with the norm $\| \cdot
+\|_\infty$. Let $f \in \calC([0,1])$ and let  $k(t,s)$ be a function of 
+2 variables continuous on $[0,1] \times [0,1]$.  
+Consider the fixed point problem
+\begin{equation}\label{fp22}
+x(t) \,=\, f(t)+ \lambda \int_0^1 k(t,s) x(s)\, ds \,.
+\end{equation}
+We assume that $\lambda$ is such that $\alpha \equiv
+|\lambda| \sup_{0\le t\le 1} \int_0^1 |k(t,s)| \, ds <1$. Consider the
+map $(Tx)(t) = f(t) + \lambda \int_0^1 k(t,s) y(s)$. The map $T: 
+\calC([0,1]) \to \calC([0,1])$ is well defined and one has the bound 
+\begin{equation}
+|(Tx)(t) -Ty(t)| \, \le \, |\lambda| \int_0^1 |k(t,s)| |x(s)-y(s)| \, ds 
+\,\le\, 
+\|x -y\|_\infty |\lambda| \sup_{0\le t\le 1} \int_0^1 |k(t,s)| \, ds \,.
+\end{equation}
+Taking the supremum over $t$ on the left side gives
+\begin{equation}\label{qs1}
+\|Tx -Ty\|_\infty \,\le\, \alpha \|x-y\|_\infty \,,
+\end{equation}
+so that $T$ is a contraction. 
+Hence the Banach fixed point theorem with $D=\calC([0,1])$
+implies the existence of a unique solution for \eqref{fp22}.  
+The method of successive approximation applies and the iteration is, 
+$y_0(t)= f $ and
+\begin{equation} 
+y_{n+1}(t) \,=\,f(t) + \lambda \int_0^1 k(t,s) y_n(s)\, ds \,.
+\end{equation}
+}
+\end{example}
+  
+  
+\section{Existence and uniqueness for the Cauchy problem}  
+Let us consider the Cauchy problem
+ \begin{equation}\label{cauchy}
+ x'(t)=f(t,x(t)) \,, \quad x(t_0) = x_0\,, 
+\end{equation}
+where $f : U \to \bR^n$ ($U$ is an open set of $\bR \times \bR^n$) is a
+continuous function.  In order to find a solution we will rewrite
+\eqref{cauchy} as a fixed point equation. We integrate the
+differential equation between $t_0$ an $t$, we obtain the {\em
+integral equation}
+\begin{equation}\label{cauchyint}
+ x(t) = x_0 + \int_{t_0}^t f( s, x(s)) \, ds \,.
+ \end{equation}
+Every solution of \eqref{cauchy} is thus a solution of
+\eqref{cauchyint}. The converse also holds. If $x(t)$ is a continuous
+function which verifies \eqref{cauchyint} on some interval $I$, then
+it is automatically of class $\calC^1$ and it satisfies
+\eqref{cauchy}.
+
+Let $I$ be an interval and let us define the map $T : \calC( I) \to \calC(I)$ given by  
+\begin{equation}\label{pl}
+(Tx)(t) \,=\, x_0 + \int_{t_0}^t f(s, x(s)) \, ds\,.
+\end{equation} 
+The integral equation \eqref{cauchyint} can then be written as the fixed point equation
+\begin{equation} \label{pl2}
+(Tx)(t)\,=\, x(t) \,,
+\end{equation}
+i.e., we have transformed the differential equation \eqref{cauchy}
+into a fixed point problem.  The method of successive approximation
+for this problem is called
+
+\vspace{2mm}
+\noindent  {\bf Picard-Lindel\"of iteration:}
+\begin{eqnarray}\label{pili}
+x_0(t)\,&=&\,  x_0 \quad ({\rm or~any~other~function}) \,, \nn \\
+x_{n+1}(t)\,&=&\, x_0+ \int_{t_0}^t f(s, x_n(s)) \, ds  \,.
+\end{eqnarray}
+
+\begin{example}{\rm  
+Let us consider the Cauchy problem 
+\begin{equation} 
+x' = - x^2 \,, \quad x(0) =1\,.
+\end{equation}
+The solution is $x(t)=\frac{1}{1+t}$.  The Picard-Lindel\"of iteration
+gives $x_0 = 1$, $x_1 = 1 - t$, $x_2 = 1-t + t^2 - t^3/3$, and so
+on. One sees from Figure \ref{pliteration} that it converges 
+in a suitable interval around $0$ but diverges for larger values of $t$.
+}
+\end{example}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=3in]{PLiteration}
+\caption{The first four iterations for the Picard Lindel\"of iteration
+scheme for the Cauchy problem $x'=-x^2$, $x(0)=1$.}
+\label{pliteration}
+\end{center}
+\end{figure}
+
+
+The next result shows how to choose the interval $I$ such that $T$
+maps a suitably chosen set $D$ into itself.  We have
+\begin{lemma} Let $A= \{ (t,x) \,; |t-t_0| \le a \,,\, \|x-x_0\| \le b\}$, 
+$f : A \to \bR^n$ be a continuous function with $M = \sup_{(t,x) \in A}
+|f(t,x)|$.  We set $\alpha = \min(a, b/M)$. The map $T$ given by
+\eqref{pl} is well-defined on the set
+\begin{equation}
+B = \left\{ x: [t_0 - \alpha, t_0 + \alpha] \to \bR^n\,,\, 
+x {\rm~continuous~and~} \|x(t)-x_0\| \le b \right\}\,.
+\end{equation}
+and it satisfies $T(B) \subset B$.
+\end{lemma}
+
+\proof The lemma follows from the estimate
+\begin{equation}
+\| (Tx)(t) - x_0\| \,=\, \left\| \int_{t_0}^t f(s, x(s))\,ds \right\| \le 
+M |t-t_0| \le M \alpha \le b \,.
+\end{equation}
+\hfill \qed
+  
+  
+We say that a function $f: A \to \bR^n$ (with $A$ is in the previous
+lemma) satisfies a {\em Lipschitz condition} if
+\begin{equation}\label{lip}
+\|f(t,x) - f(t,y) \| \le L \|x-y\| \quad {\rm ~for~all~} (t,x), (t,y) \in A\,. 
+\end{equation}
+The constant $L$ is called the {\em Lipschitz constant}.  
+
+\begin{remark}{\rm In order to illustrate the meaning of condition 
+\eqref{lip}, let us suppose that $f(t,x)= f(x)$ does not depend on $t$
+and that we have $\|f(x) -f(y)\| \le L\|x-y\|$ whenever $x$ and $y$
+are in the closed ball ${\overline B_b(x_0)}$.  This clearly implies
+that $f$ is continuous in ${\overline B_b(x_0)}$ and $f$ is called
+{\em Lipschitz continuous}.  The opposite does not hold, for example
+the function $f(x) = \sqrt{|x|}$ is continuous but not Lipschitz
+continuous at $0$.
+
+If $f$ is of class $\calC^1$, then $f$ is Lipschitz continuous.  To see this 
+consider the line $z(s)= x + s(y-x)$ which interpolates between $x$
+and $y$. We have
+\begin{eqnarray}
+\| f(y) - f(x) \| \,&=&\, \left\| \int_0^1 \frac{d}{ds} f(z(s)) \,ds 
+\right\| \,=\, 
+\left\| \int_0^1  f'(z(s))(y-x) \,ds \right\|  \nn \\
+  \,& \le &\, \sup_{z \in {\overline B_b(x_0)}}  \| f'(z) \| \| y-x\|\,,
+\end{eqnarray}
+and therefore $f$ is Lipschitz continuous with $L = \sup_{\{x\,,\,
+\|x-x_0\| \le b \}} \| f'(x)\|$.  On the other hand Lipschitz
+continuity does not imply differentiability as the function $f(x)=|x|$
+demonstrates. 
+
+The condition \eqref{lip} requires that $f(t,x)$ is Lipschitz
+continuous in $x$ uniformly in $t$ with $|t-t_0|\le a$.  }
+\end{remark}
+
+If $f(t,x)$ satisfy a Lipschitz condition we have, for any $t \in I =
+[t_0 - \alpha, t_0 + \alpha]$,
+\begin{eqnarray}\label{uy}
+\| (Tx)(t) - (Tz)(t) \| \,&\le & \, \int_{t_0}^t \| f(t, x(t)) - f(t, z(t))\| 
+\, dt  \nn \\
+\,&\le&  \, \int_{t_0}^t L \| x(t) -  z(t) \| \, dt  \nn \\
+\,&\le & \, \alpha L \sup_{t \in I} \|x(t) - z(t)\| \, \le \, \alpha L 
+\| x - z \|_\infty \,.
+\end{eqnarray} 
+Taking the supremum over $t$ on the left side shows that $\|Tx -
+Tz\|_\infty \le \alpha L \|x-z\|$. If $\alpha L <1$ we can apply the
+Banach fixed point theorem to prove existence of a fixed point and
+show the existence and uniqueness for the solution of the Cauchy
+problem for $t$ in some sufficiently small interval around $t_0$.
+
+In fact one can omit the condition $\alpha L <1$ by applying the
+method of successive approximation directly without invoking the
+Banach Fixed Point Theorem.  This is the content of the following
+theorem which is the basic result on existence of {\em local
+solutions} for the Cauchy problem \eqref{cauchy}.  Here local means
+that we show the existence only of $x(t)$ is in some interval around
+$t_0$.
+
+\begin{theorem}{\bf (Existence and uniqueness for the Cauchy problem)}
+\label{loceu}
+Let  $A= \{ (t,x) \,; |t-t_0| \le a \,,\, \|x-x_0\|
+\le b\}$ and let us suppose that $f \,:\, A \to \bR^n$
+\begin{itemize}
+\item is continuous,
+\item satisfies a Lipschitz condition. 
+\end{itemize}
+Then the Cauchy problem $x'=f(t,x)$, $x(t_0)=x_0$ has a unique
+solution on $I=[t_0- \alpha, t_0 + \alpha]$, where $\alpha = \min( a,
+b/M)$ with $M=\sup_{(t,x) \in A} \|f(t,x)\|$.
+ \end{theorem}
+
+\proof We prove
+directly that the Picard-Lindel\"of iteration converge uniformly on
+$I$ to a solution of the Cauchy problem.  
+In a first step we show, by
+induction, that
+\begin{equation}\label{lk}
+\|x_{k+1}(t) - x_k(t)\| \, \leq \,  M L^k \frac{|t-t_0|^{k+1}}{(k+1)!} 
+\quad {\rm ~for~} |t-t_0| \le \alpha \,.
+\end{equation} 
+For $k=0$, we have $\|x_{1}(t) - x_0\| \,=\, \| \int_{t_0}^t f(s, x(s))\,ds \| 
+\le M |t-t_0|$.  Let us assume that \eqref{lk} holds for $k-1$.  Then we have 
+\begin{eqnarray}
+\|x_{k+1}(t) - x_k(t)\| \,& \leq& \,  \int_{t_0}^t  
+\| f(s, x_k(s)) - f(s, x_{k-1}(s) \| \,ds  
+\, \leq \,  L  \int_{t_0}^t  
+\| x_k(s) - x_{k-1}(s) \| \, ds  \nn \\ 
+\,& \leq& \, M L^k  \int_{t_0}^t \frac{|s-t_0|^k}{k!} \, ds\,=\,  M L^k  
+\frac{|t-t_0|^{k+1}}{(k+1)!} \,.
+\end{eqnarray}  
+Using \eqref{lk}, we show that $\{x_k(t)\}$ is a Cauchy sequence for
+the norm $\|x\|_\infty = \sup_{t\in I}\|x(t)\|$. We have
+\begin{eqnarray}\label{ko}  
+\|x_{k+m}(t) - x_k(t)\| \,&\le&\, \|x_{k+m}(t) - x_{k+m-1}(t)\| + \cdots 
++ \|x_{k+1}(t) - x_k(t)\| \nn \\
+\,&\le&\,  \frac{M}{L} \left( \frac{L^{k+m}|t-t_0|^{k+m}}{(k+m)!} + \cdots 
++ \frac{L^{k+1}  |t - t_0|^{k+1}}{(k+1)!} \right) \nn \\
+ \,&\le&\, \frac{M}{L}  \sum_{j= k+1}^\infty \frac{(L\alpha)^j}{j!}\,,
+\end{eqnarray}   
+and the right hand side is the reminder term of a convergent series and
+thus goes to $0$ as $k$ goes to $\infty$.  The right hand side is
+independent of $t$ so $\{x_k\}$ is a Cauchy sequence which converges
+uniformly to a continuous function $x: I \to \bR^n$.
+
+To show that $x(t)$ is a solution of the Cauchy problem we take the
+limit $n \to \infty$ in \eqref{pili}.  The left side converges
+uniformly to $x(t)$. Since $f$ is continuous and $A$ is compact
+$f(t,x_k(t))$ converges uniformly to $f(t,x(t))$ on $A$. Thus one can
+exchange integral and the limit and $x(t)$ is a solution of the
+integral equation \eqref{cauchyint}.
+
+It remains to prove uniqueness of the solution. Let $x(t)$ and $z(t)$
+be two solutions of \eqref{cauchyint}.  By recurrence we show that
+\begin{equation}\label{u01} 
+\|x(t) - y(t) \| \,\le \, 2M L^k \frac{|t-t_0|^{k+1}}{(k+1)!}\,.
+\end{equation}  
+We have $x(t) - y(t) = \int_{t_0}^t (f(s,x(s)) - f(s,y(s)))\,ds$ and therefore 
+$\|x(t) - y(t) \| \le  2M|t-t_0|$ which
+\eqref{u01} for $k=0$.  If \eqref{u01} holds for $k-1$ we have 
+\begin{eqnarray}
+\|x(t) - y(t)\|\,\le\,  \int_{t_0}^t L \| x(s) - y(s)\| \,ds \,&\le&\,  
+2ML^{k} \int_{t_0}^t \frac{|s-t_0|^{k}}{k!} \,dt  \nn \\
+\,&\le&\,2M L^k \frac{|t-t_0|^{k+1}}{(k+1)!} \,,
+\end{eqnarray}
+and this proves \eqref{u01}.  Since this holds for all $k$, this shows
+that $x(t) = y(t)$. \hfill \qed
+
+
+\section{Peano Theorem}
+In the previous section we established a local existence result by
+assuming a Lipschitz condition.  Simple examples show that this
+condition is also necessary.
+
+\begin{example}{\rm  Consider the ODE
+\begin{equation}
+x'\,=\, 2 \sqrt{|x|} \,.
+\end{equation}
+We find that $x(t) =(t-c)^2$ for $t>c$ and $x(t) = -(c-t)^2$ for $t<c$
+is a solution for any constant $c$.  But $x(t) \equiv 0$ is also a solution.
+The Cauchy problem with, say, $x(0)=0$ has infinitely many solutions.
+For $t>0$, $x(t) \equiv 0$ is one solution, $x= t^2$ is another solution,
+and more generally $x(t)=0$ for $0\le t \le c$ and then $x(t) =(t-c)^2$
+for $t \ge c$ is also a solution for any $c$. This phenomenon occur
+because $\sqrt{|x|}$ is not Lipschitz continuous at $x=0$.  
+}
+\end{example}
+
+We are going to show that, without Lipschitz condition, we can still
+obtain existence of solutions, but not uniqueness. Instead of using
+the Picard-Lindel\"of iteration we are using another approximation
+scheme.  It turns out to be the simplest algorithm used for numerical
+approximations of ODE's. 
+
+\vspace{2mm}
+\noindent{\bf Euler polygon (1736)} Fix some $h\not= 0$, the idea is
+to approximate the solution locally by $x(t+h) \simeq x(t) + h f(t,
+x(t))$.  Let us consider now the sequence $\{t_n, x_n\}$ given
+recursively by
+\begin{equation}
+t_{n+1} = t_n +h\,, \quad x_{n+1} = x_n + h f(t_n, x_n) \,.
+\end{equation} 
+We then denote by $x_h(t)$ the piecewise linear function which passes
+through the points $(t_n,x_n)$.  It is called the Euler polygon and is
+an approximation to the solution of the Cauchy problem.
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=3in]{euler}
+\caption{Euler polygons for $x'=-x^2$ for h=0.5 and $h=0.25$.} 
+\label{euler}
+\end{center}
+\end{figure}
+
+
+\begin{lemma}\label{eqco} 
+ Let $A= \{ (t,x) \,; |t-t_0| \le a \,,\, \|x-x_0\| \le b\}$, and $f : A \to
+ \bR^n$ be a continuous function with $M = \sup_{(t,x) \in A} \|f(t,x)\|$.
+ We set $\alpha = \min(a, b/M)$.  If $h = \pm \alpha/N$, $N$ an integer,
+ the Euler Polygon satisfies $(t, x_h(t)) \in A$ for $t \in [t_0-\alpha,
+ t_0+\alpha]$ and we have the bound
+\begin{equation}\label{ec}
+\|x_h(t) - x_h(t')\| \le M |t-t'| \quad {\rm ~for~} t, t' 
+\in [t_0- \alpha, t_0+\alpha]\,.
+\end{equation}
+\end{lemma}
+
+\proof Let us consider first the interval $[t_0, t_0+\alpha]$ and
+choose $h>0$.  We show first, by induction that $(t_n,x_n) \in A$ for
+$n=0,1,\cdots,N$.  We have $\|x_{n} - x_{n-1}\| \le h M$ and so
+$\|x_{n} - x_0\| \le nh M \le \alpha M \le b$ if $n \le N$.
+Since $x_h(t)$ is piecewise linear $(t,x_h(t)) \in A$ for any $t \in
+[t_0, t_0+\alpha]$.  The estimate \eqref{ec} follows from the fact
+that the slope of $x_h(t)$ is nowhere bigger than $M$.  On
+$[t_0-\alpha, t_0]$ the argument is similar. \hfill \qed
+
+
+\begin{definition} {\rm 
+A family of functions $f_j \,:\, [a,b] \to \bR^n$, $j=1,2,\cdots$, is
+{\em equicontinuous} if for any $\epsilon>0$ there exists $\delta >0$
+such that for, for all $j$, $|t-t'| < \delta$ implies that $\| f_j(t) -
+f_j(t')\| \le \epsilon$.  }
+\end{definition}
+
+Equicontinuity means that all the functions $f_j$ are uniformly
+continuous and that, moreover, $\delta$ can be chosen to depend only on
+$\epsilon$, but {\em not} on $j$.  The estimate \eqref{ec} shows that
+the family $x_h(t)$, with $h=\alpha/N$, $N=1,2, \cdots$,  
+is equicontinuous.
+
+\begin{theorem}{\bf (Arzel\`a-Ascoli 1895)}  \label{aras}
+Let $f_j \,:\, [a,b] \to \bR^n$ be a family of functions such that 
+\begin{itemize}
+\item $\{f_j\}$ is equicontinuous.
+\item For any $t \in [a,b]$, there exists $M(t)\in \bR$ such that
+  $\sup_{j} \|f_j(t) \| \le M(t)$.
+\end{itemize}
+ Then the family $\{f_j\}$ has a convergent subsequence $\{g_n\}$
+ which converges uniformly to a continuous function $g$ on $[a,b]$.
+ \end{theorem}
+ 
+\begin{remark}{\rm  As we have seen a bounded closed set in $\calC([a,b])$ 
+is not always compact. The Arzel\`a-Ascoli theorem shows that a
+bounded set of equicontinuous function is a compact set in
+$\calC([a,b])$ and thus it can be seen a generalization of
+Bolzano-Weierstrass to $\calC([a,b])$.  }
+\end{remark}
+
+\proof The subsequence is constructed proof via a trick which is
+referred to as "diagonal subsequence".  The set of rational numbers in
+$[a,b]$ is countable and we write it as $\{t_1, t_2, t_3, \cdots
+\}$. Consider the sequence $\{f_j(t_1)\}$, by assumption it is bounded
+in $\bR^n$ and, by Bolzano-Weierstrass, it has a convergent
+subsequence which we denote by $\{ f_{1i}(t_1)\}_{i \ge 1}$ and
+therefore
+\begin{equation}
+f_{11}(t), f_{12}(t), f_{13}(t) \cdots  \quad {\rm converges~for~} t=t_1\,.
+\end{equation}
+Consider next the sequence $\{ f_{1i}(t_2)\}_{i \ge 1}$. Again, by
+Bolzano-Weierstrass, this sequence has a convergent subsequence denoted
+by $\{ f_{2i}(t_2)\}_{i \ge 1}$.  We have
+\begin{equation}
+f_{21}(t), f_{22}(t), f_{23}(t) \cdots  \quad {\rm converges~for~} 
+t=t_1, t_2 \,.
+\end{equation}
+After $n$ steps we find a sequence $\{ f_{ni}(t)\}_{i \ge 1}$ of
+$\{f_j(t)\}$ such that
+\begin{equation}
+f_{n1}(t), f_{n2}(t), f_{n3}(t) \cdots  \quad {\rm converges~for~} 
+t=t_1, t_2, \cdots, t_n \,.
+\end{equation}
+Next we consider the diagonal sequence $g_n(t)= f_{nn}(t)$.  This
+sequence converges for any $t_l$, since $\{g_{n}(t_l)= f_{nn}(t_l)\}_{n
+  \ge l}$ is a subsequence of $\{f_{ln}(t_l)\}_{n \ge l}$ which
+converges.
+
+By equicontinuity, given $\epsilon >0$, there exists $\delta > 0$ such
+that for all $n \ge 1$, $|t-t'| < \delta $ implies that $\| g_n(t) -
+g_n(t') \| < \epsilon$.  Let us choose rational points $t_1, t_2, \cdots
+t_{q-1}$ such that $a=t_0 < t_1< \cdots < t_{q-1} < t_q=b$ and
+$t_{i+1}-t_i < \delta$.  For $t \in [t_l, t_{l+1}]$ we have
+\begin{equation}
+\|g_n(t) - g_m(t)\| \,\le\, \|g_n(t) - g_n(t_l)\| + \|g_n(t_l) -
+g_m(t_l)\| + \|g_m(t) - g_m(t_l)\| \,.
+\end{equation}
+By equicontinuity $\|g_n(t) - g_n(t_l)\|$ and $\|g_m(t) - g_m(t_l)\|$
+are smaller than $\epsilon$. By the convergence of $\{g_n(t_l)\}$
+there exists $N(l)$ such that $\|g_n(t_l) - g_m(t_l)\| \le \epsilon$
+if $n,m \ge N_l$.  If we choose $N = \max_l {N_l}$ we have that
+$\|g_n(t) - g_m(t)\| \le 3\epsilon$ for all $t \in [a,b]$ and $n,m \ge
+N$.  This shows that $g_n(t)$ converges uniformly to some $g(t)$ which
+is then continuous.  \hfill \qed
+
+
+From this we obtain 
+
+\begin{theorem}{\bf (Peano 1890)} 
+Let $A= \{ (t,x) \,; |t-t_0| \le a \,,\, \|x-x_0\| \le b\}$, $f : A \to
+\bR^n$ a continuous function with $M = \sup_{(t,x) \in A} \|f(t,x)\|$.
+Set $\alpha = \min(a, b/M)$.  The Cauchy problem \eqref{cauchy}
+has a solution on $[t_0 - \alpha, t_0 +\alpha]$.
+\end{theorem}
+
+\proof Let us consider the Euler polygons with $h=\alpha/N$,
+$N=1,2,\cdots$. The sequence is bounded since $\|x_h(t) - x_0\| \le M
+|t-t_0| \le M\alpha$ and equicontinuous by Lemma \ref{eqco}.  By
+Arzel\`a-Ascoli Theorem, the family $x_h(t)$ has a subsequence which
+converges uniformly to a continuous function $x(t)$ on $[t_0 - \alpha,
+  t_0 +\alpha]$.  It remains to show that $x(t)$ is a solution.
+
+Let $t \in [t_0, t_0 +\alpha]$ and let $(t_n, x_n)$ the approximation
+obtained by Euler method for $x_h(t)$.  If $t \in [t_l, t_{l+1}]$ we
+have
+\begin{equation}\label{y7}
+x_h(t) - x_0 \,=\, h f(t_0, x_0) + h f(t_1, x_1) + \cdots + h
+f(t_{l-1}, x_{l-1}) + (t-t_l) f(t_l, x_l)\,.
+\end{equation}  
+Since $f(t, x(t))$ is a continuous function of $t$ it is Riemann
+integrable and, using a Riemann sum with left-end points have
+\begin{eqnarray}
+\int_{t_0}^t f(s, x(s)) \,ds &=&   h f(t_0, x(t_0)) + h f(t_1, x(t_1)) +
+\cdots  \nn \\
+ &&\quad  \cdots + h f(t_{l-1}, x(t_{l-1})) + (t-t_l) f(t_l, x(t_l)) + r(h) 
+\,,\label{y8}
+\end{eqnarray} 
+where $\lim_{h\to 0} \|r(h)\| =0$.  By the uniform continuity of $f$
+on $A$ and the uniform convergence of the subsequence of $\{x_h(t)\}$
+to $x(t)$ we have that $\|f(t,x_h(t) - f(t, x(t))\| \leq \epsilon$ if
+$h$ is sufficiently small (and $h$ is such that $x_h$ belongs to the
+convergent subsequence).  Using that $x_h(t_j)=x_j$ and subtracting
+\eqref{y8} from \eqref{y7} we find that
+\begin{equation}
+\|x_h(t) - x_0 - \int_{t_0}^t f(s, x(s)) \,ds \| \le (l+1) h \epsilon
++ \|r(h)\| \le \alpha \epsilon + \|r(h)\|
+\end{equation}
+which converges to $\alpha \epsilon$ as $h \to 0$. Since $\epsilon$ is
+arbitrary $x(t)$ is a solution of the Cauchy problem in integral form
+\eqref{cauchyint}.  \hfill \qed
+
+
+\section{Continuation of solutions}
+
+So far we only considered local solutions, i.e., solutions which are
+defined in a neighborhood of $(t_0,x_0)$.  Simple examples shows that
+the solution $x(t)$ may not exist for all $t$, for example the
+equation $x'=1+x^2$ has solution $x(t) = \tan(t-c)$ and this solution
+does not exist beyond the interval $(c -\pi/2, c+ \pi/2)$, and we have
+$x(t) \to \pm \infty$ as $t \to c \pm \pi/2$.  
+
+
+To extend the solution we solve the Cauchy problem locally, say from
+$t_0$ to $t_0 +\alpha$ and then we can try to continue the solution by
+solving the Cauchy problem $x'=f(t,x)$ with new initial condition
+$x(t_0+\alpha)$ and find a solution from $t_0+\alpha$ to $t_0+\alpha +
+\alpha'$, and so on... In order do this we should be able to solve it
+locally everywhere and we will therefore assume that $f$ satisfy a {\em local
+Lipschitz condition}. 
+
+\begin{definition}\label{loclip}
+{\rm 
+A function $f\,:\, U \to \bR^n$ (where $U$ is an open set of $\bR
+\times \bR^n$) satisfies a {\em local Lipschitz condition} if for any
+$(t_0, x_0) \in U$ there exist a neighborhood $V \subset U$ such that
+$f$ satisfies a Lipschitz condition on $V$, see \eqref{lip}.  }
+\end{definition}
+
+Note that if the function $f$ is of class $\calC^1$ in $U$, then it satisfies a
+local Lipschitz condition.
+
+
+\begin{lemma} Let $U \subset \bR\times \bR^n$ be an open set and let us 
+assume that
+ $f\,:\, U \to \bR^n$ is continuous and satisfies a local Lipschitz
+ condition. Then for any $(t_0,x_0) \in U$ there exists an open
+ interval $I_{\max} = (\omega_- \,,\, \omega_+)$ with $-\infty \le
+ \omega_- < t_0 < \omega_+ \le \infty$ such that
+ \begin{itemize}
+ \item The Cauchy problem $x'=f(t,x)$, $x(t_0)=x_0$ has a unique
+ solution on $I_{\max}$.
+ \item If $y\,:\, I \to \bR^n$ is a solution of $x'=f(t,x)$,
+ $y(t_0)=x_0$, then $I \subset I_{\max}$ and $y = x|_I$.
+ \end{itemize}
+ \end{lemma}
+
+\proof a) Let $x\,:\, I \to \bR^n$ and $z\,:\, J \to \bR^n$ be two
+solutions of the Cauchy problem with $t_0 \in I,J$. Then $x(t) = z(t)$
+on $I \cap J$.  Suppose it is not true, there is point $\bar{t}$ such
+that $x(\bar{t}) \not = z(\bar{t})$. Consider the first point where
+the solutions separate. The local existence theorem \ref{loceu} shows
+that it is impossible.
+
+b) Let us define the interval
+\begin{equation}
+I_{\max} \,=\, \bigcup \left\{ I\,;\, I {\rm ~open~interval}\,\,,\,\, t_0 \in
+I\,, {\rm ~there~exists~a~solution~on~} I \right\} \,.
+\end{equation}
+This interval is open and we can define the solution on $I_{\max}$ as
+follows. If $t\in I_{\max}$, then there exists $I$ where the Cauchy
+problem has a solution and we can define $x(t)$. The part (a) shows
+that $x(t)$ is uniquely defined on $I_{\max}$. \hfill \qed
+
+
+\begin{theorem}\label{contsol} Let $U \subset \bR\times \bR^n$ be an open 
+set and let us assume that
+$f\,:\, U \to \bR^n$ is continuous and satisfies a local Lipschitz
+condition. Then every solution of $x'=f(t,x)$ has a continuation up to
+the boundary of $U$. More precisely, if $x\,:\, I_{\max} \to \bR^n$ is
+the solution passing through $(t_0,x_0) \in U$, then for any compact
+$K \subset U$ there exists $t_1, t_2 \in I_{\max}$ with $t_1 < t_0 <
+t_2$ such that $(t_1, x(t_1)) \notin K$, $(t_2, x(t_2)) \notin K$.
+\end{theorem}
+
+\begin{remark} \label{dichotomy}
+{\rm If $U = \bR \times \bR^n$, Theorem \ref{contsol} means that either 
+\begin{itemize}
+\item $x(t)$ exists for all $t$,
+\item There exists $t^*$ such that $\lim_{t \to t^*} \|x(t)\| = \infty$,
+\end{itemize}
+The exists globally or the solution "blows up" at a
+certain point in time.  }
+\end{remark}
+
+\proof Let $I_{\max}=(\omega_- \,,\,\omega_+)$. If $\omega_+=\infty$,
+clearly there exists a point $t_2$ such that $t_2 > t_0$ and $(t_2,
+x(t_2)) \notin K$ because $K$ is bounded.  If $\omega_+ <\infty$, let
+us assume that there exist a compact $K$ such that $(t,x(t)) \in K$
+for any $t \in (t_0, \omega_+)$. Since $f(t,x)$ is bounded on the
+compact set $K$, we have, for $t, t'$ sufficiently close to
+$\omega_+$
+\begin{equation}
+\|x(t) - x(t')\| \,=\, \left\| \int_{t'}^t f(s,x(s))\, dt \right\| 
+\le M|t-t'| < \epsilon\,.
+\end{equation}
+This shows that $\lim_{t \to \omega_+}x(t)=x_+$ exists and $(\omega_+,
+x_+) \in K$, since $K$ is closed.  Theorem \ref{loceu} for the Cauchy
+problem with $x(\omega_+)=x_+$ implies that there exists a solution in
+a neighborhood of $\omega_+$. This contradicts the maximality of the
+interval $I_{\max}$.  For $t_1$ the argument is similar. \hfill \qed
+
+\section{Global existence}
+
+In this section we derive sufficient conditions for {\em global existence} 
+of solutions, i.e., absence of blow-up for $t>t_0$ or for all $t$.  The following simple 
+lemma and its variants will be very useful. 
+
+\begin{lemma}{\bf (Gronwall Lemma)} Suppose that $g(t)$ is a 
+continuous function with $g(t) \ge 0$ and that there exits constants 
+$a,b > 0$  such that
+\begin{equation}
+g(t) \,\le \, a + b \int_{t_0}^t g(s) \,ds \,, \quad t \in [t_0,T]\,.
+\end{equation}
+Then we have
+ \begin{equation}
+g(t) \le a e^{b(t-t_0)} \quad t \in [t_0,T] \,.
+\end{equation}
+\end{lemma}
+
+\proof Set $G(t) = a  + b \int_0^t g(s) \,ds$. Then $G(t) \ge g(t)$, 
+$G(t) > 0$, for  $t \in [t_0,T]$, and 
+$G'(t)=b g(t)$. Therefore
+\begin{equation}
+\frac{G'(t)}{G(t)} \,=\,  \frac{bg(t)}{G(t)} \,\le \,  \frac{b G(t)}{G(t)}  
+\,=\, b\,,  \quad t \in [t_0,T] \,,
+\end{equation}
+or, equivalently, 
+\begin{equation}
+\frac{d}{dt} \log G(t) \le b \,,\quad t \in [t_0,T] \,,
+\end{equation}
+or
+\begin{equation}
+\log G(t) - log G(0) \le b(t-t_0) \,,\quad t \in [t_0,T] \,,
+\end{equation}
+or
+\begin{equation}
+G(t)\le G(0)e^{b(t-t_0)}\,=\, a e^{b(t-t_0)} \,,\quad t \in [t_0,T]\,,
+\end{equation}
+which implies that $g(t) \le a e^{b(t-t_0)}$, for $t \in [t_0,T]$. \hfill \qed
+
+The first condition for global existence is rather restrictive, but it
+has the advantage of being easy to check.
+
+\begin{definition}\label{linbounded}
+{\rm  We say that
+the function $f: \bR \times \bR^n \to \bR^n$ is {\em linearly bounded} if there
+exists a constant $C$ such that
+\begin{equation}\label{lb}
+\|f(t, x)\| \le C(1 + \|x\|)\,, \quad {\rm ~for~all~} (t,x) \in \bR \times 
+\bR^n \,.
+\end{equation} 
+}
+\end{definition}
+
+Obviously if $f(t,x)$ is bounded on $\bR \times \bR^n$, then it is
+linearly bounded.  The functions $x \cos(x^2)$, or $x/\log(2+|x|)$ are
+examples of linearly bounded function.  The function $f(x,y) = (x +
+xy, y^2)^T$ is not linearly bounded.
+ 
+
+
+\begin{theorem}\label{g1} 
+Let $f \,:\, \bR\times \bR^n \to \bR^n$ be continuous,  
+locally Lipschitz (see Definition
+\ref{loclip}) and linearly bounded (see Definition \ref{linbounded}). 
+Then the Cauchy
+problem $x'=f(t,x)$, $x(t_0) = x_0$, has a unique solution for all $t$. 
+\end{theorem} 
+
+\proof.  Since $f$ is locally 
+Lipschitz, there is a unique local solution $x(t)$.  We have the a-priori 
+bound on solutions
+\begin{equation}
+\|x(t)\|\,\le\, \|x_0\| + \int_{t_0}^t \|f(s,x(s))\| \, ds  \le \|x_0\| + C 
+\int_{t_0}^t ( 1 + \|x(s)\|) \, ds  \,, 
+\end{equation}
+Using Gronwall Lemma for $g(t) = 1 + \|x(t)\|$, we find that 
+\begin{equation}
+1 + \|x(t)\| \le  (1 + \|x_0\|) e^{C(t-t_0)} \,, \quad {\rm or} \quad 
+\|x(t)\| \le \|x(0)\|e^{C(t-t_0)} + (e^{C(t-t_0)}-1) \,.
+\end{equation}
+This shows that the norm of the solution grows at most exponentially
+fast in time. From Remark \ref{dichotomy} it follows that the solution
+does not blow up in finite time. \hfill \qed
+
+
+We formulate additional sufficient conditions for global existence but,
+for simplicity, we restrict ourselves to {\em autonomous} equations: we
+consider Cauchy problems of the form
+\begin{equation}\label{cauchyaut}
+x'=f(x)\,,\, \quad x(t_0) = x_0 \,,
+\end{equation}
+where $f(t,x)$ does not depend explicitly on $t$. 
+
+
+\begin{theorem}{\bf (Liapunov functions)} \label{g2}
+Let $f \,:\, \bR^n \to \bR^n$ be locally Lipschitz. Suppose that there
+exists a function $V(x) \,:\, \bR^n \to \bR$ of class $\calC^1$ such
+that
+\begin{itemize}
+\item $V(x) \ge 0$ and $\lim_{ \|x\| \to \infty} V(x) \,=\,  \infty$. 
+\item $\langle \nabla V(x) \,,\, f(x) \rangle \le a + b V(x)$  
+\end{itemize} 
+Then the Cauchy problem $x'=f(x)$, $x(t_0) = x_0$, 
+has a unique solution for   $t_0  < t <  +\infty$. 
+\end{theorem} 
+
+
+\proof Since $f$ is locally Lipschitz, there is a unique local
+solution $x(t)$ for the Cauchy problem. We have
+\begin{equation}
+\frac{d}{dt} V(x(t)) \,=\, \sum_{j=1}^n \frac{\partial V}{\partial x_j} 
+\frac{dx_j}{dt} \,=\, \langle \nabla V(x(t)) \,,\, f(x(t))\rangle
+\, \le a + b V(x(t)\,
+\end{equation}
+or, by integrating, 
+\begin{equation}
+V(x(t)) \, \le \, V(x(t_0)) + \int_{t_0}^t (a + b V(x(s))\, ds \,.
+\end{equation}
+Applying Gronwall lemma to $g(t)= a+ b V(x(t))$ gives the bound 
+\begin{equation}
+a+ b V(x(t)) \le \left(a+ b V(x(0)) \right)e^{b(t-t_0)}\,.
+\end{equation}  
+Therefore $V(x(t))$ remains bounded
+for all $t$. Since $\lim_{ \|x\| \to \infty} V(x) \,=\, \infty$, the level sets of 
+$V$, $V^{-1}(c)$ are compact for all $c$  and thus $\|x(t)\|$ stays finite for all $t >t_0$ too.  
+\hfill \qed
+
+\begin{remark}{\rm  
+The function $V$ in Theorem \ref{g2} is usually referred to as a {\em
+Liapunov function}. We will also use similar function later to study
+the stability of solutions.  Note that there is no general method to
+construct Liapunov function, it involves some trial and error and some
+a-priori knowledge on the equation. }
+\end{remark}
+
+\begin{example}{\bf (Gradient systems)}
+{\rm 
+Let $V\,:\, \bR^n \to \bR$ be a function of class 
+$\calC^2$. A {\em gradient systems} is an ODE of the form 
+\begin{equation}\label{grad0}
+x'\,=\, - \nabla V(x) \,. 
+\end{equation}
+(The negative sign is a traditional convention).  
+Note that in dimension $n=1$, any autonomous ODE $x'=f(x)$ is a gradient system
+since we can always write $V(x) \,=\, \int_{x_0}^{x} f(y) \,dy$.    
+
+Consider the level sets of the function $V$,  $V^{-1}(c)=\{x\,; V(x)=c\}$. 
+If $x \in V^{-1}(c)$ is a {\em regular point}, i.e., if $\nabla V(x) \not=0$, 
+then, by the implicit function Theorem, locally near $x$,  $V^{-1}(c)$ is a smooth 
+hypersurface surface of dimension $n-1$.  For example, 
+if $n=2$, the level sets are smooth curves. 
+
+Note that  if $x$ is a regular point of the level curve $V^{-1}(c)$, then 
+the solution curve $x(t)$  is perpendicular to the level surface $V^{-1}(c)$. 
+Indeed let  $y$ be a vector which is tangent to the level surface $V^{-1}(c)$ at the 
+point $x$. For any curve $\gamma(t)$ in the level set $V^{-1}(c)$  
+with $\gamma(0)=x$ and $\gamma'(0)=y$ we have 
+\begin{equation}
+0\,=\, \frac{d}{dt} V(\gamma(t)) \vert_{t=0} \,=\, 
+\langle \nabla V(x)\,,\, y \rangle \,,
+\end{equation} 
+and so $\nabla V(x)$ is perpendicular to any tangent vector to the level 
+set $V^{-1}(c)$ at all regular points of $V$.  
+
+
+We have the following
+\begin{lemma}  Let $V\,:\, \bR^n \to \bR$ be a function of class 
+$\calC^2$ with $\lim_{\|x\|\to \infty} V(x) = + \infty$.  
+Then any solution of the gradient system $x'=-\nabla V(x)$, $x(t_0)=x_0$
+exists for all $t>t_0$.  
+\end{lemma}
+
+\proof  If $x(t)$ is a solution of \eqref{grad}, then we have 
+\begin{equation}
+\frac{d}{dt} V( x(t))\,=\, - \langle \nabla V(x(t))\,,\, \nabla V(x(t))\rangle 
+\, \le \, 0 \,.
+\end{equation}
+This shows that $V$ is a Liapunov function. \qed
+}
+\end{example}
+
+
+
+
+
+\begin{example}{\bf (Hamiltonian systems.) }{\rm Let $x\in \bR^n$, 
+$y\in \bR^n$, and $H: \bR^n \times \bR^n \to \bR$ be a function of
+class $\calC^2$.  The function $H(x,y)$ is called a {\em Hamiltonian
+function} (or {\em energy function}) and the $2n$-dimensional ODE
+\begin{eqnarray}
+x'\,=\, \nabla_y H(x,y) \,, \quad 
+y' \,=\, -\nabla_x H (x,y) \,. \label{hamn}
+\end{eqnarray}
+is called the {\em Hamiltonian equation} for the Hamiltonian $H(x,y)$.
+Since $H$ is of class $\calC^2$, the vector field $f(x,y)=
+(\nabla_y H(x,y)\,,\,-\nabla_y H(x,y) )^T$ is locally Lipschitz 
+so that we have local solutions. Let $(x(t),y(t))$ be a solution of \eqref{hamn}. We have then 
+\begin{eqnarray} 
+\frac{d}{dt} H(x(t),y(t))\,&=&\, \nabla_x H \cdot x'  + \nabla_y H \cdot
+y'(t) \nn \\ \,&=&\,  \nabla_x H \cdot \nabla_y H - \nabla_y H \cdot \nabla_x H
+\,=\, 0 \,.
+\end{eqnarray}
+This means that $H$ is a {\em integral of the motion}, for any
+solution $H(p(t), q(t))={\rm const}$ and that any solution stays on a
+level set of the function $H$.  For Hamiltonian equations this
+usually referred to as conservation of energy.
+ 
+Let us assume further that $\lim_{\|(x,y)\| \to \infty} H(x,y) =
+\infty$. This means that $H(x,y)$ is bounded below, i.e., $H(x,y) \ge
+- c$ from some $c \in \bR$ and that the level sets $\{ H(x,y)=c\}$ are
+closed and bounded hypersurfaces.  In this case $H(x,y) + c$ is a
+Liapunov function for the ODE \eqref{hamn} and the solution exist for
+all positive and negative times. }
+\end{example}
+
+\begin{figure}[htbp] 
+\begin{center}
+\includegraphics[width=3in]{hamiltonian}
+\caption{The vector field for the Hamiltonian $x^4 - 4x^2 + y^2$ and
+two solutions between $t=0$ and $t=3$ with initial conditions
+$(0.5,1)$ and $(0.5,2.4)$}
+\label{hamvf}
+\end{center}
+\end{figure}
+
+\begin{example}{\bf (van der Pol equations)}{\rm  
+The second order equation $x''\,=\, 
+\epsilon(1-x^2) x' - x$  is written as the first order system
+\begin{eqnarray}
+x'\,&=&\, y  \nn \\
+y' \,&=&\, \epsilon(1-x^2) y - x \label{vp}
+\end{eqnarray}
+and is a perturbation of the harmonic oscillator $x''+x=0$ which is an
+Hamiltonian system with Hamiltonian $H(x,y) = \frac{x^2}{2} + \frac{
+y^2}{2}$ (harmonic oscillator).  Taking the Hamiltonian as the
+Liapunov function we have
+\begin{equation}
+\langle \nabla H(y,x)\,,\,  f(y,x) \rangle \,=\, \epsilon (1 - x^2) y^2 \,=\, 
+\left\{ \begin{array}{lcl} \le 0 & {\rm if} & x^2 \ge 1 \\
+\le  \epsilon y^2 &  {\rm if} & x^2 \le 1  \end{array} \right. \,.
+\end{equation}
+Therefore $\nabla H \cdot f \le 2\epsilon H$ and $H$ is a Liapunov
+function and we obtain global existence of solutions. }
+\end{example}
+
+
+Another class of systems which have solutions for all times are given by
+{\em dissipative systems}.
+ 
+\begin{theorem}{\bf (Dissipative systems)}\label{disy} Let 
+$f \,:\, \bR^n \to \bR^n$  be locally Lipschitz. Suppose that there exists 
+$v \in \bR^n$ and positive constants $a$ and $b$ such that 
+\begin{equation}\label{dissip}
+\langle f(x)\,,\, x-v \rangle \, \le \, a - b \|x\|^2 \,.
+\end{equation}
+Then the Cauchy problem $x'=f(x)$, $x(t_0) = x_0$, 
+has a unique solution for   $t_0  < t <  +\infty$. 
+\end{theorem}
+
+
+\proof  Consider the balls $B_0 =\{ x \in \bR^n\,;\, \|x\|^2 \le a/b
+\}$ and the Liapunov function 
+\begin{equation} 
+V(x) \,=\,  \frac{ || x-v ||^2}{2} \,.
+\end{equation}
+The condition \eqref{dissip} implies that for any solution
+$\frac{d}{dt} V(x(t)) \le 0$ outside of the ball $B_0$ and therefore
+$V$ is a Liapunov function.  \hfill \qed
+
+
+\begin{remark}{\rm The condition \eqref{dissip} means that for the balls 
+$B =\{ x \in \bR^n\,;\, \|x-v\|^2 \le R \}$ with $R \ge \|v\| +
+\sqrt{a/b}$ is chosen so large that $B_0$ is contained in the interior
+of $B$, the vector field $f$ points toward the interior of $B$. This
+implies that a solution which starts in $B$ will stay in $B$ forever.
+
+There are many variants to Theorem \ref{disy} (see the exxercises).  The
+basic idea is to find a family of sets (large balls in Theorem
+\ref{disy} but the set could have other shapes) such that, on
+the boundary of the sets the vector $f$ points inward. This implies
+that solutions starting on the boundary will move inward the set. If one 
+proves this for all sufficiently large sets, then one obtains global 
+existence for all initial data.  
+}\end{remark}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=3in]{lorentz}
+\caption{The solution for Lorentz equation with $\sigma=10$, $r=28$
+and $b=\frac{8}{3}$ and initial condition (-40, 40, 25) }
+\label{lorentz}
+\end{center}
+\end{figure}
+
+
+\begin{example}{\rm  
+The Lorentz equations are given by 
+\begin{eqnarray}
+x_1'\,&=& \,  - \sigma x_1 + \sigma x_2      \nn \\
+x_2'\,&=& \,  - x_1 x_3 + r x_1 -x_2      \nn \\
+x_3'\,&=& \,   x_1 x_2 - bx_3     
+\end{eqnarray}
+Despite its apparent simplicity, the Lorentz equations exhibits, for
+suitable values of the parameters, a very complex behavior. All
+solutions are attracted to a compact invariant set on which the motion
+is chaotic. Such an invariant set is called a strange attractor (see
+Figure \ref{lorentz}).
+
+We show that the system is dissipative, we take $v = (0,0, \gamma)$.
+Choosing $\gamma = b+r$ and using the inequality $2\gamma x_3 \le
+\gamma^2 + x_3^2$, we find
+\begin{eqnarray}
+\langle f(x)\,,\, x-v \rangle\,&=&\, - \sigma x_1^2 - x_2^2 -b y_3^2 + 
+(\sigma + r - \gamma) x_1 x_2 + b\gamma x_3 \nn \\
+\,&=&\, - \sigma x_1^2 - x_2^2 -b y_3^2 + b\gamma x_3 \nn \\
+\,&\le& \, - \sigma x_1^2 - x_2^2 -\frac{b}{2}y_3^2 + b\frac{\gamma^2}{2} \,.
+\end{eqnarray}
+If $\gamma = b+r$, then \eqref{dissip} is satisfied with $\alpha=
+b\frac{\gamma^2}{2} $ and $\beta = \min( \sigma, 1, b/2)$ and the
+solution of Lorentz systems exists for all $t >0$.  }
+\end{example}
+
+
+\section{Wellposedness and dynamical systems}\label{wellposed}
+
+For the Cauchy problem $x'=f(t,x)$, $x(t_0)=x_0$, we denote the
+solution by $x(t, t_0, x_0)$ where we explicitly indicate the
+dependence on the initial time $t_0$ and the initial position $x_0$.
+
+\begin{definition}{\rm  
+The Cauchy problem $x'=f(t,x)$, $x(t_0)=x_0$ is called {\em locally
+wellposed} (resp. {\em globally wellposed}) if there exists a unique
+local (resp. global) solution $x(t,t_0,x_0)$ which depends
+continuously of $(t_0,x_0)$.  }
+\end{definition}
+
+
+
+\begin{lemma}\label{klip} Let $f\,:\, U \to \bR \times \bR^n$   
+($U$ an open set of $\bR \times \bR^n$) be continuous and 
+satisfy a local Lipschitz condition. Then for any
+compact $K \subset U$ there exists $L\ge 0$ such that
+\begin{equation}
+\|f(t,y) - f(t,x)\| \le L \|x-y\| \,, \quad {\rm ~for~all~} (t,x), (t,y) 
+\in K
+\end{equation}
+\end{lemma}
+
+\proof Let us assume the contrary. Then there exists sequences $(t_n,
+x_n)$ and $(t_n, y_n)$ in $K$  such that
+\begin{equation}\label{pi89}
+\|f(t_n,x_n) - f(t_n, y_n)\| > n \|x_n - y_n\|\,.
+\end{equation}
+Since $f$ is bounded on $K$ with $M = \max_{(t,x)\in K} \|f(t,x)\|$, it follows
+from \eqref{pi89} that 
+\begin{equation}\label{pl90}
+\|x_n - y_n\| \le 2M/n \,.
+\end{equation}
+By Bolzano-Weierstrass, the sequence $(t_n,x_n)$ has an accumulation
+point $(t,x)$, and  $f(t,x)$ satisfies a Lipschitz condition in a neighborhood 
+$V$ of $(t,x)$.  
+
+The bound \eqref{pl90} implies that there are infinitely many indices $n$ 
+such that $(t_n, x_n)\in V$ and  $(t_n,y_n)\in V$.   Then \eqref{pi89} contradicts the 
+Lipschitz condition on
+$V$. \hfill \qed
+
+
+
+\begin{theorem} \label{contdep}
+Let $f\,:\, U \to \bR \times \bR^n$ ($U$ an open set of $\bR\times
+\bR^n$) be continuous and satisfy a local Lipschitz condition. Then
+the solution $x(t,t_0,x_0)$ of the Cauchy problem $x'=f(t,x)$,
+$x(t_0)=x_0$ is a continuous function of $(t_0,x_0)$.   
+Moreover the function $x(t,t_0,x_0)$ is a Lipschitz continuous function of 
+$x_0$, i.e., there exists a constant $R=R(t)$ such that 
+\begin{equation}\label{lipdep}
+\|x(t,t_0,x_0)- x(t,t_0,x_1)\| \le R \| x_0 - x_1\| \,.
+\end{equation}
+
+
+\end{theorem}
+
+\proof We choose a closed subinterval $[a,b]$ of the maximal interval 
+of existence $I_{\max}$ with $t, t_0 \in [a,b]$.  We choose $\epsilon$ small enough such
+that the tubular neighborhood $K$ around the solution $x(t,t_0,x_0)$, 
+\begin{equation}
+K\,=\, \left\{ (t,x)\,;\, t \in [a,b]\,,\, \|x - x(t,t_0,x_0)\| \le
+\epsilon \right\} \,,
+\end{equation}
+is contained in the open set $U$. By Lemma \ref{klip}, $f(t,x)$
+satisfies a Lipschitz condition on $K$ with a Lipschitz constant $L$.
+The set $V$
+\begin{equation}
+V\,=\, \left\{ (t_1,x_1)\,;\, t_1 \in [a,b]\,\,\, \|x_1 -
+x(t_1,t_0,x_0)\| \le \epsilon e^{-L(b-a)} \right\} \,,
+\end{equation}
+is a neighborhood of $(t_0,x_0)$ which satisfies $V \subset K \subset
+U$.  If $(t_1,x_1)\in V$ we have
+\begin{eqnarray} 
+&&\left\| x(t, t_1, x_1) - x(t, t_0, x_0) \right\| \,=\, \left\| x(t,
+t_1, x_1) - x(t, t_1, x(t_1, t_0, x_0)) \right\| \nn \\ && \,\le \,
+\|x_1 - x(t_1, t_0, x_0)\| + L \int_{t_1}^t \| x(s, t_1, x_1) - x(s,
+t_1, x(t_1, t_0, x_0)) \| \,.
+\end{eqnarray}
+From Gronwall lemma we conclude that 
+\begin{equation}\label{vbv}
+\left\| x(t, t_1, x_1) - x(t, t_0, x_0) \right\| \, \le \,
+e^{L|t-t_1|} \|x_1 - x(t_1, t_0, x_0)\| \,\le\, \epsilon
+\end{equation}
+and this concludes the continuity of $x(t,t_0,x_0)$.  To prove the Lipschitz 
+continuity in $x_0$ one sets $t_1=t_0$ in \eqref{vbv} and this prove \eqref{lipdep}
+with $R= e^{L|t-t_0|}$.  \hfill \qed
+
+This theorem shows that the Cauchy problem is locally wellposed,
+provided $f$ is continuous and satisfy a local Lipschitz
+condition. If, in addition, the solutions exist for all times then the
+Cauchy problem is globally wellposed.
+
+
+
+Let us consider the map
+$\phi^{t,t_0}\,:\, \bR^n \to \bR^n$ given by
+\begin{equation}                  
+\phi^{t,t_0} (x_0) \,=\, x(t,t_0,x_0) \,.
+\end{equation}
+The map $\phi^{t,t_0}$ maps the initial position $x_0$ at time $t_0$
+to the position at time $t$, $x(t,t_0,x_0)$.  By definition the maps
+$\phi^{t,t_0}$ satisfy the composition relations
+\begin{equation}
+\phi^{t+s, t_0}(x_0) \,=\, \phi^{t+s, t}( \phi^{t, t_0}(x_0) ) \,.
+\end{equation}
+
+If the ODE is autonomous, i.e., $f(x)$ does not depend
+explicitly on $t$ we have 
+
+\begin{lemma}{\bf (Translation property)} Suppose that $x(t)$ is a solution 
+of $x'=f(x)$, then $x(t-t_0)$ is also a solution.
+\end{lemma}
+
+\proof If $x'(t)= f(x(t))$, then $\frac{d}{dt} x(t -t_0) = x'(t-t_0) = 
+f(x(t-t_0))$. \hfill \qed 
+
+This implies that, if $x(t)=x(t,0,x_0)$ is the solution of the Cauchy
+problem $x'=f(x)$, $x(0)=x_0$, then $x(t-t_0)$ is the solution of the
+Cauchy problem $x'=f(x)$, $x(t_0)=x_0$. In other words $x(t-t_0) =
+x(t, t_0, x_0)$ and so the solution depends only on $t-t_0$. 
+For autonomous equations we can thus always assume that $t_0=0$.  
+In this case we will denote then the map
+$\phi^{t,t_0}=\phi^{t-t_0,0}$ simply by $\phi^{t -t_0}$. The map
+$\phi^t$ has the following group properties
+\begin{itemize}
+\item{\bf (a)} $\phi^0(x) = x$. 
+\item{\bf (b)} $\phi^t (\phi^s(x)) = \phi^{t+s}(x)$.
+\item{\bf (c)} $\phi^t ( \phi^{-t}(x)) = \phi^{-t}(  \phi^t (x))= x $.
+\end{itemize}
+If the solutions exists for all $t \in \bR$, the collection of maps
+$\phi^t$ is called the {\em flow} of the differential equations $x' =
+f(x)$. Note that Property (c) implies that the map $\phi^t \,:\, \bR^n
+\to \bR^n$ is invertible.  More generally, a continuous map $\phi^{\cdot} \,:\,
+\bR \times \bR^n \to \bR^n$ which satisfies Properties (a)-(b)-(c) is
+called a (continuous time) {\em dynamical system}.  If the Cauchy 
+problem is globally wellposed then the maps $\phi^t$ are a continuous 
+flow of homeomorphisms and we will say that the dynamical system is continuous. 
+
+
+\begin{remark}{\rm  If the vector fields $f(t,x)$ are of class $\calC^k$ then 
+one would expect that $x(t,t_0,x_0)$ is also a function of class $\calC^k$. 
+We will discuss this in the next chapter. 
+}
+\end{remark}
+
+\begin{remark}{\rm Theorem \ref{contdep} shows the following: For fixed  
+$t$, $x(t,t_0,x_0)$ can be made arbitrarily close to
+$x(t,t_0,x_0+\xi)$ provided $\xi$ is small enough (depending on
+$t$!). This does not mean however that the solutions which start close
+to each other will remain close to each other, What we proved is a
+bound $\|x(t,t_0,x_0+\xi) - x(t,t_0,x_0)\| \le K \|\xi\| e^{L|t-t_0|}$
+which show that two solutions can separate, typically at an exponential rate.
+}
+\end{remark}
+
+\begin{example}{\rm For the Cauchy problem  
+\begin{equation}
+x'\,=\, \left(  \begin{array}{cc}  -1 & 0 \\ 0 & \kappa   \end{array}\right) 
+\,, \quad x(0)
+\,=\, \left(  \begin{array}{c}  1 \\  0  \end{array}\right)
+\end{equation} 
+the solution is $(e^{-t}, 0)^T$. The solution with initial condition
+$(1,\xi)^T$ is $(e^{-t}, \xi e^{\kappa t})^T$. If $\kappa \le 0$ both
+solutions stay a distance less than $|\xi|$ for all time $t\ge 0$, if
+$\kappa >0$ the solutions diverge from each other exponentially with
+time. For given $t$, we can however make them arbitrarily close up to
+time $t$ by choosing $\xi$ small enough, hence the continuity. }
+\end{example}
+
+\section{Exercises}
+
+\begin{enumerate}
+
+\item Determine whether the following sequences of functions are Cauchy sequences
+with respect to the uniform norm $\| \cdot \|_\infty$ on the given interval $I$. Determine the 
+limit $f_n(x)$ if it exists. 
+\begin{enumerate}
+\item ${\displaystyle f_n(x)= \sin(2 \pi nx)} \,, \quad I=[0,1]$
+\item ${\displaystyle f_n(x) = \frac{x^n -1}{x^n+1}\,, \quad   I=[-1,1]}$. 
+\item ${\displaystyle f_n(x) = \frac{1}{n^2 + x^2}} \,,\quad I=[0,1]$
+\item ${\displaystyle f_n(x)= \frac{nx}{1 + (nx)^2}}\,, \quad I=[0,1]$
+\end{enumerate}
+
+\item Show that $\|f\|_2$ is a norm on $\calC([0,1])$. 
+
+\item Prove that all norms on $\bR^n$ are equivalent by proving 
+that any norm $\| \cdot \|$ in $\bR^n$ is equivalent to the
+euclidean norm $\|\cdot \|_2$. \\ 
+{\em Hint:} (a) Let $e_i$ be the usual vector basis in  $\bR^n$ and write 
+$x=x_1 e_1 + \cdots + x_n e_n$ and use the triangle inequality and Cauchy-Schwartz to show 
+that $\|x\| \le C \|x\|_2$.   \\
+(b) Using (a) prove that $\left|\, \|x\| - \|y\|\, \right| \le C \|x-y\|_2$ and thus the function $\| \cdot \|$ on 
+$\bR^n$ with $\| \|_2$ is a continuous function. \\
+(c) Consider now the function $\| \cdot \|$ on the compact set $K= \{ x \,,\, \|x\|_2 =1\}$
+ and deduce from this the equivalence of the two norms.
+
+\item 
+\begin{enumerate}
+\item Let $f \,:\, U \to \bR^n$ where $U \subset \bR^n$ is an open set
+and suppose that $f$ satisfies a Lipschitz condition on $U$. Show that
+$f$ is uniformly continuous on $U$.
+\item Let $f \,:\, E \to \bR^n$ where $E \subset \bR^n$ is a compact set. 
+Suppose that $f$ is locally Lipschitz on $E$, show that $f$ satisfies a Lipschitz 
+condition on $E$.  
+\item Show that $f(x)=1/x$ is locally Lipschitz but that it does not satisfy a Lipschitz condition on
+$(0,1)$. 
+\item Show that $f(x) = \sqrt{|x|}$ is not locally Lipschitz. 
+\item Does the Cauchy problem $x' =1/x$, $x(0)= a >0$ have a unique
+solution?  Solve it and determine the maximal interval of existence.
+What is the behavior of the solution at the boundary of this interval?
+\end{enumerate}
+
+
+\item
+\begin{enumerate}
+\item Derive the following {\em error estimate} for the method of
+successive approximations. Let $x$ be a fixed point given by this
+method. Show that
+\begin{equation}
+\|x -x_k\| \le \frac{\alpha}{1-\alpha} \|x_k - x_{k-1}\| \,,
+\end{equation}
+where $\alpha$ is the contraction rate. 
+\item Consider the function $f(x)= e^x/4$ on the interval
+$[0,1]$. Show that $f$ has a fixed point on $[0,1]$. Do some
+iterations and estimate the error rigorously using (a).
+\end{enumerate}
+
+\item Consider the function $f\,:\, \bR \to \bR$ given by 
+\begin{equation}
+f(x) \,=\, \left\{ \begin{array} {ll} x + e^{-x/2} & {\rm~if~} x \ge 0
+\\ e^{x/2} & {\rm~if~} x \le 0 \end{array} \right. \,.
+\end{equation}
+\begin{enumerate} 
+\item Show that $|f(x)-f(y)| < |x-y|$ for $x \not= y$. 
+\item Show that $f$ does not have a fixed point. 
+\end{enumerate}
+Explain why this does not contradict the Banach fixed point theorem.
+
+\item Consider the IVP
+\begin{equation}
+x' \,=\, x^3\,, \quad x(0)=a\,.
+\end{equation}
+\begin{enumerate}
+\item
+Apply the Picard-Lindel\"of iteration to 
+compute the first three iterations $x_1(t)$, $x_2(t)$, $x_3(t)$. 
+\item Find the exact solution and expand it in a Taylor series around $t=0$. 
+Show that the first few terms agrees with the Picard iterates. 
+\item How does the number of correct terms grow with iteration? 
+\end{enumerate}
+
+\item Apply the Picard-Lindel\"of iteration to the Cauchy problem
+\begin{eqnarray}
+x'_1\,=\, x_1 + 2x_2\,, & \quad & x_1(0)=0 \\
+x'_2\,=\, t^2 + x_1\,, & \quad & x_2(0)=0 
+\end{eqnarray}
+Compute the first five terms in the taylor series of the solution. 
+
+
+
+\item Show that the assumption that "D is closed" cannot be omitted in
+general in the fixed point theorem. Find a set $D$ which is not closed
+and a map $f: D \to E$ such that $f(D) \subset D$, $f$ is a
+contraction, but $f$ does not have a fixed point in $D$.
+
+\item 
+\begin{enumerate}
+\item Let $I=[t_0 -\alpha, t_0 + \alpha]$ and for a positive constant $\kappa$ define 
+$$
+\| x \|_\kappa \,=\, \sup_{t \in I } \| x(t)\| e^{- \kappa |t-t_0|}\,.
+$$
+Show that $ \| \cdot \|_\kappa$ defines a norm and that the space 
+$$
+E = \{ x : I  \to \bR^n\,,\, x(t) {\rm~continuous~ and~ \|x \|_\kappa < \infty}\} 
+$$ 
+is a Banach space.  
+\item  Consider the IVP $x'=f(t,x)$, $x(t_0)=x_)$. Give a proof of Theorem 1.3.4 in the classnotes by applying the Banach fixed point theorem in the Banach space $E$ with norm $\| \cdot \|_{\kappa}$ for a well-chosen $\kappa$.
+\item Suppose that $f(t,x)$ satisfy a {\em global Lipschitz condition}, i.e., there exists a positive $L >0$ such that
+\begin{equation}
+\| f(t, x) - f(t, y) \| \,\le \, L \|x - y\| \quad {\rm ~for~all~} x, y \in
+\bR^n {\rm ~and ~for~all~} t \in \bR \,.
+\end{equation}
+Show that the Cauchy problem $x'=f(t,x)$, $x(t_0)=x_0$ has a unique solution for all $t \in \bR$.  
+{\em Hint:} Use the norm defined in (a). 
+\end{enumerate}
+ 
+\item Consider the map $T$  given by 
+$$
+T(f) (x) \,=\, \sin(2 \pi x) + \lambda \int_{-1}^{1} \frac{f(y)}{1 + (x -y)^2} \, dy
+$$
+\begin{enumerate}
+\item Show that if $f \in { \cal C}( [-1,1], \bR)$ then so is $T(f)$. 
+\item Find a $\lambda_0$ such that $T$ is a contraction if $|\lambda| < \lambda_0$
+and $T$ is not a contraction if $|\lambda| > \lambda_0$.  {\em Hint:} For the second part find a pair 
+$f,g$ such that $\|T(f) - T(g)\|_\infty > \|f-g\|_\infty$. 
+\end{enumerate}
+
+
+\item 
+\begin{enumerate}
+\item 
+Consider the norm of $\calC([0,a])$ given by 
+\begin{equation}
+\|f\|_{\rm e} \,=\, \max_{0 \le t \le a} |f(t)|e^{-t^2} \,.
+\end{equation}
+(Why is it a norm?)  
+Let 
+\begin{equation}
+Tf(t) \,=\, \int_0^t s f(s) \,ds  \,.
+\end{equation}
+Show that $\| T f \|_{\infty} \le \frac{a^2}{2} \|f\|_{\infty}$ and 
+$\| T f \|_{\rm e} \le \frac{1}{2} \|f\|_{\rm e}$\,.
+\item Show that the integral equation
+\begin{equation}
+x(t)\,=\, \frac{1}{2}t^2 + \int_0^t s x(s) \, ds \,, \quad t \in [0, a] \,,
+\end{equation} 
+has exactly one solution. Determine the solution (i) by rewriting the
+equation as an initial value problem and solving it, (ii) by using the
+methods of successive approximations starting with $x_0\equiv 0$.
+\end{enumerate}
+
+\item Let us consider $\bR^2$ with the norm $\|x\| = \max\{ |x_1|, |x_2|\}$.  
+Let $f\,;\, \bR^2 \to \bR^2$ be given by 
+\begin{equation}
+f(x_1,x_2) \,=\, \left( \begin{array}{cc} x_1^2 + 2 x_2^2 + 5\cos(x_2) \\
+4x_1x_2 +3 \end{array} \right)
+\end{equation}
+Let $K = \{ (x_1,x_2) \,,\, |x_1|<1, |x_2| \le 2\}$. Find an explicit Lipschitz
+constant $L$ for $f$ on $K$. 
+
+
+\item Let $f \,:\, \bR^2 \to \bR$ be of class $\calC^1$ and satisfy
+$f(0,0)=0$. Suppose that $x(t)$ is a solution of the ODE
+\begin{equation}
+x''\,=\, f(x,x') \,,
+\end{equation}
+which is not identically $0$.  Show that $x(t)$ has simple zeros. 
+Examples: the harmonic oscillator $x''+x=$ or the mathematical
+pendulum $x'' + \sin(x)=0$.
+
+
+
+\item Consider the initial value problem $x'=f(t,x)$, $x(t_0)=x_0$, 
+where $f(t,x)$ is a continuous function.  Show that if the initial value problem has 
+a unique solution  then the Euler polygons $x_h(t)$ converge to this solution. 
+
+
+\item Consider the Cauchy problem $x' = f(t,x)$, $x(0)=0$, where
+\begin{equation}
+f(t,x) \,=\,\left\{ \begin{array}{lcc} 
+4 {\rm sign}(x) \sqrt{|x|}   & {\rm if} & |x| \ge t^2 \\
+4 {\rm sign}(x) \sqrt{|x|} + 4(t - \frac{|x|}{t}) \cos(\pi \frac{\log t}
+{\log 2})  & {\rm if} & |x| < t^2 
+\end{array}\right. 
+\end{equation}
+The function $f$ is continuous on ${\bR^2}$. Consider the Euler polygons 
+$x_h(t)$ with $h = 2^{-i}$, $i =1,2,3, \cdots$. Show that $x_h(t)$ does not 
+converge as $h \to 0$, compute its accumulation points, and show that they are 
+solution of the Cauchy problem. {\em Hint: the solutions are $\pm 4 t^2$}. 
+
+
+\item Consider the the Cauchy problem $x'=f(t,x)$, $x(0)=0$ where 
+$f$ is given by 
+\begin{equation}
+f(t,x) \,=\,\left\{ \begin{array}{cccl}
+0                 & {\rm if} & t \le 0,& x \in \bR \\ 
+2t                & {\rm if} & t > 0,  & x \le  0 \\ 
+2t - \frac{4x}{t} & {\rm if} & t > 0,  & 0 \le  x < t^2  \\ 
+-2t               & {\rm if} & t > 0,  & t^2 \le x 
+\end{array} \right. 
+\end{equation}
+\begin{enumerate}
+\item Show that $f$ is continuous. What does that imply for the Cauchy problem?
+\item Show that $f$ does not satisfy a Lipschitz condition in any
+neighborhood of the origin.
+\item Apply Picard-Lindel\"of iteration with $x_0(t) \equiv 0$. Are
+the accumulation points solutions?
+\item Show that the Cauchy problem has a unique solution. What is the
+solution?
+\end{enumerate}
+This problem shows that existence and uniqueness of the
+solution does not imply that the Picard-Lindel\"of iteration converges
+to the unique solution. 
+
+
+\item Consider the Cauchy problem $x'=\lambda x$, $x(0)=1$, with $\lambda > 0$ and $t \in [0,1]$. Compute the Euler polygons $x_h(t)$ with $h=1/n$ and show that 
+\begin{equation}
+\frac{\lambda}{ 1 + \lambda h} 
+x_h(t) \le  \frac{d x_h}{dt} (t) \le \lambda x_h(t) \,.
+\end{equation}
+Deduce from this the classical inequality 
+\begin{equation}
+\left( 1 +\frac{\lambda}{n}\right)^n \le e^\lambda \le  
+\left( 1 +\frac{\lambda}{n}\right)^{n+\lambda}
+\end{equation}
+{\em Hint:} Use Gronwall Lemma.
+
+
+\item Let $a$, $b$, $c$, and $d$ be positive constants. 
+Consider the Predator-Prey equation $x' = x(a - b y)$,   $y' = y(cx - d)$ with positive 
+initial conditions $x(t_0)>0$ and $y(t_0)>0$.  Show that the solutions  exists for all 
+$t$ and that the solution curves $x(t), y(t)$ are periodic.  
+{\em Hint:} You can use the change of variables $p = \log(x)$ and $q=\log(y)$ 
+
+\item 
+\begin{enumerate}  
+\item Show that any second order ODE $x''+f(x)=0$ can be written as a Hamiltonian system for the  Hamiltonian function $H(x,y)=y^2/2 + V(x)$, where $y=x'$ and $V(x)=\int_0^x f(t)dt$  
+\item Compute the Hamiltonian function, and it level curves and draw the solutions curves 
+for the following ODE's
+\begin{enumerate}
+\item $x'' =- \omega^2 x $ (the harmonic oscillator) 
+\item $x'' =- a \sin(x)$ (the mathematical pendulum: One end $A$ of weightless rod of length $l$ is attached to a pivot, and a mass $m$ is attached to the other end $B$. The system moves in a plane under the influence of the gravitational force of amplitude $mg$ which acts vertically downward.  
+Here $x(t)$ is the angle between the vertical and the rod and $a=g/l$).   
+\item $mr''= - \gamma Mm/r^2$ (Vertical motion of a body of mass $m$  in free fall due to the gravity of  a body of mass $M$). 
+\end{enumerate} 
+Depending on the energy $H(x_0, y_0)$ of the initial condition discuss in details 
+the different types of  solutions which can occur. Are the solutions bounded or unbounded? Are there constant solutions or periodic solutions? Do the solutions converge as $t \to \pm \infty$? 
+\end{enumerate}
+
+\item  
+\begin{enumerate}
+\item Consider the Hamiltonian function $H(x,y)= y^2/2 + V(x)$.  Suppose that we have initial conditions $x(0)=x_0$ and $x'(0)=y_0 > 0$ with initial energy $E= H(x_0,y_0)$.   
+Use the conservation of energy to show the solution $x(t)$ is given (implicitly) 
+by the formula 
+$$
+t\,=\, \int_{x_0}^{x(t)}  \frac{1}{ \sqrt{2 (E - V(s))}}\, ds \,.
+$$
+\item Assume that $V(x)=V(-x)$, i.e., $V$ is an even function.  Show that if $x(t)$ is a solution 
+then so are $x(c-t)$ and $-x(t)$.  Furthermore show that if $x(c)=0$ then $x(c+t)= -x(c-t)$ and that
+if $x'(d)=0$ then $x(d+t)=x(d-t)$.   
+
+
+\item Assume that $V(x)=V(-x)$ and consider periodic solutions.  We denote by 
+$R$  the largest swing, i.e., the maximal positive value of $x(t)$ along the periodic solution.  
+Using (a) show that the period $p$ 
+of the periodic solution is given by 
+$$
+p \,=\, 4 \int_0^R \frac{1}{\sqrt{ 2(V(R) - V(s))}} \, ds
+$$
+{\em Hint:} Consider the quarter oscillation starting at the point $x(0)=0$ and 
+$y(0)=y_0>0$ and ending at $x(T) =R> 0$ and $y(T)=0$.  Use also the symmetry of $V$ and (b). 
+\item Use (c) to show the period for the harmonic oscillator is independent of the energy $E$.  
+\item Use (c) to show that for the mathematical pendulum the period is given by 
+$$
+p \,=\, \frac{4}{\sqrt a} \int_0^{\pi/2}  \frac{1} {\sqrt{1 - k^2 \sin^2(u)}} \, du
+$$ 
+where $k = \sin r/2$.  This integral is an elliptic integral of the first type.  
+{\em Hint:} Use $1- \cos(\alpha) = \sin^2 \frac{\alpha}{2}$ and  the substitution $\sin s/2 = k \sin u$. 
+
+\end{enumerate} 
+  
+
+
+
+\item Show that the following ODE's have global solutions (i.e., defined for all $t>t_0$). 
+\begin{enumerate}
+\item ${\displaystyle \begin{array}{ll}x' = 4y^3 +2x \\ y' = -4x^3 -2y - \cos(x) \end{array}} $ .
+\item $x'' + x + x^3 =0$.
+\item $x'' + x' + x + x^3 =0$.
+\item ${\displaystyle \begin{array}{ll} x' = \frac{\sin(2t^2 x) x^3}{1+ t^2 + x^2 + y^2} \\ 
+y'= \frac{x^2 y}{1 + x^2 + y^2} \end{array}}$  .
+\item $\begin{array}{ll} x' \,=\, 5x  - 2y - y^2 \\ y'= 2y +6x +xy -y^3\end{array}$.
+\end{enumerate}
+
+
+
+
+\item Prove the following generalizations of Gronwall Lemma. 
+\begin{itemize}
+\item
+Let $a>0$ be a positive constant and $g(t)$ and $h(t)$ be nonnegative continuous functions. 
+Suppose that for any $t \in [0,T]$ 
+\begin{equation}
+g(t) \,\le\, a + \int_{0}^t h(s) g(s) \, ds \,.
+\end{equation}
+Then, for any $t \in [0,T]$
+\begin{equation}
+g(t)\,\le\, a e^{\int_0^t h(s)\, ds} \,. 
+\end{equation}
+
+\item 
+Let $f(t)>0$ be a positive function and $g(t)$ and $h(t)$ be nonnegative continuous functions. 
+Suppose that for any $t \in [0,T]$ 
+\begin{equation}
+g(t) \,\le\, f(t) + \int_{0}^t h(s) g(s) \, ds \,.
+\end{equation}
+Then, for any $t \in [0,T]$
+\begin{equation}
+g(t)\,\le\, f(t) e^{\int_0^t h(s)\, ds} \,. 
+\end{equation}
+\end{itemize}
+
+
+
+\item Consider the FitzHugh-Nagumo equation
+\begin{eqnarray}
+x'_1 &\,=\,& f_1(x_1, x_2) \,=\, g(x_1) - x_2 \,, \nn \\
+x'_2 &\,=\,& f_2(x_1,x_2)\,=\, \sigma x_1 - \gamma x_2 \,,  
+\end{eqnarray}
+where $\sigma$ and $\gamma$ are positive constants and 
+the function $g$ is given by $g(x) = - x (x- 1/2) (x-1)$.   
+\begin{enumerate}
+\item In the $x_1$-$x_2$ plane draw the graph of the curves 
+$f_1(x_1, x_2)=0$ and $f_2(x_1,x_2)=0$. 
+\item Consider the rectangles $ABCD$ whose sides are parallel to the $X_1$ and 
+$x_2$ axis with two opposite corners located on the $f_2(x_1,x_2)=0$. Show 
+that if the rectangle is taken sufficiently large, a solution which start 
+inside the rectangle stays inside the rectangle forever. Deduce from this that 
+the equations for any initial conditions $x_0$ have a unique solutions for all 
+time $t>0$. 
+\end{enumerate}
+
+\item Show that the solutions of 
+\begin{eqnarray}
+x'_1 &\,=\,& x_1( 3 - 4x_1 -2x_2) \,,  \nn \\
+x'_2 &\,=\,& x_2( 4 - 2 x_1 -3x_2) \,,
+\end{eqnarray}
+have a unique solution for all $t\ge 0$, for any initial conditions
+$x_{10}$ , $x_{20}$ wich are nonnegative.  {\em Hint}: A possibility
+is to use a similar procedure as in the previous exercise.
+
+\item {\bf Continuous dependence on parameters.}  Consider the IVP $x' = f(t,x,\mu)$, 
+$x(t_0)=x_0$ where $f\,:\, V \to \bR^n$ ( $V \subset \bR\times\bR^n\times\bR^k$ an open set).  
+We denote by $x(t,\mu)$ the solution of the IVP (we have suppressed the dependence on 
+$(t_0,x_0)$).  Let us assume 
+\begin{itemize}
+\item $f$ is a continuous function on $V$.  
+\item $f(t,x,c)$ satisfies a local Lipschitz condition in the following sense:  Given $(c_0, t_0, x_0) \in V$ 
+and positive constants $a, b,c $ such that $A\equiv\{ (t,x,\mu)  \,;\,  |t-t_0| \le a \,,\, \|x -x_0\| \le b\,,\, \|\mu - \mu_0\|\le c \} \subset V$  then there exists a constant $L$ such that 
+$\| f(t,x,\mu ) - f(t,y, \mu )\| \le L \| x-y\|$ for all $(t,x,\mu), (t,y,\mu)  \in A$. 
+\end{itemize}
+Show that $x(t,\mu)$ depends continuously on $\mu$ for $t$ in some interval $J$ containing $t_0$. 
+ 
+
+
+
+\end{enumerate}
+
+
+
+\chapter{Linear Differential Equations}
+\thispagestyle{empty}
+
+ 
+We denote by $\calL(\bR^n)$
+the set of linear maps $A \,: \, \bR^n \to \bR^n$ which we identify with the set of 
+$n \times n$ matrices $A=(a_{ij})$ with real entries.  We write $Ax$ instead of $A(x)$
+for the vector with coefficients $(Ax)_i = \sum_{j=1}^n a_{ij}x_j$.   
+
+
+In this chapter we consider {\em linear differential equations}, i.e.,  ODE's of the form
+\begin{equation}\label{lineq}
+x' \,=\, A(t) x + g(t)\,,
+\end{equation}
+where $x \in \bR^n$, $g\,:\, I \to \bR^n$, and $A \, :\, I \to \calL(\bR^n)$ with $I$ some interval.  
+
+
+The linear ODE is called {\em homogeneous} if $g(t) \equiv 0$, and {\em
+inhomogeneous} otherwise.  If $A(t)=A$ is independent of $t$ and
+$g\equiv 0$, the linear ODE $x' = Ax$ is called a {\em system with
+constant coefficients}.
+
+
+\section{General theory} 
+
+We discuss first general properties of the differential equations
+$x'=A(t)x + g(t)$.
+
+\begin{theorem}\label{exunli}
+{\bf (Existence and uniqueness)} Let $I=[a,b]$ be an interval and suppose 
+that $A(t)$ and $g(t)$ are continuous
+function on $I$. Then the Cauchy problem $x'=A(t)x + g(t)$,
+$x(t_0)=x_0$ (with $t_0 \in I$, $x_0 \in \bR^n$) has a unique solution
+on $I$.
+\end{theorem}
+
+\proof The function $f(t,x)=A(t)x + g(t)$ is continuous and satisfies a
+Lipschitz condition on $I \times \bR^n$. Therefore the solution is
+unique wherever it exists. Moreover on $I \times \bR^n$ we have the
+bound $\|f(t,x)\| \le a \|x\| + b$ where $a = \sup_{t \in I} \|A(t)\|$
+and $b = \sup_{t\in I} \|g(t)\|$.  Therefore we have the bound $\|
+x(t) \| \le \|x_0\| + \int_{t_0}^t (a \|x(s)\| + b) \, ds$ for $t_0,t
+\in I$.  Gronwall lemma implies that $\|x(t)\|$ remains bounded if $t
+\in I$. \hfill \qed
+
+\begin{remark}{\rm If $A(t)$ and $g(t)$ are continuous on $\bR$ then, applying Theorem  
+\ref{exunli} to  $[-T,T]$ for arbitrary $T$ shows that the solution exists for all $t \in \bR$.
+}
+\end{remark}
+
+%\begin{example}\label{sexa}{\rm   Let us apply Picard-Lindel\"of iteration 
+%in the special case where $A(t)$  commutes with $B(t):= \int_{t_0}^t A(s) ds$ 
+%and $g(t) \equiv 0$. This is the case if $A$ does not depends on $t$, 
+%since $B=(t-t_0)A$ commutes with $A$, or if $x\in\bR$ is one dimensional, 
+%in which case $A(t)$ reduces to a number.  From the commutativity of $A$ with 
+%$B$ it follows that
+%\begin{equation}\label{iou}
+%\frac{d}{dt} B^m(t) \,=\, m A(t) B^{m-1}(t)\,.
+%\end{equation}
+%We start the Picard iteration with $x_0(t) \equiv x_0$.  The first
+%iteration is
+%\begin{equation}
+%x_1(t) \,=\, x_0 + \int_{t_0}^t  A(s) x_0 \,ds \,=\, (I + B(t))x_0 \,,
+%\end{equation}
+%or, equivalently,  
+%\begin{equation}
+%\frac{d}{dt} x_1(t) \,=\, A(t) x_0\,, \quad x_1(0) = x_0\,.
+%\end{equation}
+%The $m$-th iteration $x_m(t) \,=\, x_0 + \int_{t_0}^t A(s) x_{m-1}(s)
+%\,ds $ satisfy the differential equation
+%\begin{equation}
+%\frac{d}{dt} x_m(t) \,=\, A(t) x_{m-1}(t)\,,  \quad   x_{m}(0)=x_0 \,.
+%\end{equation}
+%By induction,  using \eqref{iou}, one sees that the solution  is given by 
+%\begin{equation}
+%x_m(t) \,=\, I + B(t) + \frac{B^2(t)}{2!} + \cdots \frac{B^m(t)}{m!} \,.
+%\end{equation}
+%The solution converges to the solution
+%\begin{equation}\label{siso}
+%x(t) \,=\, e^{B(t)}x_0 \,=\, e^{\int_{t_0}^t A(s) \,ds} x_0 \,.
+%\end{equation} 
+%Be aware that, in general however, it is {\bf not true} that $A$
+%commutes with $\int_{t_0}^t A(s)\, ds$ and the solution does not have
+%the simple form \eqref{siso}.
+%
+%In the special case where $A(t)\equiv A$ does not depend on $t$ then
+%we have from \eqref{siso}
+%\begin{equation}
+%x(t) \,=\, e^{(t-t_0) A} x_0 \,,
+%\end{equation}
+%and this is the solution of a system with constant coefficients.  In
+%one dimension we can also use \eqref{siso}, for example the ode $x'(t)
+%\,=\, 2 \cos(t)x$, $x(\pi)=5$ has the solution $x(t)=(5/ e^2)
+%e^{2\sin(t)}$.  
+%}
+%\end{example}
+
+
+\begin{theorem}{\bf (Superposition principle)} \label{superpo}
+Let $I$ be an interval and let $A(t)$, $g_1(t)$, $g_2(t)$ be
+continuous function on $I$. If
+\begin{eqnarray}
+&& x_1\,:\, I \to \bR^n \quad {\rm ~is~a~solution~of~} x'=A(t)x + g_1(t) \,,
+\nn \\
+&& x_2\,:\, I \to \bR^n \quad {\rm ~is~a~solution~of~} x'=A(t)x + g_2(t) \,,
+\nn 
+\end{eqnarray}
+then 
+\begin{eqnarray}
+ x(t):= c_1 x_1(t) + c_2 x_2(t)\,:\, I \to \bR^n \,\,\, 
+{\rm ~is~a~solution~of~}  x'=A(t)x + (c_1g_1 + c_2g_2(t))\,.  \nn
+\end{eqnarray}
+\end{theorem}
+
+\proof: This a simple exercise. \hfill \qed
+
+This theorem has very important consequences. 
+
+\vspace{2mm}
+\noindent {\bf Homogeneous equations.}  Let us consider homogeneous 
+Cauchy problems $x' = A(t)x$, $x(t_0)=x_0$ and let denote its solutions 
+$x(t, t_0,x_0)$ to indicate explicitly the dependence on the initial data. 
+
+
+\noindent {\bf (a)} The solution $x(t, t_0, x_0)$ depends linearly on the initial
+condition $x_0$, i.e.,
+\begin{equation} 
+x(t, t_0, c_1x_0 + c_2 y_0)\,=\, c_1x(t, t_0, x_0) + c_2 x(t, t_0, y_0) \,.
+\end{equation}
+This follows by noting that, by linearity, both sides are solutions of
+the ODE and have the same initial conditions. The uniqueness of the
+solutions implies then the equality.  As a consequence there exists a
+linear map $R(t,t_0)\,:\, \bR^n \to \bR^n$ such that
+\begin{equation}
+R(t,t_0) x_0 \,=\, x(t,t_0,x_0)\,.
+\end{equation}
+It maps the initial condition $x_0$ at time $t_0$ to the position at
+time $t$.  The linear map $R(t,t_0)$ is called the {\em resolvent} of
+the differential equation $x'=A(t)x$. The $i$-th column of $R(t,t_0)$
+is a solution $x'=A(t)x$ with initial condition $x_0 = (0, \cdots,
+0,1,0,\cdots, 0)^T$ where $1$ is in $i$-th position.
+
+\medskip
+
+\noindent {\bf(b)} If $x_0=0$, then $x(t)\equiv 0$ for all $t\in I$ (The point
+$0$ is called a {\em critical point}).  As a consequence if $x(t)$ is
+a solution and it vanishes at some point $t$, then it is identically $0$.
+
+\medskip
+
+\noindent {\bf(c)} The set of solutions of $x'= A(t)x$ form a vector space. We
+call a set of solutions $x_1(t), \cdots, x_k(t)$ {\em linearly
+dependent} if there exists constants $c_1, \cdots, c_k$, with at least
+one $c_i \not=0$, such that
+\begin{equation} \label{lindep}
+c_1 x_1(t) + \cdots + c_k x_k(t) \,=\, 0\,.
+\end{equation} 
+Note that by (b), if \eqref{lindep} holds at one point $t$, it holds
+at any point $t$.  Therefore if the initial condition $x_1(t_0),
+\cdots x_k(t_0)$ are linearly dependent, then the corresponding
+solutions are linearly dependent for any $t$.  The $k$ solutions are called {\em
+linearly independent} if they are not linearly dependent, i.e., $c_1
+x_1(t) + \cdots + c_k x_k(t)=0$ implies that that $c_1=\cdots=c_k=0$.
+
+\medskip
+
+\noindent {\bf(d)} From (c) it follows that there exist exactly $n$ linearly
+independent solutions, $x_1, \cdots, x_n$.  Every such set of $n$
+linearly independent solutions is called a {\em fundamental system} of
+solutions. Any solution $x$ of $x'= A(t)x$ can be written, in a unique
+way, as a linear combination
+\begin{equation}
+x(t)=a_1 x_1(t) + \cdots + a_n x_n(t) \,.
+\end{equation}
+
+\medskip
+
+\noindent {\bf(e)} A system of $n$ linearly independent solutions can be
+arranged in a matrix $\Phi(t) = (x_1(t), \cdots, x_n(t))$. In this
+notation the $i$-th column of $\Phi(t)$ is the column vector $x_i(t)$. The
+matrix $\Phi(t)$ is called a {\em fundamental matrix} or a {\em
+Wronskian} for $x'=A(t)x$. It satisfies the matrix differential equation
+\begin{equation}\label{feq}
+\frac{d}{dt} \Phi(t) \,=\, A(t) \Phi(t)\,.  
+\end{equation}
+
+\medskip
+ 
+\noindent {\bf(f)} If $\Phi(t)$ is a fundamental matrix then the resolvent is given by
+\begin{equation}
+R(t,t_0)\,=\, \Phi(t) \Phi(t_0)^{-1}\,.
+\end{equation}
+Indeed $x(t)=\Phi(t) \Phi(t_0)^{-1}x_0$ satisfies $x'=A(t)x$ (because
+of \eqref{feq}) and $x(t_0)=x_0$.  
+
+
+\begin{theorem}\label{resprop}{\bf
+(Properties of the resolvent)} Let $A(t)$ be continuous on the
+interval $I$. Then the resolvent of $x'=A(t)x$ satisfies 
+\begin{enumerate}
+\item $\frac{\partial }{\partial t} R(t,t_0) \,=\, A(t) R(t,t_0)$.
+\item $R(t_0,t_0)=I$ (the identity matrix). 
+\item $R(t,t_0)\,=\, R(t,t_1)R(t_1,t_0)$.  
+\item $R(t,t_0)$ is invertible and $R(t,t_0)^{-1}=R(t_0,t)$. 
+\end{enumerate}
+\end{theorem}
+
+\proof We have $\frac{\partial}{\partial t}R(t,t_0)x_0\,=\, \frac{\partial}
+{\partial t} x(t,t_0,
+x_0)\,=\, A(t) R(t,t_0)x_0$ and $R(t_0,t_0)x_0=x_0$ for any $x_0 \in
+\bR^n$. This proves 1. and 2.  Item 3 simply says that $x(t,t_0,x_0)=
+x(t, t_1, x(t_1,t_0,x_0))$. Item 4. follows from 2. and 3. by setting
+$t=t_0$.
+
+ 
+\begin{example}\label{haos}{\rm  The harmonic oscillator 
+$x''+ \kappa x =0$ can be written with $x_1=x$ and 
+$x_2=x'$ as
+\begin{equation} \label{oss}
+\left( \begin{array}{cc} x_1 \\  x_2 \end{array}\right)^{'}\,=\, 
+\left( \begin{array}{cc} 0 & 1  \\ -\kappa & 0 \end{array}\right)
+\left( \begin{array}{cc} x_1 \\  x_2 \end{array}\right) \,.
+\end{equation}
+One can find easily two linearly independent solutions, namely 
+\begin{equation} 
+\left( \begin{array}{c} \cos(\sqrt{\kappa}t + \phi) \\ -\sqrt\kappa
+\sin(\sqrt{\kappa} t +\phi) \end{array} \right) \quad {\rm ~and~}
+\quad \left( \begin{array}{c} \sin(\sqrt{\kappa}t + \phi) \\
+\sqrt\kappa \cos(\sqrt{\kappa} t \end{array}\right)
+\end{equation} 
+By definition, the resolvent is the fundamental solution $(x_1(t),
+x_2(t))$ with $x_1(t)=(1,0)^T$ and $x_2(t_0)=(0,1)^T$ so that we have
+\begin{equation} \label{reshar}
+R(t,t_0)\,=\, \left( \begin{array}{cc} \cos(\sqrt{\kappa}(t-t_0)) & 
+\frac{1}{\sqrt\kappa}\sin(\sqrt{\kappa}(t-t_0)) 
+\\ -\sqrt{\kappa} \sin(\sqrt{\kappa}(t-t_0)) & \cos(\sqrt{\kappa}(t-t_0)) 
+\end{array} \right) \,.
+\end{equation}
+Note that the relation $R(t,t_0) = R(t,s)R(s,t_0)$ is simply the
+addition formula for sine and cosine.  }
+\end{example}
+
+
+\begin{theorem}{\bf (Liouville)}\label{liouville} Let $A(t)$ be continuous on 
+the interval 
+$I$ and  let $\Phi(t)$ be a fundamental matrix of $x'=A(t)x$. Then
+\begin{equation} \label{lv}
+\det \Phi(t) \,=\, \det \Phi(t_0) \exp\left( \int_{t_0}^t {\rm
+  trace}\,A(s) \,ds\right) \,,  
+\end{equation} 
+where ${\rm trace}\, A(t) := a_{11}(t) + \cdots + a_{nn}(t)$. 
+\end{theorem}
+
+\proof Let $\Phi(t)= (\phi_{ij}(t))_{i,j=1}^n$. From linear algebra we
+know that $\det(A)$ is a multilinear function of the rows of $A$. It
+follows that
+\begin{equation}
+\frac{d}{dt}\det  \Phi(t) \,=\, \sum_{i=1}^n \det D_i(t) \quad {\rm where} 
+\quad
+D_i(t)\,=\, \left( \begin{array}{ccc}  \phi_{11}(t) & \cdots & \phi_{1n}(t) \\
+\vdots && \vdots \\  \phi'_{i1}(t) & \cdots & \phi'_{in}(t) \\
+\vdots && \vdots \\\ \phi_{n1}(t) & \cdots & \phi_{nn}(t)
+\end{array} \right) \,.
+\end{equation}
+The matrix $D_i(t)$ is obtained from $\Phi(t)$ by replacing the $i$-th
+line by its derivative. We have $\Phi'(t) =A(t) \Phi(t)$, i.e.,
+$\phi'_{ij}(t)\,=\, \sum_{k=1}^n a_{ik}(t)\phi_{kj}(t)$. Using the
+multilinearity of the determinant we find
+\begin{eqnarray}\label{se}
+\frac{d}{dt}\det \Phi(t) \,&=&\, \sum_{i=1}^n \sum_{k=1}^n a_{ik}(t) \det 
+\left( \begin{array}{ccc}  \phi_{11}(t) & \cdots & \phi_{1n}(t) \\
+\vdots && \vdots \\  \phi_{k1}(t) & \cdots & \phi_{kn}(t) \\
+\vdots && \vdots \\\ \phi_{n1}(t) & \cdots & \phi_{nn}(t) \end{array} \right) 
+\longleftarrow  i-{\rm th~line} \nn \\
+\,&=&\, \left(\sum_{i=1}^n a_{ii}(t)\right) \det \Phi(t) \,.   
+\end{eqnarray}
+This is a scalar differential which can be solved by separation of variables 
+and gives  \eqref{lv}.   \hfill \qed
+
+\begin{remark}{\rm The Liouville theorem has the following useful 
+interpretation.  If $V = (v_1, \cdots, v_n)$ is a matrix whose columns
+are the vectors $v_1, \cdots, v_n$, then $|\det V|$ is the volume of
+the parallelepiped spanned by $v_1, \cdots, v_n$. Using $\det A^{-1} =
+1/\det A$, Liouville Theorem is equivalent to
+\begin{equation}
+\det R(t,t_0) \,=\, \exp\left( \int_{t_0}^t {\rm trace}A(s) \,ds\right)\,.
+\end{equation}
+If, at time $t_0$ we start with a set of initial conditions $B$ of
+volume, say, $1$ (e.g. a unit cube), at time $t$ the set $B$ is mapped
+to a set a parallelepiped $R(t,t_0)B$ of volume $\exp\left(
+\int_{t_0}^t {\rm trace}A(s) \,ds\right)$.
+
+In particular, if ${\trace}A(t)\equiv0$, then the flow defined by the
+equation $y'=A(t)y$ preserves volume. We have such a situation in
+Example \ref{haos}, see \eqref{oss}.  }
+\end{remark}
+
+\vspace{5mm}
+
+\noindent {\bf Inhomogeneous equations.} We consider the equation
+\begin{equation}
+x' = A(t)x +g(t)\,. \label{inh}
+\end{equation}
+
+\begin{theorem} Let ${\bar x}(t)$ be a fixed solution of the inhomogeneous 
+equation \eqref{inh}.  If $x(t)$ is a solution of the homogeneous
+equation, then $x(t) + {\bar x}(t)$ is a solution of the homogeneous
+equation and all solutions of the inhomogeneous equation are obtained
+in this way.
+\end{theorem}
+
+\proof: This is an easy exercise. \hfill \qed
+
+
+If we know how to solve the homogeneous problem, i.e. if we know the
+resolvent $R(t,t_0)$, our task is then to find just {\em one} solution
+of the inhomogeneous equation. The following theorem provides an explicit
+formula for such solution. 
+
+\begin{theorem}{\bf (Variation of constants or Duhamel's formula)} 
+Let $A(t)$ and $g(t)$ be continuous on the interval $I$ and let
+$R(t,t_0)$ be the resolvent of the homogeneous equation
+$x'=A(t)x$. Then the solution of the Cauchy problem $x'=A(t)x + g(t)$
+is given by
+\begin{equation}
+x(t) \,=\, R(t,t_0) x_0 + \int_{t_0}^t R(t,s) g(s) \,ds \,.
+\end{equation} 
+\end{theorem}
+
+\proof The general solution of the homogeneous equation has the form
+ $R(t,t_0)c$ with $c \in \bR^n$. The idea is to "vary the constants"
+ and to look for a solution of the inhomogeneous problem of the form
+ \begin{equation}\label{ans}
+ x(t)=R(t,t_0)c(t)\,.
+ \end{equation} 
+We must then have, using 1. of Theorem \ref{resprop},
+ \begin{eqnarray}
+ x'(t)\,&=&\, \frac{\partial}{\partial t} R'(t,t_0) c(t) + R(t,t_0)c'(t)
+\,=\, A(t)R(t,t_0)c(t) +
+ R(t,t_0)c'(t) \nn \\ \,&=&\, A(t)R(t,t_0)c(t) + g(t) \,.
+ \end{eqnarray}
+Thus   
+\begin{equation}
+c'(t) \,=\, R(t,t_0)^{-1} g(t) \,=\, R(t_0,t)g(t) \,,
+\end{equation}
+and, integrating, this gives $c(t)= x_0 + \int_{t_0}^t R(t_0, s)
+g(s)\, ds$. Inserting this formula in \eqref{ans} gives the
+result. \hfill \qed
+
+
+%In the special case, see example \ref{sexa}, where $A(t)\equiv A$ is
+%$independent of $t$, the variation of constants gives
+%\begin{equation}
+%x(t) \,=\, e^{(t-t_0)A} + \int_{t_0}^t e^{(t-s)A} g(s) \,ds \,.
+%\end{equation}
+%and this formula is referred to as Duhamel's formula. 
+
+It should be noted that, in general, the computation of the resolvent
+for $x'=A(t)x$ is not easy and can rarely be done explicitly if $A$
+depends on $t$.
+
+
+\begin{example}{\rm {\bf Forced harmonic oscillator} We consider 
+the differential equation $x'' + x = f(t)$, or equivalently the first order 
+system $x'=y $, $y'= -x - f(t)$. The resolvent is given by \eqref{reshar}.
+The solution of the above system with initial conditions $(x(0),y(0))^T =
+(x_0,y_0)^T$ is 
+\begin{eqnarray}
+\left( \begin{array}{c} x(t) \\ y(t) \end{array} \right) \,=\, 
+ R(t)  \left( \begin{array}{c} x_0 \\ y_0 
+\end{array} \right) +  
+\int_0^t \left( \begin{array}{c} f(s)\sin(t-s) \\ f(s)\cos(t-s)\end{array} 
+\right) \, ds \,,
+\end{eqnarray}
+so that 
+\begin{equation}
+x(t) \,=\, \cos(t)x_0 + \sin(t) y_0 + \int_{0}^t f(s) \sin(t-s)\, ds\,.
+\end{equation}
+For example if $f(t) = \cos(\sqrt\kappa t)$ we find 
+\begin{equation}
+x(t) \,=\, \cos(t)x_0 + \sin(t) y_0 + \left\{ \begin{array}{ll}
+\frac{\sqrt{\kappa}}{1-\kappa}(\cos(t) -\cos(\sqrt\kappa t)) & \kappa
+\not= 1 \\ \frac{1}{2}t \sin(t) & k=1 \end{array} \right. \,.
+\end{equation}
+The motion is quasi-periodic if $\sqrt\kappa$ is irrational, periodic
+if $\sqrt\kappa$ is rational (and $\not=1$), and the solution grows as
+$t \to \infty$ if $\kappa =1$ (resonance).
+
+
+}
+\end{example}
+
+
+\section{The exponential of a linear map $A$} 
+
+In this section we let $\bK= \bR$ or $\bC$. We equip $\bK^n$ with a norm, for example,
+\begin{equation}\label{3n}
+\|x\|_1 \,=\, \sum_{i=1}^n  |x_i|\,, 
+\quad \|x\|_2 \,=\, \left( \sum_{i=1}^n  |x_i|^2 \right)^{1/2} \,, 
+\quad \|x\|_\infty \,=\, \max_{1 \le i \le n}  |x_i| \,,
+\end{equation}
+then $\bK^n$ is a Banach space. All norms being equivalent on $\bK^n$ 
+the choice is a matter of convenience. 
+
+
+
+A $n \times n$ matrix $A=(a_{ij})$ with $a_{ij} \in \bK$ defines a linear map 
+$A \,:\, \bK^n \to \bK^n$ and we denote by  $\calL(\bK^n)$ the set of all linear maps 
+from $\bK^n$ into $\bK^n$.  The set $\calL(\bK^n)$ is also a vector space, of (real or complex) 
+dimension $n^2$ and is a Banach space if equipped with a norm.  In addition to being a 
+vector space $\calL(\bK^n)$ is naturally equipped with  multiplication (composition of linear maps)
+and it is natural and advantageous to equip $\calL(\bK^n)$ with a norm which is compatible
+with matrix multiplication. 
+ 
+
+\begin{definition}{\rm
+For $A \in \calL(\bK^n)$ we define
+\begin{equation}\label{opnorm}
+\| A \| \,=\, \sup_{\|x\|\le 1} \|Ax\| \,=\, \sup_{x \not =0}
+\frac{\|A x\|}{\|x\|} \,.
+\end{equation}
+The number $\|A\|$ is called the {\em operator norm} of A. 
+}
+\end{definition}
+This definition means that $\|A\|$ is the smallest real number $R$ such that 
+\begin{equation}\label{fine}
+\|Ax\| \,\le\, R\,\|x\|\,, \quad {\rm ~for~all~} x \in \bK^n \,,
+\end{equation}
+and we have the bound 
+\begin{equation}
+\|Ax\| \,\le\, \|A\| \|x\| \,.
+\end{equation}
+
+
+The properties $\bf N1$ and $\bf N2$ are easily verified.  For
+the triangle inequality, we have for $A,B \in \calL(\bK^n)$
+\begin{equation}
+\| (A+ B)x \| \le \|Ax \| + \|Bx\| \,\le\, \left( \|A\| + \|B\|
+\right) \|x\| \,.
+\end{equation}
+Dividing by $\|x\|$ and taking the supremum over all $x\not=0$ one
+obtains the triangle inequality $\|A + B\| \le \|A\| + \|B\|$.
+
+
+Simple but  important properties of $\|A\|$ are summarized in
+
+\begin{lemma} Let $I \in \calL(\bK^n)$ be the identity map ($Ix = x$) and 
+let $A,B \in \calL(\bK^n)$.  Then we have 
+\begin{enumerate}
+\item $\| I \| = 1$.
+\item $\|AB \| \le \|A\| \, \|B\|$. \,.
+\item $\|A^n\| \le \|A\|^n$.  
+\end{enumerate}
+\end{lemma}
+
+\proof 1. is immediate, 3. is a consequence of 2.  To estimate $\|A
+B\|$, we apply twice \eqref{fine}
+\begin{equation}
+\| (AB)x\|\,\le\, \|A\| \,\|Bx\|\,\le\, \|A\| \|B\| \|x\| \,.
+\end{equation}
+To conclude we divide by $\|x\|$ and take the supremum over $x\not=0$. \qed
+
+\begin{example}{\rm 
+ Let us denote by $\|A\|_p$, $p=0,1,\infty$ the operator norm of $A$
+ acting on $\bK^n$ with the norm $\|x\|_p$, $p=0,1,\infty$ (see
+ \eqref{3n}). Then we have the formulas
+ \begin{eqnarray}
+ \|A\|_1 \,&=&\, \max_{1\le j \le n}  \sum_{i=1}^n |a_{ij}| \,, \nn \\
+ \|A\|_\infty \,&=&\, \max_{1\le i \le n}  \sum_{j=1}^n |a_{ij}| \,, \nn \\
+ \|A\|_2\,&=&\, \sqrt{ {\rm biggest~eigenvalue~of~}A^*A} \,.  
+  \end{eqnarray}
+\proof For $\|x\|_1$ we have 
+\begin{equation}\label{wer}
+\|Ax\|_1 = \sum_{i=1}^n \left|  \sum_{j=1}^m a_{ij}x_j \right| 
+\le \sum_{i=1}^n  \sum_{j=1}^m |a_{ij}|\,|x_j|  = \sum_{j=1}^n |x_j| 
+\left( \sum_{i=1}^m |a_{ij}| \right) \le \max_{1\le j \le n} 
+\left( \sum_{i=1}^m |a_{ij}| \right)\|x\|_1\,,
+\end{equation} 
+and therefore $\|A\|_1 \le \max_j (\sum_{i=1}^m |a_{ij}|)$.  To prove
+the equality, choose $j_0$ such that $\sum_{i=1}^m |a_{ij_0}| = \max_j
+(\sum_{i=1}^m |a_{ij}|)$ and then set $x= (0, \cdots, 1, \cdots, 0)^T$
+where the $1$ is in position $j_0$. Then for such $x$ we have equality
+in \eqref{wer}. This shows that $\|A\|_1$ cannot be smaller than
+$\max_j (\sum_{i=1}^m |a_{ij}|)$.  The formula for $\|A\|_\infty$ is
+proved similarly.
+
+For the norm $\| \cdot \|_2$ we have $\| x\|_2^2 = \langle x , x \rangle$
+where $\langle x , y\rangle = \sum_{i=1}^n \bar{x_i} y_i $ is the usual scalar product. 
+Note that the matrix $A^* A$ is symmetric and positive semi-definite 
+($\langle x , A^* A x \rangle = \|Ax\|_2 \ge 0$).  From linear algebra we know 
+that $A^*A$ can be diagonalized and there exists an unitary matrix $U$
+($U^*U=1$) such that $U^* A^* A U= {\rm diag}(\lambda_1, \cdots,
+\lambda_n)$, where $\lambda_i \ge 0$.  With $x=Uy$ ($\|x\|_2=\|y\|_2$) we
+obtain
+\begin{equation}
+\|Ax\|_2^2 \,=\, \langle x , A^* A x \rangle  \,=\, 
+\langle y , U^*A^* A U y \rangle \,=\, \sum_{i=1}^n 
+\lambda_i |y_i|^2  \,\le\, \lambda_{\max} \|y\|_2^2 \,=\, \|x\|_2^2\,.
+\end{equation}
+This implies that $\|A\|_2\le \sqrt{\lambda_{\max}}$. To show equality
+choose $x$ to be an eigenvector for $\lambda_{\max}$. \hfill \qed
+}\end{example}
+
+
+In order to solve linear ODE's we will need to construct the
+exponential of a $n \times n$ matrix $A$ which we will denote by
+$e^A$.  We will define it using the series representation of the
+exponential function.  If $\{C_k\}$ is a sequence with $C_k \in
+\calL(\bK^n)$ we define infinite series as usual: $C
+=\sum_{k=0}^\infty C_k$ if and only if the partial sums converge.  The
+convergence of $C =\sum_{k=0}^\infty C_k$ is equivalent to the
+convergence of the $n^2$ series of the coefficients $\sum_k
+c^{(k)}_{ij}$.  We say that the series converges absolutely if the
+real series $\sum \|C_k\|$ converges. For any norm, there exist
+positive constants $a$ and $A$ such that $a \sum_{ij}|c^{(k)}_{ij}| \le \|C_k
+\| \le A \sum_{ij} |c^{(k)}_{ij}|$ and therefore absolute
+convergence of the series is equivalent to the absolute convergence of
+the $n^2$ series $\sum_k c^{(k)}_{ij}$.
+
+
+\begin{prop}\label{linexp} Let $A \in \calL(\bK^n)$. Then
+\begin{enumerate}
+\item For any $T>0$, the series 
+\begin{equation}
+e^{tA} \, :=\, \sum_{j=0}^{\infty} \frac{t^j A^j}{j!} \,,
+\end{equation}
+converges absolutely and uniformly on $[-T,T]$, $e^{tA}$ is a
+continuous function of $t$ and we have
+\begin{equation}\label{o9}
+\left\| e^{tA} \right\| \le e^{t\|A\|}\,.
+\end{equation}
+\item The map $t \to e^{tA}$ is everywhere differentiable and 
+\begin{equation}\label{dii}
+\frac{d}{dt} e^{tA} \,=\, A e^{tA} = e^{t A} A \,.
+\end{equation}
+\end{enumerate}
+\end{prop}
+
+\proof  {\em Item 1.} For $t \in  [-T,T]$ we have 
+\begin{equation} \label{p0}
+\left \| \frac{t^j A^j}{j!} \right\| \le \frac{ |t|^j \|A\|^j}{j!} \le  
+\frac{ T^j \|A\|^j }{j!} \,.
+\end{equation}
+Let us denote by $S_n(t)$ the partial sum $\sum_{j=0}^{n} \frac{t^j
+A^j}{j!}$. Then, for $m > n$, we have
+\begin{equation}\label{qa}
+\| S_n(t) - S_m(t)\| \,\le\, \sum_{j=n+1}^m \frac{ T^j \|A\|^j }{j!}
+\,\le \, \sum_{j=n+1}^\infty \frac{ T^j \|A\|^j }{j!} \,.
+\end{equation}
+This implies that $S_n(t)$ is a Cauchy sequence in $\calL(\bK^n)$,
+uniformly in $t \in [-T,T]$, since the right side \eqref{qa} is the
+remainder term for the series $e^{T \|A\|}$. The function $S_n(t)$ are
+continuous function, they converge uniformly on $[-T,T]$ and
+$\calL(\bK^n)$ is a Banach space so that the limit $e^{tA}$, exists
+and is continuous.  The bound \eqref{o9} follows immediately from
+\eqref{p0}.
+
+{\em Item 2.}  The partial sum $S_n(t)$ are differentiable function of
+$t$ with
+\begin{equation}\label{dr}
+S'_n(t) = A S_{n-1}(t) = S_{n-1}(t) A\,.
+\end{equation}
+The same argument as in 1. shows that $S'_n(t)$ converges uniformly on
+$[-T,T]$. Since both $S_n(t)$ and $S'_n(t)$ converge uniformly we can
+exchange limit and differentiation.  If we take the limit $n \to
+\infty$ in \eqref{dr} we obtain \eqref{dii}. \hfill \qed
+
+
+We summarize some properties of the exponential in 
+\begin{prop} Let $A,B,C \in \calL(\bK^n)$. Then
+\begin{enumerate}
+\item If $AB =BA$ then $e^{A+B}= e^A e^B$. 
+\item If $C$ is invertible then $e^{C^{-1} A C} = C^{-1} e^A C$ .
+\item If $A={\rm diag}(\lambda_1, \cdots, \lambda_n)$ then $e^A= {\rm
+diag}(e^\lambda_1, \cdots, e^\lambda_n)$.
+\end{enumerate}
+\end{prop}
+
+\proof If $AB =BA$ then, using the binomial theorem, we obtain 
+\begin{equation}
+(A+B)^n \,=\, \sum_{k=0}^n {n \choose k} A^k B^{n-k}
+\end{equation} 
+and therefore
+\begin{equation} 
+e^{A+B}\,=\, \sum_{n=0}^\infty
+\frac{(A+B)^n}{n!}\,=\,\sum_{n=0}^\infty \sum_{k=0}^n \frac{A^k
+B^{n-k}}{k! (n-k)!} \,=\, \sum_{p=0}^\infty \frac{A^p}{p!}
+\sum_{q=0}^\infty \frac{B^q}{q!}\,=\, e^A e^B\,,
+\end{equation}
+and this proves 1. 
+
+It is easy to see that $C^{-1} A^k C = \left(C^{-1} A
+C\right)^k$. Dividing by $k!$, summing and taking the limit proves 2.
+If $A={\rm diag}(\lambda_1, \cdots, \lambda_n)$, then $A^k={\rm
+diag}(\lambda_1^k, \cdots, \lambda_n^k)$ and this proves 3. \hfill \qed
+
+As a consequence we obtain 
+\begin{corollary} Let $A \in \calL(\bK^n)$. Then
+\begin{enumerate}
+\item $(e^{tA})^{-1} = e^{-tA}$.
+\item $e^{(t+s)A}= e^{tA} e^{sA}$. 
+\item $e^{\lambda I + A}= e^\lambda e^A$.  
+\end{enumerate}
+\end{corollary}
+
+
+\begin{example}\label{exexp}
+{\rm Let us compute the exponential of some simple matrices. 
+
+\begin{enumerate}
+\item Let $J\,=\, \left( \begin{array}{cc} 0 & 1 \\ -1 & 0 \end{array} \right)$ then $J^2= -I$ and thus by induction $J^{2n}= (-1)^n I$ and $ J^{2n+1} = (-1)^{n} J$. We obtain
+\begin{equation}
+e^{tJ} \,=\,  \sum_{n\ge 0} \frac{(-1)^n t^{2n} }{2n!} I +  \sum_{n\ge 0} \frac{(-1)^n t^{2n+1} }{(2n+1)!} A \,=\,
+\left(  \begin{array}{cc} \cos(t) &   \sin(t) \\ -\sin(t)  & \cos(t) \end{array} \right)
+\end{equation}
+\item Let $A \,=\, \left( \begin{array}{cc} 0 & b \\ -b & 0 \end{array} \right)$ then using 1. we have 
+$e^{tA} = e^{tb J} =  \left(  \begin{array}{cc} \cos(bt) &   \sin(bt) \\ -\sin(bt)  & \cos(bt) \end{array} \right)$. 
+\item Let $B= \left( \begin{array}{cc} a & b \\ -b & a \end{array} \right)$  then we have $A= a I +bJ$
+and $I$ and $J$ commute. Thus 
+\begin{equation}
+e^{tB} \,=\, e^{taI} e^{tbJ} \,=\, \left(  \begin{array}{cc} e^{at}\cos(bt) &   e^{at}\sin(bt) \\ -e^{at}\sin(bt)  & e^{at}\cos(bt) \end{array} \right)\,.
+\end{equation}
+\item  Let  $C = \left( \begin{array}{cc} 0 & \epsilon \\   0 & 0\end{array} \right)$ then $C^2 =0$ and thus
+$e^{tC} \,=\, \left( \begin{array}{cc} 1 & \epsilon t \\  0  & 1\end{array} \right)$
+\item Let $D$ be the $n \times n$ matrix with entries $\epsilon$ on the off-diagonal and $)$ otherwise 
+\begin{equation}\label{ka}
+D\,=\, 
+\left( \begin{array}{cccccc} 
+0  &  \epsilon  &           &          &    &       \\ 
+    &  0  &   \epsilon      &          &     &   \\
+    &       &\ddots&       &      &   \\
+    &      &            &         & 0& \epsilon       \\
+    &      &           &           &   &  0      
+\end{array} \right) \,, 
+\end{equation}
+We have 
+\begin{equation}
+D^2\,=\, 
+\left( \begin{array}{cccccc} 
+0  &  0  &   \epsilon^2        &          &    &       \\ 
+    &  0  &   0      &   \epsilon^2       &     &   \\
+    &       &\ddots&  \ddots &  \ddots    &   \\
+    &       &           &   0    &  0    & \epsilon^2  \\
+    &      &            &         & 0&  0       \\
+    &      &           &           &   &  0      
+\end{array} \right)   \cdots   D^{n-1}\,=\, 
+\left( \begin{array}{cccccc} 
+0  &  0  &   0        &     \cdots     &    &  \epsilon^{n-1}     \\ 
+    &  0  &   0      &   0       &     &   \\
+    &       &\ddots&  \ddots &  \ddots  &\vdots   \\
+    &       &           &   0    &  0    & 0  \\
+    &      &            &         & 0&    0       \\
+    &      &           &           &   &  0      
+\end{array}
+\right)\,.
+\end{equation}
+and $D^l=0$ for $l\ge n$.  Then we have 
+\begin{eqnarray}
+e^{tD} \,&=&\,  1 + tD + \frac{t^2D^2}{2!} 
++ \cdots + \frac{t^{n-1}D^{n-1}}{(n-1)!}  \nn  \\
+\,&=&\, 
+\left( \begin{array}{cccccc} 
+1  &  \epsilon t & \frac{\epsilon^2 t^2}{2}&\cdots &   &  
+\frac{\epsilon^{n-1} t^{n-1}}{(n-1)!}     \\ 
+               &  1   & \epsilon t           &\cdots &   &  
+\frac{\epsilon^{n-2}t^{n-2}}{(n-2)!}            \\
+               &                 &\ddots                     & \ddots &  &     
+\vdots\\
+               &                 &                           & 1&  
+\epsilon t      & \frac{\epsilon^2 t^2}{2}      \\
+               &                 &                          &            & 
+1&   \epsilon t        \\
+              &                  &                          &           & 
+               &  1      
+\end{array}
+\right)
+\end{eqnarray}
+\item Let 
+$$
+E\,=\, 
+\left( \begin{array}{cccccc} 
+\lambda &  \epsilon  &           &          &    &       \\ 
+    &  \lambda  &   \epsilon      &          &     &   \\
+    &       &\ddots&       &      &   \\
+    &      &            &         & \lambda& \epsilon       \\
+    &      &           &           &   &  \lambda      
+\end{array} \right) \,, 
+$$
+then 
+\begin{eqnarray}
+e^{tE} \,&=&\, e^{t (\lambda I + D)} \,=\, e^{ \lambda t} e^{tD} \\
+ \,&=&\, 
+\left( \begin{array}{cccccc} 
+e^{\lambda t}  &  \epsilon t e^{\lambda t}& \frac{\epsilon^2 t^2}{2}e^{\lambda t}&\cdots &   &  
+\frac{\epsilon^{n-1}t^{n-1}}{(n-1)!} e^{\lambda t}    \\ 
+               &  e^{\lambda t}  & \epsilon t e^{\lambda t}          &\cdots &   &  
+\frac{\epsilon^{n-2} t^{n-2}}{(n-2)!} e^{\lambda t}           \\
+               &                 &\ddots                     & \ddots &  &     
+\vdots\\
+               &                 &                           & e^{\lambda t}&  
+\epsilon t e^{\lambda t}     & \frac{\epsilon^2 t^2}{2}  e^{\lambda t}    \\
+               &                 &                          &            & 
+e^{\lambda t}&   \epsilon t e^{\lambda t}       \\
+              &                  &                          &           & 
+               &  e^{\lambda t}      
+\end{array}\right)
+\end{eqnarray}
+\end{enumerate}
+}
+\end{example}
+
+%\end{document}
+
+\section{Linear systems with constant coefficients} \label{syscoco}
+
+From Proposition \ref{linexp} one obtains immediately 
+
+\begin{theorem} The resolvent of the linear equation with constant 
+coefficients 
+$x'=Ax$ is given by 
+\begin{equation}
+R(t,t_0) \,=\, e^{(t-t_0)A} \,.
+\end{equation}
+\end{theorem}
+
+\proof From proposition \ref{linexp} we have
+\begin{equation}
+\frac{d}{dt} e^{(t-t_0)A} \,=\, A e^{(t-t_0)A} \,.
+\end{equation}
+Thus the $j$-th column of $e^{(t-t_0)A}$ is the solution of the Cauchy
+problem $x'= Ax$, $x(t_0)=(0, \cdots, 0,1,0, \cdots)^T$ where the $1$
+is in $j$-th position. \hfill \qed
+
+
+Solving $x'=Ax$ is thus reduced to the problem of computing the
+exponential of a matrix $A$, see Example \ref{exexp} for some simple examples. 
+We will present here a general technique to compute such an exponential. 
+
+
+In the scalar case the ODE $x'= \lambda x$  has the general solution $X(t)= Ce^{\lambda t}$.  
+With this intuition in mind let us try to find solutions of the form  $x(t) = e^{\lambda t} v$ where 
+$v$ is a nonzero vector.  Inserting into the equation we deduce that $e^{\lambda t}v$ is  
+a solution if and only if 
+\begin{equation}\label{eveq}
+Av \,=\, \lambda v \,,
+\end{equation}
+i.e., $\lambda$ is an eigenvalue of $A$and $v$ is an eigenvector for the eigenvalue 
+$\lambda$. 
+
+
+If $A$ is real and $\lambda$ is a complex eigenvalue with eigenvector $w=u+iv$ then we have 
+$A{\bar w} \,=\, {\bar \lambda} {\bar  w}$, i.e. the eigenvalues and eigenvectors occur in complex conjugate pairs.  
+
+\begin{prop} Let $A$ be a real $n\times n$ matrix and consider the 
+differential equation $x'=Ax$.
+\begin{enumerate}
+\item The function $t \mapsto e^{\lambda t}v$ is a real solution if
+and only if $\lambda\in \bR$, $v \in \bR^n$, and $Av=\lambda v$.
+\item If $w\not=0$ is an eigenvector for $A$ with eigenvalue $\lambda
+= \alpha + i \beta$ with $\beta \not=0$ then the imaginary part of
+$w=u+iv$ is not zero.  In this case there are two real solutions
+\begin{eqnarray}
+t \mapsto  e^{\alpha t} \left [ (\cos\beta t) u - (\sin \beta t) v \right] 
+\,,  \\
+t \mapsto  e^{\alpha t} \left[ (\sin\beta t) u + (\cos \beta t) v \right] \,. 
+\end{eqnarray}
+\end{enumerate}
+\end{prop}
+
+\proof If $Av=\lambda v$ then $e^{\lambda t}v$ is a solution.  If
+$\lambda =\alpha + i \beta$, then since $A$ is real an eigenvector
+$w=u+iv$ has nonzero imaginary part.  The real and imaginary parts of
+the corresponding solution
+\begin{eqnarray}
+e^{\lambda t} (u +iv) \,&=&\, e^{ (\alpha + i \beta)t}(u +iv) \,, \nn \\
+\,&=&\, e^{ \alpha t}  (\cos \beta t + i \sin \beta t) (u +iv) \,, \nn \\
+\,&=&\, e^{\alpha t} \left [ (\cos\beta t) u - (\sin \beta t) v \right]  
++ i e^{\alpha t} \left[ (\sin\beta t) u + (\cos \beta t) v \right] \,.
+\end{eqnarray}
+are real solutions. In order to show that these real solutions are
+linearly independent, let us suppose that some linear combinations of
+them vanishes identically.  Evaluating at $t=0$ and $t =\pi/2\beta$
+yields
+\begin{equation}
+c_1u + c_2 v=0 \,\quad \quad c_2 u - c_1 v \,=\,0\,,
+\end{equation}
+This implies that $(c_1^2 + c_2^2)w=0$ and thus $c_1=c_2=0$.  This
+proves item 2.  The proof of item 1. is easy.  \hfill \qed
+
+
+The problem now is reduced to the question whether we can find $n$
+linearly independent eigenvectors of $A$. As we know from linear
+algebra this is not always possible, for example the matrix 
+\begin{equation}
+A\,=\, \left(
+\begin{array}{ccc} \lambda & 1 & 0 \\ 0 & \lambda & 1 \\ 0 & 0 & \lambda 
+\end{array} 
+\right) \label{frr}
+\end{equation}
+has $1$ as its only eigenavalue and $\left(1,0,0\right)^T$ as its only eigenvector. 
+
+\begin{definition}{\rm 
+ Let $\Lambda$ be an eigenvalue of $A$ then we define
+
+\medskip
+
+\noindent (i) The eigenvalue $\lambda$ of $A$ has an {\em algebraic multiplicity} equal to $l$ 
+if $\lambda$ is a zero of order $l$ of the charateristic polynomial $\det(A - \lambda I)$. 
+
+\medskip
+
+\noindent(ii) The eigenvalue $\lambda$ of $A$ has a {\em geometric multiplicity} equal to $k$ 
+if $k$ is the dimension of the subspace spanned by the eigenvectors of $A$ for the eigenvalue 
+$\lambda$, i.e. $k = {\rm dim}( {\rm ker} (A-\lambda I))$. 
+}
+\end{definition}
+
+The algebraic multiplicity of $\lambda$ for the matrix $A$ given by \eqref{frr} is $3$ but its algebraic multiplicity is $1$. 
+
+
+\begin{definition}{\rm The matrix $A$ is called {\em semi-simple} or {\em diagonalizable} if for each eigenvalue $\lambda$ algebraic and geometric multiplicity coincide.
+}
+\end{definition}
+
+In this case it is, in principle, easy to compute $e^{At}$, we have
+
+\begin{prop} Let $A$ be a semi-simple $n\times n$ matrix (real or complex) with eigenvalues $\lambda_1, \cdots, \lambda_n$ repeated according to their algebraic multplicity then there exists a 
+basis  $v_1, \cdots v_n$ of $\bC^n$ where $v_i$ is an eigenvectors of $A$ for the eigenvalue 
+$\Lambda_i$.  Let 
+\begin{equation}
+P=\left( v_1, \cdots, v_n\right)
+\end{equation}
+be the matrix whose $i^{th}$ column is  given by the vector $v_i$. Then 
+\begin{equation}
+e^{At} \,=\, P  \left( \begin{array}{ccc} e^{\lambda_1 t} & &0\\ & \ddots & \\
+0 & & e^{\lambda_n t}
+\end{array}\right) P^{-1} \,.
+\end{equation}
+\end{prop}
+
+
+\proof   We have 
+\begin{equation}
+A P \,=\, \left( Av_1, \cdots, Av_n \right) 
+\,=\, \left( \lambda_1v_1, \cdots, \lambda_n v_n \right) 
+\,=\, (v_1, \cdots, v_n) \left( \begin{array}{ccc} \lambda_1 & &0\\  
+& \ddots  & \\ 0 & & \lambda_n\end{array}\right) \,,
+\end{equation}     
+i.e., $D \equiv P^{-1} A P$ is a diagonal matrix whose entries 
+are the eigenvalues of $A$.  Then the resolvent $e^{At}$ for $x'=Ax$ is given by 
+\begin{equation}
+e^{At} \,=\, P P^{-1} e^{At} P P^{-1} \,=\, P e^{P^{-1} A P t} P^{-1}
+\,=\, P \left( \begin{array}{ccc} e^{\lambda_1 t} & &0\\ & \ddots & \\
+0 & & e^{\lambda_n t}
+\end{array}\right) P^{-1} \,.
+\end{equation}
+\hfill \qed
+
+
+
+
+\begin{remark}{\rm The change of variable $y=P^{-1}x$ transform the system $x'=Ax$ 
+into a system of decoupled equations. Indeed we have $y' = P^{-1}x'= P^{-1}Ax= = Dy$ 
+where $D$ is diagonal. Thus we have $n$ equations $y'_j = \lambda_j y_j$ whose solutions  
+$e^{\lambda_j t} v_j$ form a fundamental matrix for $y'=Dy$.  
+}\end{remark} 
+
+
+\begin{example}{\rm 
+\begin{equation}
+\begin{array}{ccccccc}
+ x_1'   & =&  x_1     & - & 2 x_2 &    &     \\
+ x_2'   & =&2x_1    &   &             & - &   x_3  \\
+ x_3'   & =&  4x_1      & -  & 2 x_2 &  -  &  x_3  
+\end{array} \,, \quad  \quad \quad \quad
+A\,=\, \left(\begin{array}{ccc}
+1 & -2& 0  \\ 2 & 0 & -1 \\ 4 & -2 &-1 \end{array}
+\right)\,.
+\end{equation}
+}
+\end{example}
+The eigenvalues are the root of ${\rm det}(A-\lambda I) = 2 -\lambda -
+\lambda^3=(1-\lambda)(\lambda^2 +\lambda +2)$. The eigenvalues are
+$\lambda_{1,2}= -1/2 \pm i \sqrt{7}/2$, and $\lambda_3=1$.  The
+eigenvectors are computed to be $v_{1,2}= (3/2 \pm i \sqrt{7}/2, 2,4)^T$ and 
+$v_3= (1,0,2)^T$ and $B=(v_1,v_2,v_3)$.  
+Three real  linearly independent 
+solutions are given by 
+\begin{eqnarray}
+&&e^{t} \left( \begin{array}{ccc} 1\\ 0 \\ 2 \end{array} \right) \\
+&&e^{-t/2}\left[ \cos( \sqrt{7}t/2) \left( \begin{array}{ccc} 3/2\\ 2
+\\ 4 \end{array} \right) - \sin( \sqrt{7}t/2) \left(
+\begin{array}{ccc} \sqrt{7}/2\\ 0 \\ 0 \end{array} \right) \right] \\
+&&e^{-t/2}\left[ \sin( \sqrt{7}t/2) \left( \begin{array}{ccc} 3/2\\ 2
+\\ 4 \end{array} \right) + \cos( \sqrt{7}t/2) \left(
+\begin{array}{ccc} \sqrt{7}/2\\ 0 \\ 0 \end{array} \right) \right]
+\end{eqnarray}
+
+
+
+Suppose that $A$ is not semi-simple, i.e.,  if, for at least one eigenvalue, 
+the geometric multiplicity  is smaller than the algebraic multiplicity.  
+One way to solve the system is to transform $A$
+into a simpler form, for example in a triangular form or in Jordan
+normal form, i.e., one finds an invertible $T$ such that $T^{-1} A T$
+has such form (see the exercises for a proof than any matrix can be transformed into
+triangular form).    With the transformation $x = Ty$ and $x'=Ty'$ the ODE
+$x'=Ax$ becomes $y'=Sy$. For example if $S$ has a triangular form we
+have the system
+\begin{equation}
+\begin{array}{ccccccccc}
+ y_1'   & =& s_{11} y_1 & + & s_{12}y_2 & + &  \cdots & + &  s_{1n}y_n  \\
+ y_2'   & =&            &   & s_{22}y_2 & + &  \cdots & + &  s_{2n}y_n  \\
+\vdots  &  &            &   &           &   &         &   &  \vdots     \\
+ y_n'   & =&            &   &           &   &         &   &  s_{nn}y_n  
+\end{array}
+\end{equation}
+One can then solve the system iteratively: one solves first the
+equation for $y_n$, then the one for $y_{n-1}$, and so on up to the
+equation for $y_1$ (see the example below). Finally one obtains $x= Ty$.
+\begin{example}{\rm  
+Consider the system of equations
+\begin{equation}
+\begin{array}{ccccccc}
+ x_1'   & =& -3 x_1 & + & 2 x_2 & + &   5 x_3  \\
+ x_2'   & =&             & + &    x_2 & - &   x_3  \\
+ x_3'   & =&             &    &            &    & 2 x_3  
+\end{array} \,,
+\quad  \quad \quad \quad
+A\,=\, \left(\begin{array}{ccc}
+-3 & 2& 5  \\ 0 & 1 & -1 \\ 0 & 0 & 2 \end{array}
+\right)\,.
+\end{equation}
+with initial conditions $(x_1(0), x_2(0) , x_3(0)) = (x_{10}, x_{20} ,
+x_{30})$. The third equations has solution $x_3(t) \,=\, e^{2t }
+x_{30}$. Inserting into the second equations gives the inhomogeneous
+equation
+%\begin{equation} 
+$x_2'  \,=\,   x_2  -   e^{2t} x_{30}$ 
+%\end{equation}
+and is solved using Duhamel's formula
+\begin{equation}
+x_2(t)  \,=\,   e^{t} x_{20} - \int_0^t e^{t-s} e^{2s} x_{30} \,=\,  
+e^{t} x_{20} + (e^{t} - e^{2t}) x_{30} \,.
+\end{equation}
+Inserting the solutions $x_2(t)$ and $x_3(t)$ into the first
+equations gives the equation $x'_1 = -3x_1 + 2 e^{t} x_{20} + (2 e^{t}
++ 3 e^{2t} ) x_{30}$. Again with Duhamel's formula one finds
+\begin{equation}
+x_1(t) \,=\, e^{-3 t} x_{10} + 2(e^t - e^{-3t}) x_{20} + (2e^t + 3e^{2t} 
+- 5e^{-3t}) x_{30} \,.
+\end{equation}
+The resolvent is then
+\begin{equation}
+R(t,t_0) \,=\, \left(
+\begin{array}{ccc}
+e^{-3 (t-t_0)}&  2e^{(t-t_0)} - 2e^{-3(t-t_0)} & 2e^{(t-t_0)} + 3e^{2(t-t_0)} 
+- 5e^{-3(t-t_0)}   \\
+    0       &  e^{(t-t_0)}                  &  e^{(t-t_0)} - e^{2(t-t_0)}    \\
+    0      &       0                    &     e^{2(t-t_0) }       
+\end{array} \right)\,.
+\end{equation}
+}
+\end{example}
+
+
+The resolvent can be computed easily if $S$ is in Jordan normal form.
+Let us consider first the complex Jordan normal form.  Then $S$ is
+block diagonal
+\begin{equation}\label{jnf}
+S \,=\, \left( \begin{array}{cccc} 
+J_1 &        &      &    \\ 
+        &J_2 &      &     \\
+        &       &\ddots&     \\
+        &       &        & J_k  
+\end{array}
+\right)         
+\end{equation} 
+where each Jordan block $J_i$ has the form
+\begin{equation}\label{lamj}
+J_i \,=\, \left( \begin{array}{ccccc} 
+\lambda_i &  1       &         &          &           \\ 
+          &\lambda_i &     1   &          &        \\
+          &          &  \ddots & \ddots  &         \\
+          &          &         &\lambda_i & 1       \\
+          &          &         &          & \lambda_i      
+\end{array}
+\right)       
+\end{equation}
+Since $S$ is block diagonal we have
+\begin{equation}
+e^{tS} \,=\, \left( \begin{array}{ccc} 
+e^{tJ_1} &        &         \\ 
+        &\ddots &           \\
+        &       & e^{tJ_k}         
+\end{array} \right) \,,
+\end{equation}
+so that it is enough to compute $e^{tJ}$ where $J$ is a Jordan block. This has been
+computed in Example \ref{exexp} 5, and 6.  
+
+
+\begin{example}{\rm 
+The system of equations
+\begin{equation}
+\begin{array}{ccccccc}
+ x_1'   & =& -2 x_1 & + &    x_2 &   &        \\
+ x_2'   & =&             & + &   -2 x_2 &   &      \\
+ x_3'   & =&             &    &            &    & 2 x_3  
+\end{array} \,,
+\end{equation}
+is already in Jordan normal form and its resolvent is 
+\begin{equation}
+e^{tS} \,=\,\left( \begin{array}{ccc}
+  e^{-2t} &   t e^{-2t} &   0      \\
+         0    &    e^{-2t} &     0   \\
+        0     &      0          &  e^{2t}  
+\end{array} \right) \,.
+\end{equation}
+
+}
+\end{example}
+
+
+There is also a real Jordan normal form if $A$ is a real matrix.  If
+$\lambda=\alpha + i\beta$ and ${\bar \lambda}=\alpha -i \beta$ are a
+pair complex eigenvalues then $S$ has the form \eqref{jnf} where the
+block corresponding to the pair $\lambda$,  ${\bar \lambda}$ is given by
+\begin{eqnarray}\label{clamj}
+J \,=\, \left( \begin{array}{ccccc} 
+R &  I       &         &          &           \\ 
+          &R &     I   &          &        \\
+          &          &  \ddots & \ddots  &     \\
+          &          &         &R  & I       \\
+          &          &         &          & R      
+\end{array}
+\right)    \,&=&\,   \left( \begin{array}{ccccc} 
+R &  0       &         &          &           \\ 
+          &R &   0   &          &        \\
+          &          &  \ddots & \ddots  &     \\
+          &          &         &R  & 0       \\
+          &          &         &          & R      
+\end{array}
+\right) \,+\,  \left( \begin{array}{ccccc} 
+0 &  I       &         &          &           \\ 
+          &0 &     I   &          &        \\
+          &          &  \ddots & \ddots  &     \\
+          &          &         &0  & I       \\
+          &          &         &          & 0      
+\end{array}
+\right)  \nonumber \\
+&\equiv&  \hspace{2cm}T \hspace{2cm} + \hspace{2cm}  M  \nonumber 
+ \end{eqnarray}  
+where $I$ is a $2\times2$ identity matrix and $R$ has the form 
+\begin{equation}
+R \,=\, \left( \begin{array}{cc} 
+\alpha  & -\beta   \\ 
+ \beta    & \alpha 
+ \end{array}
+\right) \,.
+\end{equation}
+The exponential of $R$ is given by  $
+e^{Rt} \,=\, e^{\alpha t} \left( \begin{array}{cc} 
+\cos \beta t  & -\sin \beta t   \\ 
+ \sin \beta t    & \cos \beta t 
+ \end{array}
+\right) \,.
+$ 
+Noting that $T$ commute with $M$ we have that $e^{Jt} = e^{Tt} e^{Mt}$ and this can be computed easily.
+
+
+We will not discuss in detail here the algorithm used to put the matrix in 
+Jordan normal form, since this is not necessary to compute the resolvent  $e^{At}$.  
+We will use a slightly simpler algorithm to compute $e^{At}$.  It is based on a fundamental 
+result of linear algebra which we quote here without proof.  
+
+
+\begin{definition} Let $\lambda$ be an eigenvalue of $A$. The {\em generalized eigenspace} of $\lambda$ consists of the subspace 
+\begin{equation}
+E_\lambda \,=\, \{ v\,;\, (A-\lambda I)^k v=0\,, {\rm ~for~some~}k \ge 1\}
+\end{equation}
+\end{definition}
+The elements of the generalized eigenspace are called generalized eigenvectors
+
+
+Note that if $A$ is semi-simple the generalized eigenspace are obtained by taking only $k=1$ 
+and thus consist  only of eigenvectors. 
+
+We will need the following simple result
+
+\begin{lemma}\label{invge} The generalized eigenspace $E_\lambda$ is invariant under $A$. 
+\end{lemma}
+
+\proof If $v \in E_\lambda$ then $(A-\lambda I)^k v=0$. Then 
+\begin{equation}
+(A-\lambda I)^k Av =  (A-\lambda I)^k Av - \lambda (A-\lambda I)^k v \,=\, (A-\lambda) (A-\lambda I)^k v\,=\,0
+\end{equation}
+and thus $Tv \in E_\lambda$. 
+
+We have the fundamental result
+
+\begin{theorem}\label{gendec}  Let $A$ be a $n \times n$ matrix. Then there exists a basis of $\bC^n$ which consists 
+of generalized eigenvectors, i.e., 
+\begin{equation}
+\bC^n \,=\, \bigoplus_{\lambda {\rm ~eigenvalues}} E_\lambda
+\end{equation}
+\end{theorem}
+
+Using this we will show that any matrix $A$ can be decomposed into a semi-simple part
+and a nilpotent part. An example of nilpotent matrix is given in Example \ref{exexp}. 
+
+\begin{definition} {\rm A matrix  $N$ is said to be {\em nilpotent with nilpotency k}
+if $N^k=0$ but $N^{k-1}\not =0$
+}
+\end{definition} 
+
+
+\begin{prop}\label{ssndec} Let $A$ be a $n\times n$ matrix, then there exists a decomposition 
+\begin{equation}
+A = S + N
+\end{equation}
+where $A$ is semi-simple, $N$ is nilpotent  and commute with $A$ and with nilpotency 
+no larger than the maximum of the algebraic multiplicities of the eigenvalues.  
+\end{prop}
+
+
+\proof   Let $v_1, \cdots, v_n$ be a basis consisting of generalized eigenvectors and set 
+$P=(v_1, \cdots, v_n)$ be the matrix whose $i^{th}$ column is $v_i$.   
+Let $\Lambda= {\rm diag}(\lambda_1, \cdots, \lambda_n)$ be the diagonal matrix where 
+$\lambda_i =\lambda$ if $v_i \in E_\lambda$.  Then we define 
+\begin{equation}
+S \equiv P \Lambda P^{-1}\,, \quad N \equiv A-S  \,.
+\end{equation}
+This provides a decomposition $S=A+N$.    
+
+By construction $S$ is semi-simple and has the same eigenvalues as $A$ with the same 
+algebraic multiplicities. 
+
+
+Note that $SN -NS = S(A-S) - (A-S)S = SA -AS$ and so it is enough to show that 
+$S$ commutes with $A$.  
+Let $v\in E_\Lambda$ then $Sv=\lambda v$. Moreover $AV \in E_\lambda$ by Lemma \ref{invge} and thus $Av$ is an eigenvector for $S$.  So we have 
+\begin{equation}
+(SA - AS) v \,=\, SA v - A\lambda v \,=\, (S - \lambda I) Av \,=\,0 \,.
+\end{equation}
+By Theorem \ref{gendec} any $v\in \bC^n$ can be written as a sum of generalized eigenvectors 
+and thus
+\begin{equation}
+(SA-AS)v=0 \,.
+\end{equation}
+for any $v \in \bC^n$ so $SA-AS=0$ and so $SN-NS=0$. 
+
+Finally we show that $N$ is nilpotent. Let choose $m$ to be larger than the largest 
+algebraic multiplicity of the eigenvalues of $A$.   If $v\in E_\lambda$ we have $Sv=\lambda v$
+and thus using that $S$ commute with $A$ we obtain
+\begin{equation}
+N^m v \,=\, (A-S)^m v \,=\, (A-S)^{m-1} (A - \lambda I)v \,=\, (A - \lambda I)(A-S)^{m-1}\,=\,
+(A-\lambda I)^m v \,=\,0\,.
+\end{equation}
+Since any $v$ can be written as a sum of generalized eigenvectors we obtain 
+$N^m v =0$ for any $v \in \bC^n$ and so $N^m=0$.  
+
+This concludes the proof of Proposition \ref{ssndec}. \hfill \qed
+
+
+Note that Proposition \ref{ssndec} provides a algorithm to compute $e^{tA}$.  
+
+
+
+\begin{example}{\rm  Let $x'=Ax$ with  \begin{equation}
+A=\left( \begin{array}{rrr} -2 & -1 & -2 \\ -2 & -2 & -2 \\ 2 & 1 & 2 \end{array} \right)\,.
+\end{equation} 
+We have ${\rm det}(A-\lambda I) \lambda^2 (\lambda +2)$ and so $\lambda=0$ has algebraic 
+multiplicity $2$ and $\lambda=-2$ has algebraic multiplcity $1$.   The vector $(1,2,-1)^T$ is an 
+eigenvector for $-2$.  We have 
+\begin{equation}
+(A-0I)^2 \,=\, A^2 \,=\, \left( \begin{array}{rrr} 2 & 2 & 2 \\ 4 & 4 & 4 \\ -2 & -2 & -2 \end{array} \right)
+ \end{equation}
+ and so we can choose $(1,0,-1)^T$ and $(0,1,-1)^T$ has generalized eigenvectors. 
+We obtain 
+\begin{equation}
+P\,=\, \left( \begin{array}{rrr} 1 & 1 & 0 \\ 2 & 0 & 1 \\ -1 & -1 & -1 \end{array} \right) \,, \quad \quad 
+P^{-1}\,=\, \frac{1}{2} \left( \begin{array}{rrr} 1 & 1 & 1 \\ 1 & -1 & -1 \\ -2 & 0 & -2 \end{array} \right) 
+\end{equation}
+and 
+\begin{equation}
+\Lambda\,=\, \left( \begin{array}{rrr} -2 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{array} \right)\,,\quad 
+S \,=\, P \Lambda P^{-1}  \,=\, \left( \begin{array}{rrr} -1 & -1 & -1 \\ -2 & -2 & -2 \\ 1 & 1 & 1 \end{array} \right)
+\end{equation}
+\begin{equation}
+N\,=\, A -S \,=\, \left( \begin{array}{rrr} -1 & 0 & -1 \\ 0 & 0 & 0 \\ 1 & 0 & 1 \end{array} \right)\,.
+\end{equation}
+Finally we compute the exponential by 
+\begin{equation}
+e^{tA} \,=\, P e^{t\Lambda} P^{-1} (I + t N)\,=\,  \frac{1}{2}\left( \begin{array}{ccc} e^{-2t} + 1 -2t & e^{-2t}-1 & e^{-2t} -1 -2t \\ 2 e^{-2t}-2 & 2 e^{-2t} & 2 e^{-2t} -2 \\ -e^{-2t} + 1 + 2t & -e^{-2t} + 1 & -e^{-2t} + 3 + 2t \end{array} \right)
+\end{equation}
+}
+\end{example}
+
+ 
+
+A simple but important consequence of this decomposition is the following
+\begin{prop}\label{solform} 
+If $A$ is a real $n\times n$ matrix, then $e^{tA}$ is a matrix whose
+components are sums of terms of the form $p(t)e^{\alpha t} \sin \beta
+t$ and $p(t)e^{\alpha t} \cos \beta t$ where $\alpha$ are real numbers
+such that $\lambda=\alpha +i \beta$ is an eigenvalue of $A$ and
+$p(t)$ is a polynomial of degree at most $n-1$.
+\end{prop}
+
+
+%What we don't discuss here in detail is how to construct the matrix
+%$T$ such that $T^{-1}AT$ is in Jordan normal form. We will content ourselves 
+%with an example. 
+
+%Suppose that $\lambda$ is an eigenvalue of algebraic multiplicity $2$
+%and geometric multiplicity $1$ for the matrix $2\times 2$ matrix
+%$A$. There is then one eigenvector $v$ and one solution $x=e^{\lambda
+%t}v$.  In order to find another linearly independent solution we make
+%the Ansatz
+%\begin{equation}
+%y\,=\, (u + tw) e^{\lambda t} 
+%\end{equation}
+%Inserting into the equation gives 
+%\begin{equation}
+%e^{\lambda t} \left( \lambda u + w + t \lambda w\right) \,=\,
+%e^{\lambda t } \left( A u  + t A w \right) \,.
+%\end{equation}
+%Comparing the coefficients of $t$ we obtain
+%\begin{equation}
+%(A-\lambda) w = 0\,, \quad  (A - \lambda) u = w \,.  
+%\end{equation}
+%which implies that $w=v$ is the eigenvector for $A$ and one 
+%obtains $u$ by solving the equation. 
+%Then we set $T=(v,u)$, we have 
+%\begin{equation}
+%A T \,=\, A (v,u) \,=\, (\lambda v , \lambda u + v) \,=\, (v,u) 
+%\left(\begin{array}{cc}\lambda & 1 \\ 0& \lambda\end{array}  \right)\,.
+%\end{equation}
+%The vector $u$ is a solution of $(A-\lambda)^2u=0$ and is called a
+%generalized eigenvector of $A$.
+
+%This procedure can be generalized and one finds solution of the form 
+%\begin{equation}
+%x = (u_1 + tu_2 + \cdots + \frac{t^{l-1}}{(l-1)!} u_{l-1}
+%\end{equation}
+%and $u_1, u_2, \cdots ,u_l$ are generalized eigenvectors of $A$:
+%$u_{l-1}$ is an eigenvector of $A$, $u_{l-2}$ is a solution of
+%$(A-\lambda) u_{l-2} = u_{l-1}$, and so on.  It is a fact that for any
+%matrix $A$ one can find $n$ linearly independent generalized
+%eigenvectors.
+
+\section{Stability of linear systems}
+
+For the ODE, $x'=f(t,x)$ we say that $x_0$ is a {\em critical point}
+if $f(t,x_0)=0$ for all $t$. This implies that the constant solution
+$x(t)= x_0$ is a solution of the Cauchy problem with
+$x(t_0)=x_0$. Critical points are also called {\em equilibrium
+points}.
+
+For a linear system with constant coefficients, i.e., $f(x)=Ax$, 
+$x_0=0$ is always critical point and it is the only 
+critical point if $\det(A)\not=0$. If $\det(A)=0$, then $0$ is an eigenvalue  
+and any point in the eigenspace of the eigenvalue $0$ is a critical point. 
+
+We define next the concept of {\em stability} of a solution 
+
+\begin{definition} Let $f\,:\,\bR \times \bR^n \to \bR^n$ be continuous and 
+locally  Lipschitz. Let $x(t,t_0,x)$ be the solution of the Cauchy problem
+$x'=f(t,x)$, $x(t_0)=x_0$ which we assume to exist for all times $t >
+t_0$.
+\begin{enumerate} 
+\item The solution $x(t,t_0,x_0)$ is {\em stable} (in the sense of
+Liapunov) if for any $\epsilon >0$, there exists $\delta >0$ such that
+for all $\xi$ with $\|\xi\| \le \delta$ we have
+\begin{equation}
+\left\|  x(t,t_0,x_0+\xi)  - x(t,t_0,x_0) \right\| \le \epsilon \quad 
+{\rm ~for~all~} t \ge t_0 \,.
+\end{equation}
+\item The solution $x(t,t_0,x_0)$ is  {\em asymptotically stable}  if it is stable and 
+there exists $\delta >0$ such that 
+hat for all $\xi$ with $\|\xi\| \le \delta$ we have 
+\begin{equation}
+\lim_{t \to \infty} \left\|  x(t,t_0,x_0+\xi)  - x(t,t_0,x_0) \right\| \,=\, 
+0 \,.
+\end{equation}
+\item The solution $x(t,t_0,x_0)$ is  {\em unstable} if it is not stable.  
+\end{enumerate}
+\end{definition} 
+
+If $a$ is a critical point, we will say the critical point $a$ is
+stable or unstable if the solution $x(t)\equiv a$ is stable or
+unstable.
+
+\begin{example}{\rm 
+The solution $x(t)=0$ of $x'=\lambda x$ is asymptotically stable of 
+$\lambda < 0$, stable if $\lambda =0$, unstable if $\lambda >0$. 
+}
+\end{example}
+
+\begin{example}{\rm  
+The solutions of the equation $x''+x\,=\,0$ are stable (but not
+asymptotically stable).  The general solution is $(a\cos(t) + b
+\sin(t), -a\sin(t) + b \cos(t))$ is a periodic solution of period
+$2\pi$ on the circle of radius $a^2 +b^2$.  Two solutions starting at
+nearby points $(x_1,y_1)$ and $(x_0,y_0)$ will remain close forever.
+}
+\end{example}
+
+\begin{example} {\rm
+The solution $x(t,0,x_0)= \frac{x_0}{1-x_0t}$ of $x'=x^2$ is
+asymptotically stable for $x_0 < 0$ but unstable for $x_0 \ge 0$.  }
+\end{example}
+
+\begin{example}{\rm  
+For the ODE $x'= x^2-1$, there are two critical points $0$ and $1$.
+The solution $x(t)=0$ is unstable and the solution $x(t)=1$ is stable.
+}
+\end{example}
+
+
+For a linear homogeneous equation $x'=A(t)x$ we have 
+$x(t,t_0,x_0+\xi)- x(t,t_0,x_0)= R(t,t_0) \xi \,=\,x(t,t_0,\xi)- x(t,t_0,0)$ and 
+so it  suffices to study the stability of the critical point $0$.
+For a linear inhomogeneous equation $x' = A(t) x +f(t)$, 
+the difference $x(t,t_0,x_0+\xi)- x(t,t_0,x_0)$ is again equal to  $R(t,t_0) \xi$ 
+where $R(t,t_0)$ is the resolvent of the homogeneous equation $x'=A(t)x$
+and thus the stability properties of a solution $x(t)$ of the inhomogeneous
+problem are the same as the stability of the trivial solution of the
+homogeneous problem.  Therefore, in the case of linear differential
+equations, all the solutions have the same stability properties and
+one can talk about the stability of the differential equation.
+
+
+As we have seen in Section \ref{syscoco}, the solutions of linear 
+systems with constant coefficients are determined by the eigenvalues, 
+and the generalized eigenvectors of the matrix $A$.   We define the {\em stable, unstable and center subspaces}, denoted 
+respectively by $E^s$, $E^u$, and $E^c$ and defined by
+\begin{eqnarray} 
+E^{s} \,&=&\, \bigoplus_{\lambda \,:\, {\rm Re} \lambda < 0} E_i \,, \\
+E^{u} \,&=&\, \bigoplus_{\lambda \,:\, {\rm Re} \lambda > 0} E_i \,, \\
+E^{c} \,&=&\, \bigoplus_{\lambda \,:\, {\rm Re} \lambda = 0} E_i \,. \\
+\end{eqnarray}
+By Lemma \ref{invge} amd Theorem \ref{gendec} the generalized eigenspaces span the whole space and are invariant 
+under $A$  and thus also under $e^{tA}$. So we have 
+\begin{equation}
+\bR^n \,=\, E^s \oplus E^u  \oplus E^c \,,
+\end{equation}
+and 
+\begin{equation} 
+e^{At} E^\#  = E^\# \,, \quad  {\rm ~for~all~} t \in \bR\,, \quad \#=s,u,c \,.
+\end{equation}
+From the proposition \ref{solform} we obtain 
+
+\begin{theorem} Let $x'=Ax$ be a linear system with constant coefficients  
+$x'=Ax$, and let  $\lambda_1, \cdots, \lambda_k$ be the eigenvalues of $A$. 
+
+\noindent
+{\bf (a)} The critical point $0$ is asymptotically stable if and only
+if all the eigenvalues of $A$ have a negative real part: ${\rm Re}\,
+\lambda_i \,< \, 0$ for $ i=1, \cdots, k$, i.e., if $E^{s} =\bR^n$.  
+
+\noindent {\bf (b)} The critical point $0$ is stable if and only
+\begin{enumerate} 
+\item All the eigenvalues have a nonpositive real part ${\rm Re}\,
+\lambda_i \le 0$ for $ i=1, \cdots, k$, i.e., $E^{s} \oplus E^c = \bR^n$. 
+\item If ${\rm Re} \lambda_i = 0$ the Jordan blocks have dimension $1$. 
+\end{enumerate}
+\end{theorem}
+
+\proof   If $E^{s}\,=\, \bR^n$ then any solutions has components which are linear 
+combinations of terms of the form $t^k e^{\alpha t} \sin(bt)$ and $t^k e^{\alpha t} \cos(bt)$
+with $a<0$. In particular since $\lim_{t \to \infty} t^k e^{\alpha t} \sin(bt)=0$ we see that 
+every solution goes to $0$.  This implies that  $\lim_{t \to \infty} \| e^{tA}\| \,=\, 0$ and so $0$ is asymptotically stable. 
+ 
+  
+ If  If $E^{s}\otimes E^{c}\,=\, \bR^n$ then any solutions  $t^k e^{\alpha t} \sin(bt)$ and 
+ $t^k e^{\alpha t} \cos(bt)$ with $a \le 0$.  If $E^c$ is non trivial there will be some terms 
+ with $a=0$ and those terms will remain bounded only if there are no polynomial factors 
+ $t^k$,in those terms,  i.e., only if the restriction of $A$ to $E^c$ is semisimple.  In this case 
+ we have then $\|e^{At}\| \le K$  and thus $0$ is stable. 
+ If the restriction of $A$ to $E^c$ has a non-trivial nilpotent there will be terms 
+ which diverge as $t \to \infty$ and $0$ is not stable.  
+
+If some eigenvalue $\lambda$ has a positive real part, then there exists 
+solutions $x(t)$ with $\|x(t)\|\to \infty$ as $t \to \infty$. In this case $0$ is unstable. 
+\hfill \qed
+
+
+The qualitative behavior of solutions of linear
+systems with constant coefficients is as follows
+\begin{itemize}   
+\item If $x \in E^s$ then $x(t) =e^{At} x$ satisfies
+$\lim_{t\to\infty} x(t) =0$ and $\lim_{t \to -\infty} \|x(t)\| =
+\infty$.
+\item If $x \in E^u$ then $x(t) =e^{At} x$ satisfies
+$\lim_{t\to\infty} \|x(t)\| =\infty$ and $\lim_{t\to-\infty} x(t) =0$.
+\item If $x \in E^c$ then $x(t)$ either stays bounded for all $t \in
+\bR$ or $\lim_{t\to \pm \infty} \|x(t)\| =\infty$.
+\end{itemize}
+
+We illustrate the behavior of solutions for linear $2$ dimensional
+systems with constant coefficients in the following figures.  In
+figure \ref{stablelinear} we show the 2 stable linear systems
+($E^{s}=\bR^2$) with distinct eigenvalues and Jordan normal forms
+$$ \left(\begin{array}{cc} \alpha & -\beta \\ \beta & \alpha
+\end{array} \right)\,, \alpha < 0 \,, \quad
+\left(\begin{array}{cc}\lambda_1& 0 \\ 0 & \lambda_2\end{array}
+\right)\,, \lambda_1 < 0, \lambda_2 < 0 \,.
+$$ and in figure \ref{samestablelinear} the 2 stable linear systems
+($E^{s}=\bR^2$) with one eigenvalue and Jordan normal forms
+$$ 
+\left(\begin{array}{cc}\lambda& 0 \\ 0 & \lambda \end{array}
+\right)\,, \lambda < 0 \,, \quad \left(\begin{array}{cc} \lambda & 1
+\\ 0 & \lambda \end{array} \right)\,, \lambda < 0 \,.
+$$
+
+
+
+In figure \ref{unstablelinear} we show 2 unstable linear systems
+($E^{u}=\bR^2$) with corresponding Jordan normal forms
+$$
+\left(\begin{array}{cc} \alpha & -\beta \\ \beta &  \alpha \end{array} 
+\right)\,, \alpha >  0\,,\quad \left(\begin{array}{cc}\lambda_1& 0 \\ 0 & 
+\lambda_2\end{array} \right)\,, \lambda_1 > 0, \lambda_2 > 0\,.
+$$ and in figure \ref{sameunstablelinear} the 2 unstable linear
+systems ($E^{s}=\bR^2$) with one eigenvalue and Jordan normal forms
+$$ \left(\begin{array}{cc}\lambda& 0 \\ 0 & \lambda \end{array}
+\right)\,, \lambda > 0 \,, \quad \left(\begin{array}{cc} \lambda & 1
+\\ 0 & \lambda \end{array} \right)\,, \lambda > 0 \,.
+$$
+
+
+In figure \ref{hyperboliccenter} we show a center (stable but not
+asymptotically stable) and an hyperbolic linear system in $\bR^2$
+(unstable) with corresponding Jordan normal forms
+$$ 
+\left(\begin{array}{cc} 0 & -\beta \\ \beta & 0 \end{array}
+\right)\,, \alpha > 0\,, \quad \left(\begin{array}{cc}\lambda_1& 0 \\
+0 & \lambda_2\end{array} \right)\,, \lambda_1 < 0 < \lambda_2 \,.
+$$
+
+
+\begin{figure}[htbp] 
+\begin{center}
+\includegraphics[width=3in]{linstablespiral}
+\includegraphics[width=3in]{linrealstable}
+\caption{Stable linear systems with $E^s=\bR^2$: stable spiral and
+stable focus with two distinct eigenvalues, stable focus with a
+nontrivial Jordan block}
+\label{stablelinear}
+\end{center}
+\end{figure}
+
+\begin{figure}[htbp] 
+\begin{center}
+\includegraphics[width=3in]{linrealstablesame}
+\includegraphics[width=3in]{linstablejordanblock}
+\caption{Stable linear systems with $E^s=\bR^2$ with two identical
+eigenvalues: geometric multiplicity two and one.}
+\label{samestablelinear}
+\end{center}
+\end{figure}
+
+
+\begin{figure}[htbp] 
+\begin{center}
+\includegraphics[width=3in]{linunstablespiral}
+\includegraphics[width=3in]{linrealunstable}
+\caption{Unstable linear systems with $E^u=\bR^2$: unstable spiral and
+unstable focus with two distinct eigenvalues}
+\label{unstablelinear}
+\end{center}
+\end{figure}
+
+\begin{figure}[htbp] 
+\begin{center}
+\includegraphics[width=3in]{linrealunstablesame}
+\includegraphics[width=3in]{linunstablejordanblock}
+\caption{Unstable linear systems with $E^s=\bR^2$ with two identical
+eigenvalues: geometric multiplicity two and one.}
+\label{sameunstablelinear}
+\end{center}
+\end{figure}
+
+
+\begin{figure}[htbp] 
+\begin{center}
+\includegraphics[width=3in]{linhyperbolic}
+\includegraphics[width=3in]{lincenter}
+\caption{A linear hyperbolic system with $E^u \oplus E^s=\bR^2$ and a
+center with $E^c=\bR^2$.}
+\label{hyperboliccenter}
+\end{center}
+\end{figure}
+
+
+If $A(t)$ depends on $t$, in general it is not enough to look at the 
+eigenvalues of $A$. One can construct examples of matrices $A(t)$ whose 
+eigenvalues are negative but for which $0$ is unstable (see homework). 
+One needs stronger condition. As an example we prove 
+
+\begin{theorem} Let $A(t)$ be symmetric, i.e., $A^{*}(t) =A(t)$ and 
+continuous on $[t_0, \infty)$. If the eigenvalues $\lambda_i(t)$ of 
+$A(t)$ satisfy $\lambda_i(t) \le \alpha$ for $t \in [t_0, \infty)$, 
+then the solution $x(t)$ of $x'=A(t) x$ satisfy
+\begin{equation}
+\|x(t) \|_2 \,\le\, e^{\alpha(t-t_0)} \|x(t_0)\|_2 \,, \quad t>t_0\,.
+\end{equation}
+In particular, if $\alpha \le 0$, then $0$ is stable and if $\alpha < 0$ 
+then $0$ is asymptotically stable. 
+\end{theorem}
+
+\proof Since $A(t)$ is symmetric, its eigenvalues are real and it is
+diagonalizable with an orthogonal matrix: there exists a matrix $Q(t)$ with  
+$Q^T(t) = Q^{-1}(t)$) such that $Q^T(t) A(t) Q(t) = {\rm diag}(\lambda_1(t),
+\cdots, \lambda_n(t))$.  We show that, for all $v$ and all $t>t_0$ we have  
+\begin{equation} 
+\langle v\,,\, Av \rangle\,\le \,  \alpha \langle v\,,\, v \rangle\,.
+\end{equation}
+We set  $v=Qw$ and then we have 
+$\langle v\,,\,v \rangle = \langle w\,,\, w \rangle$ and 
+\begin{equation}
+\langle v\,,\, Av \rangle \,=\, \langle w\,,\, Q^T A Q w \rangle 
+\,\le\, \alpha 
+\langle w\,,\, w \rangle \,=\, \alpha \langle v\,,\, v \rangle \,.
+\end{equation}
+For a solution $x(t)$ of $x'=A(t)x$ we obtain  
+\begin{equation}
+\frac{d}{dt} \|x(t)\|^2_2 \,=\, 2 \langle x(t)\,,\, A(t) x(t) \rangle 
+\,\le \, 2 \alpha \|x(t)\|^2\,. 
+\end{equation}
+Integrating gives 
+\begin{equation}
+\|x(t)\|_2^2 \,\le\, \|x(t_0)\|_2^2 + 2 \alpha \int_{t_0}^t  \|x(s)\|_2^2 \, 
+ds \,,
+\end{equation}
+and therefore, by Gronwall Lemma, 
+\begin{equation}
+\|x(t)\|^2_2 \,\le \, \|x(t_0)\|_2^2 \,e^{2\alpha(t-t_0)}\,.
+\end{equation}
+\hfill \qed
+
+
+\section{Floquet theory} \label{floquettheory}
+
+In this section we consider periodic $A(t)$, i.e., there exists $p>0$ such that
+$A(t+ p) =A(t)$ for all $t\in \bR$.  Such equation can be reduced, at least in principle, 
+to the case of constants coefficients and is this reduction goes under the name of Floquet theory. 
+
+As a preliminary we need to define the logarithm of matrix.  For this it is necessary 
+to consider complex-matrix since the logarithm of a real matrix will be, in general, complex. 
+
+\begin{prop}\label{logmat} {\bf (Logarithm of a matrix)} Let $C$ be an 
+invertible matrix, then there exists a (complex) 
+matrix $R$ such that
+\begin{equation}\label{log}
+C\,=\, e^R \,.
+ \end{equation}
+\end{prop}
+
+\proof  We will use the decomposition of $C= S +N$ into a semi-simple 
+(i.e., diagonalizable) matrix $S$ and a nilpotent matrix $N$  
+(i.e., $N^k=0$ for some $k \ge1$) with $S N = NS $.  
+
+
+\noindent{\bf (a)} Let us first consider the case $C=S$, i.e., $C$ is semi-simple.   
+Since $S$ is invertible and semi-simple there exists $P$ such that 
+$S=P \Lambda P^{-1}$ with $\Lambda = {\rm diag} ( \lambda_1, \cdots, \lambda_n)$
+and $\lambda_k \not=0$ for all $k$.  We set 
+\begin{equation}
+T= P L P^{-1}  \,, \quad  L= {\rm diag} ( \log \lambda_1, \cdots, \log \lambda_n)\,.
+\end{equation}
+Then we have 
+\begin{equation}
+e^T \,=\, e^{PLP^{-1}} \,=\, P e^{L} P^{-1} \,=\, P \Lambda P^{-1} \,=\, S \,.
+\end{equation}
+
+
+\noindent{\bf (b)} To treat the general case $C=S+N$ we note that $S$ is invertible if and only 
+if $C$ is invertible (they have the same eigenvalues) and if $SN=NS$ then $S^{-1}N= NS^{-1}$. 
+Then we have 
+\begin{equation}
+C = S +N \,=\, S( I + S^{-1} N)
+\end{equation}
+and $S^{-1}N$ is nilpotent and commute with $S$.  
+
+
+Recall the power series 
+\begin{equation}
+\log(1+t)\,=\, t- \frac{t^2}{2} + \frac{t^3}{3} - \cdots \,=\, 
+\sum_{j=1}^\infty \frac{(-1)^{j+1}t^j}{j}\,, \quad {\rm ~for~}  |t| < 1
+\end{equation}
+and that the formal 
+rearrangement of power series
+\begin{equation}\label{form}
+\sum_{n=0}^\infty \left( \sum_{j=1}^\infty \frac{(-1)^{j+1}t^j}{j} \right)^n 
+\frac{1}{n!} \,=\, 1 +t 
+\end{equation}
+is valid for $|t| \le 1$ (this is simply a complicated way to write the identity $e^{\log(1+t)}=1+t$).
+Let us define now
+\begin{equation}
+R = T + Q 
+\end{equation}
+where $T$ is defined as in (a) and 
+\begin{equation}
+Q \,=\, \sum_{j=1}^\infty \frac{(-1)^{j+1}  (S^{-1}N)^j}{j  }\,.
+\end{equation}
+Since $S^{-1}N$ is nilpotent the series defining $Q$ is actually a {\em finite sum} 
+and we do need to worry about convergence.  From the formal rearrangement \eqref{form}
+we conclude that 
+\begin{equation}
+e^{Q} \,=\, (I + \lambda^{-1}N) \,.
+\end{equation}
+Finally since $T$ and $Q$ commute we obtain 
+\begin{equation}
+e^{R} = e^{T} e^{Q} = S (I + \lambda^{-1}N) = C \,,
+\end{equation}
+and this concludes the proof of Proposition \ref{logmat}.  \hfill \qed
+
+
+\begin{theorem}\label{floquet}{\bf (Floquet)} Let $A(t)$ be a continuous 
+periodic function of period $p$. Then any fundamental matrix $\Phi(t)$
+for $x'=A(t)x$ has a representation of the form
+\begin{equation}
+\Phi(t)\,=\, P(t) e^{Rt} \,, \quad P(t+p) = P(t)\,,
+\end{equation}
+where $R$ is a constant matrix. 
+\end{theorem}
+
+
+\begin{remark}{\rm  
+The theorem \ref{floquet} provieds us the form of the solutions.  If
+$x_0$ is an eigenvector of $R$ for the eigenvalue $\lambda$, then the
+solution $x(t)$ has the form $z(t) e^{\lambda t}$, where $z(t)=
+P(t)x_0$ is periodic with period $p$.  More generally, by the
+discussion in Section \ref{syscoco}, a general
+solution will have components which is a linear combination of terms
+of the form $\alpha(t)t^k e^{\lambda t}$, where $\alpha(t)$ is a
+vector periodic in $t$. 
+
+Note, in particular, that there exists periodic solutions of period $p$ 
+whenever $0$ is an eigenvalue of $R$. }
+\end{remark}
+  
+ \noindent 
+{\em Proof of Theorem \ref{floquet}:} (a) We note first that if
+$\Phi_1(t)$ and $\Phi_2(t)$ are two fundamental matrices, then there exists 
+an invertible matrix $C$
+such that
+\begin{equation} \Phi_1(t) \,=\, \Phi_2(t) C \,.
+\end{equation}
+This follows from the fact that 
+\begin{equation}
+R(t,t_0) \,=\, \Phi_1(t) \Phi^{-1}_1(t_0) \,=\, \Phi_2(t)  \Phi^{-1}_2(t_0) \,,
+\end{equation}
+i.e., 
+\begin{equation}
+\Phi_1(t) \,=\, \Phi_2(t)  \Phi^{-1}_2(t_0) \Phi_1(t_0) \,.
+\end{equation}
+(b) If $x(t)$ is a solution of $x'=A(t)x$, then one verifies easily
+that $y(t)=x(t+p)$ is also a solution.  Therefore if $\Phi(t)$ is a
+fundamental matrix, then $\Psi(t) \,=\, \Phi(t+p)$ is also a
+fundamental matrix. By (a) and Proposition \ref{logmat}, there exists a
+matrix $R$ such that
+\begin{equation}
+\Phi(t+p) \,=\, \Phi(t) e^{pR} \,.
+\end{equation}
+We now define 
+\begin{equation}
+P(t) \,\equiv\, \Phi(t) e^{-tR} \, 
+\end{equation}
+and $P(t)$ is periodic of period $p$ since
+\begin{equation}
+P(t+p) \,=\, \Phi(t+p) e^{-(t+p)R} \,=\, \Phi(t) e^{pR} e^{-(t+p)R} \,=\, 
+P(t) \,.
+\end{equation}
+This concludes the proof. \hfill \qed
+
+
+The matrix $C=e^{pR}$ is called the {\em transition} matrix and the eigenvalues 
+eigenvalues, $\lambda_i$, of $C=e^{pR}$ are called the {\em Floquet multipliers}. 
+The matrix $C$ depends on the choice of the fundamental matrix $\Phi(t)$, however  
+the eigenvalues do not (see exercises).  
+
+The eigenvalues of $R$, $\mu_i$ are given by $\lambda_i=e^{p\mu_i}$ are called the 
+{\em characteristic exponents}. They are unique, up to a multiple of $2\pi i/p$. 
+
+
+\begin{remark}{\rm  For the equation $x'=A(t)x$, let us consider the 
+transformation
+\begin{equation}
+x(t)\,=\, P(t) y(t)
+\end{equation}
+where $P(t)$ is the periodic matrix given by Floquet theorem.  We obtain
+\begin{equation}
+x'(t)\,=\, P'(t) y(t) + P(t) y'(t) \,=\, A(t) P(t) y(t) \,.
+\end{equation}
+On the other hand  $P(t) = \Phi(t) e^{-Rt}$, so that 
+\begin{equation}
+P'(t) \,=\, \Phi'(t) e^{-Rt} - \Phi(t)e^{-Rt} R \,=\, A(t) P(t) - P(t)R \,.
+\end{equation}    
+Thus we find 
+\begin{equation}
+y'(t)= R y(t) \,.
+\end{equation}
+The transformation $x=P(t)y$ reduces the linear equation with periodic
+coefficients $x'=A(t)x$ to the system with constant coefficients
+$y'=By$.  Nevertheless there are, in general, no methods available to
+compute $P(t)$ or the Floquet multipliers. Each equation has to be
+studied for itself and entire books are devoted to quite simple
+looking equations. The Floquet theory is however very useful to study the
+stability of periodic solutions, as we shall see later.}
+\end{remark} 
+
+
+
+\begin{example}\label{per2lin}
+{\rm Let us consider the equation $x'' + b(t)x' + a(t) =0$, where
+$a(t)$ and $b(t)$ are periodic functions. For the fundamental solution 
+$\Phi(t)=R(t,0)$ we have $\Phi(0)= I$ and so by Floquet Theorem
+\begin{equation}
+\Phi(p)\,=\,  C\,=\, e^{pR}\,=\, 
+\left( \begin{array}{cc} x_1(p) & x_2(p) \\  x'_1(p) & x'_2(p) \end{array}
+\right)
+\end{equation}
+The Floquet multipliers are given by the solutions of 
+\begin{equation}
+\lambda^2 + \alpha \lambda + \beta \,=\,0 \,,
+\end{equation}
+where 
+\begin{equation}
+\alpha \,=\, - x_1(p) -x'_2(p) \,,
+\beta \,=\, \det(C) \,=\, det (R(p,0)) \,=\, e^{\int_0^p {\rm tr} A(s)\,ds} 
+\,=\,  e^{-\int_0^p b(s)\,ds}
+\end{equation}
+In the special case where $b(s)\equiv 0$, then the equation is 
+$\lambda^2 +\alpha \lambda +1\,=\,0$. We have then 
+
+\noindent
+(i) If $-2 < \alpha <2$ then the Floquet multipliers $\lambda$ and ${\bar \lambda}$ are complex
+conjugate with modulus $1$ and therefore the solutions are bounded for
+all $t>0$.
+
+\noindent
+(ii) If $\alpha >2$ or $\alpha <-2$, at least one eigenvalue of $C$ has 
+modulus greater than $1$ and there exists solutions 
+such that $|x(t)|^2 + |x'(t)|^2$ goes to infinity as $t$ goes to infinity.  
+
+\noindent
+(iii) If $\alpha=-2$, then $\lambda=1$ is the eigenvalue of $C$ and
+therefore there exists a periodic solution of period $p$. 
+If $\alpha =2$ then $\lambda=-1$ is the eigenvalue of $C$ and
+therefore there exists a periodic solution of period $2p$. 
+}
+\end{example}
+
+
+
+\section{Linearization}
+
+Let us consider the solution $x(t,t_0,x_0)$ of the Cauchy problem 
+$x'=f(t,x)$, $x(t_0)=x_0$. Let $\xi \in \bR^n$ and let us now consider 
+the solution $x(t,t_0,x_0+\xi)$. As we have seen in Section 
+\ref{wellposed} the function $\xi \mapsto x(t,t_0,x_0+\xi)$ is 
+continuous, in fact Lipschitz continuous, provided $f$ is continuous 
+and satisfy a Lipschitz condition.  If we assume $f$ to be of class $\calC^1$, it is natural 
+to ask whether the map  $\xi \mapsto x(t,t_0,x_0+\xi)$ is of class $\calC^1$? 
+If this is the case we have  the Taylor expansion 
+\begin{equation}\label{linz}
+x(t,t_0, x_0+\xi) \,=\, x(t,t_0, x_0) + \frac{\partial x}{\partial x_0} 
+(t,t_0,x_0) \xi +o(\|\xi\|) \,,
+\end{equation}
+where $o(\|\xi\|)$ stands for a function with $\lim_{\|\xi\|\to 0}
+o(\|\xi\|)/\|\xi\| =0$. The right hand side of \eqref{linz} without 
+the $o(\|\xi\|)$ term is called  the {\em linearization} around the 
+solution $x(t,t_0,x_0)$. 
+
+
+To obtain an idea of the form of the derivative 
+$\frac{\partial x}{\partial x_0}(t,t_0,x_0)$ we write the Cauchy
+problem as
+\begin{equation}
+\frac{\partial x}{\partial t}(t,t_0,x_0) \,=\, f(t, x(t,t_0,x_0))\,,
+\quad x(t_0, t_0, x_0) = x_0\,,
+\end{equation} 
+and differentiate {\em formally} with respect to $x_0$. Exchanging the
+derivatives with respect to $t$ and $x_0$ we find
+\begin{equation}
+\frac{\partial }{\partial t}\frac{\partial x}{\partial
+x_0}(t,t_0,x_0) \,=\, \frac{\partial f}{\partial x}(t, x(t,t_0,x_0))
+\frac{\partial x}{\partial x_0}(t,t_0,x_0) \,, \quad \frac{\partial
+x}{\partial x_0}(t_0, t_0, x_0) = I \,.
+\end{equation} 
+This formal calculation shows that the $n\times n$ matrix 
+$\frac{\partial x}{\partial x_0}(t,t_0,x_0)$ is a solution of the 
+linear equation
+\begin{equation}\label{vareq}
+\Psi' \,=\, \frac{\partial f}{\partial x}(t, x(t,t_0,x_0)) \Psi\,, \quad 
+\Psi(t_0) = I \,.
+\end{equation}
+This equation is called the {\em variational equation} for the 
+Cauchy problem $x'=f(t,x)$, $x(t_0)=x_0$. It is a linear equation of
+the form $y'=A(t ; t_0,x_0)y$, where the matrix $A$ depends on the
+parameters $(t_0,x_0)$.  The resolvent also depends on this parameters
+and let us denote it by $R(t,s; t_0,x_0)$.  The formal calculation shows
+that
+\begin{equation}
+\frac{\partial x}{\partial x_0}(t,t_0,x_0)\,=\, R(t,t_0; t_0,x_0) \,.
+\end{equation}
+
+
+Before we prove that this formal computation is actually correct let
+us consider a number of important special cases and example
+
+\begin{example}{\bf (Linearization around equilibrium solutions)}{\rm 
+Let us assume that the ODE is autonomous, $f(t,x)=f(x)$ with $f$ of class $\calC^1$ 
+and  that $a$ is a critical point, i.e., $f(a)=0$. The constant solution
+$x(t,0,a)=a$ is a solution.  The variational equation is then
+\begin{equation}
+\Psi' \,=\, \frac{df}{dx}(a)\Psi\,, \quad \Psi(0)=I \,, 
+ \end{equation}
+whose solution is $e^{tA}$ where $A=\frac{df}{dx}(a)$. Therefore, 
+for small $\xi$, we have 
+\begin{equation}
+x(t,0, a+\xi)\,=\, a + e^{tA} \xi +o(\|\xi\|)  \,.
+\end{equation}
+}
+\end{example}
+
+\begin{example}\label{mathpend0}{\rm Consider the mathematical pendulum 
+$x''+\sin(x)\,=\,0$ or
+\begin{eqnarray} 
+x'\,&=&\, y \,,\nn \\
+y'\,&=&\, -\sin(x)  \,.
+\end{eqnarray}
+There are two equilibrium solution $a=(\pi, 0)^T$ and $b= (0, 0)^T$
+(the first component modulo $2\pi$).  The linearization around $a$ and
+$b$ gives, for small $\xi$,
+\begin{equation}
+z(t,0,(\pi,0)^T+\xi )\,\approx \, 
+\left(\begin{array}{c}\pi \\ 0 \end{array} \right)  + e^{At} \xi \,, 
+\quad A\,=\, \left( \begin{array}{cc} 0 & 1 \\ 1 & 0 \end{array} \right) \,,
+\end{equation}
+where $A$ has eigenvalues $\pm 1$ and 
+\begin{equation}
+z(t,0,\xi) \,\approx \, \left(\begin{array}{c} 0 \\ 0 \end{array} \right) +
+e^{Bt} \xi \,, \quad B\,=\, \left( \begin{array}{cc} 0 & 1 \\ -1 & 0
+\end{array} \right)
+\end{equation}
+where $B$ has eigenvalues $\pm i$. 
+
+}
+\end{example}
+
+
+
+\begin{example}{\bf (Linearization around a periodic solution)}
+{\rm Let us assume that the nonlinear equation $x' = f(x)$ has a periodic solution
+$x(t,0,x_0)=\phi(t)$. If we linearize around this periodic solution the variational 
+equation is given by 
+\begin{equation}\label{varper}
+x'\,=\, \frac{df}{dx} (\phi(t)) x \,.
+\end{equation}
+which is a linear equation with periodic coefficients that we can analyze using Floquet 
+theory of Section \ref{floquettheory}. 
+
+
+An important fact is the following. If $\phi(t)$ is  aperiodic solution then  
+$\phi'(t)$ is a solution of the variational equation \eqref{varper}. Indeed we have 
+\begin{equation}
+\phi''(t)\,=\, \frac{d}{dt} f(\phi(t)) \,=\, 
+\frac{df}{dx}(\phi(t)) \phi'(t) \,.
+\end{equation} 
+In particular, in two dimensions, if $\phi(t)$ is known explicitly, 
+this can be used to solve the variational  equation, 
+using D'Alembert reduction method (see exercises). 
+}
+\end{example}
+
+\begin{example}{\rm  
+The second order equation $x'' + f(x)x' + g(x) =0$ has, under suitable
+conditions (see Chapter \ref{pb}) a periodic solution $\phi(t)$. In
+this case the variational equation is given by
+\begin{eqnarray}
+x'\,&=&\, y \,, \nn \\
+y'\,&=&\, -\left(f(\phi(t))\phi'(t) +g'(\phi(t))\right)x - f(\phi(t))y\,.
+\end{eqnarray}
+and has the form $x'' + b(t)x' + a(t) =0$, where $a(t)$ and $b(t)$ are
+periodic functions.
+}
+\end{example}
+
+
+\begin{example}{\rm 
+ The system 
+\begin{eqnarray}
+x' \,&=&\, -y + x( 1- x^2 - y^2) \,, \\ 
+y' \,&=&\, x + y( 1- x^2 - y^2) \,, \\
+z' \,&=&\,z  \,. \label{per001}
+\end{eqnarray}
+has a periodic orbit in the $x,y$ plane given by  $(\cos(t), \sin(t), 0)^T$. 
+This can be verified by direct computation or be deduced by choosing 
+cylindrical coordinates $(r,\theta, z)$ and showing that the system \eqref{per001}
+is equivalent to 
+\begin{eqnarray}
+r' \,&=&\, r(1-r^2) \,, \\ 
+\theta' \,&=&\, 1, \\
+z' \,&=&\,z  \,. \label{per01}
+\end{eqnarray}
+The linearization around the periodic orbit gives the variational equation 
+\begin{equation}
+\Psi' \,=\, \left(  \begin{array}{ccc} -2 \cos^2(t)  & -1 -2 \cos(t) \sin(t) & 0  \\ 
+1 -2 \cos(t) \sin(t)  & -2 \sin^2(t) & 0 \\ 0 & 0 & 1 \end{array}
+\right) \Psi
+\end{equation}
+Using the fact that $\phi'(t) \,=\, (-\sin(t), \cos(t), 0)$ is a solution, one can compute 
+the solution of the variational equation (see exercises). 
+}
+\end{example}
+
+
+\begin{theorem}\label{smoothdep} 
+Let $U \subset \bR \times \bR^n$ be an open set, $f\,:\, 
+U \to \bR^n$ be continuous. Assume that $\frac{\partial f}{\partial
+x}(t,x)$ exists and is continuous on $U$.  Then the solution
+$x(t,t_0,x_0)$ of $x'=f(x)$, $x(t_0)=x_0$ is continuously
+differentiable with respect to $x_0$ and its derivative 
+$\frac{\partial x}{\partial x_0}(t,t_0,x_0)$ is a solution of 
+the variational equation
+\begin{equation}\label{vvee}
+\Psi' \,=\, \frac{\partial f}{\partial x}(t, x(t,t_0,x_0)) \Psi\,, \quad 
+\Psi(t_0) = I \,.
+\end{equation}
+\end{theorem}
+
+
+\proof For given $(t,t_0,x_0)$ let us choose $[a,b] \subset I_{\max}$
+such that $t,t_0 \in (a,b)$.  Let $\xi \in \bR^n$, we need to show
+that for fixed $(t,t_0,x_0)$, 
+%$x(t,t_0,x_0) + R(t,t_0,t_0,x_0)\xi$
+%approximates $x(t,t_0,x_0+\xi)$, i.e., that
+\begin{equation}
+x(t,t_0,x_0+\xi) - x(t,t_0,x_0) - R(t,t_0;t_0,x_0)\xi \,=\, 
+o(\|\xi\|)\,,
+\end{equation}
+where $o(\|\xi\|)/\|\xi\| \to 0$ as $\xi \to 0$. 
+The integral equations for 
+$x(t,t_0,x_0+\xi)$, $x(t,t_0,x_0)$ and $R(t,t_0;t_0,x_0)\xi$ 
+are respectively 
+\begin{eqnarray}
+x(t,t_0,x_0+\xi)\,&=&\, x_0 +\xi + \int_{t_0}^t
+f(s,x(s,t_0,x_0+\xi))\, ds \nn \\ x(t,t_0,x_0)
+\,&=&\, x_0 + \int_{t_0}^t f(s,x(s,t_0,x_0))\, ds \nn \\ 
+R(t,t_0;t_0,x_0)\xi \,&=&\, \xi + \int_{t_0}^t \frac{\partial f}
+{\partial x} (s,x(s,t_0,x_0))
+R(s,t_0; t_0, x_0)\xi \,ds
+\end{eqnarray}
+By Theorem \ref{contdep}, there exists a constant $D$ such that 
+$\|x(s,t_0,x_0+\xi) - x(s,t_0,x_0)\| \le D \|\xi \|$ for $t_0 \le s \le t$
+provided $\|\xi\|$ is small enough and thus  we have 
+\begin{equation}
+o(\|x(s,t_0,x_0+\xi) - x(s,t_0,x_0)\|) = o( \|\xi\|)\,.
+\end{equation}   
+
+We use the Taylor approximation
+\begin{equation}
+f(s,z)-f(s,y) - \frac{\partial f}{\partial x}(s,y)(z-y) \,=\, o(\|z-y\|) \,,  
+\end{equation}
+and we can take the right hand side to be uniform in $(s,y)$ in any compact set  
+$K$ since $f$ is of class $\calC^1$ and will apply it to  $z= x(s,t_0,x_0+\xi)$ and $y=x(s,t_0,x_0)$ with $t_0\le s\le t$. 
+   
+
+
+Using these estimates with the integral equations we obtain that 
+\begin{eqnarray}
+&& \| x(t,t_0,x_0+\xi) - x(t,t_0,x_0) - R(t,t_0;t_0,x_0)\xi \| \nn \\
+&& \!\!\,\le \,\int_{t_0}^t \frac{\partial f}{\partial x} (s,
+x(s,t_0,x_0)) ( x(s,t_0,x_0+\xi) - x(s,t_0,x_0) - R(s,t_0;t_0,x_0)\xi)
+\,ds \nn \\
+&& \!\!\! \,+\,\int_{t_0}^t o( \|x(s,t_0,x_0+\xi) - x(s,t_0,x_0)\|) \,ds \,. \nn \\
+&& \,\le \, C \int_{t_0}^t \|  x(s,t_0,x_0+\xi) - x(s,t_0,x_0) - 
+R(s,t_0;t_0,x_0)\xi \| \,ds  +  (b-a) o(\|\xi\|) \,, \nn
+\end{eqnarray}  
+where $C = \sup_{ s \in [a,b]} \left\{ \left\| \frac{\partial f}{\partial x} 
+(s,x(s,t_0,x_0))\right \| \right\}$. 
+By Gronwall Lemma we conclude that 
+\begin{equation}
+\| x(t,t_0,x_0+\xi) - x(t,t_0,x_0) - R(t,t_0;t_0,x_0)\xi \| \le 
+(b-a) e^{C(b-a)} o(\|\xi\|)=o(\|\xi\|) \,,
+\end{equation}
+and this shows that the derivative exists and satisfies the variational 
+equation.  It remains to show that the derivative 
+$\frac{\partial x}{\partial x_0}(t,t_0,x_0)$ is a continuous function. 
+We cannot apply Theorem \ref{contdep} directly, 
+since $(t_0,x_0)$ are not the initial conditions for 
+the variational equation, but are parameters of the equation. 
+We will show this in Lemma \ref{supplem}. \hfill \qed
+ 
+\begin{lemma}\label{supplem} Let $I$ is an open interval and
+$V$ an open set in $\bR^q$. Assume that $A(t;c)$ is continuous on $I
+\times V$.  Then the resolvent $R(t,t_0;c)$ for the differential
+equation $x'=A(t;c)x$ is a continuous function of $c$.
+\end{lemma}
+
+\proof  The proof is a special case of the continuous dependence of solutions on parameters (see exercises). 
+%For given $(t,t_0)$, let us choose $[a,b] \subset I$ such that
+%$t, t_0 \in (a,b)$.  Given $\epsilon >0$, let $\delta$ be such that
+%$\|A(t;c_1) -A(t;c)\| \le \epsilon$ whenever $c_1 \in B_\delta(c)$.
+%Furthermore, see Theorem \ref{exunli}, for $c_1 \in B_\delta(c)$ we
+%have $\sup_{t,t_0 \in [a,b]}\|R(t,t_0,c_1)\| \le e^{(b-a)L}$ where $L
+%=\sup_{c_1 \in B_\delta(c)}\sup_{t \in [a,b]} \|A(t;c_1)\|$.
+%\begin{eqnarray}
+%&& R(t,t_0;c_1) - R(t,t_0;c)\,=\, \int_{t_0}^t A(s,c_1) R(s,t_0,c_1) -
+%A(s,c) R(s,t_0,c) \nn \\ 
+%&&\,=\, \int_{t_0}^t (A(s,c_1) - A(s,c))
+%R(s,t_0,c) + A(s,c_1) (R(s,t_0,c_1) - R(s,t_0,c)) \, ds \,.
+%\end{eqnarray}
+%and thus 
+%\begin{equation}
+%\|R(t,t_0,c_1) - R(t,t_0c)\| \,\le \, \epsilon(b-a) e^{L(b-a)} +
+%L \int_{t_0}^t \| R(s,t_0,c_1) -
+%R(s,t_0c)\|\,.
+%\end{equation}
+%By Gronwall lemma we have 
+%\begin{equation}
+%\|R(t,t_0,c_1) - R(t,t_0c)\| \le \epsilon(b-a) e^{2L(b-a)} \,,
+%\end{equation}
+%for all $t,t_0 \in [a,b]$ which proves the Lemma.  \hfill \qed
+ 
+Note that if  the ODE is autonomous we obtain
+\begin{corollary} Let $f: \bR^n \to \bR^n$  be of class $\calC^1$ and  
+let us assume that the solutions of $x'=f(x)$ exist for all
+time. Then, for any t, the maps $\phi^t \,:\, \bR^n \to \bR^n$ are of
+class $\calC^1$ and so $\phi^t$ defines a $\calC^1$ dynamical system, i.e. a group 
+of diffeomorphisms. 
+\end{corollary}
+
+
+We discuss next the smooth dependence with respect to parameters and with respect to $t_0$.
+Let us consider a Cauchy problem $x'=f(t,x,c)$ where $f\,:\, U \to
+\bR^n$ is differentiable with respect to $x$ and $c$ ($U$ is an open
+set of $\bR\times \bR^n \times \bR^q$).  The solution is denoted 
+$x(t,t_0,x_0,c)$
+
+In order to study the differentiability with respect to the parameters $c$ 
+we consider the extended system
+\begin{equation}
+\left( \begin{array}{cc} x \\ c \end{array} \right)^{'} \,=\, \left(
+\begin{array}{cc} f(t,x,c) \\ 0 \end{array} \right) \,, \quad \left(
+\begin{array}{cc} x \\ c \end{array} \right)(t_0) \,=\, \left(
+\begin{array}{cc} x_0 \\ c \end{array} \right)
+\end{equation}
+If we set $z=(x,c)^T$ and $F(t,z)= (f(t,x,c) , 0)^T$, then this system
+becomes $z'=F(t,z)$, $z(0)=(x_0,c)^T$ and $c$ appears only in the
+initial condition. Therefore we can apply Theorem \ref{smoothdep}. The
+function $z(t,t_0,z_0)$ is continuously differentiable with respect to 
+$z_0=(x_0,c)$ and therefore $x(t,t_0,x_0,c)$ is continuously
+differentiable with respect to $c$.  By deriving the equation
+\begin{equation}
+\frac{\partial x}{\partial t}(t,t_0,x_0,c) \,=\, f(t, x(t,t_0,x_0,c),
+c) \,, \quad x(t_0,t_0,x_0,c)\,=\, x_0
+\end{equation}
+with respect to $c$ we find a linear inhomogeneous equation for
+$\Psi(t) \,=\, \frac{\partial x}{\partial c}(t,t_0,x_0,c)$: 
+\begin{equation}
+\Psi' \,=\, \frac{\partial f}{\partial x}(t, x(t,t_0,x_0,c) ,c) \Psi +
+\frac{\partial f}{\partial c}(t,x(t,t_0,x_0,c),c) \,, \quad \Psi(0)=0
+\,.
+\end{equation}
+
+\begin{example}{\rm  
+The solution of the problem  
+\begin{equation}
+x' \,=\, f(t,x) + \epsilon g(t,x)\,, \quad x(t_0)=x_0 \,.
+\end{equation}
+is given, for small $|\epsilon|$ by $x(t,\epsilon)=x_0(t) + \epsilon
+x_1(t) + o(\epsilon)$ where
+\begin{eqnarray}
+x'_0(t) \,&=&\, f(t, x_0(t)) \,, \quad x(t)\,=\,x_0 \,, \nn \\
+x'_1(t)\,&=&\, \frac{\partial f}{\partial x} (t, x_0(t)) x_1(t) + 
+g(t, x_0(t))\,, \quad x_1(t)\,=\,0 \,.
+\end{eqnarray}
+If we solve the first equation and find $x_0(t)$, the second equation
+is a linear inhomogeneous equation for $x_1(t)$ }
+\end{example}
+
+\begin{example}{\rm
+Consider the equation $x' + x - \epsilon x^3$ with $x(0)=1$. 
+For $\epsilon =0$ the solution is  
+$x_0(t)=e^{-t}$. Expanding  around this solution we find that $x(t) = x_0(t) 
++ \epsilon x_1(t) +  o(\epsilon)$ where $x_1(t)$ is a solution of 
+\begin{equation}
+x'_1 \,=\,  - x_1 + e^{-3t} \,, \quad x_1(0)=0 
+\end{equation}
+so that   $x(t) \,=\, e^{-t} + \epsilon(  e^{-t} - \frac{1}{2}e^{-3t}) 
++ o(\epsilon)$. 
+}
+\end{example}
+
+
+Let us assume that $f(t,x)$ is continuously differentiable with
+respect to $t$ and $x$. Let us consider the extended system
+\begin{equation}
+\left( \begin{array}{cc} x \\ t \end{array} \right)^{'} \,=\, \left(
+\begin{array}{cc} f(t,x) \\ 1 \end{array} \right) \,, \quad \left(
+\begin{array}{cc} x \\ t \end{array} \right)(t_0) \,=\, \left(
+\begin{array}{cc} x_0 \\ t_0 \end{array} \right)
+\end{equation}
+If we set $z=(x,t)^T$ and $F(z)= (f(t, x) , 1)^T$, then this system
+becomes $z'=F(z)$, $z(t_0)=(x_0,t_0)^T$ and the dependence on $t_0$
+can be studied as
