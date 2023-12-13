@@ -12,4 +12,6 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 <https://luc-umass.github.io/pdf/ql2.pdf>
 
+<https://luc-umass.github.io/pdf/ql3.pdf>
 
+<https://pdf/ql3.pdf>
