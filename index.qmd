@@ -1,5 +1,6 @@
 ---
 title: "Mywebsite"
+resources: pdf/ql2.pdf
 ---
 
 This is a Quarto website.
