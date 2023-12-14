@@ -7,22 +7,21 @@ title: "Publications of Luc Rey-Bellet"
 </cite>	Helvetica Physica Acta <b>69</b> (1996), 5-6, pp. 752--820.  
 <a class="DOI" href="http://doi.org/10.5169/seals-116979">  DOI: 10.5169/seals-116979 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1428028"> MR1428028 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/ql2.pdf"> Reprint in PDF</a> &ensp;
-<a class="reprint" href=":qld2.pdf"> Reprint</a>
+<a class="reprint" href="pdf/ql2.pdf"> Reprint in PDF</a> &ensp;
 
 
 2. Jürg Fröhlich and Luc Rey-Bellet, 
 <cite>  Low-temperature phase diagrams of quantum lattice systems. III. Examples, </cite> Helvetica Physica Acta <b>69</b> (1996), 5-6, pp. 821--849.     
 <a class="DOI" href="http://doi.org/10.5169/seals-116980">  DOI: 10.5169/seals-116980  </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1428029"> MR1428029  </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/ql3.pdf"> Reprint in PDF</a>
+<a class="reprint" href="pdf/ql3.pdf"> Reprint in PDF</a>
 
 3.  Jean-Pierre Eckmann, Claude-Alain Pillet, and Luc Rey-Bellet, <cite> Non-equilibrium statistical mechanics of anharmonic chains coupled to two heat 
 baths at different temperatures, </cite> 
 Communications in Mathematical Physics <b> 201</b> (1999), no. 3, pp. 657--697.  
 <a class="DOI" href="https://doi.org/10.1007/s002200050572">  DOI: 10.1007/s002200050572  </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1685893">MR1685893 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/epr1.pdf">Reprint in PDF</a> 
+<a class="reprint" href="pdf/epr1.pdf">Reprint in PDF</a> 
 
 4.  Jean-Pierre Eckmann, Claude-Alain Pillet, and Luc Rey-Bellet,
 <cite> 
@@ -31,7 +30,7 @@ Entropy production in non-linear, thermally driven Hamiltonian systems,
 Journal of Statistical Physics <b>95</b> (1999), no. 1-2, pp. 305--331.   
 <a class="DOI" href="https://doi.org/10.1023/A:1004537730090">  DOI:10.1023/A:1004537730090  </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1705589"> MR1705589 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/epr2.pdf">Reprint in PDF</a>
+<a class="reprint" href="pdf/epr2.pdf">Reprint in PDF</a>
 
 
 5. Lawrence E. Thomas and Luc Rey-Bellet,

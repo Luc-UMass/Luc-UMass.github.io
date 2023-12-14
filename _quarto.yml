@@ -5,7 +5,7 @@ project:
 website:
   title: "Home page of Luc Rey-Bellet"
   sidebar:
-    style: "docked"
+    style: "floating"
     search: true
     contents:
       - section: "Publications"

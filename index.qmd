@@ -1,18 +1,14 @@
 ---
 title: "Luc Rey-Bellet, Mathematics and Statistics, UMass  Amherst"
-resources: 
-    - pdf/ql2.pdf
-    - pdf/ql3.pdf
 ---
 
 
-[ql3.pdf](images/akpr.pdf)
 
 
 <https://luc-umass.github.io/pdf/ql3.pdf>
 
 
-[ql3.pdf](pdf/akpr.pdf)
+
 
 [ql3.pdf](pdf/ql3.pdf)
 
