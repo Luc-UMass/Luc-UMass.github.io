@@ -8,13 +8,8 @@ resources:
 
 [ql3.pdf](images/akpr.pdf)
 
-<https://luc-umass.github.io/pdf/ql2.pdf>
-
-<https://luc-umass.github.io/pdf/ql2.pdf>
 
 <https://luc-umass.github.io/pdf/ql3.pdf>
-
-
 
 [ql3.pdf](pdf/ql3.pdf)
 
