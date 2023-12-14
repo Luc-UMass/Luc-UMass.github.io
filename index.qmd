@@ -6,11 +6,9 @@ resources:
 ---
 
 
+[ql3.pdf](images/akpr.pdf)
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
+<https://luc-umass.github.io/pdf/ql2.pdf>
 
 <https://luc-umass.github.io/pdf/ql2.pdf>
 
@@ -32,13 +30,14 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 Statistical Mechanics, Applied Probability, Game Theory, Uncertainty Quantification, and Machine Learning.  
 
-<p>A detailed <a href="https://people.math.umass.edu/%7Elr7q/ps_files/curriculum.pdf">CV</a> </p>
+A detailed [CV](https://people.math.umass.edu/%7Elr7q/ps_files/curriculum.pdf)
 
-<p><a href="http://scholar.google.com/citations?user=GElhocQAAAAJ&amp;hl=en">Google Scholar</a> <img src="images/GoogleScholar.jpeg" width="40" height="35" >
-<a href="http://www.researchgate.net/profile/Luc_Rey-Bellet">Research Gate</a>    <img src="images/ResearchGate.png" width="32" height="25" >
-<a href="https://arxiv.org/search/?query=rey-bellet&amp;searchtype=author&amp;source=header">Papers on ArXiv</a>    <img src="images/ArXiv.png" width="50" height="25" >
-<a href="https://mathscinet.ams.org/mathscinet/MRAuthorID/614960">MathSciNet</a> <img src="images/MathSciNet.png" width="40" height="35" >
-<a href="https://orcid.org/0000-0003-1166-8957">Orcid </a><img src="images/ORCID.jpeg" width="50" height="25" ></p>
+
+[Google Scholar](http://scholar.google.com/citations?user=GElhocQAAAAJ&amp;hl=en) <img src="images/GoogleScholar.jpeg" width="40" height="35" >
+[Research Gate](http://www.researchgate.net/profile/Luc_Rey-Bellet)    <img src="images/ResearchGate.png" width="32" height="25" >  
+[Arxiv](https://arxiv.org/search/?query=rey-bellet&amp;searchtype=author&amp;source=header)     <img src="images/ArXiv.png" width="50" height="25" >
+[Mathscinet](https://mathscinet.ams.org/mathscinet/MRAuthorID/614960) <img src="images/MathSciNet.png" width="40" height="35" >
+[Orcid](https://orcid.org/0000-0003-1166-8957)<img src="images/ORCID.jpeg" width="50" height="25" ></p>
 
 
 :::
@@ -50,7 +49,7 @@ Statistical Mechanics, Applied Probability, Game Theory, Uncertainty Quantificat
 ::: {.column width="55%"}
 
 
-<h2 id="toc_2">Contact information  <img src="logo/Umass.png" width="35" height="35"></h2>
+<h2 id="toc_2">Contact information   ![](images/Umass.png){width=0.5in}    <img src="images/Umass.png" width="35" height="35"></h2>
 
 **Mailing Address**:  
 [Department of Mathematics &amp; Statistics](http://www.math.umass.edu)  
@@ -62,7 +61,7 @@ Amherst, MA 01003-9305, USA
 
 **Office:** LGRT 1423 K  
 **Office Phone:** 413 545 6020  
-**Email:** <luc@math.umass.edu> or  <luc.reybellet@gmail.com>
+**Email:** <luc@math.umass.edu> or  <luc.reybellet@gmail.com>  
 
 
 

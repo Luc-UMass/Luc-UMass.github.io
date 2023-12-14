@@ -21,11 +21,10 @@ website:
         contents:
           - teachging.qmd
       
-      - about.qmd      
-  
+      - about.qmd        
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
     toc: true
 
