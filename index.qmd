@@ -1,23 +1,12 @@
 ---
-title: "Luc Rey-Bellet, Mathematics and Statistics, UMass  Amherst"
+title: "Luc Rey-Bellet"
 ---
-
-
-
-
-<https://luc-umass.github.io/pdf/ql3.pdf>
-
-
-
-
-[ql3.pdf](pdf/ql3.pdf)
-
 
 :::: {.columns}
 
-::: {.column width="40%"}
+::: {.column width="42%"}
 
-![](/images/luc.png){width=75%}
+![](/images/luc.png){width=50%}
 
 
 <h2 id="toc_7">Research Interests</h2>
@@ -25,7 +14,6 @@ title: "Luc Rey-Bellet, Mathematics and Statistics, UMass  Amherst"
 Statistical Mechanics, Applied Probability, Game Theory, Uncertainty Quantification, and Machine Learning.  
 
 A detailed [CV](https://people.math.umass.edu/%7Elr7q/ps_files/curriculum.pdf)
-
 
 [Google Scholar](http://scholar.google.com/citations?user=GElhocQAAAAJ&amp;hl=en) <img src="images/GoogleScholar.jpeg" width="40" height="35" >
 [Research Gate](http://www.researchgate.net/profile/Luc_Rey-Bellet)    <img src="images/ResearchGate.png" width="32" height="25" >  
@@ -36,19 +24,27 @@ A detailed [CV](https://people.math.umass.edu/%7Elr7q/ps_files/curriculum.pdf)
 
 :::
 
-::: {.column width="5%"}
+::: {.column width="3%"}
 <!-- empty column to create gap -->
 :::
 
 ::: {.column width="55%"}
 
+Professor at University of Massachusetts Amherst
 
-<h2 id="toc_2">Contact information   ![](images/Umass.png){width=0.5in}    <img src="images/Umass.png" width="35" height="35"></h2>
+<h2>Education  </h2>
+
+Dipl. Phys. (1998), [Eidgenössiche Technische Hochschule Zürich](https://www.ethz.ch)  
+Ph.D in Mathematics, [Université de Genève](https://www.unige.ch)
+
+
+
+<h2>Contact information   ![](images/Umass.png){width=0.5in}  </h2>
 
 **Mailing Address**:  
-[Department of Mathematics &amp; Statistics](http://www.math.umass.edu)  
+[Department of Mathematics &amp; Statistics](https://www.math.umass.edu)  
 Lederle Graduate Research Tower  
-[University of Massachusetts](http://www.umass.edu)  
+[University of Massachusetts](https://www.umass.edu)  
 710 N. Pleasant Street  
 Amherst, MA 01003-9305, USA  
 
@@ -56,10 +52,6 @@ Amherst, MA 01003-9305, USA
 **Office:** LGRT 1423 K  
 **Office Phone:** 413 545 6020  
 **Email:** <luc@math.umass.edu> or  <luc.reybellet@gmail.com>  
-
-
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2946.590106123845!2d-72.53026192381934!3d42.393877671189806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e6d27a14795047%3A0xc76f76aee8c12de1!2sLederle%20Graduate%20Research%20Tower%2C%20Amherst%2C%20MA%2001002!5e0!3m2!1sen!2sus!4v1702310761681!5m2!1sen!2sus" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
 :::

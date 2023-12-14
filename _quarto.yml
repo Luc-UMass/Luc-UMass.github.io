@@ -3,11 +3,14 @@ project:
   output-dir: docs
   
 website:
-  title: "Home page of Luc Rey-Bellet"
+  google-analytics: G-PP012BY7MS
   sidebar:
-    style: "floating"
+    style: "docked"
     search: true
     contents:
+      - section: "Home page"
+        contents:
+           - index.qmd
       - section: "Publications"
         contents:
           - text: Articles 
@@ -19,9 +22,8 @@ website:
      
       - section: "Teaching"
         contents:
-          - teachging.qmd
-      
-      - about.qmd        
+          - teaching.qmd
+         
 format:
   html:
     theme: flatly

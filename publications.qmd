@@ -210,8 +210,7 @@ Journal of Scientific Computing <b>37</b/> (2008), no.1, pp. 43--71.
 
 
 
-1.
-Sasanka Are, Markos Katsoulakis, Petr Plecháč, and Luc Rey-Bellet,
+1. Sasanka Are, Markos Katsoulakis, Petr Plecháč, and Luc Rey-Bellet,
 <cite>
 Multi-body interactions in coarse-graining schemes of extended systems, 
 </cite> 
