@@ -11,6 +11,9 @@ resources:
 
 <https://luc-umass.github.io/pdf/ql3.pdf>
 
+
+[ql3.pdf](pdf/akpr.pdf)
+
 [ql3.pdf](pdf/ql3.pdf)
 
 
