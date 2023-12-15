@@ -40,7 +40,7 @@ Asymptotic behavior of thermal non-equilibrium  steady states for a driven chain
 Communications in Mathematical Physics <b>215</b> (2000), no.1, pp. 1--24.   
 <a class="DOI" href="https://doi.org/10.1007/s002200000285">  DOI: 10.1007/s002200000285 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1799873"> MR1799873 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/larry1.pdf">Reprint in PDF</a> 
+<a class="reprint" href="pdf/larry1.pdf">Reprint in PDF</a> 
 
 6. Federico Bonetto, Joel  Lebowitz, and Luc Rey-Bellet, 
 <cite>
@@ -49,7 +49,7 @@ Fourier Law: A challenge to theorists,
 In: Mathematical Physics 2000,  A. Fokas, A. Grigoryan, T. Kibble, and  B. Zegarlinski  (Eds.) Imperial College Press, London 2000, pp. 128--150.   
 <a class="DOI" href="https://doi.org/10.1142/9781848160224_0008">  DOI:10.1142/9781848160224_0008  </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1773043"> MR1773043 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/blr.pdf">  Reprint in PDF </a>
+<a class="reprint" href="pdf/blr.pdf">  Reprint in PDF </a>
 
 7. Jürg Fröhlich, Luc Rey-Bellet, and Daniel Ueltschi, 
 <cite>
@@ -58,7 +58,7 @@ Quantum lattice systems at intermediate temperature,
 Communications in Mathematical Physics <b>224</b> (2001), no. 1, pp. 33--63.  
 <a class="DOI" href="https://doi.org/10.1007/s002200100530">  DOI: 10.1007/s002200100530 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1869003"> MR1869003 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/fru.pdf">Reprint in PDF</a>
+<a class="reprint" href="pdf/fru.pdf">Reprint in PDF</a>
 
 
 8. Lawrence E. Thomas and Luc Rey-Bellet,
@@ -68,7 +68,7 @@ Exponential convergence to non-equilibrium stationary states in classical  stati
 Communications in Mathematical Physics <b>225</b> (2002), no.1, pp. 305--329.   
 <a class="DOI" href="https://doi.org/10.1007/s002200100583">  DOI: 10.1007/s002200100583 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1889227"> MR1889227 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/larry2.pdf">Reprint in PDF</a>
+<a class="reprint" href="pdf/larry2.pdf">Reprint in PDF</a>
 
 9. Lawrence E. Thomas and Luc Rey-Bellet,
 <cite>
@@ -76,8 +76,7 @@ Fluctuations of the entropy production in anharmonic chains,
 </cite>
 Annales Henri Poincar&eacute; <b> 3 </b>(2002), no.3, pp. 483--502.  
 <a class="DOI" href="https://doi.org/10.1007/s00023-002-8625-6">  DOI: 10.1007/s00023-002-8625-6 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1915300"> MR1915300 </a> &ensp;  
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/larry3.pdf">Reprint in PDF</a>
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1915300"> MR1915300 </a> &ensp; <a class="reprint" href="pdf/larry3.pdf">Reprint in PDF</a>
 
 10. Luc Rey-Bellet
 <cite>
@@ -87,7 +86,7 @@ In: Advances in Differential Equations and Mathematical Physics,
 AMS Contemporary Mathematics Series <b>327</b> (2003), pp. 283--298.   
 <a class="DOI" href="">  DOI:  </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1991548"> MR1991548 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/uab.pdf"> Reprint in PDF </a>
+<a class="reprint" href="pdf/uab.pdf"> Reprint in PDF </a>
 
 
 11.  Lawrence E. Thomas and Luc Rey-Bellet,
@@ -97,7 +96,7 @@ Low regularity solutions to a gently stochastic nonlinear wave equation in noneq
 Stochastic Processes and  their Applications  <b>115</b> (2005), no.6, pp. 1041--1059. (2005).  
 <a class="DOI" href="https://doi.org/10.1016/j.spa.2005.02.003">  DOI: 10.1016/j.spa.2005.02.003  </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2138813"> MR2138813 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/larry4reprint.pdf"> Reprint in PDF</a>
+<a class="reprint" href="pdf/larry4reprint.pdf"> Reprint in PDF</a>
 
 
 1. Marco Lenci and Luc Rey-Bellet, 
@@ -107,7 +106,7 @@ Large deviations in quantum lattice systems: one phase region,
 Journal of Statistical Physics  <b>119</b> (2005), no. 3-4, pp. 715--746.   
 <a class="DOI" href="https://doi.org/10.1007/s10955-005-3015-3">  DOI: 10.1007/s10955-005-3015-3 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2151220"> MR2151220 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/marco1reprint.pdf"> Reprint in PDF </a>
+<a class="reprint" href="pdf/marco1reprint.pdf"> Reprint in PDF </a>
 
 
 
@@ -118,7 +117,7 @@ Nonequilibrium statistical mechanics of open classical systems,
 In:  XIVth International Conference on Mathematical Physics, Lisbon, Portugal, 28 July -- 2 August 2003,  World Scientific 2006, pp. 447--454   
 <a class="DOI" href="https://doi.org/10.1142/9789812704016_0043">  DOI: 10.1142/9789812704016_0043 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2227858"> MR2227858 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/lisbon.pdf"> PDF file</a>
+<a class="reprint" href="pdf/lisbon.pdf"> PDF file</a>
 
 
 
@@ -129,7 +128,7 @@ Ergodic Properties of Markov Processes,
 In: Quantum Open Systems II. The Markovian approach. St&eacute;phane Attal, Alain Joye,  Claude-Alain Pillet (Eds.), Lecture Notes in Mathematics 1881, Berlin: Springer, 2006, pp. 1--39.   
 <a class="DOI" href="https://doi.org/10.1007/3-540-33966-3_1">  DOI:10.1007/3-540-33966-3_1  </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2248986"> MR2248986 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/EMP.pdf"> Reprint in PDF </a>
+<a class="reprint" href="pdf/EMP.pdf"> Reprint in PDF </a>
 
 
 
@@ -140,7 +139,7 @@ Open Classical Systems,
 In: Quantum Open Systems II. The Markovian approach.  St&eacute;phane Attal, Alain Joye,  Claude-Alain Pillet (Eds.), Lecture Notes in Mathematics 1881, Berlin: Springer, 2006, pp. 41--78.  
 <a class="DOI" href="https://doi.org/10.1007/3-540-33966-3_2">  DOI: 10.1007/3-540-33966-3_2 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2248987"> MR2248987 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/OCP.pdf"> Reprint in PDF </a>
+<a class="reprint" href="pdf/OCP.pdf"> Reprint in PDF </a>
 
 
 1. Federico Bonetto and Luc Rey-Bellet, 
@@ -150,7 +149,7 @@ Fourier Law,
 In: Encyclopedia of Mathematical Physics.  J.-P. Francoise, G. L. Naber, S.T. Tsou (Eds.), Elsevier 2006, pp. 374--379.  
 <!--<a class="DOI" href="">  DOI:  </a> &ensp; -->
 <!-- <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;--> 
-<a class="reprint"  href="https://people.math.umass.edu/~lr7q/ps_files/fourierencyc.pdf"> Reprint in PDF </a>
+<a class="reprint"  href="pdf/fourierencyc.pdf"> Reprint in PDF </a>
 
 
 
@@ -161,7 +160,7 @@ Coarse-graining schemes and a posteriori error estimates for stochastic lattice 
 ESAIM: Mathematical Modelling and Numerical Analysis  <b>41</b> (2007), no.3, pp. 627--660.   
 <a class="DOI" href="https://doi.org/10.1051/m2an:2007032">  DOI: 10.1051/m2an:2007032 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2355714"> MR2355714 </a> &ensp;
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/kprt1reprint.pdf"> Reprint in PDF</a>
+<a class="reprint" href="pdf/kprt1reprint.pdf"> Reprint in PDF</a>
 
 
 
@@ -175,7 +174,7 @@ Mathematical strategies in the coarse-graining of extensive systems: error quant
 Journal of Non Newtonian Fluid Mechanics <b>152</b> (2008), pp. 101--112.  
 <a class="DOI" href="https://doi.org/10.1016/j.jnnfm.2007.05.005">  DOI: 10.1016/j.jnnfm.2007.05.005 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/kprt2.pdf"> Reprint in PDF </a>
+<a class="reprint" href="pdf/kprt2.pdf"> Reprint in PDF </a>
 
 
 
@@ -189,7 +188,7 @@ Large deviations in nonuniformly hyperbolic dynamical systems,
 Ergodic Theory and Dynamical Systems <b>28</b> (2008), no.2, pp. 587-612.  
 <a class="DOI" href="https://doi.org/10.1017/S0143385707000478">  DOI:10.1017/S0143385707000478  </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2408394"> MR2408394 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/lsy1.pdf">Reprint in PDF</a>
+<a class="reprint" href="pdf/lsy1.pdf">Reprint in PDF</a>
 
 
 
@@ -203,7 +202,7 @@ Numerical and statistical methods for the coarse-graining of many-particle stoch
 Journal of Scientific Computing <b>37</b/> (2008), no.1, pp. 43--71.  
 <a class="DOI" href="https://doi.org/10.1007/s10915-008-9216-6">  DOI: 10.1007/s10915-008-9216-6 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2442973"> MR2442973  </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/KPR-JSciComp.pdf"> Reprint in PDF</a>
+<a class="reprint" href="pdf/KPR-JSciComp.pdf"> Reprint in PDF</a>
 
 
 
@@ -217,7 +216,7 @@ Multi-body interactions in coarse-graining schemes of extended systems,
 SIAM Journal on Scientific Computing  <b>31</b> (2008/2009), no.2, pp. 987--1015.  
 <a class="DOI" href="https://doi.org/10.1137/080713276">  DOI: 10.1137/080713276  </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2466145"> MR2466145 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/AKPR-SIAMJSC.pdf"> Reprint in PDF </a>
+<a class="reprint" href="pdf/AKPR-SIAMJSC.pdf"> Reprint in PDF </a>
 
 
 
@@ -231,7 +230,7 @@ A note on the non-commutative Laplace-Varadhan integral lemma,
 Reviews in  Mathematical Physics <b>22</b> (2010), no.7, pp. 839--858.  
 <a class="DOI" href="https://doi.org/10.1142/S0129055X10004089">  DOI: 10.1142/S0129055X10004089  </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2673696"> MR2673696 </a> &ensp;
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/QVaradhanreprint.pdf"> Reprint in PDF</a>
+<a class="reprint" href="pdf/QVaradhanreprint.pdf"> Reprint in PDF</a>
 
 
 
@@ -245,7 +244,7 @@ Entropic fluctuations in statistical mechanics I. Classical dynamical systems,
 Nonlinearity <b>24</b> (2011), no.3, pp. 699--763.   
 <a class="DOI" href="https://doi.org/10.1088/0951-7715/24/3/003">  DOI: 10.1088/0951-7715/24/3/003 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2765481"> MR2765481 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/jprreprint.pdf"> Reprint in PDF </a>
+<a class="reprint" href="pdf/jprreprint.pdf"> Reprint in PDF </a>
 
 
   
@@ -260,7 +259,7 @@ Ruelle-Lanford functions and large deviations for asymptotically decoupled  quan
 Reviews in  Mathematical  Physics  <b>23</b> (2011), no.2, pp. 211--232.  
 <a class="DOI" href="https://doi.org/10.1142/S0129055X11004291">  DOI: 10.1142/S0129055X11004291 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2786227"> MR2786227 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/ruellelanfordreprint.pdf"> Reprint in PDF </a>
+<a class="reprint" href="pdf/ruellelanfordreprint.pdf"> Reprint in PDF </a>
 
 
    
@@ -274,7 +273,7 @@ Absolute continuity of Brownian bridges under certain gauge transformations,
 Mathematical Research Letters <b>18</b> (2011), no.5, pp. 875--887.   
 <a class="DOI" href="http://dx.doi.org/10.4310/MRL.2011.v18.n5.a6">  DOI: 10.4310/MRL.2011.v18.n5.a6 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2875861"> MR2875861 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/NRSSreprint.pdf"> Reprint in PDF </a>
+<a class="reprint" href="pdf/NRSSreprint.pdf"> Reprint in PDF </a>
 
 
  
@@ -286,7 +285,7 @@ Mathematical Research Letters <b>18</b> (2011), no.5, pp. 875--887.
 Decompositions of two player games: potential, zero-sum, and stable games, 
 </cite> 
 Unpublished (2011).  
-<a class="arXiv" href="https://people.math.umass.edu/~lr7q/ps_files/Hwang1.pdf"> arXiv:1106.3552 </a> . 
+<a class="arXiv" href="pdf/Hwang1.pdf"> arXiv:1106.3552 </a> . 
 
 
   
@@ -299,7 +298,7 @@ Invariant weighted Wiener measures and  almost sure global well-posedness for th
 Journal of the  European Mathematical Society <b>14</b> (2012), no.4, pp. 1275--1330.  
 <a class="DOI" href="https://doi.org/10.4171/JEMS/333">  DOI: 10.4171/JEMS/333  </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2928851"> MR2928851 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/NORSrep.pdf"> Reprint in PDF </a>
+<a class="reprint" href="pdf/NORSrep.pdf"> Reprint in PDF </a>
 
 
    
@@ -313,7 +312,7 @@ Deterministic equations for stochastic spatial evolutionary games,
 Theoretical Economics <b>8</b> (2013), no.3, pp. 829--874.  
 <a class="DOI" href="https://doi.org/10.3982/TE829">  DOI: 10.3982/TE829 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3106962"> MR3106962  </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/HMR1.pdf"> Reprint in PDF </a>
+<a class="reprint" href="pdf/HMR1.pdf"> Reprint in PDF </a>
 
 
 
@@ -328,7 +327,7 @@ Coarse-graining schemes for stochastic lattice systems with short and long-range
 Mathematics of Computation <b>83</b> (2014), no.288, pp. 1757--1793.  
 <a class="DOI" href="https://doi.org/10.1090/S0025-5718-2014-02806-8">  DOI: 10.1090/S0025-5718-2014-02806-8 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3194129"> MR3194129 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/kprt3.pdf"> Reprint in PDF </a>
+<a class="reprint" href="pdf/kprt3.pdf"> Reprint in PDF </a>
 
 
 
@@ -341,7 +340,7 @@ Measuring the irreversibility of numerical schemes for reversible stochastic dif
 ESAIM: Mathematical Modelling and Numerical Analysis  <b> 48</b> (2014), no.5, pp. 1351--1379.  
 <a class="DOI" href="https://doi.org/10.1051/m2an/2013142">  DOI: 10.1051/m2an/2013142 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3264357"> MR3264357 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/KPaRreprint.pdf"> Reprint in PDF </a> .
+<a class="reprint" href="pdf/KPaRreprint.pdf"> Reprint in PDF </a> .
 
 
    
@@ -355,7 +354,7 @@ Irreversible Langevin samplers and variance reduction: a large deviation approac
 Nonlinearity <b> 28</b> (2015), no.7, pp. 2081--2103.  
 <a class="DOI" href="https://doi.org/10.1088/0951-7715/28/7/2081">  DOI: 10.1088/0951-7715/28/7/2081 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3366637"> MR3366637 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/Spiliopoulos1.pdf"> Reprint in PDF </a>
+<a class="reprint" href="pdf/Spiliopoulos1.pdf"> Reprint in PDF </a>
 
 
    
@@ -369,7 +368,7 @@ Variance reduction for irreversible Langevin samplers and diffusion on graphs,
 Electronic  Communications in Probability <b> 20</b> (2015), no. 15, 16pp.   
 <a class="DOI" href="https://doi.org/10.1214/ECP.v20-3855">  DOI: 10.1214/ECP.v20-3855 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3314650"> MR3314650 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/Spiliopoulos2.pdf"> Reprint in PDF </a> 
+<a class="reprint" href="pdf/Spiliopoulos2.pdf"> Reprint in PDF </a> 
 
 
    
@@ -382,7 +381,7 @@ Information metrics for long-time errors in splitting schemes for stochastic dyn
 SIAM Journal on Scientific  Computing <b>38</b> (2016), no. 6, pp. A3808--A3832.   
 <a class="DOI" href="https://doi.org/10.1137/15M1047271">  DOI: 10.1137/15M1047271 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3582415"> MR3582415  </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/Gourgoulias1.pdf"> Reprint in PDF </a>
+<a class="reprint" href="pdf/Gourgoulias1.pdf"> Reprint in PDF </a>
 
 
 
@@ -396,7 +395,7 @@ Efficient estimators for likelihood ratio sensitivity indices of complex stochas
 Journal of Chemical Physics <b>144</b> (2016), 104107.  
 <a class="DOI" href="http://dx.doi.org/10.1063/1.4943388">  DOI: 10.1063/1.4943388 </a> &ensp;
 <!--<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;--> 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/Arampatzis1.pdf"> Reprint in PDF </a>
+<a class="reprint" href="pdf/Arampatzis1.pdf"> Reprint in PDF </a>
 
 
 
@@ -409,7 +408,7 @@ Improving the convergence of reversible samplers, </cite>
 Journal of Statistical Physics <b> 164</b> (2016), no.3, 472--494.  
 <a class="DOI" href="https://doi.org/10.1007/s10955-016-1565-1">  DOI: 10.1007/s10955-016-1565-1 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3519206"> MR3519206  </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/Spiliopoulos3.pdf"> Reprint in PDF </a>
+<a class="reprint" href="pdf/Spiliopoulos3.pdf"> Reprint in PDF </a>
 
 
 
@@ -423,7 +422,7 @@ Uncertainty quantification for generalized Langevin dynamics,
 Journal of  Chemical Physics <b>145</b> (2016), 224108.  
 <a class="DOI" href="http://dx.doi.org/10.1063/1.4971433">  DOI: 10.1063/1.4971433 </a> &ensp;
 <!-- <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp; -->
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/Hall1.pdf"> Reprint in PDF </a>
+<a class="reprint" href="pdf/Hall1.pdf"> Reprint in PDF </a>
 
 
 
@@ -437,7 +436,7 @@ Journal of  Chemical Physics <b>145</b> (2016), 224108.
 Journal of Computational Physics <b>328</b> (2017), pp. 438--454.
 <a class="DOI" href="https://doi.org/10.1016/j.jcp.2016.10.031">  DOI: 10.1016/j.jcp.2016.10.031 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3571894"> MR3571894 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/Gourgoulias2.pdf"> Reprint in PDF </a>
+<a class="reprint" href="pdf/Gourgoulias2.pdf"> Reprint in PDF </a>
 
 
 
@@ -451,21 +450,21 @@ Scalable information inequalities for uncertainty quantification,
 Journal of Computational Physics <b> 336</b> (2017), pp. 513--545.  
 <a class="DOI" href="https://doi.org/10.1016/j.jcp.2017.02.020"> DOI: 10.1016/j.jcp.2017.02.020 </a> &ensp;
 <!-- <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3622628">  </a> &ensp; -->
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/Wang1.pdf"> Reprint in PDF </a>
+<a class="reprint" href="pdf/Wang1.pdf"> Reprint in PDF </a>
 
 
 
 
 
 
-1. Noé; Cuneo, Jean-Pierre Eckmann, Martin Hairer, and Luc Rey-Bellet, 
+1. Noé Cuneo, Jean-Pierre Eckmann, Martin Hairer, and Luc Rey-Bellet, 
 <cite>
 Non-equilibrium steady states for networks of oscillators,
 </cite>
 Electronic Journal of Probability <b>23</b> (2018), paper no. 55, 28 pp.  
 <a class="DOI" href="https://doi.org/10.1214/18-EJP177">  DOI: 10.1214/18-EJP177 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3814249 "> MR3814249  </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/CEHR.pdf"> Reprint in PDF </a>
+<a class="reprint" href="pdf/CEHR.pdf"> Reprint in PDF </a>
 
 
 
@@ -479,7 +478,7 @@ Fluctuations of the entropy production for the Lorentz gas under small external 
 Communications in Mathematical Physics  <b> 363</b> (2018), no. 2, pp. 699--740.  
 <a class="DOI" href="https://doi.org/10.1007/s00220-018-3228-3">  DOI: 10.1007/s00220-018-3228-3 </a> &ensp;
 <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3851827">MR3851827  </a> &ensp;
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/DRZ.pdf"> Reprint in PDF </a>
+<a class="reprint" href="pdf/DRZ.pdf"> Reprint in PDF </a>
 
 
 
@@ -495,8 +494,8 @@ Games and Economic Behavior <b>122</b>, (2020), pp. 370--390.
 <!--
 <a class="MR"  href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;
 -->
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/Decomposition.pdf"> Reprint in PDF file </a>  &ensp;
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/DecompositionSupplementaryMaterials.pdf"> Supplementary Materials </a> 
+<a class="reprint" href="pdf/Decomposition.pdf"> Reprint in PDF file </a>  &ensp;
+<a class="reprint" href="pdf/DecompositionSupplementaryMaterials.pdf"> Supplementary Materials </a> 
 
 
 
@@ -508,7 +507,7 @@ Simple characterizations of potential games and zero-sum equivalent games,
 </cite>
 Journal of Economic Theory and Econometrics, <b>31</b> (2020), pp. 1--13.  
 <a class="DOI" href="http://www.es.re.kr/jetem/view.php?year=&month=&vol=&no=&article_idx=342"> Online version </a> &ensp;
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/HRB3.pdf"> Reprint in PDF </a> .
+<a class="reprint" href="pdf/HRB3.pdf"> Reprint in PDF </a> .
 
 
 
@@ -524,7 +523,7 @@ IEEE Transactions on Information Theory <b>66</b> (2020), no.5, pp. 3079--3097.
 <!--
 <a class="MR"  href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;
 -->
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/GKRW.pdf"> Reprint in PDF </a> 
+<a class="reprint" href="pdf/GKRW.pdf"> Reprint in PDF </a> 
 
 
 
@@ -539,7 +538,7 @@ SIAM/ASA Journal on Uncertainty Quantification, <b>8</b> (2020), no. 2, pp. 539-
 <!-- 
 <a class="MR"  href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;
 -->
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/BRB1.pdf"> Reprint in PDF </a> 
+<a class="reprint" href="pdf/BRB1.pdf"> Reprint in PDF </a> 
 
 
 
@@ -551,7 +550,7 @@ Sensitivity analysis for rare events based on R&eacute;nyi divergence,
 </cite>
 The  Annals of Applied Probability, <b> 30 </b> (2020), no.4, pp. 1507-1533.   
 <a class="DOI" href="https://doi.org/10.1214/19-AAP1468"> DOI:10.1214/19-AAP1468 </a> &ensp;
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/DKPR.pdf"> Reprint in PDF </a> 
+<a class="reprint" href="pdf/DKPR.pdf"> Reprint in PDF </a> 
 
 
 
@@ -575,7 +574,7 @@ Submitted.
 Quantification of model uncertainty on path-space via goal-oriented relative entropy,
 </cite>  ESAIM: Mathematical Modeling and Numerical Analysis <b> 55 </b> (2021), no.1, pp. 131-169.  
 <a class="DOI" href="https://doi.org/10.1051/m2an/2020070"> DOI: 10.1051/m2an/2020070 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/PathEntropy.pdf"> Reprint in PDF </a> 
+<a class="reprint" href="pdf/PathEntropy.pdf"> Reprint in PDF </a> 
 
 
 
@@ -589,8 +588,8 @@ Games and Economic Behavior <b> 126 </b> (2021), pp. 355-373
 <a class="DOI" href="https://doi.org/10.1016/j.geb.2021.01.003"> DOI: 10.1016/j.geb.2021.01.003</a> &ensp; 
 <!--<a class="arXiv" href="https://arxiv.org/abs/1701.04870"> arXiv:1701.04870 </a> &ensp; 
 -->
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/Logit.pdf"> Reprint in PDF </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/LogitSupplementary.pdf"> Supplementary Materials </a> 
+<a class="reprint" href="pdf/Logit.pdf"> Reprint in PDF </a> &ensp; 
+<a class="reprint" href="pdf/LogitSupplementary.pdf"> Supplementary Materials </a> 
 
 
 
@@ -613,7 +612,7 @@ SIAM Journal on Mathematics of Data Science <b>3</b> (2021), no. 4, pp. 1093-111
 <a class="DOI" href="https://doi.org/10.1137/20M1368926"> DOI: 10.1137/20M1368926
 </a> &ensp; 
 <!--<a class="arXiv" href="https://arxiv.org/abs/ arXiv:2007.03814"> arXiv: arXiv:2007.03814 </a> &ensp; -->
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/RenyiVariational.pdf"> Reprint in PDF </a> 
+<a class="reprint" href="pdf/RenyiVariational.pdf"> Reprint in PDF </a> 
 
 
 1. Jeremiah Birrell, Paul Dupuis, Markos  Katsoulakis,  Yannis Pantazis, and Luc Rey-Bellet, 
@@ -622,7 +621,7 @@ SIAM Journal on Mathematics of Data Science <b>3</b> (2021), no. 4, pp. 1093-111
 </cite>
 Journal of Machine Learning Research <b>23</b> (2022), paper 39, pp.1−70.  
 <a class="DOI" href="https://www.jmlr.org/papers/v23/21-0100.html"> Online Version </a> &ensp; 
-<a class="reprint" href="https://www.jmlr.org/papers/volume23/21-0100/21-0100.pdf"> Reprint in PDF </a> 
+<a class="reprint" href="pdf/BDKPR1.pdf"> Reprint in PDF </a> 
   
 
 1. Panagiota Birmpa, Jinchao Feng, Markos  Katsoulakis and Luc Rey-Bellet, 
@@ -631,7 +630,7 @@ Model Uncertainty and Correctability for Directed Graphical Models,
 </cite> 
 SIAM/ASA Journal on Uncertainty Quantification <b> 10 </b> (2022), no.4, pp 1461--1512.  
 <a class="DOI" href="https://doi.org/10.1137/21M1434453"> DOI:10.1137/21M1434453 </a> &ensp; 
-<a class="reprint" href="https://people.math.umass.edu/~lr7q/ps_files/BirmpaDGM.pdf"> Reprint in PDF </a> 
+<a class="reprint" href="pdf/BirmpaDGM.pdf"> Reprint in PDF </a> 
 
 
 
@@ -654,7 +653,7 @@ Procceedings of  The Eleventh International Conference on Learning Representatio
 <a class="DOI" href="https://iclr.cc/virtual/2023/poster/10987"> Poster and Slides </a> 
 &ensp; 
 <a class="DOI" href="https://openreview.net/forum?id=89GT-S49mGd">  Open review </a> &ensp;
-<a class="reprint" href="https://openreview.net/pdf?id=89GT-S49mGd"> Reprint in PDF</a>
+<a class="reprint" href="pdf/BDKPR2.pdf"> Reprint in PDF</a>
 
 
 1. Hyemin Gu, Panagiota Birmpa, Yannis Pantazis, Luc Rey-Bellet, and Markos A. Katsoulakis,
@@ -667,7 +666,7 @@ Submitted.
 *Sample Complexity of Probability Divergences under Group Symmetry*,  
 <a class="DOI" href="https://proceedings.mlr.press/v202/chen23p.html"> Online Version
 </a> &ensp; 
-<a class="reprint" href="https://proceedings.mlr.press/v202/chen23p/chen23p.pdf"> Reprint in PDF (including supplementary  materials)</a> 
+<a class="reprint" href="pdf/CKRZ1.pdf"> Reprint in PDF (including supplementary  materials)</a> 
 
 	
 1. Ziyu Chen, Markos A. Katsoulakis, Luc Rey-Bellet, and Wei Zhu, 

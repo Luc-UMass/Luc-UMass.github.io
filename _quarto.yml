@@ -1,4 +1,5 @@
 project:
+  title: Luc Rey-Bellet Home Page 
   type: website
   output-dir: docs
   
@@ -26,7 +27,8 @@ website:
          
 format:
   html:
-    theme: flatly
+    email-obfuscation: references
+    theme: default
     css: styles.css
     toc: true
 

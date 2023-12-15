@@ -1,5 +1,5 @@
 ---
-title: "Luc Rey-Bellet"
+title: "Luc Rey-Bellet Homepage"
 ---
 
 :::: {.columns}
@@ -9,17 +9,27 @@ title: "Luc Rey-Bellet"
 ![](/images/luc.png){width=50%}
 
 
-<h2 id="toc_7">Research Interests</h2>
+## Research Interests
 
 Statistical Mechanics, Applied Probability, Game Theory, Uncertainty Quantification, and Machine Learning.  
 
 A detailed [CV](https://people.math.umass.edu/%7Elr7q/ps_files/curriculum.pdf)
 
-[Google Scholar](http://scholar.google.com/citations?user=GElhocQAAAAJ&amp;hl=en) <img src="images/GoogleScholar.jpeg" width="40" height="35" >
+[Google Scholar](http://scholar.google.com/citations?user=GElhocQAAAAJ&amp;hl=en) <img src="images/GoogleScholar.jpeg" width="40" height="35" > &nbsp;
 [Research Gate](http://www.researchgate.net/profile/Luc_Rey-Bellet)    <img src="images/ResearchGate.png" width="32" height="25" >  
-[Arxiv](https://arxiv.org/search/?query=rey-bellet&amp;searchtype=author&amp;source=header)     <img src="images/ArXiv.png" width="50" height="25" >
-[Mathscinet](https://mathscinet.ams.org/mathscinet/MRAuthorID/614960) <img src="images/MathSciNet.png" width="40" height="35" >
+[Arxiv](https://arxiv.org/search/?query=rey-bellet&amp;searchtype=author&amp;source=header)     <img src="images/ArXiv.png" width="50" height="25" > &nbsp;
+[Mathscinet](https://mathscinet.ams.org/mathscinet/MRAuthorID/614960) <img src="images/MathSciNet.png" width="40" height="35" > &nbsp;
 [Orcid](https://orcid.org/0000-0003-1166-8957)<img src="images/ORCID.jpeg" width="50" height="25" ></p>
+
+## Grant support
+
+![](/images/NSF_Logo.png){width=0.4in} 2003($101K), 2006($106K), 2010($99K),  
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2015($280K), 2020($370K), 2023($300K)
+
+![](/images/AFOSR.jpeg){width=0.4in} 2019($900K), 2022($1.950M)
+
+![](/images/DOE.png){width=0.4in} 2016($900K) 
+
 
 
 :::
@@ -30,16 +40,23 @@ A detailed [CV](https://people.math.umass.edu/%7Elr7q/ps_files/curriculum.pdf)
 
 ::: {.column width="55%"}
 
-Professor at University of Massachusetts Amherst
+## Academic appointments
 
-<h2>Education  </h2>
++ 1998-1999: Postdoctoral Researcher, Rutgers University
++ 1999-2002: Whyburn Instructor, University of Virginia
++ 2002-2008: Assitant Professor, UMass Amherst 
++ 2008-2013: Associate Professor, UMass Amherst 
++ Since 2013: Professor, UMass Amherst 
 
-Dipl. Phys. (1998), [Eidgenössiche Technische Hochschule Zürich](https://www.ethz.ch)  
-Ph.D in Mathematics, [Université de Genève](https://www.unige.ch)
+
+## Education  
+
+Dipl. Phys. (1994), [Eidgenössiche Technische Hochschule Zürich ](https://www.ethz.ch)  
+Ph.D in Mathematics (1998), [Université de Genève](https://www.unige.ch)
 
 
 
-<h2>Contact information   ![](images/Umass.png){width=0.5in}  </h2>
+## Contact information   ![](images/Umass.png){width=0.5in}  
 
 **Mailing Address**:  
 [Department of Mathematics &amp; Statistics](https://www.math.umass.edu)  
@@ -48,11 +65,10 @@ Lederle Graduate Research Tower
 710 N. Pleasant Street  
 Amherst, MA 01003-9305, USA  
 
-
 **Office:** LGRT 1423 K  
 **Office Phone:** 413 545 6020  
 **Email:** <luc@math.umass.edu> or  <luc.reybellet@gmail.com>  
-
+**Website:** <https://luc-umass.github.io>
 
 :::
 
