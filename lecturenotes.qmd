@@ -1,0 +1,17 @@
+---
+title: "Lecture Notes"
+---
+
+## Ergodic properties of Markov Processes 
+
+These lectures notes on the ergodic properties of Markov processes (especially with stochastic differential equations in mind) were written at the occasion of 
+the 
+
+
+
+
+
+## Probability and Stochastic Process
+
+
+The slides/lecture notes (still under <<a href="https://www.flaticon.com/free-icons/under-construction" title="under construction icons">Under construction icons created by Freepik - Flaticon</a>> )  
