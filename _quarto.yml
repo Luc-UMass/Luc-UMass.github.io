@@ -9,9 +9,8 @@ website:
     style: "docked"
     search: true
     contents:
-      - section: "Home page"
-        contents:
-           - index.qmd
+      - text: Home page
+        file: index.qmd
       - section: "Publications"
         contents:
           - text: Articles 
@@ -19,11 +18,12 @@ website:
           - text: Lecture Notes
             file: lecturenotes.qmd
           - text: Book  
-          - file: books.qmd
+            file: books.qmd
      
       - section: "Teaching"
         contents:
-          - teaching.qmd
+          - text: Teaching
+            file: teaching.qmd
          
 format:
   html:
