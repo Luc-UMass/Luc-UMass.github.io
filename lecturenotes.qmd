@@ -14,4 +14,11 @@ the
 ## Probability and Stochastic Process
 
 
-The slides/lecture notes (still under <<a href="https://www.flaticon.com/free-icons/under-construction" title="under construction icons">Under construction icons created by Freepik - Flaticon</a>> )  
+The slides/lecture notes have been used when teaching the graduate probability sequence Math 606/06. They are still under construction and will be updated regularly
+for the next year or so as I update the curriculum for the classes.  The slides are produced using the reveal.js slides which are part of the [quarto]<https://quarto.org/>
+lines of product. 
+
+
+### Part 1: Probability   [Slides, version Fall 2023](html/Probabilitymodels.html)
+
+### Part 2: Stochastic Processes [Slides, version Spring 2023]
