@@ -19,8 +19,7 @@ were written at the occasion of  a summer school on Open Quantum Systems held in
 
 
 The slides/lecture notes have been used when teaching the graduate probability sequence Math 606/06. They are still under construction and will be updated regularly
-for the next year or so as I update the curriculum for the classes.  The slides are produced using the reveal.js slides which are part of the [quarto]<https://quarto.org/>
-lines of product.  
+as I update the curriculum for the classes and poilsh the slides (in form and content).  The slides are produced using the reveal.js slides which are parts of Quarto  <https://quarto.org/> line of products.  
 
 
 ### Part 1: Probability   [HTML Slides, version Fall 2023](html/Probabilitymodels.html)
