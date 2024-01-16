@@ -4,24 +4,29 @@ title: "Lecture Notes"
 
 ## Ergodic properties of Markov Processes 
 
-These lectures notes on the ergodic properties of Markov processes (especially with stochastic differential equations in mind) and applications to statistical mechanics 
-were written at the occasion of  a summer school on Open Quantum Systems held in Grenoble in the (very hot) summer of 2003. 
+These lectures notes on the ergodic properties of Markov processes (especially with stochastic differential equations in mind) and applications to statistical mechanics  were written at the occasion of  a summer school on Open Quantum Systems held in Grenoble in the (very hot) summer of 2003. 
 
-###  Ergodic properties of Markov Process   [PDFs](pdf/EMP.pdf)
+ + [Ergodic properties of Markov Proceses](pdf/EMP.pdf)
 
-### Open classical systems  [PDFs](pdf/OCP.pdf.pdf)
-
+ + [Open classical systems](pdf/OCP.pdf)
 
 
 
 
-## Probability and Stochastic Process
+
+## Probability and stochastic processes graduate level class
+
+The slides/lecture notes are used when teaching the graduate probability sequence Math 606/606.  They are still under construction and will be updated regularly as I update the curriculum for the classes and polish the slides (in form and content).  Several sections are mssing as of now (e.g. martingales) but will added soon.
+
+The slides are produced using the reveal.js slides which are parts of Quarto  <https://quarto.org/> line of products.  
 
 
-The slides/lecture notes have been used when teaching the graduate probability sequence Math 606/06. They are still under construction and will be updated regularly
-as I update the curriculum for the classes and poilsh the slides (in form and content).  The slides are produced using the reveal.js slides which are parts of Quarto  <https://quarto.org/> line of products.  
+### Part 1: Probability   (htlml slides, version Fall 2023)
 
+ + [Probability Basics](html/Probabilitymodels.html)
 
-### Part 1: Probability   [HTML Slides, version Fall 2023](html/Probabilitymodels.html)
+### Part 2: Stochastic Processes (html, version Spring 2023) 
 
-### Part 2: Stochastic Processes [Slides, version Spring 2023] [HTML Slides, version Fall 2023](html/Stochasticsprocesses.html)
++ [Part2.1: Simulation and MC](html/StochasticProcesses-Part1-v23.html)
++ [Part2.2: Markov chains](html/StochasticProcesses-Part2-v23.html)
++ [Part2.3: Continuous-time](html/StochasticProcesses-Part3-v23.html)
