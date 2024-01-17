@@ -17,13 +17,12 @@ website:
             file: publications.qmd
           - text: Lecture Notes
             file: lecturenotes.qmd
-          - text: Book  
-            file: books.qmd
-     
-      - section: "Teaching"
+      - section: "Current Teaching"
         contents:
-          - text: Teaching
-            file: teaching.qmd
+          - text: Stat 315 (S24)
+            file: Stat315-S24.qmd
+          - text: Math 606 (S24)
+            file: Math606-S24.qmd
          
 format:
   html:

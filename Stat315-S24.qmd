@@ -1,0 +1,22 @@
+---
+title: "Syllabus Math 606, Spring 2024"
+subtitle: "Stochastic Processes"
+author: "Luc Rey-Bellet"
+institute: "University of Massachusetts Amherst"
+format:
+  pdf:
+    toc: false
+    number-sections: false
+    colorlinks: true
+  html:
+    toc: false
+    html-math-method: katex
+---
+
+##  Instructor 
+
+Luc Rey-Bellet  
+LGRT 1423K  
+<luc@math.umass.edu>  
+
+## bla 
