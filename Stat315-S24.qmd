@@ -1,5 +1,5 @@
 ---
-title: "Syllabus Math 606, Spring 2024"
+title: "Syllabus Stat 315, Spring 2024"
 subtitle: "Stochastic Processes"
 author: "Luc Rey-Bellet"
 institute: "University of Massachusetts Amherst"
@@ -19,4 +19,4 @@ Luc Rey-Bellet
 LGRT 1423K  
 <luc@math.umass.edu>  
 
-## bla 
+## The rest is coming

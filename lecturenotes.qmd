@@ -13,7 +13,6 @@ These lectures notes on the ergodic properties of Markov processes (especially w
 
 
 
-
 ## Probability and stochastic processes graduate level class
 
 The slides/lecture notes are used when teaching the graduate probability sequence Math 606/606.  They are still under construction and will be updated regularly as I update the curriculum for the classes and polish the slides (in form and content).  Several sections are mssing as of now (e.g. martingales) but will added soon.
