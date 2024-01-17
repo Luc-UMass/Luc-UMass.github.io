@@ -59,7 +59,9 @@ The first basic objective is to introduce the basic stochastic processes, learn 
 
 ## Grade/assignment 
 
-Weekly homework, one midterm and one final exam, each valued  1/3 of your grade. The homework can be found at the end of each section in the slides.
+Weekly homework, one midterm and one final exam, each valued  1/3 of your grade. 
+
+The homework can be found at the end of each section in the slides. It will be submitted via gradescope <https://www.gradescope.com/courses/712199>
 
 ##  Textbooks
 
