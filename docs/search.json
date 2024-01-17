@@ -44,174 +44,6 @@
     ]
   },
   {
-    "objectID": "collabnetwork.html",
-    "href": "collabnetwork.html",
-    "title": "Luc Rey-Bellet Home Page",
-    "section": "",
-    "text": "import networkx as nx\nimport matplotlib.pyplot as plt\n\n# Sample data (replace this with your actual data)\ncollaborators = {\n    'Alice': ['Bob', 'Charlie'],\n    'Bob': ['Alice', 'David'],\n    'Charlie': ['Alice', 'Eve', 'Bob'],\n    'David': ['Bob'],\n    'Eve': ['Charlie']\n}\n\n# Create a directed graph\nG = nx.DiGraph()\n\n# Add nodes and edges based on the collaborators data\nfor collaborator, connections in collaborators.items():\n    G.add_node(collaborator)\n    for connection in connections:\n        G.add_edge(collaborator, connection)\n\n# Visualize the graph\npos = nx.spring_layout(G)  # You can try different layout algorithms\nnx.draw(G, pos, with_labels=True, node_size=700, node_color=\"skyblue\", font_size=10, font_color=\"black\", font_weight=\"bold\", edge_color=\"gray\", linewidths=0.5, arrowsize=15)\n\n# Display the graph\nplt.show()\n\n\n\n\n\n\n\n\n\nimport networkx as nx\nimport matplotlib.pyplot as plt\nimport pandas as pd\n\n# Sample data (replace this with your actual data)\npapers_data = [\n    {'PaperID': 1, 'Authors': ['Alice', 'Bob', 'Charlie']},\n    {'PaperID': 2, 'Authors': ['Alice', 'David']},\n    {'PaperID': 3, 'Authors': ['Charlie', 'Eve']},\n    # Add more papers as needed\n]\n\n# Convert the list of papers to a DataFrame\npapers_df = pd.DataFrame(papers_data)\n\n# Create an empty directed graph\nG = nx.DiGraph()\n\n# Iterate through each paper and update the graph\nfor _, paper in papers_df.iterrows():\n    authors = paper['Authors']\n    \n    for i in range(len(authors)):\n        for j in range(i + 1, len(authors)):\n            # Increment the collaboration strength\n            if G.has_edge(authors[i], authors[j]):\n                G[authors[i]][authors[j]]['weight'] += 1\n            else:\n                G.add_edge(authors[i], authors[j], weight=1)\n\n# Visualize the graph with edge weights\npos = nx.spring_layout(G)\nedge_labels = {(i, j): G[i][j]['weight'] for i, j in G.edges()}\nnx.draw(G, pos, with_labels=True, node_size=700, node_color=\"skyblue\", font_size=10, font_color=\"black\", font_weight=\"bold\", edge_color=\"gray\", linewidths=0.5, arrowsize=15)\nnx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_color='red')\n\n# Display the graph\nplt.show()\n\n\n\n\n\n\n\n\n\nimport networkx as nx\nimport matplotlib.pyplot as plt\nimport pandas as pd\n\n# Sample data (replace this with your actual data)\npapers_data = [\n    {'PaperID': 1, 'Authors': ['Alice', 'Bob', 'Charlie']},\n    {'PaperID': 2, 'Authors': ['Alice', 'David']},\n    {'PaperID': 3, 'Authors': ['Charlie', 'Eve']},\n    # Add more papers as needed\n]\n\n# Convert the list of papers to a DataFrame\npapers_df = pd.DataFrame(papers_data)\n\n# Create an empty undirected graph\nG = nx.Graph()\n\n# Iterate through each paper and update the graph\nfor _, paper in papers_df.iterrows():\n    authors = paper['Authors']\n    \n    for i in range(len(authors)):\n        for j in range(i + 1, len(authors)):\n            # Increment the collaboration strength\n            if G.has_edge(authors[i], authors[j]):\n                G[authors[i]][authors[j]]['weight'] += 1\n            else:\n                G.add_edge(authors[i], authors[j], weight=1)\n\n# Visualize the graph with edge weights\npos = nx.spring_layout(G)\nedge_labels = {(i, j): G[i][j]['weight'] for i, j in G.edges()}\nnx.draw(G, pos, with_labels=True, node_size=700, node_color=\"skyblue\", font_size=10, font_color=\"black\", font_weight=\"bold\", edge_color=\"gray\", linewidths=0.5, arrowsize=15)\nnx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_color='red')\n\n# Display the graph\nplt.show()\n\n/Users/luc/Library/Python/3.11/lib/python/site-packages/networkx/drawing/nx_pylab.py:305: UserWarning: \n\nThe arrowsize keyword argument is not applicable when drawing edges\nwith LineCollection.\n\nTo make this warning go away, either specify `arrows=True` to\nforce FancyArrowPatches or use the default value for arrowsize.\nNote that using FancyArrowPatches may be slow for large graphs.\n\n  draw_networkx_edges(G, pos, arrows=arrows, **edge_kwds)"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Luc Rey-Bellet Homepage",
-    "section": "",
-    "text": "Statistical Mechanics, Applied Probability, Game Theory, Uncertainty Quantification, and Machine Learning.\nA detailed CV\nGoogle Scholar    Research Gate \nArxiv    Mathscinet    Orcid\n\n\n\n\n 2003($101K), 2006($106K), 2010($99K),\n          2015($280K), 2020($370K), 2023($300K)\n 2019($900K), 2022($1.950M)\n 2016($900K)\n\n\n\n\n\n\n\n1998-1999: Postdoctoral Researcher, Rutgers University\n1999-2002: Whyburn Instructor, University of Virginia\n2002-2008: Assistant Professor, UMass Amherst\n2008-2013: Associate Professor, UMass Amherst\nSince 2013: Professor, UMass Amherst\n\n\n\n\nDipl. Phys. (1994), Eidgenössiche Technische Hochschule Zürich\nPh.D in Mathematics (1998), Université de Genève\n\n\n\nMailing Address:\nDepartment of Mathematics & Statistics\nLederle Graduate Research Tower\nUniversity of Massachusetts\n710 N. Pleasant Street\nAmherst, MA 01003-9305, USA\nOffice: LGRT 1423 K\nOffice Phone: 413 545 6020\nEmail: luc@math.umass.edu or luc.reybellet@gmail.com\nWebsite: https://luc-umass.github.io",
-    "crumbs": [
-      "Home page"
-    ]
-  },
-  {
-    "objectID": "index.html#research-interests",
-    "href": "index.html#research-interests",
-    "title": "Luc Rey-Bellet Homepage",
-    "section": "",
-    "text": "Statistical Mechanics, Applied Probability, Game Theory, Uncertainty Quantification, and Machine Learning.\nA detailed CV\nGoogle Scholar    Research Gate \nArxiv    Mathscinet    Orcid",
-    "crumbs": [
-      "Home page"
-    ]
-  },
-  {
-    "objectID": "index.html#grant-support",
-    "href": "index.html#grant-support",
-    "title": "Luc Rey-Bellet Homepage",
-    "section": "",
-    "text": "2003($101K), 2006($106K), 2010($99K),\n          2015($280K), 2020($370K), 2023($300K)\n 2019($900K), 2022($1.950M)\n 2016($900K)",
-    "crumbs": [
-      "Home page"
-    ]
-  },
-  {
-    "objectID": "index.html#academic-appointments",
-    "href": "index.html#academic-appointments",
-    "title": "Luc Rey-Bellet Homepage",
-    "section": "",
-    "text": "1998-1999: Postdoctoral Researcher, Rutgers University\n1999-2002: Whyburn Instructor, University of Virginia\n2002-2008: Assistant Professor, UMass Amherst\n2008-2013: Associate Professor, UMass Amherst\nSince 2013: Professor, UMass Amherst",
-    "crumbs": [
-      "Home page"
-    ]
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Luc Rey-Bellet Homepage",
-    "section": "",
-    "text": "Dipl. Phys. (1994), Eidgenössiche Technische Hochschule Zürich\nPh.D in Mathematics (1998), Université de Genève",
-    "crumbs": [
-      "Home page"
-    ]
-  },
-  {
-    "objectID": "index.html#contact-information",
-    "href": "index.html#contact-information",
-    "title": "Luc Rey-Bellet Homepage",
-    "section": "",
-    "text": "Mailing Address:\nDepartment of Mathematics & Statistics\nLederle Graduate Research Tower\nUniversity of Massachusetts\n710 N. Pleasant Street\nAmherst, MA 01003-9305, USA\nOffice: LGRT 1423 K\nOffice Phone: 413 545 6020\nEmail: luc@math.umass.edu or luc.reybellet@gmail.com\nWebsite: https://luc-umass.github.io",
-    "crumbs": [
-      "Home page"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Past classes"
-  },
-  {
-    "objectID": "Stat315-F24.html",
-    "href": "Stat315-F24.html",
-    "title": "Syllabus Math 606, Spring 2024",
-    "section": "",
-    "text": "Luc Rey-Bellet\nLGRT 1423K\nluc@math.umass.edu",
-    "crumbs": [
-      "Teaching",
-      "Syllabus Math 315"
-    ]
-  },
-  {
-    "objectID": "Stat315-F24.html#instructor",
-    "href": "Stat315-F24.html#instructor",
-    "title": "Syllabus Math 606, Spring 2024",
-    "section": "",
-    "text": "Luc Rey-Bellet\nLGRT 1423K\nluc@math.umass.edu",
-    "crumbs": [
-      "Teaching",
-      "Syllabus Math 315"
-    ]
-  },
-  {
-    "objectID": "Stat315-F24.html#bla",
-    "href": "Stat315-F24.html#bla",
-    "title": "Syllabus Math 606, Spring 2024",
-    "section": "bla",
-    "text": "bla",
-    "crumbs": [
-      "Teaching",
-      "Syllabus Math 315"
-    ]
-  },
-  {
-    "objectID": "Stat315-S24.html",
-    "href": "Stat315-S24.html",
-    "title": "Syllabus Math 606, Spring 2024",
-    "section": "",
-    "text": "Luc Rey-Bellet\nLGRT 1423K\nluc@math.umass.edu",
-    "crumbs": [
-      "Current Teaching",
-      "Stat 315 (S24)"
-    ]
-  },
-  {
-    "objectID": "Stat315-S24.html#instructor",
-    "href": "Stat315-S24.html#instructor",
-    "title": "Syllabus Math 606, Spring 2024",
-    "section": "",
-    "text": "Luc Rey-Bellet\nLGRT 1423K\nluc@math.umass.edu",
-    "crumbs": [
-      "Current Teaching",
-      "Stat 315 (S24)"
-    ]
-  },
-  {
-    "objectID": "Stat315-S24.html#bla",
-    "href": "Stat315-S24.html#bla",
-    "title": "Syllabus Math 606, Spring 2024",
-    "section": "bla",
-    "text": "bla",
-    "crumbs": [
-      "Current Teaching",
-      "Stat 315 (S24)"
-    ]
-  },
-  {
-    "objectID": "Math605-S24.html",
-    "href": "Math605-S24.html",
-    "title": "Syllabus Math 606, Spring 2024",
-    "section": "",
-    "text": "Luc Rey-Bellet\nLGRT 1423K\nluc@math.umass.edu"
-  },
-  {
-    "objectID": "Math605-S24.html#instructor",
-    "href": "Math605-S24.html#instructor",
-    "title": "Syllabus Math 606, Spring 2024",
-    "section": "",
-    "text": "Luc Rey-Bellet\nLGRT 1423K\nluc@math.umass.edu"
-  },
-  {
-    "objectID": "Math605-S24.html#bla",
-    "href": "Math605-S24.html#bla",
-    "title": "Syllabus Math 606, Spring 2024",
-    "section": "bla",
-    "text": "bla"
-  },
-  {
     "objectID": "Math606-S24.html",
     "href": "Math606-S24.html",
     "title": "Syllabus Math 606, Spring 2024",
@@ -228,17 +60,6 @@
     "title": "Syllabus Math 606, Spring 2024",
     "section": "",
     "text": "Luc Rey-Bellet\nLGRT 1423K\nluc@math.umass.edu",
-    "crumbs": [
-      "Current Teaching",
-      "Math 606 (S24)"
-    ]
-  },
-  {
-    "objectID": "Math606-S24.html#bla",
-    "href": "Math606-S24.html#bla",
-    "title": "Syllabus Math 606, Spring 2024",
-    "section": "bla",
-    "text": "bla",
     "crumbs": [
       "Current Teaching",
       "Math 606 (S24)"
@@ -320,5 +141,119 @@
       "Current Teaching",
       "Math 606 (S24)"
     ]
+  },
+  {
+    "objectID": "Stat315-S24.html",
+    "href": "Stat315-S24.html",
+    "title": "Syllabus Stat 315, Spring 2024",
+    "section": "",
+    "text": "Luc Rey-Bellet\nLGRT 1423K\nluc@math.umass.edu",
+    "crumbs": [
+      "Current Teaching",
+      "Stat 315 (S24)"
+    ]
+  },
+  {
+    "objectID": "Stat315-S24.html#instructor",
+    "href": "Stat315-S24.html#instructor",
+    "title": "Syllabus Stat 315, Spring 2024",
+    "section": "",
+    "text": "Luc Rey-Bellet\nLGRT 1423K\nluc@math.umass.edu",
+    "crumbs": [
+      "Current Teaching",
+      "Stat 315 (S24)"
+    ]
+  },
+  {
+    "objectID": "Stat315-S24.html#the-rest-is-coming",
+    "href": "Stat315-S24.html#the-rest-is-coming",
+    "title": "Syllabus Stat 315, Spring 2024",
+    "section": "The rest is coming",
+    "text": "The rest is coming",
+    "crumbs": [
+      "Current Teaching",
+      "Stat 315 (S24)"
+    ]
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Past classes"
+  },
+  {
+    "objectID": "collabnetwork.html",
+    "href": "collabnetwork.html",
+    "title": "Luc Rey-Bellet Home Page",
+    "section": "",
+    "text": "import networkx as nx\nimport matplotlib.pyplot as plt\n\n# Sample data (replace this with your actual data)\ncollaborators = {\n    'Alice': ['Bob', 'Charlie'],\n    'Bob': ['Alice', 'David'],\n    'Charlie': ['Alice', 'Eve', 'Bob'],\n    'David': ['Bob'],\n    'Eve': ['Charlie']\n}\n\n# Create a directed graph\nG = nx.DiGraph()\n\n# Add nodes and edges based on the collaborators data\nfor collaborator, connections in collaborators.items():\n    G.add_node(collaborator)\n    for connection in connections:\n        G.add_edge(collaborator, connection)\n\n# Visualize the graph\npos = nx.spring_layout(G)  # You can try different layout algorithms\nnx.draw(G, pos, with_labels=True, node_size=700, node_color=\"skyblue\", font_size=10, font_color=\"black\", font_weight=\"bold\", edge_color=\"gray\", linewidths=0.5, arrowsize=15)\n\n# Display the graph\nplt.show()\n\n\n\n\n\n\n\n\n\nimport networkx as nx\nimport matplotlib.pyplot as plt\nimport pandas as pd\n\n# Sample data (replace this with your actual data)\npapers_data = [\n    {'PaperID': 1, 'Authors': ['Alice', 'Bob', 'Charlie']},\n    {'PaperID': 2, 'Authors': ['Alice', 'David']},\n    {'PaperID': 3, 'Authors': ['Charlie', 'Eve']},\n    # Add more papers as needed\n]\n\n# Convert the list of papers to a DataFrame\npapers_df = pd.DataFrame(papers_data)\n\n# Create an empty directed graph\nG = nx.DiGraph()\n\n# Iterate through each paper and update the graph\nfor _, paper in papers_df.iterrows():\n    authors = paper['Authors']\n    \n    for i in range(len(authors)):\n        for j in range(i + 1, len(authors)):\n            # Increment the collaboration strength\n            if G.has_edge(authors[i], authors[j]):\n                G[authors[i]][authors[j]]['weight'] += 1\n            else:\n                G.add_edge(authors[i], authors[j], weight=1)\n\n# Visualize the graph with edge weights\npos = nx.spring_layout(G)\nedge_labels = {(i, j): G[i][j]['weight'] for i, j in G.edges()}\nnx.draw(G, pos, with_labels=True, node_size=700, node_color=\"skyblue\", font_size=10, font_color=\"black\", font_weight=\"bold\", edge_color=\"gray\", linewidths=0.5, arrowsize=15)\nnx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_color='red')\n\n# Display the graph\nplt.show()\n\n\n\n\n\n\n\n\n\nimport networkx as nx\nimport matplotlib.pyplot as plt\nimport pandas as pd\n\n# Sample data (replace this with your actual data)\npapers_data = [\n    {'PaperID': 1, 'Authors': ['Alice', 'Bob', 'Charlie']},\n    {'PaperID': 2, 'Authors': ['Alice', 'David']},\n    {'PaperID': 3, 'Authors': ['Charlie', 'Eve']},\n    # Add more papers as needed\n]\n\n# Convert the list of papers to a DataFrame\npapers_df = pd.DataFrame(papers_data)\n\n# Create an empty undirected graph\nG = nx.Graph()\n\n# Iterate through each paper and update the graph\nfor _, paper in papers_df.iterrows():\n    authors = paper['Authors']\n    \n    for i in range(len(authors)):\n        for j in range(i + 1, len(authors)):\n            # Increment the collaboration strength\n            if G.has_edge(authors[i], authors[j]):\n                G[authors[i]][authors[j]]['weight'] += 1\n            else:\n                G.add_edge(authors[i], authors[j], weight=1)\n\n# Visualize the graph with edge weights\npos = nx.spring_layout(G)\nedge_labels = {(i, j): G[i][j]['weight'] for i, j in G.edges()}\nnx.draw(G, pos, with_labels=True, node_size=700, node_color=\"skyblue\", font_size=10, font_color=\"black\", font_weight=\"bold\", edge_color=\"gray\", linewidths=0.5, arrowsize=15)\nnx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_color='red')\n\n# Display the graph\nplt.show()\n\n/Users/luc/Library/Python/3.11/lib/python/site-packages/networkx/drawing/nx_pylab.py:305: UserWarning: \n\nThe arrowsize keyword argument is not applicable when drawing edges\nwith LineCollection.\n\nTo make this warning go away, either specify `arrows=True` to\nforce FancyArrowPatches or use the default value for arrowsize.\nNote that using FancyArrowPatches may be slow for large graphs.\n\n  draw_networkx_edges(G, pos, arrows=arrows, **edge_kwds)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Luc Rey-Bellet Homepage",
+    "section": "",
+    "text": "Statistical Mechanics, Applied Probability, Game Theory, Uncertainty Quantification, and Machine Learning.\nA detailed CV\nGoogle Scholar    Research Gate \nArxiv    Mathscinet    Orcid\n\n\n\n\n 2003($101K), 2006($106K), 2010($99K),\n          2015($280K), 2020($370K), 2023($300K)\n 2019($900K), 2022($1.950M)\n 2016($900K)\n\n\n\n\n\n\n\n1998-1999: Postdoctoral Researcher, Rutgers University\n1999-2002: Whyburn Instructor, University of Virginia\n2002-2008: Assistant Professor, UMass Amherst\n2008-2013: Associate Professor, UMass Amherst\nSince 2013: Professor, UMass Amherst\n\n\n\n\nDipl. Phys. (1994), Eidgenössiche Technische Hochschule Zürich\nPh.D in Mathematics (1998), Université de Genève\n\n\n\nMailing Address:\nDepartment of Mathematics & Statistics\nLederle Graduate Research Tower\nUniversity of Massachusetts\n710 N. Pleasant Street\nAmherst, MA 01003-9305, USA\nOffice: LGRT 1423 K\nOffice Phone: 413 545 6020\nEmail: luc@math.umass.edu or luc.reybellet@gmail.com\nWebsite: https://luc-umass.github.io",
+    "crumbs": [
+      "Home page"
+    ]
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Luc Rey-Bellet Homepage",
+    "section": "",
+    "text": "Statistical Mechanics, Applied Probability, Game Theory, Uncertainty Quantification, and Machine Learning.\nA detailed CV\nGoogle Scholar    Research Gate \nArxiv    Mathscinet    Orcid",
+    "crumbs": [
+      "Home page"
+    ]
+  },
+  {
+    "objectID": "index.html#grant-support",
+    "href": "index.html#grant-support",
+    "title": "Luc Rey-Bellet Homepage",
+    "section": "",
+    "text": "2003($101K), 2006($106K), 2010($99K),\n          2015($280K), 2020($370K), 2023($300K)\n 2019($900K), 2022($1.950M)\n 2016($900K)",
+    "crumbs": [
+      "Home page"
+    ]
+  },
+  {
+    "objectID": "index.html#academic-appointments",
+    "href": "index.html#academic-appointments",
+    "title": "Luc Rey-Bellet Homepage",
+    "section": "",
+    "text": "1998-1999: Postdoctoral Researcher, Rutgers University\n1999-2002: Whyburn Instructor, University of Virginia\n2002-2008: Assistant Professor, UMass Amherst\n2008-2013: Associate Professor, UMass Amherst\nSince 2013: Professor, UMass Amherst",
+    "crumbs": [
+      "Home page"
+    ]
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Luc Rey-Bellet Homepage",
+    "section": "",
+    "text": "Dipl. Phys. (1994), Eidgenössiche Technische Hochschule Zürich\nPh.D in Mathematics (1998), Université de Genève",
+    "crumbs": [
+      "Home page"
+    ]
+  },
+  {
+    "objectID": "index.html#contact-information",
+    "href": "index.html#contact-information",
+    "title": "Luc Rey-Bellet Homepage",
+    "section": "",
+    "text": "Mailing Address:\nDepartment of Mathematics & Statistics\nLederle Graduate Research Tower\nUniversity of Massachusetts\n710 N. Pleasant Street\nAmherst, MA 01003-9305, USA\nOffice: LGRT 1423 K\nOffice Phone: 413 545 6020\nEmail: luc@math.umass.edu or luc.reybellet@gmail.com\nWebsite: https://luc-umass.github.io",
+    "crumbs": [
+      "Home page"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   }
 ]
