@@ -19,14 +19,15 @@ Luc Rey-Bellet
 LGRT 1423K  
 <luc@math.umass.edu>  
 
- - Tuesday 3:00 PM-4:00 PM in LGRT 1423 K or on [ZOOM](https://umass-amherst.zoom.us/my/luc.reybellet.office.hours)
- - Friday 1:00 PM-2:00 in LGRT 1423 K or on [ZOOM](https://umass-amherst.zoom.us/my/luc.reybellet.office.hours)
- - By appointment is always possible and welcome and/or ask your questions be email.
+## Office hours
+
+   - Tuesday 3:00 PM-4:00 PM in LGRT 1423 K or on [ZOOM](https://umass-amherst.zoom.us/my/luc.reybellet.office.hours)
+  - Friday 1:00 PM-2:00 in LGRT 1423 K or on [ZOOM](https://umass-amherst.zoom.us/my/luc.reybellet.office.hours)
+  - By appointment is always possible and welcome and/or ask your questions be email.
 
 
 ##  Course information and communication 
-We will be using  Canvas to post supplementary marterials and course information. In particular all class announcements are posted on Canvas.  Make you sure you adjust your Canvas settings 
-so you receive them!
+We will be using  Canvas  <https://umamherst.instructure.com/courses/9592> to post supplementary materials and course information. In particular all class announcements are posted on Canvas and the Webassign homework is linked to Canvas.  Make you sure you adjust your Canvas settings so that you receive all class annoucements.
 
 ## Teaching assistants:
 
@@ -122,9 +123,12 @@ Regular attendance and participation is required. This being said, stuff happens
   + WebAssign Homework: 30% 
   + In-class attendance/particpation: 5%
   +  Number-to-letter conversion: 
-    | A  |A-  |B+  | B  |B-  | C+ | C  |C-  |D + | D  |  F |
-    |----|----|----|----|----|----|----|----|----|----|----|
-    |93  |89  | 85 | 80 | 75 | 70 | 65 | 60 | 55 | 50 |<50 |
+    
+  | A  |A-  |B+  | B  |B-  | C+ | C  |C-  |D + | D  |  F |
+  |----|----|----|----|----|----|----|----|----|----|----|
+  |93  |89  | 85 | 80 | 75 | 70 | 65 | 60 | 55 | 50 |<50 |
+    
+    
     These cutoffs might be slightly adjusted, but only in the downward direction (to make letter grades higher). The number-to-letter conversion will 
     only occur once at the end on the total grade. 
 
