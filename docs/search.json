@@ -231,7 +231,7 @@
     "href": "Stat315-S24.html#prerequisites",
     "title": "Syllabus Stat 315, Spring 2024",
     "section": "Prerequisites",
-    "text": "Prerequisites\nTwo semesters of single variable calculus (Math 131-132) or the equivalent, with a grade of ``C” or better in Math 132. Math 233 is strongly recommended but not required; in particular, multivariable integration will be introduced/reviewed asynchronously mid-semester.",
+    "text": "Prerequisites\nTwo semesters of single variable calculus (Math 131-132) or the equivalent, with a grade of ``C” or better in Math 132. Math 233 is strongly recommended but not required; in particular, multivariable integration will be introduced/reviewed mid-semester.",
     "crumbs": [
       "Current Teaching",
       "Stat 315 (S24)"
@@ -253,7 +253,7 @@
     "href": "Stat315-S24.html#weekly-syllabus-subject-to-adjustments",
     "title": "Syllabus Stat 315, Spring 2024",
     "section": "Weekly syllabus (subject to adjustments)",
-    "text": "Weekly syllabus (subject to adjustments)\n\n\n\nWeek\nSections (Class)\nComments\n\n\n\n\n#1: 2/1\n2.1-2.3\n\n\n\n#2: 2/6, 2/8\n2.4-2.7.\n\n\n\n#3: 2/13, 2/15\n2.8-2.12.\nAdd/Drop 2/14\n\n\n#4: 2/20,\n2.12, 3.1-3.3\nQuizz 1 (2/20): 2.1-2.8\n\n\n#5: 2/27, 2/29\n3.4-3.8.\n\n\n\n#6: 3/5, 3/7\n5.1-5.8 discrete\n\n\n\n#7: 3/12,3/14\n5.8-5.9,4.1-4.3\nQuizz 2 (3/12): 2.9-2.12,3.1-3.8\n\n\nSpring Break\n\nRelax and enjoy!\n\n\n#8: 3/26, 3/28\n4.1-4.6.\nQuizz 3(3/28):\n\n\n#9: 4/2, 4/4\n5.1-5.9(continuous)\n\n\n\n#10: 4/9, 4/11\n5.10-11, 3.9, 3.11\nQuizz 4\n\n\n#11: 4/16, 4/18\n4.9-10, 6.1-6.2\n\n\n\n#12: 4/23, 4/25\n6.3-6.55\nQuizz 5\n\n\n#13: 4/30, 5/1\n7.3, 7.5 + LLN\n\n\n\n#14: 5/7, 5/9\n7.2\nQuizz 6",
+    "text": "Weekly syllabus (subject to adjustments)\n\n\n\nWeek\nSections (Class)\nComments\n\n\n\n\n#1: 2/1\n2.1-2.3\n\n\n\n#2: 2/6, 2/8\n2.4-2.7.\nAdd/Drop 2/7\n\n\n#3: 2/13, 2/15\n2.8-2.12.\n\n\n\n#4: 2/20,\n2.12, 3.1-3.3\nQuizz 1 (2/20): 2.1-2.8\n\n\n#5: 2/27, 2/29\n3.4-3.8.\n\n\n\n#6: 3/5, 3/7\n5.1-5.8 discrete\n\n\n\n#7: 3/12,3/14\n5.8-5.9,4.1-4.3\nQuizz 2 (3/12): 2.9-2.12,3.1-3.8\n\n\nSpring Break\n\nRelax and enjoy!\n\n\n#8: 3/26, 3/28\n4.1-4.6.\nQuizz 3(3/28):\n\n\n#9: 4/2, 4/4\n5.1-5.9(continuous)\n\n\n\n#10: 4/9, 4/11\n5.10-11, 3.9, 3.11\nQuizz 4\n\n\n#11: 4/16, 4/18\n4.9-10, 6.1-6.2\n\n\n\n#12: 4/23, 4/25\n6.3-6.55\nQuizz 5\n\n\n#13: 4/30, 5/1\n7.3, 7.5 + LLN\n\n\n\n#14: 5/7, 5/9\n7.2, Review\nQuizz 6",
     "crumbs": [
       "Current Teaching",
       "Stat 315 (S24)"
@@ -308,7 +308,7 @@
     "href": "Stat315-S24.html#grading-scheme",
     "title": "Syllabus Stat 315, Spring 2024",
     "section": "Grading Scheme",
-    "text": "Grading Scheme\n\nQuizzes: 35%\nFinal exam: 30%\nWebAssign Homework: 30%\nIn-class attendance/particpation: 5%\nNumber-to-letter conversion:\n\n\n\n\nA\nA-\nB+\nB\nB-\nC+\nC\nC-\nD +\nD\nF\n\n\n\n\n93\n89\n85\n80\n75\n70\n65\n60\n55\n50\n&lt;50\n\n\n\nThese cutoffs might be slightly adjusted, but only in the downward direction (to make letter grades higher). The number-to-letter conversion will \nonly occur once at the end on the total grade.",
+    "text": "Grading Scheme\n\nQuizzes: 35%\nFinal exam: 30%\nWebAssign Homework: 30%\nIn-class attendance/particpation: 5%\nNumber-to-letter conversion:\n\n| A  |A-  |B+  | B  |B-  | C+ | C  |C-  |D + | D  |  F |\n|----|----|----|----|----|----|----|----|----|----|----|\n|93  |89  | 85 | 80 | 75 | 70 | 65 | 60 | 55 | 50 |&lt;50 |\n\nThese cutoffs might be slightly adjusted, but only in the downward direction (to make letter grades higher). The number-to-letter conversion will \nonly occur once at the end on the total grade.",
     "crumbs": [
       "Current Teaching",
       "Stat 315 (S24)"

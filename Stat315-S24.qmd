@@ -54,36 +54,36 @@ Learn multivariate analysis. Understand and apply the law of large numbers and t
 
 ## Prerequisites
 Two semesters of single variable calculus (Math 131-132) or the equivalent, with a grade of ``C" or better in Math 132. 
-Math 233 is strongly recommended but not required; in particular, multivariable integration will be introduced/reviewed asynchronously mid-semester.
+Math 233 is strongly recommended but not required; in particular, multivariable integration will be introduced/reviewed mid-semester.
 
 
 ## Required materials:
 The official text is **Mathematical Statistics with Applications**, Authors: Wackerly, Mendenhall, Schaeffer (ISBN-13: 978-0495110811), Edition: 7th. 
 Some additional material will also be made freely available through the class Canvas site. WebAssign is required for your weekly online homework assignments 
-and you (usually?) purchase it the same time as the text. You will probably need a basic calculator for some in-person quizzes/exams.
+and a online edition of the textbook is availabel in Webassign. 
 \medskip
 
 
 ## Weekly syllabus (subject to adjustments)
 
 
-| Week          | Sections (Class)| Comments        |
+| Week          | Sections (Class)| Comments       |
 |---------------|----------------|-----------------|
 |#1: 2/1        | 2.1-2.3        |                 |
-|#2: 2/6, 2/8   | 2.4-2.7.       |                 | 
-|#3: 2/13, 2/15 | 2.8-2.12.      | Add/Drop 2/14   |
+|#2: 2/6, 2/8   | 2.4-2.7.       | Add/Drop 2/7    | 
+|#3: 2/13, 2/15 | 2.8-2.12.      |                 |
 |#4: 2/20,      | 2.12, 3.1-3.3  | **Quizz 1** (2/20): 2.1-2.8|
-|#5: 2/27, 2/29 | 3.4-3.8.       |                  |
+|#5: 2/27, 2/29 | 3.4-3.8.       |                 |
 |#6: 3/5, 3/7   |5.1-5.8 discrete|                 |             
 |#7: 3/12,3/14  | 5.8-5.9,4.1-4.3|**Quizz 2** (3/12): 2.9-2.12,3.1-3.8 |           
 | Spring Break  |                | Relax and enjoy!|
-|#8: 3/26, 3/28 |4.1-4.6.        |   **Quizz 3**(3/28):|
-|#9: 4/2, 4/4   |5.1-5.9(continuous)|        |
-|#10: 4/9, 4/11 |5.10-11, 3.9, 3.11|  **Quizz 4**     |            
-|#11: 4/16, 4/18|4.9-10, 6.1-6.2 |                            |
+|#8: 3/26, 3/28 |4.1-4.6.        |**Quizz 3**(3/28):|
+|#9: 4/2, 4/4   |5.1-5.9(continuous)|               |
+|#10: 4/9, 4/11 |5.10-11, 3.9, 3.11|  **Quizz 4**   |            
+|#11: 4/16, 4/18|4.9-10, 6.1-6.2 |                  |
 |#12: 4/23, 4/25|6.3-6.55        |  **Quizz 5**     |
-|#13: 4/30, 5/1 | 7.3, 7.5 + LLN |          
-|#14: 5/7, 5/9  | 7.2			   |  **Quizz 6**     |
+|#13: 4/30, 5/1 | 7.3, 7.5 + LLN |                  |   
+|#14: 5/7, 5/9  | 7.2, Review		|  **Quizz 6**      |
 
 
 
@@ -99,13 +99,13 @@ Make sure to follow the up-to-date HW due dates on your Canvas/Webassign pages.
 
 ## Quizzes (35%)
 There will be 6 **in-class** quizzes, usually about 30 minutes and 2 problems in length. You can bring up **1 page (8.5 by 11 inches) of hand-written notes 
-single-sided** and a calculator. No internet-based devices are allowed. The lowest quiz will be dropped. Make sure to follow the up-to-date quiz dates 
+single-sided**, no calculator. No internet-based devices are allowed. The lowest quiz will be dropped. Make sure to follow the up-to-date quiz dates 
 on your Canvas page. 
 
 
 ## Final Exam (30%)
 The uniform (all-section) final exam is tentatively scheduled for \textbf{TBA}. This may change so keep track of the date on your Spire page. You can bring **a 
-single page of (8.5 by 11 inches)  hand-written notes double-sided and a calculator**.  No internet devices are allowed.  The $z$-table from the book will 
+single page of (8.5 by 11 inches)  hand-written notes double-sided**, no calculator.  No internet devices are allowed.  The $z$-table from the book will 
 be included with your exam booklet, if it is needed. The exam will cover all the material from the main textbook (the sections covered in Chapters 2-7),
 which is also the material covered in WebAssign. The questions on the exam will be very similar in style to the quiz questions and WebAssign questions. 
 Look at your Canvas page for old exams and other relevant information.
@@ -113,7 +113,7 @@ Look at your Canvas page for old exams and other relevant information.
 
 
 ##  In-class attendance (5%)
-Regular attendance and participation is required. This being said, stuff happens and I understand if you miss some one class her or there
+Regular attendance and participation is required. This being said, stuff happens and I understand if you miss a class her or there, but regular presence is needed.
 
 
 ## Grading Scheme
@@ -124,10 +124,9 @@ Regular attendance and participation is required. This being said, stuff happens
   + In-class attendance/particpation: 5%
   +  Number-to-letter conversion: 
     
-  | A  |A-  |B+  | B  |B-  | C+ | C  |C-  |D + | D  |  F |
-  |----|----|----|----|----|----|----|----|----|----|----|
-  |93  |89  | 85 | 80 | 75 | 70 | 65 | 60 | 55 | 50 |<50 |
-    
+    | A  |A-  |B+  | B  |B-  | C+ | C  |C-  |D + | D  |  F |
+    |----|----|----|----|----|----|----|----|----|----|----|
+    |93  |89  | 85 | 80 | 75 | 70 | 65 | 60 | 55 | 50 |<50 |
     
     These cutoffs might be slightly adjusted, but only in the downward direction (to make letter grades higher). The number-to-letter conversion will 
     only occur once at the end on the total grade. 
