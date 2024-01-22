@@ -1,6 +1,6 @@
 ---
 title: "Syllabus Stat 315, Spring 2024"
-subtitle: "Stochastic Processes"
+subtitle: "Statistics I"
 author: "Luc Rey-Bellet"
 institute: "University of Massachusetts Amherst"
 format:
