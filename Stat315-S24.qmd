@@ -40,7 +40,6 @@ TBA
 The undergraduate SI will run two classes each week. Details will be posted on their Canvas page.
 
 
-
 ## Course Description
 This course provides a calculus based introduction to probability (an emphasis on probabilistic concepts used in statistical modeling). Coverage includes 
 basic axioms of probability, sample spaces, counting rules, conditional probability, independence, random variables (and various associated discrete and 
