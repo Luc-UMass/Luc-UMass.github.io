@@ -66,9 +66,9 @@ The homework can be found at the end of each section in the slides. It will be s
 There is no *official* text book for the class.  Class slides will be posted on and serve also as a form of textbook, at least as a skeleton thereof. 
 To get started here are the slides for Markov chain chapter from last year 
 
-[Markov chain](https://luc-umass.github.io/html/StochasticProcesses-Part2-v23.html#/title-slide).
+[Markov chain slides](https://luc-umass.github.io/html/StochasticProcesses-Part2-v23.html#/title-slide).
 
-I will post a new updated version. 
+I will post a new updated version as the semester moves on.
 
 
 I have been inspired by many textbooks when preparing my class, see the list below. 
