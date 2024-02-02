@@ -88,6 +88,17 @@
     ]
   },
   {
+    "objectID": "Math606-S24.html#class-slides",
+    "href": "Math606-S24.html#class-slides",
+    "title": "Syllabus Math 606, Spring 2024",
+    "section": "Class slides",
+    "text": "Class slides\nPart 1: Markov chains",
+    "crumbs": [
+      "Current Teaching",
+      "Math 606 (S24)"
+    ]
+  },
+  {
     "objectID": "Math606-S24.html#class-homepage",
     "href": "Math606-S24.html#class-homepage",
     "title": "Syllabus Math 606, Spring 2024",
@@ -103,7 +114,7 @@
     "href": "Math606-S24.html#syllabus",
     "title": "Syllabus Math 606, Spring 2024",
     "section": "Syllabus",
-    "text": "Syllabus\nThis is the second part of a 2-semester graduate sequence Math605-Math606 which leads to the Stochastics qualifying exam. Prerequisites are\n\na solid working knowledge of probablilty (e.g. Math 605, STAT 607 or equivalent).\na solid working knowedge of analysis (at least Math 523 or equivalent) and some basic linear algebra.\n\nsome mathematical maturity\n\nIn Math 606 we will cover various aspects of stochastic processes. One of the main goal in the class is to develop a “probabilist intuition and way of thinking”. We will present some proofs and we will skip some others in order to provide a reasonably broad range of topics, concepts and techniques. We emphasize examples both in discrete and continuous time from a wide range of disciplines and with an eye on numerical implementation. Among the topics treated in the class are\n\nDiscrete time Markov chains on discrete spaces. Definition and basic properties, classification of states (positive recurrence, recurrence and transience), stationary distribution and limit theorems, analysis of transient behavior, optimal stopping, Monte-Carlo Markov chains.\nContinuous-Time Markov chains. Poisson Process, Birth and Death Process, and Queueing models. Renewal processes.\nMartingales.\nBrownian motion and applications.",
+    "text": "Syllabus\nThis is the second part of a 2-semester graduate sequence Math605-Math606 which leads to the Stochastics qualifying exam. Prerequisites are\n\na solid working knowledge of probablilty (e.g. Math 605, STAT 607 or equivalent).\na solid working knowedge of analysis (at least Math 523 or equivalent) and some basic linear algebra.\n\nsome mathematical maturity\n\nIn Math 606 we will cover various aspects of stochastic processes. One of the main goal in the class is to develop a “probabilist intuition and way of thinking”. We will present some proofs and we will skip some others in order to provide a reasonably broad range of topics, concepts and techniques. We emphasize examples both in discrete and continuous time from a wide range of disciplines and with an eye on numerical implementation. Among the topics treated in the class are\n\nDiscrete time Markov chains on discrete spaces. Definition and basic properties, classification of states (positive recurrence, recurrence and transience), stationary distribution and limit theorems, analysis of transient behavior, optimal stopping, Monte-Carlo Markov chains.\nContinuous-Time Markov chains. Poisson Process, Birth and Death Process, and Queueing models. Renewal processes and semi-Markov processes.\nMartingales and applications\nBrownian motion and applications.",
     "crumbs": [
       "Current Teaching",
       "Math 606 (S24)"
