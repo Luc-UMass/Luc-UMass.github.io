@@ -29,6 +29,11 @@ LGRT 1423K
 
 Tu-Th, 10:00AM--11:15AM in LGRT 171
 
+## Class slides
+
+Part 1: [Markov chains](https://luc-umass.github.io/html/Markov.html)
+
+
 ## Class homepage 
 
 On Canvas at <https://umamherst.instructure.com/courses/9591> 
@@ -45,9 +50,9 @@ In Math 606 we will cover various aspects of stochastic processes.  One of the m
 
 
 1. Discrete time Markov chains on discrete spaces. Definition and basic properties, classification of states (positive recurrence, recurrence and transience), stationary distribution and limit theorems, analysis of transient behavior, optimal stopping, Monte-Carlo Markov chains.
-2. Continuous-Time Markov chains. Poisson Process, Birth and Death Process, and Queueing models. Renewal processes.
-3. Martingales.
-4. Brownian motion and applications. 
+2. Continuous-Time Markov chains. Poisson Process, Birth and Death Process, and Queueing models. Renewal processes and semi-Markov processes.
+3. Martingales and applications
+4. Brownian motion and applications.
 
 
 ## Learning Objectives  
