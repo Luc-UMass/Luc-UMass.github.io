@@ -33,6 +33,7 @@ Tu-Th, 10:00AM--11:15AM in LGRT 171
 
 Part 1: [Markov chains](https://luc-umass.github.io/html/Markov.html)
 
+Part 2: [Poisson processes and continuous time Markov chains](https://luc-umass.github.io/html/Poisson.html)
 
 ## Class homepage 
 
