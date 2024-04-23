@@ -35,6 +35,8 @@ Part 1: [Markov chains](https://luc-umass.github.io/html/Markov.html)
 
 Part 2: [Poisson processes and continuous time Markov chains](https://luc-umass.github.io/html/Poisson.html)
 
+Part 3: [Martingales]((https://luc-umass.github.io/html/Martingale.html))
+
 ## Class homepage 
 
 On Canvas at <https://umamherst.instructure.com/courses/9591> 
