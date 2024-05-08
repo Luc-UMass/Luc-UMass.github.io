@@ -1503,12 +1503,20 @@ E[Y_{t+s}  -Y_t | \mathcal{F}_t ] = E[ f(X_{t+s}) - f(X_t) - \int_t^{t+s} Af(X_u
 <div id="exr-22" class="theorem exercise">
 <p><span class="theorem-title"><strong>Exercise 2.2</strong></span> Suppose <span class="math inline">N_t</span> is a Poisson process with rate <span class="math inline">\lambda</span>. Show that <span class="math inline">N_t-\lambda t</span> is a martingale.</p>
 </div>
-<div id="exr-22" class="theorem exercise">
+<div id="exr-23" class="theorem exercise">
 <p><span class="theorem-title"><strong>Exercise 2.3</strong></span> Consider a branching process <span class="math inline">X_n</span> with mean offspring number <span class="math inline">\mu</span> and extinction probability <span class="math inline">a</span>. Show that</p>
 <ul>
 <li><p><span class="math inline">M_n = X_n \mu^{-n}</span> is a martingale.</p></li>
 <li><p><span class="math inline">M_n = a^{X_n}</span> is a martingale.</p></li>
 </ul>
+</div>
+</section>
+<section id="section-7" class="slide level2 unnumbered">
+<h2></h2>
+<div id="exr-24" class="theorem exercise">
+<p><span class="theorem-title"><strong>Exercise 2.4</strong></span> Show (by induction) that for the polya’s urn we have <span class="math display">
+P(X_n=k+1) = \frac{1}{n+1} \text{ for } k=1, 2, \cdots
+</span> Show that <span class="math inline">M_n</span> converges to <span class="math inline">M_\infty</span> in distribution. Find <span class="math inline">M_\infty</span>.</p>
 </div>
 </section></section>
 <section>
@@ -1540,7 +1548,7 @@ M_{T}=\sum_{j=0}^K M_j 1_{\{T=j\}}
 </span> We compute next <span class="math inline">E[M_T|\mathcal{F}_{K-1}]</span>. Note that since <span class="math inline">T</span> is bounded by <span class="math inline">K</span> we have <span class="math inline">1_{\{T=K\}}= 1_{\{T&gt; K-1\}}</span> which is measurable with respect to <span class="math inline">\mathcal{F}_{K-1}</span>. Therefore we find</p>
 </div>
 </section>
-<section id="section-7" class="slide level2 unnumbered">
+<section id="section-8" class="slide level2 unnumbered">
 <h2></h2>
 <p><span class="math display">
 \begin{aligned}
@@ -1571,7 +1579,7 @@ E[M_n| 1_{\{T&gt; n\}}] = \frac{1}{2^n}(1-2^n)  \to 1 \text{ as } n \to \infty
 </span> It does not converge to <span class="math inline">0</span> but to <span class="math inline">1</span> in accordance with the result <span class="math inline">E[M_T]=1</span>.</p>
 <p>These considerations leads to the following</p>
 </section>
-<section id="section-8" class="slide level2 unnumbered">
+<section id="section-9" class="slide level2 unnumbered">
 <h2></h2>
 <div id="thm-optionalSTv1" class="theorem">
 <p><span class="theorem-title"><strong>Theorem 3.2 (Optional Sampling Theorem (general version))</strong></span> Suppose <span class="math inline">M_n</span> is a martingale and <span class="math inline">T</span> is a finite stopping time (i.e. <span class="math inline">P(T &lt; \infty)=1</span>). If <span class="math inline">E[|M_T|&lt;\infty]</span> and <span class="math display">
@@ -1598,7 +1606,7 @@ E[S_T] = E[S_0]=a.
 a= E[S_T]= N P(S_T=N) \quad \implies P(S_T=N)= \frac{a}{N}
 </span> This gives another (computation free) derivation of the gambler’s ruin formula! The case <span class="math inline">p\not= \frac{1}{2}</span> can also be treated using a (different) martingale and will be considered in the homework.</p>
 </section>
-<section id="section-9" class="slide level2 unnumbered">
+<section id="section-10" class="slide level2 unnumbered">
 <h2></h2>
 <p><span class="blue">Example: Gambler’s ruin playing time.</span> Suppose <span class="math inline">S_n</span> is like in the previous example. Then <span class="math inline">M_n=S_n^2 -n</span> is also martingale since <span class="math display">
 E[S_{n+1}^2- {n+1} | \mathcal{F_n}]= E[S_n^2 + 2X_{n+1}S_n + X_{n+1}^2- {n+1} | \mathcal{F_n}] = S_n^2 + 1 - (n+1) = S_n^2 -n
@@ -1612,7 +1620,7 @@ a^2= E[M_T] = E[S_T^2] - E[T] = N^2 P(S_T=N) - E[T] = aN - E[T]
 E[T]= a(N-a)
 </span> which gives the expected length of play.</p>
 </section>
-<section id="section-10" class="slide level2 unnumbered">
+<section id="section-11" class="slide level2 unnumbered">
 <h2></h2>
 <p><span class="blue">Example: Random harmonic series</span> It is well-known that the harmonic series <span class="math inline">1 + \frac{1}{2} + \frac{1}{3} + \cdots</span> diverges while the alternating harmonic series <span class="math inline">1 - \frac12 + \frac13 - \cdots</span> converges. What does happen if we chose the sign in the series randomly? To see this let <span class="math inline">X_i</span> be IID random variables with <span class="math inline">P(X_i=-1)=P(X_i=1)=\frac{1}{2}</span>. Let <span class="math inline">M_0=o</span> and for <span class="math inline">n \ge 0</span> define <span class="math display">
 M_n = \sum_{j=1}^n \frac{1}{j}X_j
@@ -1631,7 +1639,7 @@ M_n = \sum_{j=1}^n \frac{1}{j}X_j
 Let <span class="math inline">Y_n</span> be the Markov chain on the state state space <span class="math inline">V</span> with transtion probaility <span class="math inline">p_{vw}</span>. It is irreducible and has a stionary distribution <span class="math inline">\pi(v)</span>. If <span class="math inline">c(v,w)=c(w,v)</span> then the Markov chain <span class="math inline">Y_n</span> is irreducible and we know that the stationary distribution is <span class="math inline">\pi(v) = \frac{c(v)}{c_G}</span> where <span class="math inline">c_G =\sum_{v} c(v)</span>. In general <span class="math inline">\pi</span> might be difficult to compute explicitly.</p></li>
 </ul>
 </section>
-<section id="section-11" class="slide level2 unnumbered">
+<section id="section-12" class="slide level2 unnumbered">
 <h2></h2>
 <ul>
 <li><p>In the voter model, at each unit time you pick a voter, say voter at vertex <span class="math inline">v</span>. The voter picks one of his neighbor <span class="math inline">w</span> with probability <span class="math inline">p_{vw}</span> and his neighbor at <span class="math inline">W</span> has a different opinion than his opinion the voter at <span class="math inline">v</span> adopts the opinion of <span class="math inline">w</span>. This is admittedly a pretty simplisitic model but let us anlayze it nonetheless. Let denote by <span class="math inline">X_n</span> the corresponding Markov chain on <span class="math inline">S</span>. The transition probabilities are given by <span class="math display">
@@ -1648,7 +1656,7 @@ Let <span class="math inline">Y_n</span> be the Markov chain on the state state 
   </span> is a martingale.</p>
 </div>
 </section>
-<section id="section-12" class="slide level2 unnumbered">
+<section id="section-13" class="slide level2 unnumbered">
 <h2></h2>
 <div class="proof">
 <p><span class="proof-title"><em>Proof</em>. </span>By the Markov property <span class="math display">
@@ -1669,7 +1677,7 @@ E[M_{n+1}-M_{n}| X_n =\sigma] = \frac{1}{|V|} \sum_{v: \sigma(v)=0} \sum_{w} \pi
 </span></p>
 </div>
 </section>
-<section id="section-13" class="slide level2 unnumbered">
+<section id="section-14" class="slide level2 unnumbered">
 <h2></h2>
 <p>Using the fact that <span class="math inline">\pi</span> is the stationary distribution we have the balance equation <span class="math display">
 \sum_{v} \pi(v) p(v,w) =  \sum_{v} \pi(w) p(w,v)
@@ -1685,67 +1693,13 @@ T= \inf\{ n, X_n(v)=0 \text{ for all } v  \text{ or } X_n(v)=1 \text{ for all } 
 P(X_T =(1,\cdots, 1))=E[M_T]= E[M_0]= \pi X(0)
 </span></p>
 </section>
-<section id="section-14" class="slide level2 unnumbered">
+<section id="section-15" class="slide level2 unnumbered">
 <h2></h2>
 <p><span class="blue">Example</span> If the underlying model is a random walk on the graph <span class="math inline">c(v,w)=c(w,v)=1</span> then <span class="math inline">\pi(v) = \frac{\deg(v)}{2|E|}</span> and we can easily compute<br>
 <span class="math inline">\pi X_0</span>. For example if we consider the complete graph on <span class="math inline">N</span> vertices or any regular graph such that all vertices have the same degree then <span class="math inline">P(X_T =(1,\cdots, 1))</span> is simply equal to the proportion of vertices with opinion <span class="math inline">1</span>.</p>
 </section>
-<section id="empirical-processes" class="slide level2" data-number="3.6">
-<h2><span class="header-section-number">3.6</span> Empirical processes</h2>
-<p>As another application of Azuma-Hoeffding’s theorem we consider <em>empirical processe</em> which are given by <span class="math display">
-Z(X_1, \cdots, X_n)=\sup_{f \mathcal{F}} \left| \frac{1}{n}\sum_{k=1}^n f(X_i) - E[f(X_i)]  \right|
-</span> where <span class="math inline">X_i</span> are IID random variables and <span class="math inline">f</span> belongs to a class of function <span class="math inline">\mathcal{F}</span>. We assume here that <span class="math display">
-\sup_{x}|f(x)| \le B  \text{ for all } f \in \mathcal{F}
-</span> i.e. the functions <span class="math inline">f</span> are uniformly bounded. One of the simplest example of empirical process to consider the function <span class="math inline">f_t(x)=I_{x \le t}</span>. By the LLN we have <span class="math display">
-\frac{1}{n}\sum_{k=1}^n f(X_i) \to P(X \le t)=F_X(t) \quad \text{ almost surely}
-</span> where <span class="math inline">F_X</span> is the distribution of the RVs <span class="math inline">X_i</span>. By <em>Glivenko–Cantelli Theorem</em> we have <span class="math display">
-\sup_{t \in \mathbb{R} }| \frac{1}{n}\sum_{k=1}^n f(X_i) - F_X(t)| \to 0 \quad \text{ almost surely}
-</span> that is we have <em>uniform convergence</em> of the empirical distribution to the tru distribution.</p>
-<p>Empirical processe satisfy the bounded difference property: indeed if we set <span class="math display">
-g(x_1, \cdots, x_n) = \left| \frac{1}{n}\sum_{k=1}^n f(x_i) - E[f(X)]  \right|
-</span> Then <span class="math display">
-g(x_1, \cdots, \tilde{x}_k, \cdots, x_n) = \left| \frac{1}{n}\sum_{k=1}^n f(x_i) - E[f(X)] +  \frac{1}{n} (f(\tilde{x}_k) - f(x_k))  \right| \le g(x_1, \cdots, \tilde{x}_k, \cdtos, x_n) + 2\frac{B}{n}
-</span> from which we conclude that <span class="math inline">Z(x_1, \cdots, \tilde{x}_k, \cdots, x_n) \le  Z(x_1, \cdots, {x}_k, \cdots, x_n)</span>. Interchanging <span class="math inline">x_k</span> and <span class="math inline">{\tilde x}_k</span> proves the bounded difference property with <span class="math inline">c_k=\frac{2B}{n}</span>. Then <strong>?@thm-azumahoeffdings</strong> show that, for every <span class="math inline">\epsilon&gt;0</span>. <span class="math display">
-P(Z - E[Z]&gt; \epsilon^2) \le 2 e^{-\frac{n \epsilon^2}{2 B^2}}
-</span> This tells us that the behavior of <span class="math inline">Z</span> is control by its mean <span class="math inline">E[Z]</span>. For example if we set <span class="math inline">\delta=e^{-\frac{n \epsilon^2}{2 B^2}}</span> we have <span class="math display">
-|Z-E[Z]| \le B \sqrt{\frac{2}{n}\log \frac{1}{\delta}} \quad \text{ with probability at least } 1- 2 \delta
-</span> for any <span class="math inline">\delta &gt;0</span>.</p>
-<p>To go further we need to control the mean <span class="math inline">E[Z]</span>, to do this we need two results.</p>
-<div id="thm-maximal" class="theorem">
-<p><span class="theorem-title"><strong>Theorem 3.4</strong></span> Suppose <span class="math inline">Z_1, Z_2, \cdots, Z_N</span> are RVs (no independence assumed) such that <span class="math inline">E[e^{tZ_i}]\le e^{\frac{t^2\sigma^2}{2}}</span> for <span class="math inline">i=1, 2, \cdtos, N</span>. Then <span class="math display">
-E[ \max_{i} Z_i ] \le \sigma \sqrt{2 \ln(N)}
-</span></p>
-</div>
-<div class="proof">
-<p><span class="proof-title"><em>Proof</em>. </span>By Jensen inequality we have <span class="math display">
-e^{t E[ \max_{i} Z_i ]} \le E[ e^{t \max_{i} Z_i } ] \le \sum_i E[e^{t Z_i}]\le N e^{\frac{t^2\sigma^2}{2}}
-</span> Thus <span class="math display">
-E[ \max_{i} Z_i ] \le \frac{\log{N}}{t} + \frac{t\sigma^2}{2}
-</span> and optimizing over <span class="math inline">t</span> yields the result.</p>
-</div>
-<div id="thm-symmetrization" class="theorem">
-<p><span class="theorem-title"><strong>Theorem 3.5</strong></span> Suppose <span class="math inline">\epsilon_i</span> are IID Rademacher random variable (i.e. equal to <span class="math inline">\pm 1</span> with probability <span class="math inline">\frac{1}{2}</span>. Then we have <span class="math display">
-E\left[ \sup_{f}| \frac{1}{n} \sum_{i=1}^nf(X_i)-E[f(X)]|\right] \le 2 E_{X} \left[ E_{\epsilon} \left[ \sup_{f}|\frac{1}{n} \sum_{i=1}^n \epsilon_{i} f(X_i)| \right]\right]
-</span></p>
-</div>
-<div class="proof">
-<p><span class="proof-title"><em>Proof</em>. </span>We use a duplication trick and consider RVs <span class="math inline">Y_1, \cdtos Y_n</span> which are indepndent copies of <span class="math inline">X_1, \cdots X_n</span>. We have then<br>
-<span class="math display">
-\begin{aligned}
-E\left[ \sup_{f}| \frac{1}{n} \sum_{i=1}^nf(X_i)-E[f(X_i)]|\right] &amp;= E\left[ \sup_{f}| \frac{1}{n} \sum_{i=1}^nf(X_i)-E[f(Y_i)]|\right] \\
-&amp; = E_{X} \left[ \sup_{f}\left| E_{Y} [\frac{1}{n} \sum_{i=1}^nf(X_i)-f(Y_i)] \right| \right] \\
-&amp; \le E_{X} E_{Y} \left[ \sup_{f}\left| \frac{1}{n} \sum_{i=1}^nf(X_i)-f(Y_i) \right|\right] \\
-&amp; \le E_{X} E_{Y} \left[ \sup_{f}\left| \frac{1}{n} \sum_{i=1}^n \epsilon_{i} (f(X_i)-f(Y_i)) \right|\right]
-\end{aligned}
-</span> where in the last line we have used that multiplying <span class="math inline">(f(X_i)-f(Y_i))</span> by a factor <span class="math inline">-1</span> is equivalent to exchanging <span class="math inline">X_i</span> and <span class="math inline">Y_i</span> and thus does not change the expectation. Taking now expectation over <span class="math inline">\epsilon_i</span> and using the triangle inequality yields the result.</p>
-</div>
-<p>This is very useful since have gotten rid of <span class="math inline">E[f(X_i)]</span> which maybe is unknown and we have now a quantity which depnds only on the data <span class="math inline">X_1, \cdots, X_n</span>. How useful this can be is deonstrated next in the context of Glivenko-Catelli Theorem.</p>
-<p>:::{#thm-glivenko-cantelli-concentration} We have <span class="math display">
-\sup_{f \in\mathcal{F}} \left| \frac{1}{n}\sum_{k=1}^n f(X_i) - E[f(X_i)]  \right|  
-</span></p>
-</section>
-<section id="exercises-1" class="slide level2" data-number="3.7">
-<h2><span class="header-section-number">3.7</span> Exercises</h2>
+<section id="exercises-1" class="slide level2" data-number="3.6">
+<h2><span class="header-section-number">3.6</span> Exercises</h2>
 <div id="exr-111" class="theorem exercise">
 <p><span class="theorem-title"><strong>Exercise 3.1</strong></span> Here is another version of the optional sampling theorem. Suppose that <span class="math inline">M_n</span> is martingale. The <em>increments</em> <span class="math inline">B_n</span> of the martingales are given by <span class="math inline">B_n= M_{n}-M_{n-1}</span>.</p>
 <p>Show that if the stopping time<span class="math inline">T</span> hase finite expectation <span class="math inline">E[T]&lt;\infty</span> and if the martingale <span class="math inline">M_n</span> has uniformly bounded increments, i.e.  <span class="math display">
@@ -1758,12 +1712,12 @@ E\left[ \sup_{f}| \frac{1}{n} \sum_{i=1}^nf(X_i)-E[f(X_i)]|\right] &amp;= E\left
 Prove the folliwing generalization: If <span class="math inline">T</span> is a stopping time with <span class="math inline">E[T]</span> finite then <span class="math inline">E[\sum_{k=1}^N X_i]= E[X]E[N]</span>. <em>Hint</em>: Consider a suitable martingale and use <a href="#/exercises-1" class="quarto-xref">Exercise 3.1</a>.</p>
 </div>
 </section>
-<section id="section-15" class="slide level2 unnumbered scrollable">
+<section id="section-16" class="slide level2 unnumbered scrollable">
 <h2></h2>
 <div id="exr-113" class="theorem exercise">
 <p><span class="theorem-title"><strong>Exercise 3.3 (Gambler’s ruin probabilities and expected playing time)</strong></span> Suppose <span class="math inline">P(X_i=1)=p, P(X_i=-1)=q=1-p</span> and let <span class="math inline">S_n=a + X_0 + \cdots +X_n</span>. And let <span class="math inline">T = \min \{n :S_n =0 \text{ or } s_n=N \}</span></p>
 <ol type="1">
-<li><p>Show that <span class="math inline">M_n= \left(\frac{p}{q}\right)^{S_n}</span> is a martingale with respect to <span class="math inline">X_1, X_2, \cdots</span>.</p></li>
+<li><p>Show that <span class="math inline">M_n= \left(\frac{q}{p}\right)^{S_n}</span> is a martingale with respect to <span class="math inline">X_1, X_2, \cdots</span>.</p></li>
 <li><p>Use part 1. and the optional sampling theorem to compute <span class="math inline">P{S_T=0}</span>.</p></li>
 <li><p>Use the martingale <span class="math inline">Z_n = S_n + (1-2p)n</span> and part 2. to compute <span class="math inline">E[T]</span>.</p></li>
 </ol>
@@ -1807,7 +1761,7 @@ E[ e^{tX}] \le \cosh(At) \le e^{\frac{A^2 t^2}{2}}
 </span></p>
 </div>
 </section>
-<section id="section-16" class="slide level2 unnumbered">
+<section id="section-17" class="slide level2 unnumbered">
 <h2></h2>
 <div class="proof">
 <p><span class="proof-title"><em>Proof</em>. </span>If <span class="math inline">x \in [-A, B]</span> let us write <span class="math inline">x</span> as a convex combination of <span class="math inline">-A</span> and <span class="math inline">B</span>, that is <span class="math display">
@@ -1856,7 +1810,7 @@ P\left( h(X_1,\cdots, X_n) - E[h(X_1, \cdots, X_n)] \ge \varepsilon \right)  \le
 </span></p>
 </div>
 </section>
-<section id="section-17" class="slide level2 unnumbered">
+<section id="section-18" class="slide level2 unnumbered">
 <h2></h2>
 <div class="proof">
 <p><span class="proof-title"><em>Proof</em>. </span><strong>“Martingale trick”</strong>: We construct a suitable martingale. Let us define random variable <span class="math inline">Y_k</span> by <span class="math inline">Y_0=E[f(X_1, \cdots, X_n)]</span> and, for <span class="math inline">1\le k \le n</span>, <span class="math display">
@@ -1872,10 +1826,10 @@ Y_k-Y_{k-1} = E[h(X_1, \cdots, X_k, \cdots, X_n)|X_1, \cdots, X_k]- E[h(X_1, \cd
 E[h(X_1, \cdots, X_k, \cdots, X_n)|X_1, \cdots, X_{k-1}]&amp;=E[h(X_1, \cdots, \widehat{X}_k, \cdots, X_n)|X_1, \cdots, X_{k-1}]\\
 &amp;=E[h(X_1, \cdots, \widehat{X}_k, \cdots, X_n)|X_1, \cdots, X_K]
 \end{aligned}
-\tag{4.2}</span></span> The first equality holds because <span class="math inline">X_k</span> and <span class="math inline">\widehat{X}_{k}</span> are identically distributed and left-hand side is a function of <span class="math inline">X_1, \cdots, X_{k-1}</span>. The second equality holds because <span class="math inline">X_k</span> and <span class="math inline">\widehat{X}_{k}</span> are idependent. Combining <a href="#/section-17" class="quarto-xref">Equation 4.1</a> and <a href="#/section-17" class="quarto-xref">Equation 4.2</a> shows that <span class="math inline">|Y_k-Y_{k-1}| \le c_k</span> almost surely. <span class="math inline">\quad \blacksquare</span></p>
+\tag{4.2}</span></span> The first equality holds because <span class="math inline">X_k</span> and <span class="math inline">\widehat{X}_{k}</span> are identically distributed and left-hand side is a function of <span class="math inline">X_1, \cdots, X_{k-1}</span>. The second equality holds because <span class="math inline">X_k</span> and <span class="math inline">\widehat{X}_{k}</span> are idependent. Combining <a href="#/section-18" class="quarto-xref">Equation 4.1</a> and <a href="#/section-18" class="quarto-xref">Equation 4.2</a> shows that <span class="math inline">|Y_k-Y_{k-1}| \le c_k</span> almost surely. <span class="math inline">\quad \blacksquare</span></p>
 </div>
 </section>
-<section id="section-18" class="slide level2 unnumbered">
+<section id="section-19" class="slide level2 unnumbered">
 <h2></h2>
 <p><span class="blue">Example:</span> Suppose <span class="math inline">S_n = X_1 + \cdots + X_n</span> is a sum of IID random variables such that <span class="math inline">E[X_i]=\mu</span> and <span class="math inline">a \le X_i \le b</span>. Then the function <span class="math inline">h(x_1, \cdots, x_n)</span> satisfies the bounded difference property with <span class="math inline">c_k=(b-a)</span> and we obtain the classical Hoeffding’s theorem for bounded random variables <span class="math display">
 \begin{aligned}
@@ -1905,7 +1859,7 @@ E[N]= n\left(1-\frac{1}{n}\right)^m
 P(|N - E[N]|\ge \epsilon)\le 2 e^{-\frac{2\epsilon^2}{m}}
 </span></p>
 </section>
-<section id="empirical-processes-1" class="slide level2" data-number="4.6">
+<section id="empirical-processes" class="slide level2" data-number="4.6">
 <h2><span class="header-section-number">4.6</span> Empirical processes</h2>
 <p>As another application of Azuma-Hoeffding’s theorem we consider <em>empirical processe</em> which are given by <span class="math display">
 Z(X_1, \cdots, X_n)=\sup_{f \in \mathcal{F}} \left| \frac{1}{n}\sum_{k=1}^n f(X_i) - E[f(X_i)]  \right|
@@ -1917,7 +1871,7 @@ Z(X_1, \cdots, X_n)=\sup_{f \in \mathcal{F}} \left| \frac{1}{n}\sum_{k=1}^n f(X_
 \sup_{t \in \mathbb{R} }| \frac{1}{n}\sum_{k=1}^n 1_{\{X_i\le t\}} - F_X(t)| \to 0 \quad \text{ almost surely}
 </span> that is we have <em>uniform convergence</em> of the empirical distribution to the true distribution.</p>
 </section>
-<section id="section-19" class="slide level2 unnumbered">
+<section id="section-20" class="slide level2 unnumbered">
 <h2></h2>
 <p>Empirical processe satisfy the bounded difference property: indeed if we set <span class="math display">
 g(x_1, \cdots, x_n) = \left| \frac{1}{n}\sum_{k=1}^n f(x_i) - E[f(X)]  \right|
@@ -1929,7 +1883,7 @@ P(|Z - E[Z]|&gt; \epsilon) \le 2 e^{-\frac{n \epsilon^2}{2 B^2}}
 |Z-E[Z]| \le B \sqrt{\frac{2}{n}\log \frac{1}{\delta}} \quad \text{ with probability at least } 1- 2 \delta
 </span> for any <span class="math inline">\delta &gt;0</span>.</p>
 </section>
-<section id="section-20" class="slide level2 unnumbered">
+<section id="section-21" class="slide level2 unnumbered">
 <h2></h2>
 <p>To go further we need to control the mean <span class="math inline">E[Z]</span> and to do this we need two results.</p>
 <div id="thm-maximal" class="theorem">
@@ -1948,7 +1902,7 @@ E[ \max_{i} Y_i ] \le \frac{\log{N}}{t} + \frac{t\sigma^2}{2}
 E[ \max_{i} |Z_i| ] = E[ \max_{i} \max\{ Z_i, -Z_i\} ] \le \sigma \sqrt{ 2 \log{2 N}} \le 2 \sigma \sqrt{ \log{N}}
 </span></p>
 </section>
-<section id="section-21" class="slide level2 unnumbered">
+<section id="section-22" class="slide level2 unnumbered">
 <h2></h2>
 <div id="thm-symmetrization" class="theorem">
 <p><span class="theorem-title"><strong>Theorem 4.6</strong></span> Suppose <span class="math inline">\epsilon_i</span> are IID Rademacher random variable (i.e. equal to <span class="math inline">\pm 1</span> with probability <span class="math inline">\frac{1}{2})</span>. Then we have <span class="math display">
@@ -1967,7 +1921,7 @@ E\left[ \sup_{f}| \frac{1}{n} \sum_{i=1}^nf(X_i)-E[f(X_i)]|\right] &amp;= E\left
 </span> where in the last line we have used that multiplying <span class="math inline">(f(X_i)-f(Y_i))</span> by a factor <span class="math inline">-1</span> is equivalent to exchanging <span class="math inline">X_i</span> and <span class="math inline">Y_i</span> and thus does not change the expectation. Taking now expectation over <span class="math inline">\epsilon_i</span> and using the triangle inequality yields the result.</p>
 </div>
 </section>
-<section id="section-22" class="slide level2 unnumbered">
+<section id="section-23" class="slide level2 unnumbered">
 <h2></h2>
 <p>This is a very useful since have gotten rid of <span class="math inline">E[f(X_i)]</span> which maybe unknown and we have now a quantity which depnds only on the data <span class="math inline">X_1, \cdots, X_n</span>. How useful this can be is deonstrated next in the context of Glivenko-Catelli Theorem.</p>
 <div id="thm-glivenko-cantelli-concentration" class="theorem">
@@ -1976,11 +1930,11 @@ P\left( \sup_{t  \in\mathbb{R}} \left| \frac{1}{n}\sum_{k=1}^n 1_{\{X_i\le t\}} 
 </span></p>
 </div>
 <div class="proof">
-<p><span class="proof-title"><em>Proof</em>. </span>Using <a href="#/empirical-processes" class="quarto-xref">Theorem 4.6</a> we bound <span class="math inline">E_{\epsilon}[ \sup_{t \in\mathbb{R}} | \frac{1}{n}\sum_{k=1}^n \epsilon_{i}1_{\{x_i\le t\}}|]</span> for some <em>fixed</em> values of the <span class="math inline">x_i</span>. Given those values and since <span class="math inline">f(x)=1_{\{x\le t\}}</span> is a characteristic function of a half interval, as <span class="math inline">t</span> varies there are only <span class="math inline">n+1</span> possible values for the functions <span class="math inline">(f(x_1), \cdots, f(x_n))</span> (To see this order the <span class="math inline">x_i</span> in increasing order). Therefore the supremum over <span class="math inline">t</span> reduces to a supremum over <span class="math inline">n+1</span> values (which depend on <span class="math inline">x_1, \cdots, x_n</span>)).</p>
+<p><span class="proof-title"><em>Proof</em>. </span>Using <a href="#/section-22" class="quarto-xref">Theorem 4.6</a> we bound <span class="math inline">E_{\epsilon}[ \sup_{t \in\mathbb{R}} | \frac{1}{n}\sum_{k=1}^n \epsilon_{i}1_{\{x_i\le t\}}|]</span> for some <em>fixed</em> values of the <span class="math inline">x_i</span>. Given those values and since <span class="math inline">f(x)=1_{\{x\le t\}}</span> is a characteristic function of a half interval, as <span class="math inline">t</span> varies there are only <span class="math inline">n+1</span> possible values for the functions <span class="math inline">(f(x_1), \cdots, f(x_n))</span> (To see this order the <span class="math inline">x_i</span> in increasing order). Therefore the supremum over <span class="math inline">t</span> reduces to a supremum over <span class="math inline">n+1</span> values (which depend on <span class="math inline">x_1, \cdots, x_n</span>)).</p>
 <p>Since <span class="math inline">\epsilon_i</span> satisfies a Gaussian bound <span class="math inline">E[e^{t \epsilon_i}]\le e^{\frac{t^2}{2}}</span> we have <span class="math display">
 E_\epsilon[e^{ t\frac{1}{n} \sum_{k=1}^n \epsilon_{k} 1_{\{x_k\le t\}}}]= \prod_{k=1}^n E_\epsilon[e^{t \epsilon_k 1_{\{x_k\le t\}}} ] \le  \prod_{k=1}^n e^{\frac{t^2}{2n^2}} = e^{\frac{t^2}{2n}}
 </span> a bound which is independent of the <span class="math inline">x_i</span>’s!</p>
-<p>and thus by <a href="#/empirical-processes" class="quarto-xref">Theorem 4.5</a> we find <span class="math display">
+<p>and thus by <a href="#/section-21" class="quarto-xref">Theorem 4.5</a> we find <span class="math display">
 E_{\epsilon}[ \sup_{t \in\mathbb{R}} | \frac{1}{n}\sum_{k=1}^n \epsilon_{i}\frac{1}{n}1_{\{x_i\le t\}}|] \le \sqrt{4 \ln(n+1)} \frac{1}{\sqrt{n}}
 </span></p>
 </div>
@@ -2004,7 +1958,7 @@ M_n = \sum_{j=1}^n D_j = \sum_{j=1}^n (Y_m - E[Y_m|Y_0, \cdots, Y_{m-1}])  \,.
 D_m = f(X_m)-  E[f(X_m)|Y_0, \cdots, Y_{m-1}] = f(X_m)-  E[f(X_m)| Y_{m-1}] = f(X_m) -Pf(X_{m-1})
 </span> is a martingale increment with respect to the sequence <span class="math inline">X_1, X_2, \cdots</span>.</p>
 </section>
-<section id="section-23" class="slide level2 unnumbered">
+<section id="section-24" class="slide level2 unnumbered">
 <h2></h2>
 <p>We obtain therefore the martingale <span id="eq-martingalesDynkin"><span class="math display">
 \begin{aligned}
@@ -2012,7 +1966,7 @@ M_n = \sum_{j=1}^n f(X_j) -Pf(X_{j-1}) &amp; = f(X_n) -f(X_0) +  \sum_{j=0}^{n-1
 &amp; = f(X_n) -f(X_0) - \sum_{j=0}^{n-1} Af(X_j)
 \end{aligned}
 \tag{5.1}</span></span> for <span class="math inline">f</span> bounded and where we used the notation <span class="math inline">A=P - I</span>. This martingale is called the <em>Dynkin’s martingale</em>.</p>
-<p>If we want to apply martingale theory to analyze the sum <span class="math inline">\sum_{j=1}^n g(X_j)</span> then we would like to use the martingale <a href="#/section-23" class="quarto-xref">Equation 5.1</a>. To do this we must a find a function <span class="math inline">f</span> such that <span class="math display">
+<p>If we want to apply martingale theory to analyze the sum <span class="math inline">\sum_{j=1}^n g(X_j)</span> then we would like to use the martingale <a href="#/section-24" class="quarto-xref">Equation 5.1</a>. To do this we must a find a function <span class="math inline">f</span> such that <span class="math display">
 Af = (P -I)f = - g
 </span> Then we would have a martingale <span class="math display">
 M_n = f(X_n) - f(X_0) + \sum_{j=0}^{n-1} g(X_j) \quad \quad \text{ with } Af = -g
@@ -2034,7 +1988,7 @@ f= (\Pi -(P-I))^{-1}g
 </span> where <span class="math inline">\Pi</span> is the matrix whose each row is the stationary distribution <span class="math inline">\pi</span>.</p>
 </div>
 </section>
-<section id="section-24" class="slide level2 unnumbered">
+<section id="section-25" class="slide level2 unnumbered">
 <h2></h2>
 <div class="proof">
 <p><span class="proof-title"><em>Proof</em>. </span>By irreducibility the matrix <span class="math inline">P</span> has a unique right eigenvector <span class="math inline">h=(1, \cdots, 1)^T</span> (up to a mutliplicative constant) and unique left eigenvector <span class="math inline">\pi</span>. The algberaic multiplicity of the eigenvalue <span class="math inline">1</span> is also equal to <span class="math inline">1</span> since <span class="math inline">(P-1)^2 g=0</span> implies <span class="math inline">(P-1)g=ch</span> of <span class="math inline">Pg = g +ch</span>, which inturns implies that <span class="math inline">\pi g= \pi Pg = \pi g + c</span> which is impossible unless <span class="math inline">c=0</span>.</p>
@@ -2063,7 +2017,7 @@ M_n = f(X_n) - f(X_0) + \sum_{j=0}^{n-1}  {\overline h}(X_j)
 </span> whose increments are <span class="math inline">D_j= f(X_j) - Pf(X_{j-1})</span>.</p>
 </div>
 </section>
-<section id="section-25" class="slide level2 unnumbered">
+<section id="section-26" class="slide level2 unnumbered">
 <h2></h2>
 <p>We claim that <span id="eq-mm"><span class="math display">
 E\left[ \frac{e^{i \theta M_n}}{\prod_{j=1}^n E[ e^{i \theta} D_j |\mathcal{F}_{j-1}] } \right] =1
@@ -2083,12 +2037,12 @@ E\left[ \frac{e^{i \theta M_{n-1}}}{\prod_{j=1}^{n-1} E[ e^{i \theta} D_j |\math
 E[D_j^2|\mathcal{F}_{n-1}] = E[(f(X_j) - Pf(X_{j-1}))^2 | X_{j-1} ] = Pf^2(X_{j-1}) - (Pf(X_{j-1}))^2  
 </span></p>
 </section>
-<section id="section-26" class="slide level2 unnumbered">
+<section id="section-27" class="slide level2 unnumbered">
 <h2></h2>
 <p>Using the the strong law of large numbers for Markov chain,<br>
 <span class="math display">
 \lim_{n \to \infty }\sum_{j=1}^\infty \log E[e^{i\frac{\theta}{\sqrt{n}}D_j}|\mathcal{F}_{j-1}] = - \frac{\theta^2}{2} \pi (Pf^2 - (Pf)^2)  \quad \text{ almost surely}
-</span> Therefore, from <a href="#/section-25" class="quarto-xref">Equation 5.2</a>, we find that <span class="math display">
+</span> Therefore, from <a href="#/section-26" class="quarto-xref">Equation 5.2</a>, we find that <span class="math display">
 \lim_{n \to \infty}  E\left[ e^{i \theta M_n} \right] = e^{-\frac{\theta^2 \sigma^2}{2}}
 </span> where <span class="math display">
 \sigma^2 = \pi (f^2 - (Pf)^2)
