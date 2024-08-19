@@ -16,17 +16,16 @@ Statistical Mechanics, Applied Probability, Game Theory, Uncertainty Quantificat
 A detailed [CV](https://people.math.umass.edu/%7Elr7q/ps_files/curriculum.pdf)
 
 [Google Scholar](http://scholar.google.com/citations?user=GElhocQAAAAJ&amp;hl=en) <img src="images/GoogleScholar.jpeg" width="40" height="35" > &nbsp;
-[Research Gate](http://www.researchgate.net/profile/Luc_Rey-Bellet)    <img src="images/ResearchGate.png" width="32" height="25" >  
+[Research Gate](http://www.researchgate.net/profile/Luc_Rey-Bellet)    <img src="images/ResearchGate.png" width="32" height="25" >  &nbsp;
 [Arxiv](https://arxiv.org/search/?query=rey-bellet&amp;searchtype=author&amp;source=header)     <img src="images/ArXiv.png" width="50" height="25" > &nbsp;
 [Mathscinet](https://mathscinet.ams.org/mathscinet/MRAuthorID/614960) <img src="images/MathSciNet.png" width="40" height="35" > &nbsp;
 [Orcid](https://orcid.org/0000-0003-1166-8957)<img src="images/ORCID.jpeg" width="50" height="25" ></p>
 
 ## Grant support
 
-![](/images/NSF_Logo.png){width=0.4in} 2003($101K), 2006($106K), 2010($99K),  
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2015($280K), 2020($370K), 2023($300K)
+![](/images/NSF_Logo.png){width=0.4in} 2003($101K), 2006($106K), 2010($99K), 2015($280K), 2020($370K), 2023($300K)
 
-![](/images/AFOSR.jpeg){width=0.4in} 2019($900K), 2022($1.950M)
+![](/images/AFOSR.jpeg){width=0.4in} 2019($900K), 2021($1.950M)
 
 ![](/images/DOE.png){width=0.4in} 2016($900K) 
 

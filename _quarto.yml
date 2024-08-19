@@ -19,6 +19,8 @@ website:
             file: lecturenotes.qmd
       - section: "Current Teaching"
         contents:
+          - text: Math 605 (F24)
+            file: Math605-F24.qmd
           - text: Stat 315 (S24)
             file: Stat315-S24.qmd
           - text: Math 606 (S24)
