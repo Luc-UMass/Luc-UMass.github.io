@@ -444,7 +444,7 @@
   <meta name="generator" content="quarto-1.4.540">
 
   <meta name="author" content="Luc Rey-Bellet">
-  <meta name="dcterms.date" content="2024-09-10">
+  <meta name="dcterms.date" content="2024-09-16">
   <title>Part 1: Warming Up</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -1294,7 +1294,7 @@ Luc Rey-Bellet
     </div>
 </div>
 
-  <p class="date">2024-09-10</p>
+  <p class="date">2024-09-16</p>
 </section>
 <section>
 <section id="axioms-of-probability" class="title-slide slide level1 center" data-number="1">
@@ -1615,8 +1615,8 @@ P(X_1=1, X_2=1|Y=A) = P(X_1=1|Y=A) P(X_2=1|Y=A)
 <div id="exr-12" class="theorem exercise">
 <p><span class="theorem-title"><strong>Exercise 1.2</strong></span> Suppose <span class="math inline">\mathcal{A}</span> is a <span class="math inline">\sigma</span>-algebra and let <span class="math inline">B \in \mathcal{A}</span> be some set. Define <span class="math inline">\mathcal{B} = \{ A \cap B\,;\, A \in \mathcal{A} \}</span>.</p>
 <ol type="1">
-<li><p>Show that <span class="math inline">\mathcal{B}</span> is a <span class="math inline">\sigma</span>-algebra.</p></li>
-<li><p>Interpret the conditional probability <span class="math inline">P(A|B)</span> is a probability on the <span class="math inline">\sigma</span>-algebra <span class="math inline">\mathcal{B}</span>.</p></li>
+<li><p>Show that <span class="math inline">\mathcal{B}</span> is a <span class="math inline">\sigma</span>-algebra of subsets of <span class="math inline">B</span>.</p></li>
+<li><p>Interpret the conditional probability <span class="math inline">P(A|B)</span> as a probability on the <span class="math inline">\sigma</span>-algebra <span class="math inline">\mathcal{B}</span>.</p></li>
 </ol>
 </div>
 <div id="exr-13" class="theorem exercise">
@@ -1795,7 +1795,7 @@ p_n = { n-1 \choose k-1} (1-p)^{n-k} p^k
 </section>
 <section id="section-16" class="slide level2 unnumbered unlisted">
 <h2></h2>
-<div id="0980f6ba" class="cell columns column-output-location" data-execution_count="1">
+<div id="eb779bcf" class="cell columns column-output-location" data-execution_count="1">
 <div class="column">
 <details open class="code-fold">
 <summary>Code</summary>
@@ -2074,12 +2074,15 @@ E[1_A|1_B=1]= P(A|B), \quad   [1_A|1_B=0]= P(A|B^c)
 <section id="homework-problems-1" class="slide level2" data-number="2.10">
 <h2><span class="header-section-number">2.10</span> Homework problems</h2>
 <div id="exr-21" class="theorem exercise">
-<p><span class="theorem-title"><strong>Exercise 2.1</strong></span> Prove <a href="#/poisson-approximation" class="quarto-xref">Theorem 2.1</a></p>
+<p><span class="theorem-title"><strong>Exercise 2.1 (Poisson approximation)</strong></span> Prove <a href="#/poisson-approximation" class="quarto-xref">Theorem 2.1</a></p>
 </div>
+<p><br></p>
 <div id="exr-22" class="theorem exercise">
-<p><span class="theorem-title"><strong>Exercise 2.2</strong></span>  </p>
+<p><span class="theorem-title"><strong>Exercise 2.2 (Applications of the Poisson approximation)</strong></span>  </p>
 <ul>
-<li><p>Use a Poisson approximation to compute the probability that at least <span class="math inline">3</span> people in a room of <span class="math inline">N</span> share the same birthday.</p></li>
+<li><p>In the german lottery 6 balls are drawn at random out of 49 balls. As it happened within a year or so the exact same 6 number were drawn twice which seems to be an amazing coincidence since the probability to to draw a sequence of number of is <span class="math inline">1/{49 \choose 6}= 1/13,983,816</span>. Or is it?<br>
+When this event happened suppose the german lottery had been played twice a week for 28 years. Compute the probability that the same numbers appear twice during those 28 years? (If you want you may use a Poisson approximation.)</p></li>
+<li><p>Use a Poisson approximation to estimate the probability that at least <span class="math inline">3</span> people in a room of <span class="math inline">N</span> share the same birthday.</p></li>
 <li><p>Revisit the lottery problem of <a href="#/section-11" class="quarto-xref">Exercise 1.8</a>. Use a Poisson approximation to estimate the probability that there are exactly <span class="math inline">k</span> winners and compare with the exact result.</p></li>
 </ul>
 </div>
@@ -2087,39 +2090,65 @@ E[1_A|1_B=1]= P(A|B), \quad   [1_A|1_B=0]= P(A|B^c)
 <section id="section-23" class="slide level2 unnumbered unlisted">
 <h2></h2>
 <div id="exr-23" class="theorem exercise">
-<p><span class="theorem-title"><strong>Exercise 2.3</strong></span>  </p>
+<p><span class="theorem-title"><strong>Exercise 2.3 (Hypergeometric and lottery)</strong></span>  </p>
 <ul>
 <li><p>In the <a href="https://www.powerball.com/powerball-prize-chart">powerball</a> at each drawing 5 balls are selected at random among 69 white balls numbered 1 to 70 and 1 ball is seleccted among 26 red balls numbered 1 to 26. A powerball ticket costs $2 and consists of selected 5+1 numbers. You get a prize if the balls selected math the winning balls see the <a href="https://www.powerball.com/powerball-prize-chart">prizes here</a>.</p>
 <ul>
 <li><p>Express the probability of each prize using the hypergeometric distribution.</p></li>
-<li><p>All the prizes are fixed except the jackpot obtained for 5 correct white ball plus the red powerball. You will observe that most people will play only when the jackpot is big enough. As a rational mathematician determine the minimal jackpot for which it makes sense to buy a powerball ticket?<br>
+<li><p>All the prizes are fixed except the jackpot obtained for 5 correct white ball plus the red powerball. You will observe that most people will play only when the jackpot is big enough. As a (rational) mathematician determine the minimal jackpot for which it makes sense to buy a powerball ticket?<br>
 </p></li>
 </ul></li>
 </ul>
 </div>
 <div id="exr-24" class="theorem exercise">
-<p><span class="theorem-title"><strong>Exercise 2.4</strong></span> Suppose <span class="math inline">X</span> is a geometric random variable with success parameter <span class="math inline">p</span>.</p>
+<p><span class="theorem-title"><strong>Exercise 2.4 (Variance of the hypergeometric random variable)</strong></span> Show that for an hypergeometric random variable <span class="math inline">Z</span> when you sample <span class="math inline">n</span> balls out of an urn containing <span class="math inline">b</span> blue balls$ and <span class="math inline">r=N-b</span> balls and <span class="math inline">Z</span> is the number of blue balls, the variance of <span class="math inline">Z</span> is given by <span class="math display">
+V[Z]= n \frac{b}{N}  \frac{N-b}{N} {\color{red}\frac{N-n}{N-1}}
+</span> Note that if we were sampling the with replacement the term in red would not be present.<br>
+<em>Hint</em>: Write <span class="math inline">Z=X_1+ \cdots +X_n</span> and compute <span class="math inline">E[Z^2]</span> by expanding the square and using the interchangability of the random variables <span class="math inline">X_i</span>.</p>
+</div>
+</section>
+<section id="section-24" class="slide level2 unnumbered">
+<h2></h2>
+<div id="exr-25" class="theorem exercise">
+<p><span class="theorem-title"><strong>Exercise 2.5</strong></span> Suppose <span class="math inline">X</span> is a geometric random variable with success parameter <span class="math inline">p</span>.</p>
 <ul>
 <li><p>Show that <span class="math inline">P(X&gt; m+n|X&gt;n)=P(X&gt;m)</span>? What does that mean?</p></li>
 <li><p>Show that <span class="math inline">E\left[ \frac{1}{X}\right] =\log \left( p^{\frac{p}{p-1}} \right)</span></p></li>
-<li><p>Show that <span class="math inline">E\left[ X(X-1)(X-2) \cdots (X-r+1\right] = \frac{r! (1-p)^{r-1}}{p^r}</span>. Use this to compute <span class="math inline">E[X^2]</span> and <span class="math inline">E[X^3]</span>.</p></li>
+<li><p>Show that <span class="math inline">E\left[ X(X-1)(X-2) \cdots (X-r+1)\right] = \frac{r! (1-p)^{r-1}}{p^r}</span>. Use this to compute <span class="math inline">E[X^2]</span> and <span class="math inline">E[X^3]</span>.</p></li>
 </ul>
 </div>
-<p>:::{#exr-25 name=“Eggs”} The chicken in my backyard lays a random number <span class="math inline">T</span> of eggs, each egg is green with probability <span class="math inline">p</span> and brown with probability <span class="math inline">1-p</span> indepedently of the other eggs and of <span class="math inline">T</span>.</p>
-<ul>
-<li><p>Show that if <span class="math inline">T</span> has a Poisson distribution then the number of green eggs layed has a Poisson distribution with parameter <span class="math inline">\theta p</span>. *Hint$: The number of green eggs can be written as the random sum <span class="math inline">X_1 + \cdots + X_T</span> of Bernoulli random variables.</p></li>
-<li><p>Show that the the number of blue eggs and pink eggs layed are independent.</p></li>
-</ul>
+<p><br></p>
+<div id="exr-26" class="theorem exercise">
+<p><span class="theorem-title"><strong>Exercise 2.6 (More on conditioning)</strong></span> Suppose <span class="math inline">X</span> and <span class="math inline">Y</span> are two discrete random variables. Show that <span class="math display">
+  E[g(X)h(Y)|X] = g(X) E[h(Y)|X]  
+  </span></p>
+</div>
 </section>
-<section id="section-24" class="slide level2 unnumbered unlisted">
+<section id="section-25" class="slide level2 unnumbered">
 <h2></h2>
+<div id="exr-27" class="theorem exercise">
+<p><span class="theorem-title"><strong>Exercise 2.7 (Conditional Variance)</strong></span> A natural way to define conditional variance is to start with the definition <span class="math display">
+  V[X|Y=j]= E[ (X- E[X|Y=j])^2  |Y=j]  = E[X^2|Y=j]- E[X|Y=j]
+  </span> which is simply the variance with respect to the conditional probability <span class="math inline">P(\cdot| Y=j)</span>.<br>
+This allows to define <span class="math inline">V[X|Y]</span> as the function of the random variable <span class="math inline">Y</span> whose value is equal to <span class="math inline">V[X|Y=j]</span> when <span class="math inline">Y=j</span>. Prove the <strong>conditional variance formula</strong> sometimes also called the <strong>Law of total variance</strong> <span class="math display">
+  V[X]= E[ V[X|Y] ] + V[E[X|Y]]
+  </span></p>
+</div>
 <div id="exr-28" class="theorem exercise">
-<p><span class="theorem-title"><strong>Exercise 2.5</strong></span> Supose <span class="math inline">X</span> is binomial with parameter <span class="math inline">(n,p)</span>.</p>
+<p><span class="theorem-title"><strong>Exercise 2.8 (Random sum of random variables)</strong></span> Suppose <span class="math inline">N</span> is a random variables taking value in <span class="math inline">\mathbb{N}</span>. If <span class="math inline">Y_j</span> are IID (discrete) random variables <span class="math display">
+  Y_T = \sum_{n=1}^T Y_j  \quad \text{ with the convention } X_0=0
+  </span> Use the conditioning formula for mean and variance to compute <span class="math display">
+  E[Y_T] \quad \text{ and } V[Y_T]
+  </span> in terms of the mean and variance of <span class="math inline">Y</span> and <span class="math inline">T</span>.</p>
+</div>
+</section>
+<section id="section-26" class="slide level2 unnumbered">
+<h2></h2>
+<div id="exr-29" class="theorem exercise">
+<p><span class="theorem-title"><strong>Exercise 2.9 (Eggs)</strong></span> The chickens in my backyard lays a random number <span class="math inline">T</span> of eggs, each egg is green with probability <span class="math inline">p</span> and brown with probability <span class="math inline">1-p</span> indepedently of the other eggs and of <span class="math inline">T</span>.</p>
 <ul>
-<li>Find the value <span class="math inline">j</span> for which <span class="math inline">P(X=j)</span> is maximal.<br>
-<em>Hint</em>: Compute the ratio <span class="math inline">P(X=j+1)/P(X=j)</span>.</li>
-<li>Compute the probability that <span class="math inline">X</span> is even.<br>
-<em>Hint</em>: Compute <span class="math inline">(p-(1-p))^n</span>.</li>
+<li><p>Show that if <span class="math inline">T</span> has a Poisson distribution then the number of green eggs layed has a Poisson distribution with parameter <span class="math inline">\theta p</span>. *Hint$: Write the number of green eggs can be written as the random sum <span class="math inline">X_1 + \cdots + X_T</span> of Bernoulli random variables. Use conditioning</p></li>
+<li><p>Show that the the number of green eggs and eggs layed are independent random variables.</p></li>
 </ul>
 </div>
 </section></section>
@@ -2158,7 +2187,7 @@ P(B_n) = P(\cup_{k\ge n} A_k) \le \sum_{k \ge n} P(A_k) \,.
 </span> Since, by assumption, <span class="math inline">\sum_{n} P(A_n) &lt; \infty</span> the tail sum <span class="math inline">\sum_{k \ge n} P(A_k)</span> must go to <span class="math inline">0</span> as <span class="math inline">n \to \infty</span> and this concludes the proof. <span class="math inline">\quad \square</span></p>
 </div>
 </section>
-<section id="section-25" class="slide level2 unnumbered">
+<section id="section-27" class="slide level2 unnumbered">
 <h2></h2>
 <p>For the converse statement we need to add an assumption of independence.</p>
 <div id="thm-secondBClemma" class="theorem">
@@ -2195,7 +2224,7 @@ E[Z] \ge a P(Z \ge a).
 </span> <span class="math inline">\quad \square</span></p>
 </div>
 </section>
-<section id="section-26" class="slide level2 unnumbered">
+<section id="section-28" class="slide level2 unnumbered">
 <h2></h2>
 <p>Using the Markov inequality we can then prove Chebyshev</p>
 <div id="thm-chebyshev" class="theorem">
@@ -2235,7 +2264,7 @@ P \left( \omega\,;\,  \lim_{n} Z_n(\omega) = \mu \right) =1
 </span></p>
 </div>
 </section>
-<section id="section-27" class="slide level2 unnumbered">
+<section id="section-29" class="slide level2 unnumbered">
 <h2></h2>
 <div class="proof">
 <p><span class="proof-title"><em>Proof</em>. </span>If <span class="math inline">Z_n(\omega)</span> converges to <span class="math inline">\mu</span> then for any <span class="math inline">\epsilon &gt;0</span> there exists <span class="math inline">N</span> (which may depends on <span class="math inline">\omega</span>) such that <span class="math inline">|Z_n(\omega)-\mu| &lt; \epsilon</span> for all <span class="math inline">n \ge N</span>. Therefore <span class="math display">
