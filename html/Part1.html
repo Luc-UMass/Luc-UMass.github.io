@@ -444,7 +444,7 @@
   <meta name="generator" content="quarto-1.4.540">
 
   <meta name="author" content="Luc Rey-Bellet">
-  <meta name="dcterms.date" content="2024-09-16">
+  <meta name="dcterms.date" content="2024-09-17">
   <title>Part 1: Warming Up</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -1294,7 +1294,7 @@ Luc Rey-Bellet
     </div>
 </div>
 
-  <p class="date">2024-09-16</p>
+  <p class="date">2024-09-17</p>
 </section>
 <section>
 <section id="axioms-of-probability" class="title-slide slide level1 center" data-number="1">
@@ -1795,7 +1795,7 @@ p_n = { n-1 \choose k-1} (1-p)^{n-k} p^k
 </section>
 <section id="section-16" class="slide level2 unnumbered unlisted">
 <h2></h2>
-<div id="eb779bcf" class="cell columns column-output-location" data-execution_count="1">
+<div id="48fe93de" class="cell columns column-output-location" data-execution_count="1">
 <div class="column">
 <details open class="code-fold">
 <summary>Code</summary>
@@ -2092,7 +2092,7 @@ When this event happened suppose the german lottery had been played twice a week
 <div id="exr-23" class="theorem exercise">
 <p><span class="theorem-title"><strong>Exercise 2.3 (Hypergeometric and lottery)</strong></span>  </p>
 <ul>
-<li><p>In the <a href="https://www.powerball.com/powerball-prize-chart">powerball</a> at each drawing 5 balls are selected at random among 69 white balls numbered 1 to 70 and 1 ball is seleccted among 26 red balls numbered 1 to 26. A powerball ticket costs $2 and consists of selected 5+1 numbers. You get a prize if the balls selected math the winning balls see the <a href="https://www.powerball.com/powerball-prize-chart">prizes here</a>.</p>
+<li><p>In the <a href="https://www.powerball.com/powerball-prize-chart">powerball</a> at each drawing 5 balls are selected at random among 69 white balls numbered 1 to 69 and 1 ball is seleccted among 26 red balls numbered 1 to 26. A powerball ticket costs $2 and consists of selected 5+1 numbers. You get a prize if the balls selected math the winning balls see the <a href="https://www.powerball.com/powerball-prize-chart">prizes here</a>.</p>
 <ul>
 <li><p>Express the probability of each prize using the hypergeometric distribution.</p></li>
 <li><p>All the prizes are fixed except the jackpot obtained for 5 correct white ball plus the red powerball. You will observe that most people will play only when the jackpot is big enough. As a (rational) mathematician determine the minimal jackpot for which it makes sense to buy a powerball ticket?<br>
@@ -2136,10 +2136,10 @@ This allows to define <span class="math inline">V[X|Y]</span> as the function of
 </div>
 <div id="exr-28" class="theorem exercise">
 <p><span class="theorem-title"><strong>Exercise 2.8 (Random sum of random variables)</strong></span> Suppose <span class="math inline">N</span> is a random variables taking value in <span class="math inline">\mathbb{N}</span>. If <span class="math inline">Y_j</span> are IID (discrete) random variables <span class="math display">
-  Y_T = \sum_{n=1}^T Y_j  \quad \text{ with the convention } X_0=0
+  Y_N = \sum_{n=1}^N Y_j  \quad \text{ with the convention } Y_0=0
   </span> Use the conditioning formula for mean and variance to compute <span class="math display">
-  E[Y_T] \quad \text{ and } V[Y_T]
-  </span> in terms of the mean and variance of <span class="math inline">Y</span> and <span class="math inline">T</span>.</p>
+  E[Y_N] \quad \text{ and } V[Y_N]
+  </span> in terms of the mean and variance of <span class="math inline">Y</span> and <span class="math inline">N</span>.</p>
 </div>
 </section>
 <section id="section-26" class="slide level2 unnumbered">
@@ -2147,8 +2147,8 @@ This allows to define <span class="math inline">V[X|Y]</span> as the function of
 <div id="exr-29" class="theorem exercise">
 <p><span class="theorem-title"><strong>Exercise 2.9 (Eggs)</strong></span> The chickens in my backyard lays a random number <span class="math inline">T</span> of eggs, each egg is green with probability <span class="math inline">p</span> and brown with probability <span class="math inline">1-p</span> indepedently of the other eggs and of <span class="math inline">T</span>.</p>
 <ul>
-<li><p>Show that if <span class="math inline">T</span> has a Poisson distribution then the number of green eggs layed has a Poisson distribution with parameter <span class="math inline">\theta p</span>. *Hint$: Write the number of green eggs can be written as the random sum <span class="math inline">X_1 + \cdots + X_T</span> of Bernoulli random variables. Use conditioning</p></li>
-<li><p>Show that the the number of green eggs and eggs layed are independent random variables.</p></li>
+<li><p>Show that if <span class="math inline">T</span> has a Poisson distribution then the number of green eggs layed has a Poisson distribution with parameter <span class="math inline">\theta p</span>. <em>Hint</em>: Write the number of green eggs can be written as the random sum <span class="math inline">X_1 + \cdots + X_T</span> of Bernoulli random variables. Use conditioning</p></li>
+<li><p>Show that the the number of green eggs and brown eggs layed are independent random variables.</p></li>
 </ul>
 </div>
 </section></section>
