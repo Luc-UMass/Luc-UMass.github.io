@@ -42,6 +42,7 @@ I will post class slides here.
 
 [Math 605 Fall 24: Part I: Warming Up](https://luc-umass.github.io/html/Part1.html)
 
+[Math 605 Fall 24: Part 2: Probability measures and Expectation](https://luc-umass.github.io/html/Part2.html)
 
 In the meantime you can look at my slides from last year 
 
