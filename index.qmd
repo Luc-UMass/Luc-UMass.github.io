@@ -17,7 +17,7 @@ A detailed [CV](https://people.math.umass.edu/%7Elr7q/ps_files/curriculum.pdf)
 
 [Google Scholar](http://scholar.google.com/citations?user=GElhocQAAAAJ&amp;hl=en) <img src="images/GoogleScholar.jpeg" width="40" height="35" > &nbsp;
 [Research Gate](http://www.researchgate.net/profile/Luc_Rey-Bellet)    <img src="images/ResearchGate.png" width="32" height="25" >  &nbsp;
-[Arxiv](https://arxiv.org/search/?query=rey-bellet&amp;searchtype=author&amp;source=header)     <img src="images/ArXiv.png" width="50" height="25" > &nbsp;
+[Arxiv](https://arxiv.org/search/?query=rey-bellet&amp;searchtype=author&amp;source=header)  <img src="images/ArXiv.png" width="50" height="25" > &nbsp;
 [Mathscinet](https://mathscinet.ams.org/mathscinet/MRAuthorID/614960) <img src="images/MathSciNet.png" width="40" height="35" > &nbsp;
 [Orcid](https://orcid.org/0000-0003-1166-8957)<img src="images/ORCID.jpeg" width="50" height="25" ></p>
 
