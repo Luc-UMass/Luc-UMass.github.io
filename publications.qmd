@@ -2,692 +2,681 @@
 title: "Publications of Luc Rey-Bellet"
 ---
 
-1.  Nilanjana Datta, Roberto Fernandez, Jürg Fröhlich, and Luc Rey-Bellet, 
-<cite> Low-temperature phase diagrams of quantum lattice systems. II. Convergent perturbation  expansions and stability in systems with  infinite degeneracy, 
-</cite>	Helvetica Physica Acta <b>69</b> (1996), 5-6, pp. 752--820.  
-<a class="DOI" href="http://doi.org/10.5169/seals-116979">  DOI: 10.5169/seals-116979 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1428028"> MR1428028 </a> &ensp; 
-<a class="reprint" href="pdf/ql2.pdf"> Reprint in PDF</a> &ensp;
-
-
-2. Jürg Fröhlich and Luc Rey-Bellet, 
-<cite>  Low-temperature phase diagrams of quantum lattice systems. III. Examples, </cite> Helvetica Physica Acta <b>69</b> (1996), 5-6, pp. 821--849.     
-<a class="DOI" href="http://doi.org/10.5169/seals-116980">  DOI: 10.5169/seals-116980  </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1428029"> MR1428029  </a> &ensp; 
-<a class="reprint" href="pdf/ql3.pdf"> Reprint in PDF</a>
-
-3.  Jean-Pierre Eckmann, Claude-Alain Pillet, and Luc Rey-Bellet, <cite> Non-equilibrium statistical mechanics of anharmonic chains coupled to two heat 
-baths at different temperatures, </cite> 
-Communications in Mathematical Physics <b> 201</b> (1999), no. 3, pp. 657--697.  
-<a class="DOI" href="https://doi.org/10.1007/s002200050572">  DOI: 10.1007/s002200050572  </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1685893">MR1685893 </a> &ensp; 
-<a class="reprint" href="pdf/epr1.pdf">Reprint in PDF</a> 
-
-4.  Jean-Pierre Eckmann, Claude-Alain Pillet, and Luc Rey-Bellet,
-<cite> 
-Entropy production in non-linear, thermally driven Hamiltonian systems,
-</cite> 
-Journal of Statistical Physics <b>95</b> (1999), no. 1-2, pp. 305--331.   
-<a class="DOI" href="https://doi.org/10.1023/A:1004537730090">  DOI:10.1023/A:1004537730090  </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1705589"> MR1705589 </a> &ensp; 
-<a class="reprint" href="pdf/epr2.pdf">Reprint in PDF</a>
-
-
-5. Lawrence E. Thomas and Luc Rey-Bellet,
-<cite>
-Asymptotic behavior of thermal non-equilibrium  steady states for a driven chain of anharmonic oscillators,
-</cite> 
-Communications in Mathematical Physics <b>215</b> (2000), no.1, pp. 1--24.   
-<a class="DOI" href="https://doi.org/10.1007/s002200000285">  DOI: 10.1007/s002200000285 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1799873"> MR1799873 </a> &ensp; 
-<a class="reprint" href="pdf/larry1.pdf">Reprint in PDF</a> 
-
-6. Federico Bonetto, Joel  Lebowitz, and Luc Rey-Bellet, 
-<cite>
-Fourier Law: A challenge to theorists,
-</cite> 
-In: Mathematical Physics 2000,  A. Fokas, A. Grigoryan, T. Kibble, and  B. Zegarlinski  (Eds.) Imperial College Press, London 2000, pp. 128--150.   
-<a class="DOI" href="https://doi.org/10.1142/9781848160224_0008">  DOI:10.1142/9781848160224_0008  </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1773043"> MR1773043 </a> &ensp; 
-<a class="reprint" href="pdf/blr.pdf">  Reprint in PDF </a>
-
-7. Jürg Fröhlich, Luc Rey-Bellet, and Daniel Ueltschi, 
-<cite>
-Quantum lattice systems at intermediate temperature,
-</cite>
-Communications in Mathematical Physics <b>224</b> (2001), no. 1, pp. 33--63.  
-<a class="DOI" href="https://doi.org/10.1007/s002200100530">  DOI: 10.1007/s002200100530 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1869003"> MR1869003 </a> &ensp; 
-<a class="reprint" href="pdf/fru.pdf">Reprint in PDF</a>
-
-
-8. Lawrence E. Thomas and Luc Rey-Bellet,
-<cite>
-Exponential convergence to non-equilibrium stationary states in classical  statistical mechanics,
-</cite>
-Communications in Mathematical Physics <b>225</b> (2002), no.1, pp. 305--329.   
-<a class="DOI" href="https://doi.org/10.1007/s002200100583">  DOI: 10.1007/s002200100583 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1889227"> MR1889227 </a> &ensp; 
-<a class="reprint" href="pdf/larry2.pdf">Reprint in PDF</a>
-
-9. Lawrence E. Thomas and Luc Rey-Bellet,
-<cite>
-Fluctuations of the entropy production in anharmonic chains,
-</cite>
-Annales Henri Poincar&eacute; <b> 3 </b>(2002), no.3, pp. 483--502.  
-<a class="DOI" href="https://doi.org/10.1007/s00023-002-8625-6">  DOI: 10.1007/s00023-002-8625-6 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1915300"> MR1915300 </a> &ensp; <a class="reprint" href="pdf/larry3.pdf">Reprint in PDF</a>
-
-10. Luc Rey-Bellet
-<cite>
-Statistical mechanics of anharmonic lattices,
-</cite>
-In: Advances in Differential Equations and Mathematical Physics, 
-AMS Contemporary Mathematics Series <b>327</b> (2003), pp. 283--298.   
-<a class="DOI" href="">  DOI:  </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1991548"> MR1991548 </a> &ensp; 
-<a class="reprint" href="pdf/uab.pdf"> Reprint in PDF </a>
-
-
-11.  Lawrence E. Thomas and Luc Rey-Bellet,
-<cite>
-Low regularity solutions to a gently stochastic nonlinear wave equation in nonequilibrium statistical mechanics,
-</cite>
-Stochastic Processes and  their Applications  <b>115</b> (2005), no.6, pp. 1041--1059. (2005).  
-<a class="DOI" href="https://doi.org/10.1016/j.spa.2005.02.003">  DOI: 10.1016/j.spa.2005.02.003  </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2138813"> MR2138813 </a> &ensp; 
-<a class="reprint" href="pdf/larry4reprint.pdf"> Reprint in PDF</a>
-
-
-12. Marco Lenci and Luc Rey-Bellet, 
-<cite>
-Large deviations in quantum lattice systems: one phase region, 
-</cite> 
-Journal of Statistical Physics  <b>119</b> (2005), no. 3-4, pp. 715--746.   
-<a class="DOI" href="https://doi.org/10.1007/s10955-005-3015-3">  DOI: 10.1007/s10955-005-3015-3 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2151220"> MR2151220 </a> &ensp; 
-<a class="reprint" href="pdf/marco1reprint.pdf"> Reprint in PDF </a>
-
-
-
-13. Luc Rey-Bellet, 
-<cite>
-Nonequilibrium statistical mechanics of open classical systems,
-</cite>
-In:  XIVth International Conference on Mathematical Physics, Lisbon, Portugal, 28 July -- 2 August 2003,  World Scientific 2006, pp. 447--454   
-<a class="DOI" href="https://doi.org/10.1142/9789812704016_0043">  DOI: 10.1142/9789812704016_0043 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2227858"> MR2227858 </a> &ensp; 
-<a class="reprint" href="pdf/lisbon.pdf"> PDF file</a>
-
-
-
-14. Luc Rey-Bellet
-<cite>
-Ergodic Properties of Markov Processes,
-</cite>
-In: Quantum Open Systems II. The Markovian approach. St&eacute;phane Attal, Alain Joye,  Claude-Alain Pillet (Eds.), Lecture Notes in Mathematics 1881, Berlin: Springer, 2006, pp. 1--39.   
-<a class="DOI" href="https://doi.org/10.1007/3-540-33966-3_1">  DOI:10.1007/3-540-33966-3_1  </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2248986"> MR2248986 </a> &ensp; 
-<a class="reprint" href="pdf/EMP.pdf"> Reprint in PDF </a>
-
-
-
-15. Luc Rey-Bellet, 
-<cite>
-Open Classical Systems,
-</cite>
-In: Quantum Open Systems II. The Markovian approach.  St&eacute;phane Attal, Alain Joye,  Claude-Alain Pillet (Eds.), Lecture Notes in Mathematics 1881, Berlin: Springer, 2006, pp. 41--78.  
-<a class="DOI" href="https://doi.org/10.1007/3-540-33966-3_2">  DOI: 10.1007/3-540-33966-3_2 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2248987"> MR2248987 </a> &ensp; 
-<a class="reprint" href="pdf/OCP.pdf"> Reprint in PDF </a>
-
-
-16. Federico Bonetto and Luc Rey-Bellet, 
-<cite> 
-Fourier Law, 
-</cite>
-In: Encyclopedia of Mathematical Physics.  J.-P. Francoise, G. L. Naber, S.T. Tsou (Eds.), Elsevier 2006, pp. 374--379.  
-<!--<a class="DOI" href="">  DOI:  </a> &ensp; -->
-<!-- <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;--> 
-<a class="reprint"  href="pdf/fourierencyc.pdf"> Reprint in PDF </a>
-
-
-
-17. Markos Katsoulakis, Petr Plecháč, Luc Rey-Bellet, and Dimitrios Tsagkarogiannis,
-<cite>
-Coarse-graining schemes and a posteriori error estimates for stochastic lattice systems,
-</cite> 
-ESAIM: Mathematical Modelling and Numerical Analysis  <b>41</b> (2007), no.3, pp. 627--660.   
-<a class="DOI" href="https://doi.org/10.1051/m2an:2007032">  DOI: 10.1051/m2an:2007032 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2355714"> MR2355714 </a> &ensp;
-<a class="reprint" href="pdf/kprt1reprint.pdf"> Reprint in PDF</a>
-
-
-
-
-
-
-18. Markos Katsoulakis, Petr Plecháč, Luc Rey-Bellet, and Dimitrios Tsagkarogiannis,
-<cite>
-Mathematical strategies in the coarse-graining of extensive systems: error quantification and adaptivity, 
-</cite> 
-Journal of Non Newtonian Fluid Mechanics <b>152</b> (2008), pp. 101--112.  
-<a class="DOI" href="https://doi.org/10.1016/j.jnnfm.2007.05.005">  DOI: 10.1016/j.jnnfm.2007.05.005 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;
-<a class="reprint" href="pdf/kprt2.pdf"> Reprint in PDF </a>
-
-
-
-
-
-
-19. Lai-Sang Young and Luc Rey-Bellet, 
-<cite>
-Large deviations in nonuniformly hyperbolic dynamical systems,
-</cite> 
-Ergodic Theory and Dynamical Systems <b>28</b> (2008), no.2, pp. 587-612.  
-<a class="DOI" href="https://doi.org/10.1017/S0143385707000478">  DOI:10.1017/S0143385707000478  </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2408394"> MR2408394 </a> &ensp; 
-<a class="reprint" href="pdf/lsy1.pdf">Reprint in PDF</a>
-
-
-
-
-
-
-20. Markos Katsoulakis, Petr Plecháč, and Luc Rey-Bellet, 
-<cite>
-Numerical and statistical methods for the coarse-graining of many-particle stochastic systems, 
-</cite> 
-Journal of Scientific Computing <b>37</b/> (2008), no.1, pp. 43--71.  
-<a class="DOI" href="https://doi.org/10.1007/s10915-008-9216-6">  DOI: 10.1007/s10915-008-9216-6 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2442973"> MR2442973  </a> &ensp; 
-<a class="reprint" href="pdf/KPR-JSciComp.pdf"> Reprint in PDF</a>
-
-
-
-
-
-
-21. Sasanka Are, Markos Katsoulakis, Petr Plecháč, and Luc Rey-Bellet,
-<cite>
-Multi-body interactions in coarse-graining schemes of extended systems, 
-</cite> 
-SIAM Journal on Scientific Computing  <b>31</b> (2008/2009), no.2, pp. 987--1015.  
-<a class="DOI" href="https://doi.org/10.1137/080713276">  DOI: 10.1137/080713276  </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2466145"> MR2466145 </a> &ensp; 
-<a class="reprint" href="pdf/AKPR-SIAMJSC.pdf"> Reprint in PDF </a>
-
-
-
-
-
-
-22. Wojciech De Roeck, Christian Maes, Karel Neto&#269;n&yacute;, and Luc Rey-Bellet,
-<cite>
-A note on the non-commutative Laplace-Varadhan integral lemma, 
-</cite> 
-Reviews in  Mathematical Physics <b>22</b> (2010), no.7, pp. 839--858.  
-<a class="DOI" href="https://doi.org/10.1142/S0129055X10004089">  DOI: 10.1142/S0129055X10004089  </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2673696"> MR2673696 </a> &ensp;
-<a class="reprint" href="pdf/QVaradhanreprint.pdf"> Reprint in PDF</a>
-
-
-
-
-
-
-23. Vojkan Jaksic, Claude-Alain Pillet, and Luc Rey-Bellet,
-<cite>
-Entropic fluctuations in statistical mechanics I. Classical dynamical systems, 
-</cite>
-Nonlinearity <b>24</b> (2011), no.3, pp. 699--763.   
-<a class="DOI" href="https://doi.org/10.1088/0951-7715/24/3/003">  DOI: 10.1088/0951-7715/24/3/003 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2765481"> MR2765481 </a> &ensp; 
-<a class="reprint" href="pdf/jprreprint.pdf"> Reprint in PDF </a>
-
-
-  
-
-
-
-
-24. Yoshiko Ogata and Luc Rey-Bellet, 
-<cite>
-Ruelle-Lanford functions and large deviations for asymptotically decoupled  quantum spin systems,
-</cite>
-Reviews in  Mathematical  Physics  <b>23</b> (2011), no.2, pp. 211--232.  
-<a class="DOI" href="https://doi.org/10.1142/S0129055X11004291">  DOI: 10.1142/S0129055X11004291 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2786227"> MR2786227 </a> &ensp; 
-<a class="reprint" href="pdf/ruellelanfordreprint.pdf"> Reprint in PDF </a>
-
-
-   
-
-
-
-25. Andrea Nahmod, Luc Rey-Bellet, Scott Sheffield, and Gigliola Staffilani, 
-<cite>
-Absolute continuity of Brownian bridges under certain gauge transformations,
-</cite> 
-Mathematical Research Letters <b>18</b> (2011), no.5, pp. 875--887.   
-<a class="DOI" href="http://dx.doi.org/10.4310/MRL.2011.v18.n5.a6">  DOI: 10.4310/MRL.2011.v18.n5.a6 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2875861"> MR2875861 </a> &ensp; 
-<a class="reprint" href="pdf/NRSSreprint.pdf"> Reprint in PDF </a>
-
-
- 
- 
-
-
-26. Sung-Ha Hwang and Luc Rey-Bellet, 
-<cite>
-Decompositions of two player games: potential, zero-sum, and stable games, 
-</cite> 
-Unpublished (2011).  
-<a class="arXiv" href="pdf/Hwang1.pdf"> arXiv:1106.3552 </a> . 
-
-
-  
-
-
-27. Andrea Nahmod, Hiro Oh, Luc Rey-Bellet, and Gigliola Staffilani, 
-<cite>
-Invariant weighted Wiener measures and  almost sure global well-posedness for the periodic derivative NLS,
-</cite> 
-Journal of the  European Mathematical Society <b>14</b> (2012), no.4, pp. 1275--1330.  
-<a class="DOI" href="https://doi.org/10.4171/JEMS/333">  DOI: 10.4171/JEMS/333  </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2928851"> MR2928851 </a> &ensp; 
-<a class="reprint" href="pdf/NORSrep.pdf"> Reprint in PDF </a>
-
-
-   
-
-
-
-28. Sung-Ha Hwang, Luc Rey-Bellet, and  Markos Katsoulakis, 
-<cite>
-Deterministic equations for stochastic spatial evolutionary games,
-</cite> 
-Theoretical Economics <b>8</b> (2013), no.3, pp. 829--874.  
-<a class="DOI" href="https://doi.org/10.3982/TE829">  DOI: 10.3982/TE829 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3106962"> MR3106962  </a> &ensp; 
-<a class="reprint" href="pdf/HMR1.pdf"> Reprint in PDF </a>
-
-
-
-
-
-
-
-29. M. Katsoulakis, P. Plecháč, Luc Rey-Bellet, and D. Tsagkarogiannis, 
-<cite>
-Coarse-graining schemes for stochastic lattice systems with short and long-range interactions,
-</cite> 
-Mathematics of Computation <b>83</b> (2014), no.288, pp. 1757--1793.  
-<a class="DOI" href="https://doi.org/10.1090/S0025-5718-2014-02806-8">  DOI: 10.1090/S0025-5718-2014-02806-8 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3194129"> MR3194129 </a> &ensp; 
-<a class="reprint" href="pdf/kprt3.pdf"> Reprint in PDF </a>
-
-
-
-
-
-30. Markos Katsoulakis, Yannis  Pantazis, and Luc Rey-Bellet, 
-<cite>
-Measuring the irreversibility of numerical schemes for reversible stochastic differential  equations,
-</cite> 
-ESAIM: Mathematical Modelling and Numerical Analysis  <b> 48</b> (2014), no.5, pp. 1351--1379.  
-<a class="DOI" href="https://doi.org/10.1051/m2an/2013142">  DOI: 10.1051/m2an/2013142 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3264357"> MR3264357 </a> &ensp; 
-<a class="reprint" href="pdf/KPaRreprint.pdf"> Reprint in PDF </a> .
-
-
-   
-
- 
-
-31. Konstantinos Spiliopoulos and Luc Rey-Bellet, 
-<cite>
-Irreversible Langevin samplers and variance reduction: a large deviation approach, 
-</cite>
-Nonlinearity <b> 28</b> (2015), no.7, pp. 2081--2103.  
-<a class="DOI" href="https://doi.org/10.1088/0951-7715/28/7/2081">  DOI: 10.1088/0951-7715/28/7/2081 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3366637"> MR3366637 </a> &ensp; 
-<a class="reprint" href="pdf/Spiliopoulos1.pdf"> Reprint in PDF </a>
-
-
-   
-
-
-
-32. Konstantinos Spiliopoulos and Luc Rey-Bellet, 
-<cite>
-Variance reduction for irreversible Langevin samplers and diffusion on graphs,
-</cite> 
-Electronic  Communications in Probability <b> 20</b> (2015), no. 15, 16pp.   
-<a class="DOI" href="https://doi.org/10.1214/ECP.v20-3855">  DOI: 10.1214/ECP.v20-3855 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3314650"> MR3314650 </a> &ensp; 
-<a class="reprint" href="pdf/Spiliopoulos2.pdf"> Reprint in PDF </a> 
-
-
-   
-
-
-33. Konstantinos Gourgoulias, Markos Katsoulakis, and Luc Rey-Bellet,
-<cite> 
-Information metrics for long-time errors in splitting schemes for stochastic dynamics and parallel  kinetic Monte Carlo,
-</cite> 
-SIAM Journal on Scientific  Computing <b>38</b> (2016), no. 6, pp. A3808--A3832.   
-<a class="DOI" href="https://doi.org/10.1137/15M1047271">  DOI: 10.1137/15M1047271 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3582415"> MR3582415  </a> &ensp; 
-<a class="reprint" href="pdf/Gourgoulias1.pdf"> Reprint in PDF </a>
-
-
-
-
-
-
-34. Georgios Arampatzis, Markos Katsoulakis, and Luc Rey-Bellet,
-<cite>
-Efficient estimators for likelihood ratio sensitivity indices of complex stochastic dynamics, 
-</cite>
-Journal of Chemical Physics <b>144</b> (2016), 104107.  
-<a class="DOI" href="http://dx.doi.org/10.1063/1.4943388">  DOI: 10.1063/1.4943388 </a> &ensp;
-<!--<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;--> 
-<a class="reprint" href="pdf/Arampatzis1.pdf"> Reprint in PDF </a>
-
-
-
-
-
-
-35. Konstantinos Spiliopoulos and Luc Rey-Bellet,
-<cite> 
-Improving the convergence of reversible samplers, </cite>
-Journal of Statistical Physics <b> 164</b> (2016), no.3, 472--494.  
-<a class="DOI" href="https://doi.org/10.1007/s10955-016-1565-1">  DOI: 10.1007/s10955-016-1565-1 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3519206"> MR3519206  </a> &ensp; 
-<a class="reprint" href="pdf/Spiliopoulos3.pdf"> Reprint in PDF </a>
-
-
-
-
-
-
-36. Eric Hall, Markos Katsoulakis, and Luc Rey-Bellet,
-<cite>
-Uncertainty quantification for generalized Langevin dynamics, 
-</cite>
-Journal of  Chemical Physics <b>145</b> (2016), 224108.  
-<a class="DOI" href="http://dx.doi.org/10.1063/1.4971433">  DOI: 10.1063/1.4971433 </a> &ensp;
-<!-- <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp; -->
-<a class="reprint" href="pdf/Hall1.pdf"> Reprint in PDF </a>
-
-
-
-
-
-
-37. Konstantinos Gourgoulias, Markos Katsoulakis, and Luc Rey-Bellet,
-<cite>
-Information criteria for quantifying loss of reversibility in parallelized KMC,
-</cite>
-Journal of Computational Physics <b>328</b> (2017), pp. 438--454.      
-<a class="DOI" href="https://doi.org/10.1016/j.jcp.2016.10.031"> DOI: 10.1016/j.jcp.2016.10.031 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3571894"> MR3571894 </a> &ensp; 
-<a class="reprint" href="pdf/Gourgoulias2.pdf"> Reprint in PDF </a>
-
-
-
-
-
-
-38. Markos Katsoulakis, Luc Rey-Bellet, and Jie Wang, 
-<cite> 
-Scalable information inequalities for uncertainty quantification, 
-</cite>
-Journal of Computational Physics <b> 336</b> (2017), pp. 513--545.  
-<a class="DOI" href="https://doi.org/10.1016/j.jcp.2017.02.020"> DOI: 10.1016/j.jcp.2017.02.020 </a> &ensp;
-<!-- <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3622628">  </a> &ensp; -->
-<a class="reprint" href="pdf/Wang1.pdf"> Reprint in PDF </a>
-
-
-
-
-
-
-39. Noé Cuneo, Jean-Pierre Eckmann, Martin Hairer, and Luc Rey-Bellet, 
-<cite>
-Non-equilibrium steady states for networks of oscillators,
-</cite>
-Electronic Journal of Probability <b>23</b> (2018), paper no. 55, 28 pp.  
-<a class="DOI" href="https://doi.org/10.1214/18-EJP177">  DOI: 10.1214/18-EJP177 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3814249 "> MR3814249  </a> &ensp; 
-<a class="reprint" href="pdf/CEHR.pdf"> Reprint in PDF </a>
-
-
-
-
-
-
-40. Mark Demers, Luc Rey-Bellet,and Hongkun Zhang,
-<cite>
-Fluctuations of the entropy production for the Lorentz gas under small external forces,
-</cite>
-Communications in Mathematical Physics  <b> 363</b> (2018), no. 2, pp. 699--740.  
-<a class="DOI" href="https://doi.org/10.1007/s00220-018-3228-3">  DOI: 10.1007/s00220-018-3228-3 </a> &ensp;
-<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3851827">MR3851827  </a> &ensp;
-<a class="reprint" href="pdf/DRZ.pdf"> Reprint in PDF </a>
-
-
-
-
-
-
-41. Sung-Ha Hwang and Luc Rey-Bellet,
-<cite>
-Strategic decompositions of normal form games: potential games and zero-sum games, 
-</cite> 
-Games and Economic Behavior <b>122</b>, (2020), pp. 370--390.   
-<a class="DOI" href="https://doi.org/10.1016/j.geb.2020.05.003"> DOI: 10.1016/j.geb.2020.05.003 </a> &ensp;
-<!--
-<a class="MR"  href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;
+<ol reversed>
+
+<li> 
+Hyemin Gu, Markos A. Katsoulakis, Luc Rey-Bellet, and Benjamin J. Zhang.   
+**Combining Wasserstein-1 and Wasserstein-2 proximals: robust manifold learning via well-posed generative flows**.   
+Submitted.      
+<a class="arXiv" href="https://arxiv.org/abs/arXiv:2407.11901  "> arXiv:2407.11901   </a>     
+<br>
+</li>
+
+
+<li>
+Jeremiah Birrell, Markos A. Katsoulakis, Luc Rey-Bellet, Benjamin Zhang, and Wei Zhu.    
+**Nonlinear denoising score matching for enhanced learning of structured distributions**.     
+Submitted.    
+<a class="arXiv" href="https://arxiv.org/abs/arXiv:2405.15625  "> arXiv:2405.15625   </a>      
+<br>
+</li>
+
+
+<li>
+Ziyu Chen, Hyemin Gu, Markos A. Katsoulakis, Luc Rey-Bellet, and Wei Zhu.    
+**Learning heavy-tailed distributions with Wasserstein-proximal-regularized α-divergences**. 
+Submitted.    
+<a class="arXiv" href="https://arxiv.org/abs/arXiv:2405.13962 "> arXiv:2405.13962  </a>     
+<br>
+</li>
+
+
+<li>
+Ziyu Chen, Markos A. Katsoulakis, Luc Rey-Bellet, and Wei Zhu.        
+**Statistical Guarantees of Group-Invariant GANs**.
+Submitted.   
+<a class="arXiv" href="https://arxiv.org/abs/arXiv:2305.13517 "> arXiv:2305.13517  </a>      
+<br>
+</li>
+
+
+<li>
+Ziyu Chen, Markos A. Katsoulakis, Luc Rey-Bellet, and Wei Zhu.    
+**Sample Complexity of Probability Divergences under Group Symmetry**.      
+Proceedings of 40th International Conference on Machine Learning, PMLR 202 (2023) pp. 4713-4734.  
+<a class="DOI" href="https://proceedings.mlr.press/v202/chen23p.html"> Online Version
+</a> &ensp; 
+<a class="reprint" href="pdf/CKRZ1.pdf"> Reprint in PDF (including supplementary  materials)</a>     
+<br>
+</li>
+
+
+<li>
+Hyemin Gu, Panagiota Birmpa, Yannis Pantazis, Luc Rey-Bellet, and Markos A. Katsoulakis.   
+**Lipschitz-regularized gradient flows and generative particle algorithms for high-dimensional scarce data**.   
+To appear in Siam Journal on Mathematics of Data Science (2024).    
+<a class="arXiv" href="https://arxiv.org/abs/arXiv:2210.17230 "> arXiv:2210.17230  </a>      
+<br>
+</li>
+
+
+<li>
+Jeremiah Birrell, Paul Dupuis, Markos  Katsoulakis, Yannis Pantazis, and Luc Rey-Bellet.
+**Function-space regularized Rényi divergences**.   
+Procceedings of  The Eleventh International Conference on Learning Representations (ICLR 2023).      
+<a class="DOI" href="https://iclr.cc/virtual/2023/poster/10987"> Poster and Slides </a> 
+&ensp; 
+<a class="DOI" href="https://openreview.net/forum?id=89GT-S49mGd">  Open review </a> &ensp;
+<a class="reprint" href="pdf/BDKPR2.pdf"> Reprint in PDF</a>    
+<br>
+</li>
+
+
+<li>
+Jeremiah Birrell, Markos  Katsoulakis, Luc Rey-Bellet, and Wei Zu.    
+<b>Structure-preserving GANs.</b>       
+Proceedings of the 39th International Conference on Machine Learning, PMLR 162 (2022), pp.1982-2020.      
+<a class="DOI" href="https://proceedings.mlr.press/v162/birrell22a.html"> Online Version 
+</a> &ensp; 
+<a class="reprint" href="https://proceedings.mlr.press/v162/birrell22a/birrell22a.pdf"> Reprint in PDF (including supplementary  materials)</a>  
+<br>   
+</li>
+
+
+<li>
+Panagiota Birmpa, Jinchao Feng, Markos  Katsoulakis, and Luc Rey-Bellet.    
+<b>
+Model Uncertainty and Correctability for Directed Graphical Models.    
+</b> 
+SIAM/ASA Journal on Uncertainty Quantification <b> 10 </b> (2022), no.4, pp 1461--1512.   
+<a class="DOI" href="https://doi.org/10.1137/21M1434453"> DOI:10.1137/21M1434453 </a> &ensp; 
+<a class="reprint" href="pdf/BirmpaDGM.pdf"> Reprint in PDF </a>     
+<br>
+</li>
+
+
+<li>
+Jeremiah Birrell, Paul Dupuis, Markos  Katsoulakis,  Yannis Pantazis, and Luc Rey-Bellet.    
+<b>
+(f,&Gamma;)-Divergences: Interpolating between f-Divergences and Integral Probability Metrics.    
+</b>
+Journal of Machine Learning Research <b>23</b> (2022), paper 39, pp.1−70.  
+<a class="DOI" href="https://www.jmlr.org/papers/v23/21-0100.html"> Online Version </a> &ensp; 
+<a class="reprint" href="pdf/BDKPR1.pdf"> Reprint in PDF </a>     
+<br>
+</li>
+
+
+<li>
+Jeremiah Birrell, Paul Dupuis, Markos A. Katsoulakis, Luc Rey-Bellet, and Jie Wang.      
+<b> A variational formula for Rényi divergences.</b>     
+SIAM Journal on Mathematics of Data Science <b>3</b> (2021), no. 4, pp. 1093-1116   
+<a class="DOI" href="https://doi.org/10.1137/20M1368926"> DOI: 10.1137/20M1368926
+</a> &ensp; 
+<!--<a class="arXiv" href="https://arxiv.org/abs/ arXiv:2007.03814"> arXiv: arXiv:2007.03814 </a> &ensp; -->
+<a class="reprint" href="pdf/RenyiVariational.pdf"> Reprint in PDF </a>     
+<br>     
+</li>
+
+<li>
+Jeremiah Birrell, Paul Dupuis, Markos A. Katsoulakis, Luc Rey-Bellet, and Jie Wang.        
+<b>Distributional robustness and uncertainty quantification for rare events.</b>      
+Preprint.    
+<a class="arXiv" href="https://arxiv.org/abs/1911.09580"> arXiv:1911.09580 </a> &ensp; 
+<a class="reprint" href="https://arxiv.org/pdf/1911.09580.pdf"> Preprint in PDF </a>    
+<br> 
+</li>
+
+<li>
+Sung-Ha Hwang and Luc Rey-Bellet.     
+<b>Positive feedback in coordination games: stochastic evolutionary dynamics and the logit choice rule.</b>     
+Games and Economic Behavior <b> 126 </b> (2021), pp. 355-373    
+<a class="DOI" href="https://doi.org/10.1016/j.geb.2021.01.003"> DOI: 10.1016/j.geb.2021.01.003</a> &ensp; 
+<!--<a class="arXiv" href="https://arxiv.org/abs/1701.04870"> arXiv:1701.04870 </a> &ensp; 
 -->
-<a class="reprint" href="pdf/Decomposition.pdf"> Reprint in PDF file </a>  &ensp;
-<a class="reprint" href="pdf/DecompositionSupplementaryMaterials.pdf"> Supplementary Materials </a> 
+<a class="reprint" href="pdf/Logit.pdf"> Reprint in PDF </a> &ensp; 
+<a class="reprint" href="pdf/LogitSupplementary.pdf"> Supplementary Materials </a>      
+<br>
+</li>
 
+<li>
+Jeremiah Birrell, Markos Katsoulakis, and Luc Rey-Bellet.      
+<b> Quantification of model uncertainty on path-space via goal-oriented relative entropy.</b>   
+ESAIM: Mathematical Modeling and Numerical Analysis <b> 55 </b> (2021), no.1, pp. 131-169.  
+<a class="DOI" href="https://doi.org/10.1051/m2an/2020070"> DOI: 10.1051/m2an/2020070 </a> &ensp; 
+<a class="reprint" href="pdf/PathEntropy.pdf"> Reprint in PDF </a>    
+<br>
+</li>
 
+<li>
+Jeremiah Birrell and Luc Rey-Bellet.    
+<b> Concentration inequalities and performance guarantees for hypocoercive MCMC samplers.</b>      
+Preprint.
+<a class="arXiv" href="https://arxiv.org/abs/1907.11973"> arXiv:1907.11973 </a> &ensp; 
+<a class="reprint" href="https://arxiv.org/pdf/1907.11973.pdf"> Preprint in PDF </a>    
+<br>
+</li>
 
+<li>
+Paul Dupuis, Markos Katoulakis, Yannis Pantazis, and Luc Rey-Bellet.    
+<b>Sensitivity analysis for rare events based on Rényi divergence.</b>      
+The  Annals of Applied Probability, <b> 30 </b> (2020), no.4, pp. 1507-1533.      
+<a class="DOI" href="https://doi.org/10.1214/19-AAP1468"> DOI:10.1214/19-AAP1468 </a> &ensp;
+<a class="reprint" href="pdf/DKPR.pdf"> Reprint in PDF </a>      
+<br>
+</li>
 
-
-42. Sung-Ha Hwang and Luc Rey-Bellet,
-<cite>
-Simple characterizations of potential games and zero-sum equivalent games,
-</cite>
-Journal of Economic Theory and Econometrics, <b>31</b> (2020), pp. 1--13.  
-<a class="DOI" href="http://www.es.re.kr/jetem/view.php?year=&month=&vol=&no=&article_idx=342"> Online version </a> &ensp;
-<a class="reprint" href="pdf/HRB3.pdf"> Reprint in PDF </a> .
-
-
-
-
-
-
-43.  Konstantinos Gourgoulias, Markos Katsoulakis, Luc Rey-Bellet, and Jie Wang,
-<cite>
-How biased is your model? Concentration inequalities, information and model bias,
-</cite>
-IEEE Transactions on Information Theory <b>66</b> (2020), no.5, pp. 3079--3097.   
-<a class="DOI" href="https://doi.org/doi: 10.1109/TIT.2020.2977067"> DOI: 10.1109/TIT.2020.2977067 </a> &ensp;
-<!--
-<a class="MR"  href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;
--->
-<a class="reprint" href="pdf/GKRW.pdf"> Reprint in PDF </a> 
-
-
-
-
-
-44. Jeremiah Birrell and Luc Rey-Bellet, 
-<cite>
-Uncertainty quantification for Markov processes via variational principles and functional inequalities, 
-</cite> 
+<li>
+Jeremiah Birrell and Luc Rey-Bellet.     
+<b> Uncertainty quantification for Markov processes via variational principles and functional inequalities.</b>     
 SIAM/ASA Journal on Uncertainty Quantification, <b>8</b> (2020), no. 2, pp. 539--572.    
 <a class="DOI" href="https://doi.org/10.1137/19M1237429"> DOI: 10.1137/19M1237429 </a> &ensp;
 <!-- 
 <a class="MR"  href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;
 -->
-<a class="reprint" href="pdf/BRB1.pdf"> Reprint in PDF </a> 
+<a class="reprint" href="pdf/BRB1.pdf"> Reprint in PDF </a>    
+<br> 
+</li>
 
-
-
-
-
-45. Paul Dupuis, Markos Katoulakis, Yannis Pantazis, and Luc Rey-Bellet, 
-<cite>
-Sensitivity analysis for rare events based on R&eacute;nyi divergence,
-</cite>
-The  Annals of Applied Probability, <b> 30 </b> (2020), no.4, pp. 1507-1533.   
-<a class="DOI" href="https://doi.org/10.1214/19-AAP1468"> DOI:10.1214/19-AAP1468 </a> &ensp;
-<a class="reprint" href="pdf/DKPR.pdf"> Reprint in PDF </a> 
-
-
-
-
-
-46. Jeremiah Birrell and Luc Rey-Bellet
-<cite>
-Concentration inequalities and performance guarantees for hypocoercive MCMC samplers,
-</cite>
-Submitted.
-<a class="arXiv" href="https://arxiv.org/abs/1907.11973"> arXiv:1907.11973 </a> &ensp; 
-<a class="reprint" href="https://arxiv.org/pdf/1907.11973.pdf"> Preprint in PDF </a> 
-
-
-
-
-
-
-47. Jeremiah Birrell, Markos Katsoulakis, and Luc Rey-Bellet,
-<cite>
-Quantification of model uncertainty on path-space via goal-oriented relative entropy,
-</cite>  ESAIM: Mathematical Modeling and Numerical Analysis <b> 55 </b> (2021), no.1, pp. 131-169.  
-<a class="DOI" href="https://doi.org/10.1051/m2an/2020070"> DOI: 10.1051/m2an/2020070 </a> &ensp; 
-<a class="reprint" href="pdf/PathEntropy.pdf"> Reprint in PDF </a> 
-
-
-
-
-
-48. Sung-Ha Hwang and Luc Rey-Bellet,
-<cite>
-Positive feedback in coordination games: stochastic evolutionary dynamics and the logit choice rule,
-</cite>
-Games and Economic Behavior <b> 126 </b> (2021), pp. 355-373  
-<a class="DOI" href="https://doi.org/10.1016/j.geb.2021.01.003"> DOI: 10.1016/j.geb.2021.01.003</a> &ensp; 
-<!--<a class="arXiv" href="https://arxiv.org/abs/1701.04870"> arXiv:1701.04870 </a> &ensp; 
+<li>
+Konstantinos Gourgoulias, Markos Katsoulakis, Luc Rey-Bellet, and Jie Wang.   
+<b> How biased is your model? Concentration inequalities, information and model bias. </b>
+IEEE Transactions on Information Theory <b>66</b> (2020), no.5, pp. 3079--3097.     
+<a class="DOI" href="https://doi.org/doi: 10.1109/TIT.2020.2977067"> DOI: 10.1109/TIT.2020.2977067 </a> &ensp;
+<!--
+<a class="MR"  href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;
 -->
-<a class="reprint" href="pdf/Logit.pdf"> Reprint in PDF </a> &ensp; 
-<a class="reprint" href="pdf/LogitSupplementary.pdf"> Supplementary Materials </a> 
+<a class="reprint" href="pdf/GKRW.pdf"> Reprint in PDF </a>    
+<br>
+</li>
 
+<li>
+Sung-Ha Hwang and Luc Rey-Bellet.   
+<b> Simple characterizations of potential games and zero-sum equivalent games.</b>
+Journal of Economic Theory and Econometrics, <b>31</b> (2020), pp. 1--13.  
+<a class="DOI" href="http://www.es.re.kr/jetem/view.php?year=&month=&vol=&no=&article_idx=342"> Online version </a> &ensp;
+<a class="reprint" href="pdf/HRB3.pdf"> Reprint in PDF </a>          
+<br> 
+</li>
 
+<li>
+Sung-Ha Hwang and Luc Rey-Bellet.      
+<b> Strategic decompositions of normal form games: potential games and zero-sum games.</b>      
+Games and Economic Behavior <b>122</b>, (2020), pp. 370--390.     
+<a class="DOI" href="https://doi.org/10.1016/j.geb.2020.05.003"> DOI: 10.1016/j.geb.2020.05.003 </a> &ensp;
+<!--
+<a class="MR"  href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;
+-->
+<a class="reprint" href="pdf/Decomposition.pdf"> Reprint in PDF file </a>  &ensp;
+<a class="reprint" href="pdf/DecompositionSupplementaryMaterials.pdf"> Supplementary Materials </a>     
+<br>
+</li>
 
+<li>
+Mark Demers, Luc Rey-Bellet,and Hongkun Zhang.     
+<b> Fluctuations of the entropy production for the Lorentz gas under small external forces. </b>                    
+Communications in Mathematical Physics  <b> 363</b> (2018), no. 2, pp. 699--740.  
+<a class="DOI" href="https://doi.org/10.1007/s00220-018-3228-3">  DOI: 10.1007/s00220-018-3228-3 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3851827">MR3851827  </a> &ensp;
+<a class="reprint" href="pdf/DRZ.pdf"> Reprint in PDF </a>     
+<br>
+</li>
 
-49. Jeremiah Birrell, Paul Dupuis, Markos A. Katsoulakis, Luc Rey-Bellet, and Jie Wang,
-<cite>
-Distributional robustness and uncertainty quantification for rare events,
-</cite>
-Preprint.
-<a class="arXiv" href="https://arxiv.org/abs/1911.09580"> arXiv:1911.09580 </a> &ensp; 
-<a class="reprint" href="https://arxiv.org/pdf/1911.09580.pdf"> Preprint in PDF </a> 
+<li>
+Noé Cuneo, Jean-Pierre Eckmann, Martin Hairer, and Luc Rey-Bellet.     
+<b>Non-equilibrium steady states for networks of oscillators. </b>               
+Electronic Journal of Probability <b>23</b> (2018), paper no. 55, 28 pp.  
+<a class="DOI" href="https://doi.org/10.1214/18-EJP177">  DOI: 10.1214/18-EJP177 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3814249 "> MR3814249  </a> &ensp; 
+<a class="reprint" href="pdf/CEHR.pdf"> Reprint in PDF </a>    
+<br>
+</li>
 
+<li>
+Markos Katsoulakis, Luc Rey-Bellet, and Jie Wang.      
+<b>Scalable information inequalities for uncertainty quantification.</b>                   
+Journal of Computational Physics <b> 336</b> (2017), pp. 513--545.  
+<a class="DOI" href="https://doi.org/10.1016/j.jcp.2017.02.020"> DOI: 10.1016/j.jcp.2017.02.020 </a> &ensp;
+<!-- <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3622628">  </a> &ensp; -->
+<a class="reprint" href="pdf/Wang1.pdf"> Reprint in PDF </a>    
+<br>
+</li>
 
+<li>
+Konstantinos Gourgoulias, Markos Katsoulakis, and Luc Rey-Bellet.    
+<b> Information criteria for quantifying loss of reversibility in parallelized KMC. </b>               
+Journal of Computational Physics <b>328</b> (2017), pp. 438--454.      
+<a class="DOI" href="https://doi.org/10.1016/j.jcp.2016.10.031"> DOI: 10.1016/j.jcp.2016.10.031 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3571894"> MR3571894 </a> &ensp; 
+<a class="reprint" href="pdf/Gourgoulias2.pdf"> Reprint in PDF </a>    
+<br>
+</li>
 
-50. Jeremiah Birrell, Paul Dupuis, Markos A. Katsoulakis, Luc Rey-Bellet, and Jie Wang,
-<cite>
-A variational formula for Rényi divergences,
-</cite>
-SIAM Journal on Mathematics of Data Science <b>3</b> (2021), no. 4, pp. 1093-1116   
-<a class="DOI" href="https://doi.org/10.1137/20M1368926"> DOI: 10.1137/20M1368926
-</a> &ensp; 
-<!--<a class="arXiv" href="https://arxiv.org/abs/ arXiv:2007.03814"> arXiv: arXiv:2007.03814 </a> &ensp; -->
-<a class="reprint" href="pdf/RenyiVariational.pdf"> Reprint in PDF </a> 
+<li>
+Eric Hall, Markos Katsoulakis, and Luc Rey-Bellet.    
+<b>
+Uncertainty quantification for generalized Langevin dynamics. 
+</b>               
+Journal of  Chemical Physics <b>145</b> (2016), 224108.  
+<a class="DOI" href="http://dx.doi.org/10.1063/1.4971433">  DOI: 10.1063/1.4971433 </a> &ensp;
+<!-- <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp; -->
+<a class="reprint" href="pdf/Hall1.pdf"> Reprint in PDF </a>   
+<br>
+</li>
 
+<li>
+Konstantinos Spiliopoulos and Luc Rey-Bellet.    
+<b> 
+Improving the convergence of reversible samplers. </b>               
+Journal of Statistical Physics <b> 164</b> (2016), no.3, 472--494.  
+<a class="DOI" href="https://doi.org/10.1007/s10955-016-1565-1">  DOI: 10.1007/s10955-016-1565-1 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3519206"> MR3519206  </a> &ensp; 
+<a class="reprint" href="pdf/Spiliopoulos3.pdf"> Reprint in PDF </a>
+ 
+     
 
-51. Jeremiah Birrell, Paul Dupuis, Markos  Katsoulakis,  Yannis Pantazis, and Luc Rey-Bellet, 
-<cite>
-(f,&Gamma;)-Divergences: Interpolating between f-Divergences and Integral Probability Metrics, 
-</cite>
-Journal of Machine Learning Research <b>23</b> (2022), paper 39, pp.1−70.  
-<a class="DOI" href="https://www.jmlr.org/papers/v23/21-0100.html"> Online Version </a> &ensp; 
-<a class="reprint" href="pdf/BDKPR1.pdf"> Reprint in PDF </a> 
-  
+</li>
 
-52. Panagiota Birmpa, Jinchao Feng, Markos  Katsoulakis and Luc Rey-Bellet, 
-<cite>
-Model Uncertainty and Correctability for Directed Graphical Models,
-</cite> 
-SIAM/ASA Journal on Uncertainty Quantification <b> 10 </b> (2022), no.4, pp 1461--1512.  
-<a class="DOI" href="https://doi.org/10.1137/21M1434453"> DOI:10.1137/21M1434453 </a> &ensp; 
-<a class="reprint" href="pdf/BirmpaDGM.pdf"> Reprint in PDF </a> 
+<li>
+Georgios Arampatzis, Markos Katsoulakis, and Luc Rey-Bellet.    
+<b>
+Efficient estimators for likelihood ratio sensitivity indices of complex stochastic dynamics.
+</b>               
+Journal of Chemical Physics <b>144</b> (2016), 104107.  
+<a class="DOI" href="http://dx.doi.org/10.1063/1.4943388">  DOI: 10.1063/1.4943388 </a> &ensp;
+<!--<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;--> 
+<a class="reprint" href="pdf/Arampatzis1.pdf"> Reprint in PDF </a>
+ 
+     
 
+</li>
 
+<li>
+Konstantinos Gourgoulias, Markos Katsoulakis, and Luc Rey-Bellet.    
+<b> 
+Information metrics for long-time errors in splitting schemes for stochastic dynamics and parallel  kinetic Monte Carlo.
+</b>                
+SIAM Journal on Scientific  Computing <b>38</b> (2016), no. 6, pp. A3808--A3832.   
+<a class="DOI" href="https://doi.org/10.1137/15M1047271">  DOI: 10.1137/15M1047271 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3582415"> MR3582415  </a> &ensp; 
+<a class="reprint" href="pdf/Gourgoulias1.pdf"> Reprint in PDF </a>
+ 
+     
 
-53. Jeremiah Birrell, Markos  Katsoulakis, Luc Rey-Bellet, Wei Zu
-<cite>
-Structure-preserving GANs, 
-</cite>
-Proceedings of the 39th International Conference on Machine Learning, PMLR 162 (2022) pp.1982-2020.    
-<a class="DOI" href="https://proceedings.mlr.press/v162/birrell22a.html"> Online Version 
-</a> &ensp; 
-<a class="reprint" href="https://proceedings.mlr.press/v162/birrell22a/birrell22a.pdf"> Reprint in PDF (including supplementary  materials)</a> 
+</li>
 
+<li>
+Konstantinos Spiliopoulos and Luc Rey-Bellet.    
+<b>
+Variance reduction for irreversible Langevin samplers and diffusion on graphs.
+</b>                
+Electronic  Communications in Probability <b> 20</b> (2015), no. 15, 16pp.   
+<a class="DOI" href="https://doi.org/10.1214/ECP.v20-3855">  DOI: 10.1214/ECP.v20-3855 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3314650"> MR3314650 </a> &ensp; 
+<a class="reprint" href="pdf/Spiliopoulos2.pdf"> Reprint in PDF </a> 
+ 
+     
 
+</li>
 
-54. Jeremiah Birrell, Paul Dupuis, Markos  Katsoulakis, Yannis Pantazis, Luc Rey-Bellet
-*Function-space regularized Rényi divergences*, 
-Procceedings of  The Eleventh International Conference on Learning Representations (ICLR 2023).     
-<a class="DOI" href="https://iclr.cc/virtual/2023/poster/10987"> Poster and Slides </a> 
-&ensp; 
-<a class="DOI" href="https://openreview.net/forum?id=89GT-S49mGd">  Open review </a> &ensp;
-<a class="reprint" href="pdf/BDKPR2.pdf"> Reprint in PDF</a>
+<li>
+Konstantinos Spiliopoulos and Luc Rey-Bellet.    
+<b>
+Irreversible Langevin samplers and variance reduction: a large deviation approach. 
+</b>               
+Nonlinearity <b> 28</b> (2015), no.7, pp. 2081--2103.  
+<a class="DOI" href="https://doi.org/10.1088/0951-7715/28/7/2081">  DOI: 10.1088/0951-7715/28/7/2081 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3366637"> MR3366637 </a> &ensp; 
+<a class="reprint" href="pdf/Spiliopoulos1.pdf"> Reprint in PDF </a>
+ 
+    
+</li>
 
+<li>
+Markos Katsoulakis, Yannis  Pantazis, and Luc Rey-Bellet.    
+<b>
+Measuring the irreversibility of numerical schemes for reversible stochastic differential  equations.
+</b>                
+ESAIM: Mathematical Modelling and Numerical Analysis  <b> 48</b> (2014), no.5, pp. 1351--1379.  
+<a class="DOI" href="https://doi.org/10.1051/m2an/2013142">  DOI: 10.1051/m2an/2013142 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3264357"> MR3264357 </a> &ensp; 
+<a class="reprint" href="pdf/KPaRreprint.pdf"> Reprint in PDF </a> .
+ 
+     
 
-55. Hyemin Gu, Panagiota Birmpa, Yannis Pantazis, Luc Rey-Bellet, and Markos A. Katsoulakis,
-*Lipschitz-regularized gradient flows and generative particle algorithms for high-dimensional scarce data*,
-To appear in Siam Journal nn Mathematics of Data Science (2024).    
-<a class="arXiv" href="https://arxiv.org/abs/arXiv:2210.17230 "> arXiv:2210.17230  </a> 
+</li>
 
+<li>
+M. Katsoulakis, P. Plecháč, Luc Rey-Bellet, and D. Tsagkarogiannis.    
+<b>
+Coarse-graining schemes for stochastic lattice systems with short and long-range interactions.
+</b>                
+Mathematics of Computation <b>83</b> (2014), no.288, pp. 1757--1793.  
+<a class="DOI" href="https://doi.org/10.1090/S0025-5718-2014-02806-8">  DOI: 10.1090/S0025-5718-2014-02806-8 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3194129"> MR3194129 </a> &ensp; 
+<a class="reprint" href="pdf/kprt3.pdf"> Reprint in PDF </a>
+ 
+     
 
-56. Ziyu Chen, Markos A. Katsoulakis, Luc Rey-Bellet, and Wei Zhu, 
-*Sample Complexity of Probability Divergences under Group Symmetry*, 
-Proceedings of 40th International Conference on Machine Learning, PMLR 202 (2023) pp. 4713-4734  
-<a class="DOI" href="https://proceedings.mlr.press/v202/chen23p.html"> Online Version
-</a> &ensp; 
-<a class="reprint" href="pdf/CKRZ1.pdf"> Reprint in PDF (including supplementary  materials)</a> 
+</li>
 
-	
-57. Ziyu Chen, Markos A. Katsoulakis, Luc Rey-Bellet, and Wei Zhu, 
-*Statistical Guarantees of Group-Invariant GANs*, 
-Submitted.  
-<a class="arXiv" href="https://arxiv.org/abs/arXiv:2305.13517 "> arXiv:2305.13517  </a> 
+<li>
+Sung-Ha Hwang, Luc Rey-Bellet, and  Markos Katsoulakis.    
+<b>
+Deterministic equations for stochastic spatial evolutionary games.
+</b>                
+Theoretical Economics <b>8</b> (2013), no.3, pp. 829--874.  
+<a class="DOI" href="https://doi.org/10.3982/TE829">  DOI: 10.3982/TE829 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3106962"> MR3106962  </a> &ensp; 
+<a class="reprint" href="pdf/HMR1.pdf"> Reprint in PDF </a>
+ 
+     
 
+</li>
 
-58. Ziyu Chen, Hyemin Gu, Markos A. Katsoulakis, Luc Rey-Bellet, Wei Zhu, 
-*Learning heavy-tailed distributions with Wasserstein-proximal-regularized α-divergences*, 
-Submitted.
-<a class="arXiv" href="https://arxiv.org/abs/arXiv:2405.13962 "> arXiv:2405.13962  </a> 
+<li>
+Andrea Nahmod, Hiro Oh, Luc Rey-Bellet, and Gigliola Staffilani.    
+<b>
+Invariant weighted Wiener measures and  almost sure global well-posedness for the periodic derivative NLS.
+</b>                
+Journal of the  European Mathematical Society <b>14</b> (2012), no.4, pp. 1275--1330.  
+<a class="DOI" href="https://doi.org/10.4171/JEMS/333">  DOI: 10.4171/JEMS/333  </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2928851"> MR2928851 </a> &ensp; 
+<a class="reprint" href="pdf/NORSrep.pdf"> Reprint in PDF </a>
+ 
+     
+</li>
 
+<li>
+Sung-Ha Hwang and Luc Rey-Bellet.    
+<b>
+Decompositions of two player games: potential, zero-sum, and stable games. 
+</b>                
+Unpublished (2011).  
+<a class="arXiv" href="pdf/Hwang1.pdf"> arXiv:1106.3552 </a> . 
+ 
+     
 
-59. Jeremiah Birrell, Markos A. Katsoulakis, Luc Rey-Bellet, Benjamin Zhang, Wei Zhu, 
-*Nonlinear denoising score matching for enhanced learning of structured distributions*,
-Submitted.    
-<a class="arXiv" href="https://arxiv.org/abs/arXiv:2405.15625  "> arXiv:2405.15625   </a> 
+</li>
 
+<li>
+Andrea Nahmod, Luc Rey-Bellet, Scott Sheffield, and Gigliola Staffilani.   
+<b>
+Absolute continuity of Brownian bridges under certain gauge transformations.
+</b>                
+Mathematical Research Letters <b>18</b> (2011), no.5, pp. 875--887.   
+<a class="DOI" href="http://dx.doi.org/10.4310/MRL.2011.v18.n5.a6">  DOI: 10.4310/MRL.2011.v18.n5.a6 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2875861"> MR2875861 </a> &ensp; 
+<a class="reprint" href="pdf/NRSSreprint.pdf"> Reprint in PDF </a>
+ 
+     
 
-60. Hyemin Gu, Markos A. Katsoulakis, Luc Rey-Bellet, Benjamin J. Zhang,
-*Combining Wasserstein-1 and Wasserstein-2 proximals: robust manifold learning via well-posed generative flows*,
-Submitted.      
-<a class="arXiv" href="https://arxiv.org/abs/arXiv:2407.11901  "> arXiv:2407.11901   </a> 
+</li>
 
+<li>
+Yoshiko Ogata and Luc Rey-Bellet.    
+<b>
+Ruelle-Lanford functions and large deviations for asymptotically decoupled  quantum spin systems.
+</b>               
+Reviews in  Mathematical  Physics  <b>23</b> (2011), no.2, pp. 211--232.  
+<a class="DOI" href="https://doi.org/10.1142/S0129055X11004291">  DOI: 10.1142/S0129055X11004291 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2786227"> MR2786227 </a> &ensp; 
+<a class="reprint" href="pdf/ruellelanfordreprint.pdf"> Reprint in PDF </a>
+ 
+     
+
+</li>
+
+<li>
+Vojkan Jaksic, Claude-Alain Pillet, and Luc Rey-Bellet.    
+<b>Entropic fluctuations in statistical mechanics I. Classical dynamical systems.</b>                   
+Nonlinearity <b>24</b> (2011), no.3, pp. 699--763.   
+<a class="DOI" href="https://doi.org/10.1088/0951-7715/24/3/003">  DOI: 10.1088/0951-7715/24/3/003 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2765481"> MR2765481 </a> &ensp; 
+<a class="reprint" href="pdf/jprreprint.pdf"> Reprint in PDF </a>     
+<br>
+</li>
+
+<li>
+Wojciech De Roeck, Christian Maes, Karel Neto&#269;n&yacute;, and Luc Rey-Bellet.   
+<b>
+A note on the non-commutative Laplace-Varadhan integral lemma, 
+</b>                
+Reviews in  Mathematical Physics <b>22</b> (2010), no.7, pp. 839--858.  
+<a class="DOI" href="https://doi.org/10.1142/S0129055X10004089">  DOI: 10.1142/S0129055X10004089  </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2673696"> MR2673696 </a> &ensp;
+<a class="reprint" href="pdf/QVaradhanreprint.pdf"> Reprint in PDF</a>    
+<br>
+</li>
+
+<li>
+Sasanka Are, Markos Katsoulakis, Petr Plecháč, and Luc Rey-Bellet.   
+<b>
+Multi-body interactions in coarse-graining schemes of extended systems.
+</b>                
+SIAM Journal on Scientific Computing  <b>31</b> (2008/2009), no.2, pp. 987--1015.  
+<a class="DOI" href="https://doi.org/10.1137/080713276">  DOI: 10.1137/080713276  </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2466145"> MR2466145 </a> &ensp; 
+<a class="reprint" href="pdf/AKPR-SIAMJSC.pdf"> Reprint in PDF </a>    
+<br>
+</li>
+
+<li>
+Markos Katsoulakis, Petr Plecháč, and Luc Rey-Bellet.   
+<b>
+Numerical and statistical methods for the coarse-graining of many-particle stochastic systems. 
+</b>                
+Journal of Scientific Computing <b>37</b/> (2008), no.1, pp. 43--71.  
+<a class="DOI" href="https://doi.org/10.1007/s10915-008-9216-6">  DOI: 10.1007/s10915-008-9216-6 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2442973"> MR2442973  </a> &ensp; 
+<a class="reprint" href="pdf/KPR-JSciComp.pdf"> Reprint in PDF</a>
+
+ 
+     
+
+</li>
+
+<li>
+Lai-Sang Young and Luc Rey-Bellet.   
+<b>
+Large deviations in nonuniformly hyperbolic dynamical systems.
+</b> 
+Ergodic Theory and Dynamical Systems <b>28</b> (2008), no.2, pp. 587-612.  
+<a class="DOI" href="https://doi.org/10.1017/S0143385707000478">  DOI:10.1017/S0143385707000478  </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2408394"> MR2408394 </a> &ensp; 
+<a class="reprint" href="pdf/lsy1.pdf">Reprint in PDF</a>
+ 
+     
+
+</li>
+
+<li>
+Markos Katsoulakis, Petr Plecháč, Luc Rey-Bellet, and Dimitrios Tsagkarogiannis.    
+<b>Mathematical strategies in the coarse-graining of extensive systems: error quantification and adaptivity. </b>                
+Journal of Non Newtonian Fluid Mechanics <b>152</b> (2008), pp. 101--112.  
+<a class="DOI" href="https://doi.org/10.1016/j.jnnfm.2007.05.005">  DOI: 10.1016/j.jnnfm.2007.05.005 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;
+<a class="reprint" href="pdf/kprt2.pdf"> Reprint in PDF </a>
+ 
+     
+
+</li>
+
+<li>
+Markos Katsoulakis, Petr Plecháč, Luc Rey-Bellet, and Dimitrios Tsagkarogiannis.    
+<b>Coarse-graining schemes and a posteriori error estimates for stochastic lattice systems.</b>                
+ESAIM: Mathematical Modelling and Numerical Analysis  <b>41</b> (2007), no.3, pp. 627--660.   
+<a class="DOI" href="https://doi.org/10.1051/m2an:2007032">  DOI: 10.1051/m2an:2007032 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2355714"> MR2355714 </a> &ensp;
+<a class="reprint" href="pdf/kprt1reprint.pdf"> Reprint in PDF</a>
+ 
+     
+
+</li>
+
+<li>
+Federico Bonetto and Luc Rey-Bellet.    
+<b> Fourier Law.</b>               
+In: Encyclopedia of Mathematical Physics.  J.-P. Francoise, G. L. Naber, S.T. Tsou (Eds.), Elsevier 2006, pp. 374--379.  
+<!--<a class="DOI" href="">  DOI:  </a> &ensp; -->
+<!-- <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;--> 
+<a class="reprint"  href="pdf/fourierencyc.pdf"> Reprint in PDF </a>    
+<br> 
+</li>
+
+<li>
+Luc Rey-Bellet.    
+<b>Open Classical Systems.</b>               
+In: Quantum Open Systems II. The Markovian approach.  St&eacute;phane Attal, Alain Joye,  Claude-Alain Pillet (Eds.), Lecture Notes in Mathematics 1881, Berlin: Springer, 2006, pp. 41--78.  
+<a class="DOI" href="https://doi.org/10.1007/3-540-33966-3_2">  DOI: 10.1007/3-540-33966-3_2 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2248987"> MR2248987 </a> &ensp; 
+<a class="reprint" href="pdf/OCP.pdf"> Reprint in PDF </a>   
+<br>    
+</li>
+
+<li>
+Luc Rey-Bellet.   
+<b>Ergodic Properties of Markov Processes.</b>               
+In: Quantum Open Systems II. The Markovian approach. St&eacute;phane Attal, Alain Joye,  Claude-Alain Pillet (Eds.), Lecture Notes in Mathematics 1881, Berlin: Springer, 2006, pp. 1--39.   
+<a class="DOI" href="https://doi.org/10.1007/3-540-33966-3_1">  DOI:10.1007/3-540-33966-3_1  </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2248986"> MR2248986 </a> &ensp; 
+<a class="reprint" href="pdf/EMP.pdf"> Reprint in PDF </a>
+ 
+     
+
+</li>
+
+<li>
+Luc Rey-Bellet.   
+<b>Nonequilibrium statistical mechanics of open classical systems.</b>               
+In:  XIVth International Conference on Mathematical Physics, Lisbon, Portugal, 28 July -- 2 August 2003,  World Scientific 2006, pp. 447--454   
+<a class="DOI" href="https://doi.org/10.1142/9789812704016_0043">  DOI: 10.1142/9789812704016_0043 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2227858"> MR2227858 </a> &ensp; 
+<a class="reprint" href="pdf/lisbon.pdf"> PDF file</a>    
+<br>
+</li>
+
+<li>
+Marco Lenci and Luc Rey-Bellet.    
+<b> Large deviations in quantum lattice systems: one phase region. </b>                
+Journal of Statistical Physics  <b>119</b> (2005), no. 3-4, pp. 715--746.   
+<a class="DOI" href="https://doi.org/10.1007/s10955-005-3015-3">  DOI: 10.1007/s10955-005-3015-3 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2151220"> MR2151220 </a> &ensp; 
+<a class="reprint" href="pdf/marco1reprint.pdf"> Reprint in PDF </a>    
+<br>
+</li>
+
+<li>
+Lawrence E. Thomas and Luc Rey-Bellet.    
+<b>Low regularity solutions to a gently stochastic nonlinear wave equation in nonequilibrium statistical mechanics.</b>               
+Stochastic Processes and  their Applications  <b>115</b> (2005), no.6, pp. 1041--1059. (2005).  
+<a class="DOI" href="https://doi.org/10.1016/j.spa.2005.02.003">  DOI: 10.1016/j.spa.2005.02.003  </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2138813"> MR2138813 </a> &ensp; 
+<a class="reprint" href="pdf/larry4reprint.pdf"> Reprint in PDF</a>     
+<br> 
+</li>
+
+<li>
+Luc Rey-Bellet.    
+<b>Statistical mechanics of anharmonic lattices.</b>               
+In: Advances in Differential Equations and Mathematical Physics, AMS Contemporary Mathematics Series <b>327</b> (2003), pp. 283--298.   
+<a class="DOI" href="">  DOI:  </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1991548"> MR1991548 </a> &ensp; 
+<a class="reprint" href="pdf/uab.pdf"> Reprint in PDF </a>    
+<br>
+</li>
+
+<li>
+Lawrence E. Thomas and Luc Rey-Bellet.      
+<b>Fluctuations of the entropy production in anharmonic chains,</b>               
+Annales Henri Poincar&eacute; <b> 3 </b>(2002), no.3, pp. 483--502.  
+<a class="DOI" href="https://doi.org/10.1007/s00023-002-8625-6">  DOI: 10.1007/s00023-002-8625-6 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1915300"> MR1915300 </a> &ensp; <a class="reprint" href="pdf/larry3.pdf">Reprint in PDF</a>    
+<br>
+</li>
+
+<li>
+Lawrence E. Thomas and Luc Rey-Bellet.       
+<b>Exponential convergence to non-equilibrium stationary states in classical  statistical mechanics. </b>               
+Communications in Mathematical Physics <b>225</b> (2002), no.1, pp. 305--329.   
+<a class="DOI" href="https://doi.org/10.1007/s002200100583">  DOI: 10.1007/s002200100583 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1889227"> MR1889227 </a> &ensp; 
+<a class="reprint" href="pdf/larry2.pdf">Reprint in PDF</a>      
+<br>
+</li>
+
+<li>
+Jürg Fröhlich, Luc Rey-Bellet, and Daniel Ueltschi.    
+<b>
+Quantum lattice systems at intermediate temperature,
+</b>               
+Communications in Mathematical Physics <b>224</b> (2001), no. 1, pp. 33--63.  
+<a class="DOI" href="https://doi.org/10.1007/s002200100530">  DOI: 10.1007/s002200100530 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1869003"> MR1869003 </a> &ensp; 
+<a class="reprint" href="pdf/fru.pdf">Reprint in PDF</a>    
+ 
+</li>
+
+<li>
+Federico Bonetto, Joel  Lebowitz, and Luc Rey-Bellet.         
+<b>Fourier Law: A challenge to theorists.</b>                
+In: Mathematical Physics 2000,  A. Fokas, A. Grigoryan, T. Kibble, and  B. Zegarlinski  (Eds.) Imperial College Press, London 2000, pp. 128--150.   
+<a class="DOI" href="https://doi.org/10.1142/9781848160224_0008">  DOI:10.1142/9781848160224_0008  </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1773043"> MR1773043 </a> &ensp; 
+<a class="reprint" href="pdf/blr.pdf">  Reprint in PDF </a>   
+<br>
+</li>
+
+<li>
+Lawrence E. Thomas and Luc Rey-Bellet.    
+<b>Asymptotic behavior of thermal non-equilibrium  steady states for a driven chain of anharmonic oscillators.
+</b>                
+Communications in Mathematical Physics <b>215</b> (2000), no.1, pp. 1--24.   
+<a class="DOI" href="https://doi.org/10.1007/s002200000285">  DOI: 10.1007/s002200000285 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1799873"> MR1799873 </a> &ensp; 
+<a class="reprint" href="pdf/larry1.pdf">Reprint in PDF</a>     
+<br>
+</li>
+
+<li>
+Jean-Pierre Eckmann, Claude-Alain Pillet, and Luc Rey-Bellet.       
+<b> Entropy production in non-linear, thermally driven Hamiltonian systems.</b>                
+Journal of Statistical Physics <b>95</b> (1999), no. 1-2, pp. 305--331.   
+<a class="DOI" href="https://doi.org/10.1023/A:1004537730090">  DOI:10.1023/A:1004537730090  </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1705589"> MR1705589 </a> &ensp; 
+<a class="reprint" href="pdf/epr2.pdf">Reprint in PDF</a>    
+
+</li>
+
+<li>
+Jean-Pierre Eckmann, Claude-Alain Pillet, and Luc Rey-Bellet.      
+<b> Non-equilibrium statistical mechanics of anharmonic chains coupled to two heat baths at different temperatures. </b>                
+Communications in Mathematical Physics <b> 201</b> (1999), no. 3, pp. 657--697.  
+<a class="DOI" href="https://doi.org/10.1007/s002200050572">  DOI: 10.1007/s002200050572  </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1685893">MR1685893 </a> &ensp; 
+<a class="reprint" href="pdf/epr1.pdf">Reprint in PDF</a>     
+<br> 
+</li>
+
+<li>
+Jürg Fröhlich and Luc Rey-Bellet.       
+<b>  Low-temperature phase diagrams of quantum lattice systems. III. Examples. </b>                
+Helvetica Physica Acta <b>69</b> (1996), 5-6, pp. 821--849.     
+<a class="DOI" href="http://doi.org/10.5169/seals-116980">  DOI: 10.5169/seals-116980  </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1428029"> MR1428029  </a> &ensp; 
+<a class="reprint" href="pdf/ql3.pdf"> Reprint in PDF</a>     
+<br>
+</li>
+
+<li>
+Nilanjana Datta, Roberto Fernandez, Jürg Fröhlich, and Luc Rey-Bellet.     
+<b> Low-temperature phase diagrams of quantum lattice systems. II. Convergent perturbation  expansions and stability in systems with  infinite degeneracy. 
+</b>               	
+Helvetica Physica Acta <b>69</b> (1996), 5-6, pp. 752--820.  
+<a class="DOI" href="http://doi.org/10.5169/seals-116979">  DOI: 10.5169/seals-116979 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1428028"> MR1428028 </a> &ensp; 
+<a class="reprint" href="pdf/ql2.pdf"> Reprint in PDF</a> &ensp;    
+ <br>
+ </li>
+
+</ol>
