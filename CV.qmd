@@ -1,0 +1,1670 @@
+---
+title: "Curriculum Vitae: Luc Rey-Bellet"
+format:
+  pdf:
+    colorlinks: true
+  html:
+    toc: false
+    html-math-method: katex
+---
+
+## Contact Information
+
+[arXiv:2407.11901](https://arxiv.org/abs/arXiv:2407.119010)
+
+## Educational History:
+
++ **Ph.D. in Mathematics (1998)**:  Department of Mathematics, University of Geneva, Geneva, Switzerland. Advisor: *Prof. Jean-Pierre Eckmann*
++ **Dipl. Phys. ETHZ (1994)**: , Department of Physics, Swiss Federal Institute of Technology (ETHZ), Zurich, Switzerland. 
+     Advisor: *Prof. Jürg Fröhlich*
+
+
+## Professional appointments:
+
++ **Research Fellow**:  Rutgers University 1998-1999
++ **Whyburn Instructor**:  University of Virginia 1999-2002
++ **Assistant Professor**:  University of Massachusetts 2002-2008
++ **Associate Professor**:  University of Massachusetts 2008-2013
++ **Visiting Professor**:  University of Crete 2011 (Spring semester)
++ **Professor**:  University of Massachusetts since 2013
+
+
+## Selected recent service
++ Editorial board of Journal of Statistical Physics  2013--2018
++ Organizer of the Oberwolfach seminar on Markov proceses, 2011
++ Organizer of the Conference in honor of J.P. Eckmann 75th birthday, 2022
++ Organizer of ICERM Workshop on Optimal Transport and Machine Learning, 2023
+
+
+## Grant funding 
++   FNRS Bourse de jeune chercheur 1999 (SFr 45k)
++   NSF Grant 2003 (3 year, PI, $101K)
++   NSF Grant 2006 (3 year, PI, $106K)
++   NSF Grant 2011 (3 Year, PI, $99K) 
++   NSF Grant 2015 (3 year, PI (with 1 Co-PI) $280K)
++   DOE Grant 2016 (3 year, co-PI (with 4 PI) $900K) 
++   AFOSR Grant 2019 (3 year, co-PI (with 2 PIs) $900 K)
++   NSF Grant 2020 (3 year, PI (with 1 Co-PI) $ 370K)
++   AFOSR Grant 2022 (4 year (with 2 PIs) $1.950M) 
++   NSF Grant 2023 (3 year,  PI (with 1 Co-PI) $300K) 
+
+
+##  Graduate students and postdoctoral advising:
+
++  Dimitrios Tsagkarogiannis (Graduation 2006, University of L'Aquila)
++  Michael Diehl (Graduation 2008, Endicott College)
++  Sasanka Are (Graduation 2009, Cerner Corporation)
++  Sung-Ha Hwang (Graduation 2011, KAIST, Korea)
++  Yannis Pantazis (Postdoctoral fellow, 2012-2013, and 2014-2015, Forth Crete)
++  Kostis Gourgoulias (Graduation 2017, JP Morgan)
++  Georgios Arampatzis (Postdoctoral fellow, 2014-2015, University of Crete)
++  Jinchao Feng (Graduation 2019, John Hopkins University )
++  Jie Wang (Graduation 2019, Discover)
++  Jeremiah Birrell (Postdoctoral fellow, 2017-2022, Texas State University)
++  Pangiota Birmpa (Postdoctoral fellow, 2018-2022, Heriott-Watt University)
++  Hyemin Gu (Graduate Student since 2021 )
++  Benjamin Zhang (Postdoctoral fellow, 2022-2024, Brown University)
++  Ziyu Chen (Postdoctoral fellow, 2022-2025)
+
+## Publications
+
+
+<ol reversed>
+
++ 
+Hyemin Gu, Markos A. Katsoulakis, Luc Rey-Bellet, and Benjamin J. Zhang.  **Combining Wasserstein-1 and Wasserstein-2 proximals: robust manifold learning via well-posed generative flows**.  Submitted.      
+<a class="arXiv" href="https://arxiv.org/abs/arXiv:2407.11901  "> arXiv:2407.11901   </a>     
+<br>
+</li>
+
+
+<li>
+Jeremiah Birrell, Markos A. Katsoulakis, Luc Rey-Bellet, Benjamin Zhang, and Wei Zhu.    
+**Nonlinear denoising score matching for enhanced learning of structured distributions**.     
+Submitted.    
+<a class="arXiv" href="https://arxiv.org/abs/arXiv:2405.15625  "> arXiv:2405.15625   </a>      
+<br>
+</li>
+
+
+<li>
+Ziyu Chen, Hyemin Gu, Markos A. Katsoulakis, Luc Rey-Bellet, and Wei Zhu.    
+**Learning heavy-tailed distributions with Wasserstein-proximal-regularized α-divergences**. 
+Submitted.    
+<a class="arXiv" href="https://arxiv.org/abs/arXiv:2405.13962 "> arXiv:2405.13962  </a>     
+<br>
+</li>
+
+
+<li>
+Ziyu Chen, Markos A. Katsoulakis, Luc Rey-Bellet, and Wei Zhu.        
+**Statistical Guarantees of Group-Invariant GANs**.
+Submitted.   
+<a class="arXiv" href="https://arxiv.org/abs/arXiv:2305.13517 "> arXiv:2305.13517  </a>      
+<br>
+</li>
+
+
+<li>
+Ziyu Chen, Markos A. Katsoulakis, Luc Rey-Bellet, and Wei Zhu.    
+**Sample Complexity of Probability Divergences under Group Symmetry**.      
+Proceedings of 40th International Conference on Machine Learning, PMLR 202 (2023) pp. 4713-4734.  
+<a class="DOI" href="https://proceedings.mlr.press/v202/chen23p.html"> Online Version
+</a> &ensp; 
+<a class="reprint" href="pdf/CKRZ1.pdf"> Reprint in PDF (including supplementary  materials)</a>     
+<br>
+</li>
+
+
+<li>
+Hyemin Gu, Panagiota Birmpa, Yannis Pantazis, Luc Rey-Bellet, and Markos A. Katsoulakis.   
+**Lipschitz-regularized gradient flows and generative particle algorithms for high-dimensional scarce data**.   
+To appear in Siam Journal on Mathematics of Data Science (2024).    
+<a class="arXiv" href="https://arxiv.org/abs/arXiv:2210.17230 "> arXiv:2210.17230  </a>      
+<br>
+</li>
+
+
+<li>
+Jeremiah Birrell, Paul Dupuis, Markos  Katsoulakis, Yannis Pantazis, and Luc Rey-Bellet.
+**Function-space regularized Rényi divergences**.   
+Procceedings of  The Eleventh International Conference on Learning Representations (ICLR 2023).      
+<a class="DOI" href="https://iclr.cc/virtual/2023/poster/10987"> Poster and Slides </a> 
+&ensp; 
+<a class="DOI" href="https://openreview.net/forum?id=89GT-S49mGd">  Open review </a> &ensp;
+<a class="reprint" href="pdf/BDKPR2.pdf"> Reprint in PDF</a>    
+<br>
+</li>
+
+
+<li>
+Jeremiah Birrell, Markos  Katsoulakis, Luc Rey-Bellet, and Wei Zu.    
+<b>Structure-preserving GANs.</b>       
+Proceedings of the 39th International Conference on Machine Learning, PMLR 162 (2022), pp.1982-2020.      
+<a class="DOI" href="https://proceedings.mlr.press/v162/birrell22a.html"> Online Version 
+</a> &ensp; 
+<a class="reprint" href="https://proceedings.mlr.press/v162/birrell22a/birrell22a.pdf"> Reprint in PDF (including supplementary  materials)</a>  
+<br>   
+</li>
+
+
+<li>
+Panagiota Birmpa, Jinchao Feng, Markos  Katsoulakis, and Luc Rey-Bellet.    
+<b>
+Model Uncertainty and Correctability for Directed Graphical Models.    
+</b> 
+SIAM/ASA Journal on Uncertainty Quantification <b> 10 </b> (2022), no.4, pp 1461--1512.   
+<a class="DOI" href="https://doi.org/10.1137/21M1434453"> DOI:10.1137/21M1434453 </a> &ensp; 
+<a class="reprint" href="pdf/BirmpaDGM.pdf"> Reprint in PDF </a>     
+<br>
+</li>
+
+
+<li>
+Jeremiah Birrell, Paul Dupuis, Markos  Katsoulakis,  Yannis Pantazis, and Luc Rey-Bellet.    
+<b>
+(f,&Gamma;)-Divergences: Interpolating between f-Divergences and Integral Probability Metrics.    
+</b>
+Journal of Machine Learning Research <b>23</b> (2022), paper 39, pp.1−70.  
+<a class="DOI" href="https://www.jmlr.org/papers/v23/21-0100.html"> Online Version </a> &ensp; 
+<a class="reprint" href="pdf/BDKPR1.pdf"> Reprint in PDF </a>     
+<br>
+</li>
+
+
+<li>
+Jeremiah Birrell, Paul Dupuis, Markos A. Katsoulakis, Luc Rey-Bellet, and Jie Wang.      
+<b> A variational formula for Rényi divergences.</b>     
+SIAM Journal on Mathematics of Data Science <b>3</b> (2021), no. 4, pp. 1093-1116   
+<a class="DOI" href="https://doi.org/10.1137/20M1368926"> DOI: 10.1137/20M1368926
+</a> &ensp; 
+<!--<a class="arXiv" href="https://arxiv.org/abs/ arXiv:2007.03814"> arXiv: arXiv:2007.03814 </a> &ensp; -->
+<a class="reprint" href="pdf/RenyiVariational.pdf"> Reprint in PDF </a>     
+<br>     
+</li>
+
+<li>
+Jeremiah Birrell, Paul Dupuis, Markos A. Katsoulakis, Luc Rey-Bellet, and Jie Wang.        
+<b>Distributional robustness and uncertainty quantification for rare events.</b>      
+Preprint.    
+<a class="arXiv" href="https://arxiv.org/abs/1911.09580"> arXiv:1911.09580 </a> &ensp; 
+<a class="reprint" href="https://arxiv.org/pdf/1911.09580.pdf"> Preprint in PDF </a>    
+<br> 
+</li>
+
+<li>
+Sung-Ha Hwang and Luc Rey-Bellet.     
+<b>Positive feedback in coordination games: stochastic evolutionary dynamics and the logit choice rule.</b>     
+Games and Economic Behavior <b> 126 </b> (2021), pp. 355-373    
+<a class="DOI" href="https://doi.org/10.1016/j.geb.2021.01.003"> DOI: 10.1016/j.geb.2021.01.003</a> &ensp; 
+<!--<a class="arXiv" href="https://arxiv.org/abs/1701.04870"> arXiv:1701.04870 </a> &ensp; 
+-->
+<a class="reprint" href="pdf/Logit.pdf"> Reprint in PDF </a> &ensp; 
+<a class="reprint" href="pdf/LogitSupplementary.pdf"> Supplementary Materials </a>      
+<br>
+</li>
+
+<li>
+Jeremiah Birrell, Markos Katsoulakis, and Luc Rey-Bellet.      
+<b> Quantification of model uncertainty on path-space via goal-oriented relative entropy.</b>   
+ESAIM: Mathematical Modeling and Numerical Analysis <b> 55 </b> (2021), no.1, pp. 131-169.  
+<a class="DOI" href="https://doi.org/10.1051/m2an/2020070"> DOI: 10.1051/m2an/2020070 </a> &ensp; 
+<a class="reprint" href="pdf/PathEntropy.pdf"> Reprint in PDF </a>    
+<br>
+</li>
+
+<li>
+Jeremiah Birrell and Luc Rey-Bellet.    
+<b> Concentration inequalities and performance guarantees for hypocoercive MCMC samplers.</b>      
+Preprint.
+<a class="arXiv" href="https://arxiv.org/abs/1907.11973"> arXiv:1907.11973 </a> &ensp; 
+<a class="reprint" href="https://arxiv.org/pdf/1907.11973.pdf"> Preprint in PDF </a>    
+<br>
+</li>
+
+<li>
+Paul Dupuis, Markos Katoulakis, Yannis Pantazis, and Luc Rey-Bellet.    
+<b>Sensitivity analysis for rare events based on Rényi divergence.</b>      
+The  Annals of Applied Probability, <b> 30 </b> (2020), no.4, pp. 1507-1533.      
+<a class="DOI" href="https://doi.org/10.1214/19-AAP1468"> DOI:10.1214/19-AAP1468 </a> &ensp;
+<a class="reprint" href="pdf/DKPR.pdf"> Reprint in PDF </a>      
+<br>
+</li>
+
+<li>
+Jeremiah Birrell and Luc Rey-Bellet.     
+<b> Uncertainty quantification for Markov processes via variational principles and functional inequalities.</b>     
+SIAM/ASA Journal on Uncertainty Quantification, <b>8</b> (2020), no. 2, pp. 539--572.    
+<a class="DOI" href="https://doi.org/10.1137/19M1237429"> DOI: 10.1137/19M1237429 </a> &ensp;
+<!-- 
+<a class="MR"  href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;
+-->
+<a class="reprint" href="pdf/BRB1.pdf"> Reprint in PDF </a>    
+<br> 
+</li>
+
+<li>
+Konstantinos Gourgoulias, Markos Katsoulakis, Luc Rey-Bellet, and Jie Wang.   
+<b> How biased is your model? Concentration inequalities, information and model bias. </b>
+IEEE Transactions on Information Theory <b>66</b> (2020), no.5, pp. 3079--3097.     
+<a class="DOI" href="https://doi.org/doi: 10.1109/TIT.2020.2977067"> DOI: 10.1109/TIT.2020.2977067 </a> &ensp;
+<!--
+<a class="MR"  href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;
+-->
+<a class="reprint" href="pdf/GKRW.pdf"> Reprint in PDF </a>    
+<br>
+</li>
+
+<li>
+Sung-Ha Hwang and Luc Rey-Bellet.   
+<b> Simple characterizations of potential games and zero-sum equivalent games.</b>
+Journal of Economic Theory and Econometrics, <b>31</b> (2020), pp. 1--13.  
+<a class="DOI" href="http://www.es.re.kr/jetem/view.php?year=&month=&vol=&no=&article_idx=342"> Online version </a> &ensp;
+<a class="reprint" href="pdf/HRB3.pdf"> Reprint in PDF </a>          
+<br> 
+</li>
+
+<li>
+Sung-Ha Hwang and Luc Rey-Bellet.      
+<b> Strategic decompositions of normal form games: potential games and zero-sum games.</b>      
+Games and Economic Behavior <b>122</b>, (2020), pp. 370--390.     
+<a class="DOI" href="https://doi.org/10.1016/j.geb.2020.05.003"> DOI: 10.1016/j.geb.2020.05.003 </a> &ensp;
+<!--
+<a class="MR"  href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;
+-->
+<a class="reprint" href="pdf/Decomposition.pdf"> Reprint in PDF file </a>  &ensp;
+<a class="reprint" href="pdf/DecompositionSupplementaryMaterials.pdf"> Supplementary Materials </a>     
+<br>
+</li>
+
+<li>
+Mark Demers, Luc Rey-Bellet,and Hongkun Zhang.     
+<b> Fluctuations of the entropy production for the Lorentz gas under small external forces. </b>                    
+Communications in Mathematical Physics  <b> 363</b> (2018), no. 2, pp. 699--740.  
+<a class="DOI" href="https://doi.org/10.1007/s00220-018-3228-3">  DOI: 10.1007/s00220-018-3228-3 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3851827">MR3851827  </a> &ensp;
+<a class="reprint" href="pdf/DRZ.pdf"> Reprint in PDF </a>     
+<br>
+</li>
+
+<li>
+Noé Cuneo, Jean-Pierre Eckmann, Martin Hairer, and Luc Rey-Bellet.     
+<b>Non-equilibrium steady states for networks of oscillators. </b>               
+Electronic Journal of Probability <b>23</b> (2018), paper no. 55, 28 pp.  
+<a class="DOI" href="https://doi.org/10.1214/18-EJP177">  DOI: 10.1214/18-EJP177 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3814249 "> MR3814249  </a> &ensp; 
+<a class="reprint" href="pdf/CEHR.pdf"> Reprint in PDF </a>    
+<br>
+</li>
+
+<li>
+Markos Katsoulakis, Luc Rey-Bellet, and Jie Wang.      
+<b>Scalable information inequalities for uncertainty quantification.</b>                   
+Journal of Computational Physics <b> 336</b> (2017), pp. 513--545.  
+<a class="DOI" href="https://doi.org/10.1016/j.jcp.2017.02.020"> DOI: 10.1016/j.jcp.2017.02.020 </a> &ensp;
+<!-- <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3622628">  </a> &ensp; -->
+<a class="reprint" href="pdf/Wang1.pdf"> Reprint in PDF </a>    
+<br>
+</li>
+
+<li>
+Konstantinos Gourgoulias, Markos Katsoulakis, and Luc Rey-Bellet.    
+<b> Information criteria for quantifying loss of reversibility in parallelized KMC. </b>               
+Journal of Computational Physics <b>328</b> (2017), pp. 438--454.      
+<a class="DOI" href="https://doi.org/10.1016/j.jcp.2016.10.031"> DOI: 10.1016/j.jcp.2016.10.031 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3571894"> MR3571894 </a> &ensp; 
+<a class="reprint" href="pdf/Gourgoulias2.pdf"> Reprint in PDF </a>    
+<br>
+</li>
+
+<li>
+Eric Hall, Markos Katsoulakis, and Luc Rey-Bellet.    
+<b>
+Uncertainty quantification for generalized Langevin dynamics. 
+</b>               
+Journal of  Chemical Physics <b>145</b> (2016), 224108.  
+<a class="DOI" href="http://dx.doi.org/10.1063/1.4971433">  DOI: 10.1063/1.4971433 </a> &ensp;
+<!-- <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp; -->
+<a class="reprint" href="pdf/Hall1.pdf"> Reprint in PDF </a>   
+<br>
+</li>
+
+<li>
+Konstantinos Spiliopoulos and Luc Rey-Bellet.    
+<b> 
+Improving the convergence of reversible samplers. </b>               
+Journal of Statistical Physics <b> 164</b> (2016), no.3, 472--494.  
+<a class="DOI" href="https://doi.org/10.1007/s10955-016-1565-1">  DOI: 10.1007/s10955-016-1565-1 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3519206"> MR3519206  </a> &ensp; 
+<a class="reprint" href="pdf/Spiliopoulos3.pdf"> Reprint in PDF </a>
+ 
+     
+
+</li>
+
+<li>
+Georgios Arampatzis, Markos Katsoulakis, and Luc Rey-Bellet.    
+<b>
+Efficient estimators for likelihood ratio sensitivity indices of complex stochastic dynamics.
+</b>               
+Journal of Chemical Physics <b>144</b> (2016), 104107.  
+<a class="DOI" href="http://dx.doi.org/10.1063/1.4943388">  DOI: 10.1063/1.4943388 </a> &ensp;
+<!--<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;--> 
+<a class="reprint" href="pdf/Arampatzis1.pdf"> Reprint in PDF </a>
+ 
+     
+
+</li>
+
+<li>
+Konstantinos Gourgoulias, Markos Katsoulakis, and Luc Rey-Bellet.    
+<b> 
+Information metrics for long-time errors in splitting schemes for stochastic dynamics and parallel  kinetic Monte Carlo.
+</b>                
+SIAM Journal on Scientific  Computing <b>38</b> (2016), no. 6, pp. A3808--A3832.   
+<a class="DOI" href="https://doi.org/10.1137/15M1047271">  DOI: 10.1137/15M1047271 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3582415"> MR3582415  </a> &ensp; 
+<a class="reprint" href="pdf/Gourgoulias1.pdf"> Reprint in PDF </a>
+ 
+     
+
+</li>
+
+<li>
+Konstantinos Spiliopoulos and Luc Rey-Bellet.    
+<b>
+Variance reduction for irreversible Langevin samplers and diffusion on graphs.
+</b>                
+Electronic  Communications in Probability <b> 20</b> (2015), no. 15, 16pp.   
+<a class="DOI" href="https://doi.org/10.1214/ECP.v20-3855">  DOI: 10.1214/ECP.v20-3855 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3314650"> MR3314650 </a> &ensp; 
+<a class="reprint" href="pdf/Spiliopoulos2.pdf"> Reprint in PDF </a> 
+ 
+     
+
+</li>
+
+<li>
+Konstantinos Spiliopoulos and Luc Rey-Bellet.    
+<b>
+Irreversible Langevin samplers and variance reduction: a large deviation approach. 
+</b>               
+Nonlinearity <b> 28</b> (2015), no.7, pp. 2081--2103.  
+<a class="DOI" href="https://doi.org/10.1088/0951-7715/28/7/2081">  DOI: 10.1088/0951-7715/28/7/2081 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3366637"> MR3366637 </a> &ensp; 
+<a class="reprint" href="pdf/Spiliopoulos1.pdf"> Reprint in PDF </a>
+ 
+    
+</li>
+
+<li>
+Markos Katsoulakis, Yannis  Pantazis, and Luc Rey-Bellet.    
+<b>
+Measuring the irreversibility of numerical schemes for reversible stochastic differential  equations.
+</b>                
+ESAIM: Mathematical Modelling and Numerical Analysis  <b> 48</b> (2014), no.5, pp. 1351--1379.  
+<a class="DOI" href="https://doi.org/10.1051/m2an/2013142">  DOI: 10.1051/m2an/2013142 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3264357"> MR3264357 </a> &ensp; 
+<a class="reprint" href="pdf/KPaRreprint.pdf"> Reprint in PDF </a> .
+ 
+     
+
+</li>
+
+<li>
+M. Katsoulakis, P. Plecháč, Luc Rey-Bellet, and D. Tsagkarogiannis.    
+<b>
+Coarse-graining schemes for stochastic lattice systems with short and long-range interactions.
+</b>                
+Mathematics of Computation <b>83</b> (2014), no.288, pp. 1757--1793.  
+<a class="DOI" href="https://doi.org/10.1090/S0025-5718-2014-02806-8">  DOI: 10.1090/S0025-5718-2014-02806-8 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3194129"> MR3194129 </a> &ensp; 
+<a class="reprint" href="pdf/kprt3.pdf"> Reprint in PDF </a>
+ 
+     
+
+</li>
+
+<li>
+Sung-Ha Hwang, Luc Rey-Bellet, and  Markos Katsoulakis.    
+<b>
+Deterministic equations for stochastic spatial evolutionary games.
+</b>                
+Theoretical Economics <b>8</b> (2013), no.3, pp. 829--874.  
+<a class="DOI" href="https://doi.org/10.3982/TE829">  DOI: 10.3982/TE829 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=3106962"> MR3106962  </a> &ensp; 
+<a class="reprint" href="pdf/HMR1.pdf"> Reprint in PDF </a>
+ 
+     
+
+</li>
+
+<li>
+Andrea Nahmod, Hiro Oh, Luc Rey-Bellet, and Gigliola Staffilani.    
+<b>
+Invariant weighted Wiener measures and  almost sure global well-posedness for the periodic derivative NLS.
+</b>                
+Journal of the  European Mathematical Society <b>14</b> (2012), no.4, pp. 1275--1330.  
+<a class="DOI" href="https://doi.org/10.4171/JEMS/333">  DOI: 10.4171/JEMS/333  </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2928851"> MR2928851 </a> &ensp; 
+<a class="reprint" href="pdf/NORSrep.pdf"> Reprint in PDF </a>
+ 
+     
+</li>
+
+<li>
+Sung-Ha Hwang and Luc Rey-Bellet.    
+<b>
+Decompositions of two player games: potential, zero-sum, and stable games. 
+</b>                
+Unpublished (2011).  
+<a class="arXiv" href="pdf/Hwang1.pdf"> arXiv:1106.3552 </a> . 
+ 
+     
+
+</li>
+
+<li>
+Andrea Nahmod, Luc Rey-Bellet, Scott Sheffield, and Gigliola Staffilani.   
+<b>
+Absolute continuity of Brownian bridges under certain gauge transformations.
+</b>                
+Mathematical Research Letters <b>18</b> (2011), no.5, pp. 875--887.   
+<a class="DOI" href="http://dx.doi.org/10.4310/MRL.2011.v18.n5.a6">  DOI: 10.4310/MRL.2011.v18.n5.a6 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2875861"> MR2875861 </a> &ensp; 
+<a class="reprint" href="pdf/NRSSreprint.pdf"> Reprint in PDF </a>
+ 
+     
+
+</li>
+
+<li>
+Yoshiko Ogata and Luc Rey-Bellet.    
+<b>
+Ruelle-Lanford functions and large deviations for asymptotically decoupled  quantum spin systems.
+</b>               
+Reviews in  Mathematical  Physics  <b>23</b> (2011), no.2, pp. 211--232.  
+<a class="DOI" href="https://doi.org/10.1142/S0129055X11004291">  DOI: 10.1142/S0129055X11004291 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2786227"> MR2786227 </a> &ensp; 
+<a class="reprint" href="pdf/ruellelanfordreprint.pdf"> Reprint in PDF </a>
+ 
+     
+
+</li>
+
+<li>
+Vojkan Jaksic, Claude-Alain Pillet, and Luc Rey-Bellet.    
+<b>Entropic fluctuations in statistical mechanics I. Classical dynamical systems.</b>                   
+Nonlinearity <b>24</b> (2011), no.3, pp. 699--763.   
+<a class="DOI" href="https://doi.org/10.1088/0951-7715/24/3/003">  DOI: 10.1088/0951-7715/24/3/003 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2765481"> MR2765481 </a> &ensp; 
+<a class="reprint" href="pdf/jprreprint.pdf"> Reprint in PDF </a>     
+<br>
+</li>
+
+<li>
+Wojciech De Roeck, Christian Maes, Karel Neto&#269;n&yacute;, and Luc Rey-Bellet.   
+<b>
+A note on the non-commutative Laplace-Varadhan integral lemma, 
+</b>                
+Reviews in  Mathematical Physics <b>22</b> (2010), no.7, pp. 839--858.  
+<a class="DOI" href="https://doi.org/10.1142/S0129055X10004089">  DOI: 10.1142/S0129055X10004089  </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2673696"> MR2673696 </a> &ensp;
+<a class="reprint" href="pdf/QVaradhanreprint.pdf"> Reprint in PDF</a>    
+<br>
+</li>
+
+<li>
+Sasanka Are, Markos Katsoulakis, Petr Plecháč, and Luc Rey-Bellet.   
+<b>
+Multi-body interactions in coarse-graining schemes of extended systems.
+</b>                
+SIAM Journal on Scientific Computing  <b>31</b> (2008/2009), no.2, pp. 987--1015.  
+<a class="DOI" href="https://doi.org/10.1137/080713276">  DOI: 10.1137/080713276  </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2466145"> MR2466145 </a> &ensp; 
+<a class="reprint" href="pdf/AKPR-SIAMJSC.pdf"> Reprint in PDF </a>    
+<br>
+</li>
+
+<li>
+Markos Katsoulakis, Petr Plecháč, and Luc Rey-Bellet.   
+<b>
+Numerical and statistical methods for the coarse-graining of many-particle stochastic systems. 
+</b>                
+Journal of Scientific Computing <b>37</b/> (2008), no.1, pp. 43--71.  
+<a class="DOI" href="https://doi.org/10.1007/s10915-008-9216-6">  DOI: 10.1007/s10915-008-9216-6 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2442973"> MR2442973  </a> &ensp; 
+<a class="reprint" href="pdf/KPR-JSciComp.pdf"> Reprint in PDF</a>
+
+ 
+     
+
+</li>
+
+<li>
+Lai-Sang Young and Luc Rey-Bellet.   
+<b>
+Large deviations in nonuniformly hyperbolic dynamical systems.
+</b> 
+Ergodic Theory and Dynamical Systems <b>28</b> (2008), no.2, pp. 587-612.  
+<a class="DOI" href="https://doi.org/10.1017/S0143385707000478">  DOI:10.1017/S0143385707000478  </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2408394"> MR2408394 </a> &ensp; 
+<a class="reprint" href="pdf/lsy1.pdf">Reprint in PDF</a>
+ 
+     
+
+</li>
+
+<li>
+Markos Katsoulakis, Petr Plecháč, Luc Rey-Bellet, and Dimitrios Tsagkarogiannis.    
+<b>Mathematical strategies in the coarse-graining of extensive systems: error quantification and adaptivity. </b>                
+Journal of Non Newtonian Fluid Mechanics <b>152</b> (2008), pp. 101--112.  
+<a class="DOI" href="https://doi.org/10.1016/j.jnnfm.2007.05.005">  DOI: 10.1016/j.jnnfm.2007.05.005 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;
+<a class="reprint" href="pdf/kprt2.pdf"> Reprint in PDF </a>
+ 
+     
+
+</li>
+
+<li>
+Markos Katsoulakis, Petr Plecháč, Luc Rey-Bellet, and Dimitrios Tsagkarogiannis.    
+<b>Coarse-graining schemes and a posteriori error estimates for stochastic lattice systems.</b>                
+ESAIM: Mathematical Modelling and Numerical Analysis  <b>41</b> (2007), no.3, pp. 627--660.   
+<a class="DOI" href="https://doi.org/10.1051/m2an:2007032">  DOI: 10.1051/m2an:2007032 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2355714"> MR2355714 </a> &ensp;
+<a class="reprint" href="pdf/kprt1reprint.pdf"> Reprint in PDF</a>
+ 
+     
+
+</li>
+
+<li>
+Federico Bonetto and Luc Rey-Bellet.    
+<b> Fourier Law.</b>               
+In: Encyclopedia of Mathematical Physics.  J.-P. Francoise, G. L. Naber, S.T. Tsou (Eds.), Elsevier 2006, pp. 374--379.  
+<!--<a class="DOI" href="">  DOI:  </a> &ensp; -->
+<!-- <a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=">  </a> &ensp;--> 
+<a class="reprint"  href="pdf/fourierencyc.pdf"> Reprint in PDF </a>    
+<br> 
+</li>
+
+<li>
+Luc Rey-Bellet.    
+<b>Open Classical Systems.</b>               
+In: Quantum Open Systems II. The Markovian approach.  St&eacute;phane Attal, Alain Joye,  Claude-Alain Pillet (Eds.), Lecture Notes in Mathematics 1881, Berlin: Springer, 2006, pp. 41--78.  
+<a class="DOI" href="https://doi.org/10.1007/3-540-33966-3_2">  DOI: 10.1007/3-540-33966-3_2 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2248987"> MR2248987 </a> &ensp; 
+<a class="reprint" href="pdf/OCP.pdf"> Reprint in PDF </a>   
+<br>    
+</li>
+
+<li>
+Luc Rey-Bellet.   
+<b>Ergodic Properties of Markov Processes.</b>               
+In: Quantum Open Systems II. The Markovian approach. St&eacute;phane Attal, Alain Joye,  Claude-Alain Pillet (Eds.), Lecture Notes in Mathematics 1881, Berlin: Springer, 2006, pp. 1--39.   
+<a class="DOI" href="https://doi.org/10.1007/3-540-33966-3_1">  DOI:10.1007/3-540-33966-3_1  </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2248986"> MR2248986 </a> &ensp; 
+<a class="reprint" href="pdf/EMP.pdf"> Reprint in PDF </a>
+ 
+     
+
+</li>
+
+<li>
+Luc Rey-Bellet.   
+<b>Nonequilibrium statistical mechanics of open classical systems.</b>               
+In:  XIVth International Conference on Mathematical Physics, Lisbon, Portugal, 28 July -- 2 August 2003,  World Scientific 2006, pp. 447--454   
+<a class="DOI" href="https://doi.org/10.1142/9789812704016_0043">  DOI: 10.1142/9789812704016_0043 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2227858"> MR2227858 </a> &ensp; 
+<a class="reprint" href="pdf/lisbon.pdf"> PDF file</a>    
+<br>
+</li>
+
+<li>
+Marco Lenci and Luc Rey-Bellet.    
+<b> Large deviations in quantum lattice systems: one phase region. </b>                
+Journal of Statistical Physics  <b>119</b> (2005), no. 3-4, pp. 715--746.   
+<a class="DOI" href="https://doi.org/10.1007/s10955-005-3015-3">  DOI: 10.1007/s10955-005-3015-3 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2151220"> MR2151220 </a> &ensp; 
+<a class="reprint" href="pdf/marco1reprint.pdf"> Reprint in PDF </a>    
+<br>
+</li>
+
+<li>
+Lawrence E. Thomas and Luc Rey-Bellet.    
+<b>Low regularity solutions to a gently stochastic nonlinear wave equation in nonequilibrium statistical mechanics.</b>               
+Stochastic Processes and  their Applications  <b>115</b> (2005), no.6, pp. 1041--1059. (2005).  
+<a class="DOI" href="https://doi.org/10.1016/j.spa.2005.02.003">  DOI: 10.1016/j.spa.2005.02.003  </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=2138813"> MR2138813 </a> &ensp; 
+<a class="reprint" href="pdf/larry4reprint.pdf"> Reprint in PDF</a>     
+<br> 
+</li>
+
+<li>
+Luc Rey-Bellet.    
+<b>Statistical mechanics of anharmonic lattices.</b>               
+In: Advances in Differential Equations and Mathematical Physics, AMS Contemporary Mathematics Series <b>327</b> (2003), pp. 283--298.   
+<a class="DOI" href="">  DOI:  </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1991548"> MR1991548 </a> &ensp; 
+<a class="reprint" href="pdf/uab.pdf"> Reprint in PDF </a>    
+<br>
+</li>
+
+<li>
+Lawrence E. Thomas and Luc Rey-Bellet.      
+<b>Fluctuations of the entropy production in anharmonic chains,</b>               
+Annales Henri Poincar&eacute; <b> 3 </b>(2002), no.3, pp. 483--502.  
+<a class="DOI" href="https://doi.org/10.1007/s00023-002-8625-6">  DOI: 10.1007/s00023-002-8625-6 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1915300"> MR1915300 </a> &ensp; <a class="reprint" href="pdf/larry3.pdf">Reprint in PDF</a>    
+<br>
+</li>
+
+<li>
+Lawrence E. Thomas and Luc Rey-Bellet.       
+<b>Exponential convergence to non-equilibrium stationary states in classical  statistical mechanics. </b>               
+Communications in Mathematical Physics <b>225</b> (2002), no.1, pp. 305--329.   
+<a class="DOI" href="https://doi.org/10.1007/s002200100583">  DOI: 10.1007/s002200100583 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1889227"> MR1889227 </a> &ensp; 
+<a class="reprint" href="pdf/larry2.pdf">Reprint in PDF</a>      
+<br>
+</li>
+
+<li>
+Jürg Fröhlich, Luc Rey-Bellet, and Daniel Ueltschi.    
+<b>
+Quantum lattice systems at intermediate temperature,
+</b>               
+Communications in Mathematical Physics <b>224</b> (2001), no. 1, pp. 33--63.  
+<a class="DOI" href="https://doi.org/10.1007/s002200100530">  DOI: 10.1007/s002200100530 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1869003"> MR1869003 </a> &ensp; 
+<a class="reprint" href="pdf/fru.pdf">Reprint in PDF</a>    
+ 
+</li>
+
+<li>
+Federico Bonetto, Joel  Lebowitz, and Luc Rey-Bellet.         
+<b>Fourier Law: A challenge to theorists.</b>                
+In: Mathematical Physics 2000,  A. Fokas, A. Grigoryan, T. Kibble, and  B. Zegarlinski  (Eds.) Imperial College Press, London 2000, pp. 128--150.   
+<a class="DOI" href="https://doi.org/10.1142/9781848160224_0008">  DOI:10.1142/9781848160224_0008  </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1773043"> MR1773043 </a> &ensp; 
+<a class="reprint" href="pdf/blr.pdf">  Reprint in PDF </a>   
+<br>
+</li>
+
+<li>
+Lawrence E. Thomas and Luc Rey-Bellet.    
+<b>Asymptotic behavior of thermal non-equilibrium  steady states for a driven chain of anharmonic oscillators.
+</b>                
+Communications in Mathematical Physics <b>215</b> (2000), no.1, pp. 1--24.   
+<a class="DOI" href="https://doi.org/10.1007/s002200000285">  DOI: 10.1007/s002200000285 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1799873"> MR1799873 </a> &ensp; 
+<a class="reprint" href="pdf/larry1.pdf">Reprint in PDF</a>     
+<br>
+</li>
+
+<li>
+Jean-Pierre Eckmann, Claude-Alain Pillet, and Luc Rey-Bellet.       
+<b> Entropy production in non-linear, thermally driven Hamiltonian systems.</b>                
+Journal of Statistical Physics <b>95</b> (1999), no. 1-2, pp. 305--331.   
+<a class="DOI" href="https://doi.org/10.1023/A:1004537730090">  DOI:10.1023/A:1004537730090  </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1705589"> MR1705589 </a> &ensp; 
+<a class="reprint" href="pdf/epr2.pdf">Reprint in PDF</a>    
+
+</li>
+
+<li>
+Jean-Pierre Eckmann, Claude-Alain Pillet, and Luc Rey-Bellet.      
+<b> Non-equilibrium statistical mechanics of anharmonic chains coupled to two heat baths at different temperatures. </b>                
+Communications in Mathematical Physics <b> 201</b> (1999), no. 3, pp. 657--697.  
+<a class="DOI" href="https://doi.org/10.1007/s002200050572">  DOI: 10.1007/s002200050572  </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1685893">MR1685893 </a> &ensp; 
+<a class="reprint" href="pdf/epr1.pdf">Reprint in PDF</a>     
+<br> 
+</li>
+
+<li>
+Jürg Fröhlich and Luc Rey-Bellet.       
+<b>  Low-temperature phase diagrams of quantum lattice systems. III. Examples. </b>                
+Helvetica Physica Acta <b>69</b> (1996), 5-6, pp. 821--849.     
+<a class="DOI" href="http://doi.org/10.5169/seals-116980">  DOI: 10.5169/seals-116980  </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1428029"> MR1428029  </a> &ensp; 
+<a class="reprint" href="pdf/ql3.pdf"> Reprint in PDF</a>     
+<br>
+</li>
+
+<li>
+Nilanjana Datta, Roberto Fernandez, Jürg Fröhlich, and Luc Rey-Bellet.     
+<b> Low-temperature phase diagrams of quantum lattice systems. II. Convergent perturbation  expansions and stability in systems with  infinite degeneracy. 
+</b>               	
+Helvetica Physica Acta <b>69</b> (1996), 5-6, pp. 752--820.  
+<a class="DOI" href="http://doi.org/10.5169/seals-116979">  DOI: 10.5169/seals-116979 </a> &ensp;
+<a class="MR" href="https://mathscinet.ams.org/mathscinet-getitem?mr=1428028"> MR1428028 </a> &ensp; 
+<a class="reprint" href="pdf/ql2.pdf"> Reprint in PDF</a> &ensp;    
+ <br>
+ </li>
+
+</ol>
+
+
+## Publications
+
+<ol style="font-size:11px">
+<li> 
+Nilanjana Datta, Roberto Fernandez, J&uuml;rg Fr&ouml;hlich, and Luc Rey-Bellet, 
+<cite> Low-temperature phase diagrams of quantum lattice systems. II. Convergent perturbation  expansions and stability in systems with  infinite degeneracy, 
+</cite>	
+Helvetica Physica Acta <b>69</b> (1996), 5-6, pp. 752--820. 
+</li>
+
+<li>
+J&uuml;rg Fr&ouml;hlich and Luc Rey-Bellet, 
+<cite>  Low-temperature phase diagrams of quantum lattice systems. III. Examples, 
+</cite>
+Helvetica Physica Acta <b>69</b> (1996), 5-6, pp. 821--849.   
+</li>
+
+<li>
+ Jean-Pierre Eckmann, Claude-Alain Pillet, and Luc Rey-Bellet, 
+<cite> Non-equilibrium statistical mechanics of anharmonic chains coupled to two heat 
+baths at different temperatures,
+</cite> 
+Communications in Mathematical Physics <b> 201</b> (1999), no. 3, pp. 657--697.
+</li>
+
+
+
+
+<li>
+Jean-Pierre Eckmann, Claude-Alain Pillet, and Luc Rey-Bellet,
+<cite> 
+Entropy production in non-linear, thermally driven Hamiltonian systems,
+</cite> 
+Journal of Statistical Physics <b>95</b> (1999), no. 1-2, pp. 305--331. 
+</li>
+
+
+<li>
+Lawrence E. Thomas and Luc Rey-Bellet,
+<cite>
+Asymptotic behavior of thermal non-equilibrium  steady states for a driven chain of anharmonic oscillators,
+</cite> 
+Communications in Mathematical Physics <b>215</b> (2000), no.1, pp. 1--24. 
+</li>
+
+
+
+<li>
+Federico Bonetto, Joel  Lebowitz, and Luc Rey-Bellet, 
+<cite>
+Fourier Law: A challenge to theorists,
+</cite> 
+In: Mathematical Physics 2000,  A. Fokas, A. Grigoryan, T. Kibble, and  B. Zegarlinski  (Eds.) Imperial College Press, London 2000, pp. 128--150. 
+</li>
+
+<li>
+J&uuml;rg Fr&ouml;hlich, Luc Rey-Bellet, and Daniel Ueltschi, 
+<cite>
+Quantum lattice systems at intermediate temperature,
+</cite> 
+Communications in Mathematical Physics <b>224</b> (2001), no. 1, pp. 33--63.
+</li>
+
+
+
+<li>
+Lawrence E. Thomas and Luc Rey-Bellet,
+<cite>
+Exponential convergence to non-equilibrium stationary states in classical  statistical mechanics,
+</cite>
+Communications in Mathematical Physics <b>225</b> (2002), no.1, pp. 305--329. 
+</li>
+
+
+
+<li>
+Lawrence E. Thomas and Luc Rey-Bellet,
+<cite> Fluctuations of the entropy production in anharmonic chains,</cite> 
+Annales Henri Poincar&eacute; <b> 3 </b>(2002), no.3, pp. 483--502.
+</li>
+
+
+
+<li>
+Luc Rey-Bellet
+<cite>
+Statistical mechanics of anharmonic lattices,
+</cite>
+In: Advances in Differential Equations and Mathematical Physics, 
+AMS Contemporary Mathematics Series <b>327</b> (2003), pp. 283--298. 
+</li>
+
+<li>
+Lawrence E. Thomas and Luc Rey-Bellet,
+<cite>
+Low regularity solutions to a gently stochastic nonlinear wave equation in nonequilibrium statistical mechanics,
+</cite>  
+Stochastic Processes and  their Applications  <b>115</b> (2005), no.6, pp. 1041--1059. (2005).
+</li>
+
+<li>
+
+Marco Lenci and Luc Rey-Bellet, 
+<cite>
+Large deviations in quantum lattice systems: one phase region, 
+</cite> 
+Journal of Statistical Physics  <b>119</b> (2005), no. 3-4, pp. 715--746. 
+</li>
+
+<li>
+Luc Rey-Bellet, 
+<cite>
+Nonequilibrium statistical mechanics of open classical systems,
+</cite>
+In:  XIVth International Conference on Mathematical Physics, Lisbon, Portugal, 28 July -- 2 August 2003,  World Scientific 2006, pp. 447--454 
+</li>
+
+
+
+<li>
+Luc Rey-Bellet
+<cite>
+Ergodic Properties of Markov Processes,
+</cite>
+In: Quantum Open Systems II. The Markovian approach. St&eacute;phane Attal, Alain Joye,  Claude-Alain Pillet (Eds.), Lecture Notes in Mathematics 1881, Berlin: Ser, 2006, pp. 1--39. 
+</li>
+
+
+
+<li>
+Luc Rey-Bellet, 
+<cite>
+Open Classical Systems,
+</cite>
+In: Quantum Open Systems II. The Markovian approach.  St&eacute;phane Attal, Alain Joye,  Claude-Alain Pillet (Eds.), Lecture Notes in Mathematics 1881, Berlin: Springer, 2006, pp. 41--78.
+</li>
+
+
+
+<li>
+Federico Bonetto and Luc Rey-Bellet, 
+<cite> 
+Fourier Law, 
+</cite>
+In: Encyclopedia of Mathematical Physics.  J.-P. Francoise, G. L. Naber, S.T. Tsou (Eds.), Elsevier 2006, pp. 374--379.
+</li>
+
+
+
+<li>
+Markos Katsoulakis, Petr Plecha&#269;, Luc Rey-Bellet, and Dimitrios Tsagkarogiannis,
+<cite>
+Coarse-graining schemes and a posteriori error estimates for stochastic lattice systems,
+</cite> 
+ESAIM: Mathematical Modelling and Numerical Analysis  <b>41</b> (2007), no.3, pp. 627--660. 
+</li>
+
+
+
+<li>
+Markos Katsoulakis, Petr Plecha&#269;, Luc Rey-Bellet, and Dimitrios Tsagkarogiannis,
+<cite>
+Mathematical strategies in the coarse-graining of extensive systems: error quantification and adaptivity, 
+</cite> 
+Journal of Non Newtonian Fluid Mechanics <b>152</b> (2008), pp. 101--112. 
+</li>
+
+
+
+<li>
+Lai-Sang Young and Luc Rey-Bellet, 
+<cite>
+Large deviations in nonuniformly hyperbolic dynamical systems,
+</cite> 
+Ergodic Theory and Dynamical Systems <b>28</b> (2008), no.2, pp. 587-612.
+</li>
+
+
+
+<li>
+Markos Katsoulakis, Petr Plechac, and Luc Rey-Bellet, 
+<cite>
+Numerical and statistical methods for the coarse-graining of many-particle stochastic systems, 
+</cite> 
+Journal of Scientific Computing <b>37</b/> (2008), no.1, pp. 43--71.
+</li>
+
+
+
+<li>
+Sasanka Are, Markos Katsoulakis, Petr Plecha&#269;, and Luc Rey-Bellet,
+<cite>
+Multi-body interactions in coarse-graining schemes of extended systems, 
+</cite> 
+SIAM Journal on Scientific Computing  <b>31</b> (2008/2009), no.2, pp. 987--1015.
+</li>
+
+
+
+<li>
+Wojciech De Roeck, Christian Maes, Karel Neto&#269;n&yacute;, and Luc Rey-Bellet,
+<cite>
+A note on the non-commutative Laplace-Varadhan integral lemma, 
+</cite> 
+Reviews in  Mathematical Physics <b>22</b> (2010), no.7, pp. 839--858.
+</li>
+
+
+
+<li>
+Vojkan Jaksic, Claude-Alain Pillet, and Luc Rey-Bellet,
+<cite>
+Entropic fluctuations in statistical mechanics I. Classical dynamical systems, 
+</cite>
+Nonlinearity <b>24</b> (2011), no.3, pp. 699--763.
+</li>
+  
+
+
+
+<li>
+Yoshiko Ogata and Luc Rey-Bellet, 
+<cite>
+Ruelle-Lanford functions and large deviations for asymptotically decoupled  quantum spin systems,
+</cite>
+Reviews in  Mathematical  Physics  <b>23</b> (2011), no.2, pp. 211--232.
+</li>
+   
+
+
+<li>
+Andrea Nahmod, Luc Rey-Bellet, Scott Sheffield, and Gigliola Staffilani, 
+<cite>
+Absolute continuity of Brownian bridges under certain gauge transformations,
+</cite> 
+Mathematical Research Letters <b>18</b> (2011), no.5, pp. 875--887.
+</li>
+ 
+ 
+
+<li>
+
+Sung-Ha Hwang and Luc Rey-Bellet, 
+<cite>
+Decompositions of two player games: potential, zero-sum, and stable games, 
+</cite> 
+Unpublished (2011).
+</li>
+  
+
+<li>
+
+Andrea Nahmod, Hiro Oh, Luc Rey-Bellet, and Gigliola Staffilani, 
+<cite>
+Invariant weighted Wiener measures and  almost sure global well-posedness for the periodic derivative NLS,
+</cite> 
+Journal of the  European Mathematical Society <b>14</b> (2012), no.4, pp. 1275--1330.
+</li>
+   
+
+
+<li>
+
+Sung-Ha Hwang, Luc Rey-Bellet, and  Markos Katsoulakis, 
+<cite>
+Deterministic equations for stochastic spatial evolutionary games,
+</cite> 
+Theoretical Economics <b>8</b> (2013), no.3, pp. 829--874.
+</li>
+
+
+
+
+<li>
+
+M. Katsoulakis, P. Plecha&#269;, Luc Rey-Bellet, and D. Tsagkarogiannis, 
+<cite>
+Coarse-graining schemes for stochastic lattice systems with short and long-range interactions,
+</cite> 
+Mathematics of Computation <b>83</b> (2014), no.288, pp. 1757--1793.
+</li>
+
+
+<li>
+ 
+Markos Katsoulakis, Yannis  Pantazis, and Luc Rey-Bellet, 
+<cite>Measuring the irreversibility of numerical schemes for reversible stochastic differential  equations,
+</cite> 
+ESAIM: Mathematical Modelling and Numerical Analysis  <b> 48</b> (2014), no.5, pp. 1351--1379. 
+</li>
+   
+
+ 
+<li>
+Konstantinos Spiliopoulos and Luc Rey-Bellet, 
+<cite>
+Irreversible Langevin samplers and variance reduction: a large deviation approach, 
+</cite>
+Nonlinearity <b> 28</b> (2015), no.7, pp. 2081--2103.
+</li>
+   
+
+
+<li>
+Konstantinos Spiliopoulos and Luc Rey-Bellet, 
+<cite>
+Variance reduction for irreversible Langevin samplers and diffusion on graphs,
+</cite> 
+Electronic  Communications in Probability <b> 20</b> (2015), no. 15, 16pp. 
+</li>
+   
+
+<li>
+Konstantinos Gourgoulias, Markos Katsoulakis, and Luc Rey-Bellet,
+<cite> 
+Information metrics for long-time errors in splitting schemes for stochastic dynamics and parallel  kinetic Monte Carlo,
+</cite> 
+SIAM Journal on Scientific  Computing <b>38</b> (2016), no. 6, pp. A3808--A3832. 
+</li>
+
+
+
+<li>
+Georgios Arampatzis, Markos Katsoulakis, and Luc Rey-Bellet,
+<cite>
+Efficient estimators for likelihood ratio sensitivity indices of complex stochastic dynamics, 
+</cite>
+Journal of Chemical Physics <b>144</b> (2016), 104107.
+</li>
+
+
+
+<li>
+Konstantinos Spiliopoulos and Luc Rey-Bellet,
+<cite> 
+Improving the convergence of reversible samplers, </cite>
+Journal of Statistical Physics <b> 164</b> (2016), no.3, 472--494.
+</li>
+
+
+
+<li>
+Eric Hall, Markos Katsoulakis, and Luc Rey-Bellet,
+<cite>
+Uncertainty quantification for generalized Langevin dynamics, 
+</cite>
+Journal of  Chemical Physics <b>145</b> (2016), 224108.
+</li>
+
+
+
+<li>
+Konstantinos Gourgoulias, Markos Katsoulakis, and Luc Rey-Bellet,
+<cite>
+ Information criteria for quantifying loss of reversibility in parallelized KMC,
+</cite>
+Journal of Computational Physics <b>328</b> (2017), pp. 438--454.
+</li>
+
+
+
+<li>
+Markos Katsoulakis, Luc Rey-Bellet, and Jie Wang, 
+<cite> 
+Scalable information inequalities for uncertainty quantification, 
+</cite>
+Journal of Computational Physics <b> 336</b> (2017), pp. 513--545.
+</li>
+
+
+
+<li>
+No&eacute; Cuneo, Jean-Pierre Eckmann, Martin Hairer, and Luc Rey-Bellet, 
+<cite>
+Non-equilibrium steady states for networks of oscillators,
+</cite>
+Electronic Journal of Probability <b>23</b> (2018), paper no. 55, 28 pp.
+</li>
+
+
+
+<li>
+Mark Demers, Luc Rey-Bellet,and Hongkun Zhang,
+<cite>
+Fluctuations of the entropy production for the Lorentz gas under small external forces,
+</cite>
+Communications in Mathematical Physics  <b> 363</b> (2018), no. 2, pp. 699--740. 
+</li>
+
+
+
+<li>
+Sung-Ha Hwang and Luc Rey-Bellet,
+<cite>
+Strategic decompositions of normal form games: potential games and zero-sum games, 
+</cite> 
+Games and Economic Behavior <b>122</b>, (2020), pp. 370--390. 
+</li>
+
+
+<li>
+
+Sung-Ha Hwang and Luc Rey-Bellet,
+<cite>
+Simple characterizations of potential games and zero-sum equivalent games,
+</cite>
+Journal of Economic Theory and Econometrics, <b>31</b> (2020), pp. 1--13.
+</li>
+
+
+
+<li>
+Konstantinos Gourgoulias, Markos Katsoulakis, Luc Rey-Bellet, and Jie Wang,
+<cite>
+How biased is your model? Concentration inequalities, information and model bias,
+</cite>
+IEEE Transactions on Information Theory <b>66</b> (2020), no.5, pp. 3079--3097. 
+</li>
+
+
+<li>
+Jeremiah Birrell and Luc Rey-Bellet, 
+<cite>
+Uncertainty quantification for Markov processes via variational principles and functional inequalities, 
+</cite> 
+SIAM/ASA Journal on Uncertainty Quantification, <b>8</b> (2020), no. 2, pp. 539--572. 
+</li>
+
+
+<li>
+Paul Dupuis, Markos Katoulakis, Yannis Pantazis, and Luc Rey-Bellet, 
+<cite>
+Sensitivity analysis for rare events based on R&eacute;nyi divergence,
+</cite>
+The  Annals of Applied Probability, <b> 30 </b> (2020), no.4, pp. 1507-1533. 
+</li>
+
+
+<li>
+Jeremiah Birrell and Luc Rey-Bellet
+<cite>
+Concentration inequalities and performance guarantees for hypocoercive MCMC samplers,
+</cite>
+Preprint.
+</li>
+
+
+
+<li>
+Jeremiah Birrell, Markos Katsoulakis, and Luc Rey-Bellet,
+<cite>
+Quantification of model uncertainty on path-space via goal-oriented relative entropy,
+</cite>  ESAIM: Mathematical Modeling and Numerical Analysis <b> 55 </b> (2021), no.1, pp. 131-169.
+</li>
+
+
+<li>
+Sung-Ha Hwang and Luc Rey-Bellet,
+<cite>
+Positive feedback in coordination games: stochastic evolutionary dynamics and the logit choice rule,
+</cite>
+Games and Economic Behavior <b> 126 </b> (2021), pp. 355-373.
+</li>
+
+
+ 
+
+<li>
+Jeremiah Birrell, Paul Dupuis, Markos A. Katsoulakis, Luc Rey-Bellet, and Jie Wang,
+<cite>
+Distributional robustness and uncertainty quantification for rare events,
+</cite>
+Preprint.
+</li>
+
+
+<li>
+Jeremiah Birrell, Paul Dupuis, Markos A. Katsoulakis, Luc Rey-Bellet, and Jie Wang,
+<cite>
+A variational formula for R&eacute;nyi divergences,
+</cite>
+SIAM Journal on Mathematics of Data Science <b>3</b> (2021), no. 4, pp. 1093-1116 
+</li>
+
+
+<li>
+Jeremiah Birrell, Paul Dupuis, Markos  Katsoulakis,  Yannis Pantazis, and Luc Rey-Bellet, 
+<cite>
+(f,&Gamma;)-Divergences: Interpolating between f-Divergences and Integral Probability Metrics, 
+</cite>
+Journal of Machine Learning Research <b>23</b> (2022), paper 39, pp.1−70.
+</li>  
+
+<li>
+Panagiota Birmpa, Jinchao Feng, Markos  Katsoulakis and Luc Rey-Bellet, 
+<cite>
+Model Uncertainty and Correctability for Directed Graphical Models,
+</cite> 
+SIAM/ASA Journal on Uncertainty Quantification <b> 10 </b> (2022), no.4, pp 1461--1512. 
+</li>
+
+
+<li>
+Jeremiah Birrell, Markos  Katsoulakis, Luc Rey-Bellet, Wei Zu
+<cite>
+Structure-preserving GANs, 
+</cite>
+Proceedings of the 39th International Conference on Machine Learning, PMLR 162 (2022) pp.1982-2020.
+</li>
+
+
+<li>
+Jeremiah Birrell, Paul Dupuis, Markos  Katsoulakis, Yannis Pantazis, Luc Rey-Bellet
+<cite>
+Function-space regularized R&eacute;nyi divergences. 
+</cite>
+Procceedings of 
+The Eleventh International Conference on Learning Representations (ICLR 2023). 
+</li>
+
+<li> 
+Hyemin Gu, Panagiota Birmpa, Yannis Pantazis, Luc Rey-Bellet, and Markos A. Katsoulakis,
+*Lipschitz-regularized gradient flows and generative particle algorithms for high-dimensional scarce data*,
+Submitted.    
+</li>
+
+<li> 
+Ziyu Chen, Markos A. Katsoulakis, Luc Rey-Bellet, and Wei Zhu, 
+*Sample Complexity of Probability Divergences under Group Symmetry*,  
+Submitted
+</li>
+	
+<li>
+Ziyu Chen, Markos A. Katsoulakis, Luc Rey-Bellet, and Wei Zhu, 
+*Statistical Guarantees of Group-Invariant GANs*, 
+Submitted.  
+</li>
+
+</ol>
+
+
+
+
+## Invited talks 
+
+
+
+<ol style="font-size:11px">  
+
++ Journ&eacute;es semi-classiques 1998, Grenoble, February 1998
++  Statphys 20, Paris, July 1998
++ 80th Statistical mechanics conference, Rutgers University, December 1998
++ Non equilibrium statistical mechanics, Schrodinger Institute, February 1999
++ The 2002 UAB International conference mathematical physics, March 2002
++ Workshop on Fokker-Planck equations, Rennes, France, February 2003
++ ODYN-II, Probability and statistical mechanics, CIRM, Marseilles, March 2003
++ 89th Statistical mechanics conference, Rutgers university, May 2003
++ Summer school on open quantum systems, Grenoble, July 2003
++ International congress of mathematical physics, ICMP 2003, Lisbon, August 2003
++ Young researcher symposium, Lisbon, July 2003
++ Workshop on dynamics and statistical mechanics, CRM, Montreal, August 2004
++ SIAM conference on applications of dynamical systems, Snowbird, May 2005
++ International congress on the applications of mathematics, Santiago, March  2006
++ Workshop on statistical mechanics, CPT-CNRS, Marseilles, July 2006
++ 96th Statistical mechanics Conference, Rutgers University, December 2006
++ Workshop on nonequilibrium statistical mechanics, Vienna, June 2008
++ Workshop on stochastic dynamical systems, Bielefeld, November 2008
++ Arizona school of analysis with applications I, University of Arizona, March 2009
++ NORDITA Stockholm, Multiscale modeling and simulation in science, November 2009
++ SAMSI, Theory and qualitative behavior of stochastic dynamics, February 2010
++ Indam meeting, Corinaldo, Hyperbolic dynamical systems in the sciences, June 2010
++ SIAM conference on nonlinear waves and coherent stuctures, August 2010
++ Oberwolfach seminar on ergodic theory of Markov processes, October 2010
++ 105th Statistical mechanics Conference, Rutgers University, May 2011
++ FRG workshop on quantum spin systems, Harvard University, May 2011
++ Workshop on Coarse-graining of many-body systems. Heraklion, June 2011
++ ENUMATH conference.  September 2011
++ Three hours course on statistical mechanics), Ecole des Ponts, September 2011
++ SIAM conference on material sciences, Philadelphia, June 2013
++ SPA conference (Stochastic processes and applications), Boulder, August 2013
++  AMS sectional meeting, Session on dynamical systems. Saint Louis, October 2013
++  Randomness and Long-Time Dynamics, Radcliffe Institute,November 2014
++ CIRM Workshop on Averaging and Homogenization, Marseille, May 2015
++ CRiSM Workshop on Non-Reversible Markov Chains, Warwick,  September 2015
++  Meeting of the Canadian Mathematical Society, Montreal, December 2015
++  114th Statistical Mechanics Conference, Rutgers, December 2015
++ Computational Statistics and Molecular Simulation (COSMOS), Paris, February 2016
++  Numerical Aspects of Nonequilibrium Dynamics, Paris, April 2017
++ BIRS-CMO Workshop, Oaxaca,
+November 2018
++  Worskshop on Entropic Fluctuation Relations,  Montreal, October 2018
++ Ki-Net: Dimension reduction in physical and data sciences. Duke.  April 2019
++ Bernoulli Center, EPFL, May 2019
++ Quantissima III, Venice, August 2019.
++ Non Reversible Markovian Monte-Carlo Methods, Lorentz Center, August 2021
++ Meetings on Foundations of Data Science, Tufts University, March 2022
++ AFOSR PI Meeting, Arlington, VA, August 2022
++ Conference in Honor of J.P. Eckmann 75th birthday, Geneva, Switzerland, June 2022
++ ICML 2022, Baltimore, Poster presentation, July 2022
++ Neurips 2022, New orleans, Poster presentation, December 2022
++ ICLR 2023, Kigali, Rwanda, Poster presentation, April 2023
++ AFOSR PI Meeting, Arlington, VA, August 2023
++ AFOSR PI Meeting, Arlington, VA, August 2024
++ ICERM Meeting. Providence, RI, September 2024
+</ol>
+
+
+
+## Seminar talks 
+
++ Mathematical physics seminar, ETH, Zürich January 1998
++ Mathematical physics seminar, CPT-CNRS, Marseille, January 1998
++ Mathematical physics seminar, Institut Fourier Grenoble, February 1998
++ Mathematical physics seminar, University Paris-XI Orsay, April 1998
++ Mathematical physics seminar, University of Virginia, November 1998
++ Colloquium, University of Ottawa, January 1999
++ Statistical mechanics seminar, Princeton University, February 1999
++ Mathematical physics seminar, University of Geneva, July 1999
++ Dynamical systems seminar, SUNY at Stony Brook, November 1999
++ Mathematical physics seminar, University of Geneva, July 2000
++ Mathematical physics seminar, ETH, Zürich, August 2000
++ Colloquium, University of Arizona, October 2000
++ Statistical mechanics seminar, Princeton University, February 2001
++ Applied mathematics seminar, University of Toronto, March 2001
++ Theoretical physics seminar, University of Geneva, May 2001
++ Mathematical physics seminar, ETH Zürich, June 2001
++ Analysis seminar, University of Helsinki, August 2001
++ Mathematical physics seminar, University of Texas at Austin, January 2002
++ Colloquium, University of Massachusetts, Amherst, January 2002
++ Colloquium, University of Maryland, College Park, January 2002
++ Colloquium, University of Rochester, February 2002
++ Colloquium, University of Notre Dame, February 2002
++ Statistical mechanics seminar, Institute of Advanced Study, February 2002
++ Nonlinear analysis seminar, Stevens Institute of Technology, May 2002
++ Mathematical physics seminar, Rutgers University, October 2002
++ Stochastic processes seminar, Brown University, November 2002
++ Mathematical physics seminar, University of Virginia, January 2003
++ Condensed matter seminar, University of Massachusetts, April 2003
++ Probability seminar, EPFL, Lausanne, June 2003
++ Mathematical physics seminar, University of Geneva, June 2003
++ Applied mathematics seminar, Duke University, March 2004
++ Mathematical physics seminar, University of Geneva, January 2005
++ Analysis and mumerics seminar, Munich University, January 2005
++ Mathematical physics seminar, Munich University, January 2005
++ Dynamical systems seminar, Boston University, April 2005
++ Nonlinear systems seminar, Stevens Institute of Technology, April 2005
++ Mathematical physics seminar, Rutgers University, September 2005
++ Mathematical physics seminar, University of Virginia, November 2006
++ Mathematical physics seminar, Rutgers University, November 2006
++ Applied mathematics seminar, Dartmouth College, April 2007
++ Mathematical physics seminar, University of Arizona, October 2007
++ Analysis seminar, University of Toronto, October 2007
++ Applied mathematics seminar, Brown University, November 2007
++ Colloquium, University of Connecticut, February 2009
++ Probability seminar, University of Wisconsin, March 2009
++ Theoretical physics Seminar, University of Geneva, April 2009
++ Mathematical physics Seminar, University of Rome, April 2009
++ Mathematical physics Seminar, University of Bologna, April 2009
++ Mathematical physics Seminar, University of Grenoble, May 2009
++ Applied mathematics Seminar, University of Crete, May 2009
++ Mathematical physics seminar, Rutgers University, November 2009
++ Operator algebra, University of Tokyo, January 2010
++ Joint PDE seminar Boston University -- Brown University, November 2010
++ Applied Mathematics Seminar, University of Crete, March 2011
++ Probability Seminar, Warwick University, March 2011
++ Probability Seminar, Boston University, September 2012
++ Probability Seminar, University of Delaware, October 2013
++ Probability Seminar, Concordia University, May 2015
++ Probability Seminar, Brown University, November 2016
++ Mathematical physics seminar, Rutgers University, December 2017
++ Dynamical systems seminar, Courant Institute, NYU January 2018
++ Applied PDE seminar, Imperial College, November 2020
++ Probability seminar KTH, November 2020
++ Probability and Statistics Seminar, Boston University, November 2024  
+
+
+
+## Teaching Experience
+
+
+
+**University of Massachusetts Amherst** (since 2002)
+
+
+
+Fall 2002:\phantom{xv}\,\,  Math 131 Calculus I
+
+Spring 2003:  Math 132 Calculus II
+
+Spring 2003:  Math 421 Complex variables
+
+Fall 2003:\phantom{xv}\,\, Math 597/697 Introduction to stochastic processes
+
+Spring 2004: Math 131 Calculus I
+
+Fall 2004:\phantom{xv}\,\,  Math 645 Differential equations and dynamical systems
+
+Spring 2005:  Math 646 Ergodic theory
+
+Spring 2005:  Math 131 Calculus I
+
+Fall 2005:\phantom{xv}\,\,  Math 645 Differential equations and dynamical systems
+
+Fall 2005:\phantom{xv}\,\, Stat 515 Introduction to Statistics I
+
+Spring 2006: Math597/697 Introduction to stochastic processes
+
+Fall 2006:\phantom{xv}\,\, Math 623 Real analysis I
+
+Fall 2006:\phantom{xv}\,\, Math 131H Honor calculus I
+
+Spring 2007: Math 624 Real analysis II
+
+Fall 2007:\phantom{xv}\,\, Math 697U Introduction to stochastic processes
+
+Fall 2007:\phantom{xv}\,\, Math 331 Differential equations
+
+Spring 2008: Math 331 Differential equations
+
+Fall 2008:\phantom{xv}\,\, Math 331 Differential equations
+
+Fall 2008:\phantom{xv}\,\, Math 645 Differential equations and dynamical systems
+
+Fall 2009:\phantom{xv}\,\, Math 697EG Evolutionary game theory
+
+Spring 2010: Math 697U Introduction to stochastic processes
+
+ Spring 2010:  Math 331 Differential equations
+
+ Fall 2010: \phantom{xv}  Math 623 Real analysis I
+
+ Fall 2010: \phantom{xv} Math 131H Honor calculus I
+
+ Fall 2011: \phantom{xv} Math 623 Real analysis I
+
+ Spring 2012: Math 624 Real analysis II
+
+ Spring 2012: Math 456 Mathematical Modeling
+
+ Spring 2013: Math 456 Mathematical Modeling
+
+ Spring 2013: Math797fn Functional Analysis
+
+ Fall 2013: \phantom{xv} Math 623 Real Analysis I
+
+ Spring 2014: Math 624 Real Analysis II
+
+ Spring 2014: Math 331 Differential equations
+
+ Fall 2014:\phantom{xv}\,\, Math697U Introduction to stochastic processes
+
+ Spring 2015: Math 456 Mathematical Modeling
+
+ Spring 2015: Math 797MR Information Theory
+
+ Fall 2015: \phantom{xv} Math 797AB Agent-based modeling
+
+ Spring 2016: Math 456 Mathematical Modeling
+
+ Spring 2016: Math 523H Real analysis
+
+ Fall 2016:\phantom{xv} Math 797SM Statistical mechanics
+
+Spring 2017: Math 331 Differential equations
+
+Spring 2017: Math 523H Real analysis
+
+Fall 2017: \phantom{xv} Stat 605 Probability Theory
+
+Fall 2017: \phantom{xv} Math 331 Differential equations
+
+Spring 2018: Math697U Stochastic Processes
+
+Spring 2019:  Math 456 Mathematical Modeling
+
+%
+%
+%
+%
+% \vspace{0.2cm}
+%\noindent
+%\begin{tabular}{lll}
+%{ Courses:} &  Fall 2002& Math 131 Calculus I \\
+%         &  Spring 2003 &Math 132 Calculus II \\
+%         &  Spring 2003& Math 421 Complex variables \\
+%         &  Fall 2003& Math 597/697 Introduction to stochastic processes\\
+%         &  Spring 2004& Math 131 Calculus I \\
+%         &  Fall 2004& Math 645 Differential equations and dynamical systems \\
+%         &  Spring 2005& Math 646 Ergodic theory \\
+%         &  Spring 2005& Math 131 Calculus I \\
+%         &  Fall 2005& Math 645 Differential equations and dynamical systems\\
+%         &  Fall 2005& Stat 515 Introduction to Statistics I \\
+%         & Spring 2006& Math597/697 Introduction to stochastic processes\\
+%         & Fall 2006& Math 623 Real analysis I \\
+%         & Fall 2006& Math 131H Honor calculus I \\
+%         & Spring 2007& Math 624 Real analysis II \\
+%         & Fall 2007& Math 697U Introduction to stochastic processes \\
+%         & Fall 2007& Math 331 Differential equations \\
+%         & Spring 2008& Math 331 Differential equations \\
+%         &Fall 2008 & Math 331 Differential equations \\
+%         & Fall 2008& Math 645 Differential equations and dynamical systems\\
+%         & Fall 2009 & Math 697EG Evolutionary game theory \\
+%         & Spring 2010 & Math 697U Introduction to stochastic processes
+%      \end{tabular}
+%
+%\noindent
+%\begin{tabular}{lll}
+%{ \phantom{ Courses:} }
+%         & Spring 2010 & Math 331 Differential equations \\
+%         & Fall 2010 & Math 623 Real analysis I  \\
+%         & Fall 2010 & Math 131H Honor calculus I  \\
+%         & Fall 2011 & Math 623 Real analysis I  \\
+%         & Spring 2012 & Math 624 Real analysis II \\
+%        & Spring 2012 & Math 456 Mathematical Modeling \\
+%        &Spring 2013 & Math 456 Mathematical Modeling \\
+%        &Spring 2013 & Math797fn Functional Analysis \\
+%        & Fall 2013& Math 623 Real Analysis I \\
+%         & Spring 2014& Math 624 Real Analysis II \\
+%         & Spring 2014& Math 331 Differential equations \\
+%          & Fall 2014 & Math697U Introduction to stochastic processes\\
+%          & Spring 2015 & Math 456 Mathematical Modeling \\
+%          &Spring 2015 & Math 797MR Information Theory\\
+%          &Fall 2015 & Math 797AB Agent-based modeling \\
+%          & Spring 2016 & Math 456 Mathematical Modeling \\
+%          & Spring 2016 & Math 523H Real analysis \\
+%          &Fall 2016 & Math 797SM Statistical mechanics \\
+%          & Spring 2017 & Math 331 Differential equations \\
+%          & Spring 2017 & Math 523H Real analysis  \\
+%          & Fall 2017  & Stat 605 Probability Theory \\
+%          &  Fall 2017  & Math 331 Differential equations\\
+%          &Spring 2018 & Math697U Stochastic Processes \\
+%          &Spring2019 & Math 456 Mathematical Modeling
+%       \end{tabular}
+
+\vspace{0.3cm}
+\noindent
+{ University of Virginia} 1999-2002
+
+\vspace{0.2cm}
+Fall 1999:\phantom{xv}\,\, APMA 310 Probability
+
+Spring 2000: APMA 206, Differential equations (2 sections)
+
+Fall 2000:\phantom{xv}\,\, APMA 310 Probability
+
+Fall 2000:\phantom{xv}\,\, Math 531 Introduction to real analysis I
+
+Spring 2001: Math 532 Introduction to real analysis II
+
+Fall 2001:\phantom{xv}\,\, Math 131 Calculus I (2 sections)
+
+Spring 2002: Math 845 Ergodic Theory
+
+\vspace{0.2cm}
+
+
+%
+%
+%\noindent
+%\begin{tabular}{lll}
+%{ Courses:} &  Fall 1999& APMA 310 Probability \\
+%         &  Spring 2000& APMA 206, Differential equations (2 sections) \\
+%         &  Fall 2000& APMA 310 Probability \\
+%         &  Fall 2000& Math 531 Introduction to real analysis I \\
+%         &  Spring 2001& Math 532 Introduction to real analysis II \\
+%         &  Fall 2001& Math 131 Calculus I (2 sections) \\
+%	 &  Spring 2002& Math 845 Ergodic Theory
+%\end{tabular}
+
+%
+%KK
+%\noindent
+%{ Research Fellow 1998--1999},  Center for Mathematical Sciences Research,
+%Department of Mathematics, Rutgers University, New Brunswick NJ 08854.
+
+\vspace{0.2cm}
+\noindent
+{ University of Geneva}, 1994-1998 (Teaching assistant)
+\vspace{0.2cm}
+
+ 1994-1995:  Mathematics II for computer scientists
+
+ 1994-1995: Function of several complex variables
+
+ 1995-1996: Analysis I
+
+ 1995-1996: Dynamical systems and ergodic theory
+
+ 1996-1997: Mathematics for engineers
+
+ 1996-1997: Numerical methods for PDE
+
+ 1997-1998: Analysis II
+
+%
+%
+%
+%
+%
+%\noindent
+%\begin{tabular}{lll}
+%{ Courses:} &  1994-1995& Mathematics II for computer scientists  \\
+%         &  1994-1995& Function of several complex variables \\
+%         &  1995-1996& Analysis I \\
+%         &  1995-1996& Dynamical systems and ergodic theory \\
+%         &  1996-1997& Mathematics for engineers \\
+%         &  1996-1997& Numerical methods for PDE \\
+%         &  1997-1998& Analysis II
+%\end{tabular}
+
+\vspace{0.5cm}
+
+
+
+
+
+
+
+
+
+
