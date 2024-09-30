@@ -444,7 +444,7 @@
   <meta name="generator" content="quarto-1.4.540">
 
   <meta name="author" content="Luc Rey-Bellet">
-  <meta name="dcterms.date" content="2024-09-23">
+  <meta name="dcterms.date" content="2024-09-27">
   <title>Part 1: Warming Up</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -1294,7 +1294,7 @@ Luc Rey-Bellet
     </div>
 </div>
 
-  <p class="date">2024-09-23</p>
+  <p class="date">2024-09-27</p>
 </section>
 <section>
 <section id="axioms-of-probability" class="title-slide slide level1 center" data-number="1">
@@ -1795,7 +1795,7 @@ p_n = { n-1 \choose k-1} (1-p)^{n-k} p^k
 </section>
 <section id="section-16" class="slide level2 unnumbered unlisted">
 <h2></h2>
-<div id="0ef89d91" class="cell columns column-output-location" data-execution_count="1">
+<div id="4ce2a72d" class="cell columns column-output-location" data-execution_count="1">
 <div class="column">
 <details open class="code-fold">
 <summary>Code</summary>
@@ -2128,7 +2128,7 @@ V[Z]= n \frac{b}{N}  \frac{N-b}{N} {\color{red}\frac{N-n}{N-1}}
 <h2></h2>
 <div id="exr-27" class="theorem exercise">
 <p><span class="theorem-title"><strong>Exercise 2.7 (Conditional Variance)</strong></span> A natural way to define conditional variance is to start with the definition <span class="math display">
-  V[X|Y=j]= E[ (X- E[X|Y=j])^2  |Y=j]  = E[X^2|Y=j]- E[X|Y=j]
+  V[X|Y=j]= E[ (X- E[X|Y=j])^2  |Y=j]  = E[X^2|Y=j]- E[X|Y=j]^2
   </span> which is simply the variance with respect to the conditional probability <span class="math inline">P(\cdot| Y=j)</span>.<br>
 This allows to define <span class="math inline">V[X|Y]</span> as the function of the random variable <span class="math inline">Y</span> whose value is equal to <span class="math inline">V[X|Y=j]</span> when <span class="math inline">Y=j</span>. Prove the <strong>conditional variance formula</strong> sometimes also called the <strong>Law of total variance</strong> <span class="math display">
   V[X]= E[ V[X|Y] ] + V[E[X|Y]]
@@ -2300,9 +2300,9 @@ Since all the terms are positive we have <span class="math display">
 <h2><span class="header-section-number">3.5</span> Homework problems</h2>
 <div id="exr-31" class="theorem exercise">
 <p><span class="theorem-title"><strong>Exercise 3.1</strong></span> Consider a hypergeometric random variable <span class="math inline">Z=Z_{n,b,N}</span> with parameters <span class="math inline">N</span> <span class="math inline">b</span>, <span class="math inline">r=N-b</span> and sampling size <span class="math inline">n</span>. Consider the following limits <span class="math display">
-n,N \to \infty,  \quad n \le N,  \quad    b=\frac{p}{N}  
+n,N \to \infty,  \quad n \le N,  \quad    p=\frac{b}{N}  
 </span> Argue that under these condition as <span class="math inline">n,N \to\infty</span>, <span class="math inline">\frac{1}{n}Z_{n,b,N}</span> converges almost surely to <span class="math inline">p</span>.<br>
-<em>Hint:</em> Look at the formula for the variance in <a href="#/section-23" class="quarto-xref">Exercise 2.4</a> and the proof of the strong law of large numbers.</p>
+<em>Hint:</em> Look at the formula for the variance in <a href="#/section-23" class="quarto-xref">Exercise 2.4</a> and study the proof of the strong law of large numbers. Your argument should not be long!</p>
 </div>
 <p><br></p>
 <div id="exr-32" class="theorem exercise">
