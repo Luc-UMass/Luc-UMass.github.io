@@ -2,7 +2,14 @@ project:
   title: Luc Rey-Bellet Home Page 
   type: website
   output-dir: docs
-  
+  resources: 
+    - "html/Markov.html"
+    - "html/Poisson.html"
+    - "html/Martingale.html"
+    - "html/Part1.html"
+    - "html/Part2.html"
+    - "html/Part3.html"
+
 website:
   google-analytics: G-PP012BY7MS
   sidebar:
