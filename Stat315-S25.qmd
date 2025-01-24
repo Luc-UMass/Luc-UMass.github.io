@@ -1,0 +1,222 @@
+---
+title: "Syllabus Stat 315, Spring 2025"
+subtitle: "Statistics I"
+author: "Luc Rey-Bellet"
+institute: "University of Massachusetts Amherst"
+format:
+  pdf:
+    toc: false
+    number-sections: false
+    colorlinks: true
+  html:
+    toc: false
+    html-math-method: katex
+---
+
+##  Instructor 
+
+Luc Rey-Bellet  
+LGRT 1423K  
+<luc@math.umass.edu>  
+
+
+## Class Meeting
+
+- Where:  LGRC A201
+
+- When: TuTh 2:30 PM -- 3:45 PM 
+
+## Office hours
+
+  - Tuesday 3:00 PM-4:00 PM in LGRT 1423 K or on [ZOOM](https://umass-amherst.zoom.us/my/luc.reybellet.office.hours)
+  - Friday 1:00 PM-2:00 in LGRT 1423 K or on [ZOOM](https://umass-amherst.zoom.us/my/luc.reybellet.office.hours)
+  - By appointment is always possible and welcome and/or ask your questions be email.
+
+
+##  Course information and communication 
+
++ We will be using  Canvas  <https://umamherst.instructure.com/courses/27131> to post supplementary materials and course information. In particular all class announcements  
+are sent  though Canvas and archived there.  Make you sure you adjust your Canvas settings so that you receive all class annoucements.
+
++ The quizzes will uploaded and and graded on gradesceope. You do not ned to enroll and it is linked to canvas.
+
++ The homework is done on Webassign, linked to canvas as well.  
+
+## Teaching assistants:
+
+## Class TAs
+
+There are 3 course wide TA's.  Help sessions are held every day in the evening.
+
++ Monday: 
++ Tuesday: 
++ Wednesday: 
++ Thursday: 
++ Friday: 
+
+
+### Supplementary Instruction 
+
+The undergraduate SI, Auden Cote-LHeureux will run two 75 minutes session each week, starting February 9.  Worksheets with solution will be provided.  
+Details will follow but you should be enrolled to the SI Canvas page.
+
+
+## Course Description
+This course provides a calculus based introduction to probability (an emphasis on probabilistic concepts used in statistical modeling). Coverage includes 
+basic axioms of probability, sample spaces, counting rules, conditional probability, independence, random variables (and various associated discrete and 
+continuous distributions), expectation, variance, covariance and correlation, probability inequalities, the central limit theorem, the Poisson approximation, 
+sampling distributions, concentration inequalities and non-asymptotic statistics.
+
+##  Learning objectives
+Develop a working knowledge of the basic concepts in probability (mean, variance, covariance, conditional probability, independence, Bayes theorem, etc.) 
+as well as the basic probability models (the classical discrete and continuous random variables and their interpretation as modeling tools). 
+Learn multivariate analysis. Understand and apply the law of large numbers and the central limit theorem.
+
+## Prerequisites
+Two semesters of single variable calculus (Math 131-132) or the equivalent, with a grade of ``C" or better in Math 132. 
+Math 233 is strongly recommended but not required; in particular, multivariable integration will be introduced/reviewed mid-semester.
+
+
+## Required materials:
+The official text is **Mathematical Statistics with Applications**, Authors: Wackerly, Mendenhall, Schaeffer (ISBN-13: 978-0495110811), Edition: 7th. 
+Some additional material will also be made freely available through the class Canvas site. WebAssign is required for your weekly online homework assignments 
+and a online edition of the textbook is availabel in Webassign. 
+\medskip
+
+
+## Weekly syllabus (subject to adjustments)
+
+
+| Week          | Sections (Class)| Comments       |
+|---------------|----------------|-----------------|
+|#1: 1/30        | 2.1-2.3        |                 |
+|#2: 2/4, 2/6   | 2.4-2.7.       | Add/Drop 2/5    | 
+|#3: 2/11, 2/13 | 2.8-2.12.      |                 |
+|#4: 2/18,      | 2.12, 3.1-3.3  | **Quizz 1** (2/18): 2.1-2.8|
+|#5: 2/25, 2/27 | 3.4-3.8.       |                 |
+|#6: 3/4, 3/6   |5.1-5.8 discrete|                 |             
+|#7: 3/11,3/13  | 5.8-5.9,4.1-4.3|**Quizz 2** (3/11): 2.9-2.12,3.1-3.8 |           
+| Spring Break  |                | Relax and enjoy!|
+|#8: 3/25, 3/27 |4.1-4.6.        |**Quizz 3**(3/27):|
+|#9: 4/1, 4/3   |5.1-5.9(continuous)|               |
+|#10: 4/8, 4/10 |5.10-11, 3.9, 3.11|  **Quizz 4**   |            
+|#11: 4/15, 4/17|4.9-10, 6.1-6.2 |                  |
+|#12: 4/22, 4/24|6.3-6.55        |  **Quizz 5**     |
+|#13: 4/29, 5/1 | 7.3, 7.5 + LLN |                  |   
+|#14: 5/6, 5/8  | 7.2, Review		|  **Quizz 6**      |
+|#15: 5/15      |                | **Final**
+
+
+
+## Homework (30%)
+
+Here are the instructions to sign-up on Webassign []()
+The WebAssign homeworks are due roughly once a week, usually Friday night (unless otherwise specified).  There is no drop-HW policy, but you can submit answers up to 5 days late for a 25% penalty (on submitted problems). Keep in mind, however, of the material you will be quizzed on.  Make sure to follow the up-to-date HW due dates on your Canvas/Webassign pages.
+
+
+## Quizzes (35%)
+There will be 6 **in-class** quizzes, usually about 30 minutes and 2 problems in length. You can bring up **1 page (8.5 by 11 inches) of hand-written notes 
+single-sided** and a calculator. No internet-based devices are allowed. The lowest quiz will be dropped. Make sure to follow the up-to-date quiz dates 
+on your Canvas page.  The quizzes will be uploaded into gradescope and graded there.  You gradescope class is <https://www.gradescope.com/courses/965889> and 
+is linked to canvas, you will be enrolled automatically. 
+
+
+## Final Exam (30%)
+The uniform (all-section) final exam is tentatively scheduled for \textbf{TBA}. This may change so keep track of the date on your Spire page. You can bring **a 
+single page of (8.5 by 11 inches)  hand-written notes double-sided**, no calculator.  No internet devices are allowed.  The $z$-table from the book will 
+be included with your exam booklet, if it is needed. The exam will cover all the material from the main textbook (the sections covered in Chapters 2-7),
+which is also the material covered in WebAssign. The questions on the exam will be very similar in style to the quiz questions and WebAssign questions. 
+Look at your Canvas page for old exams and other relevant information.
+
+
+
+##  In-class attendance (5%)
+Regular attendance and participation is required. This being said, stuff happens and I understand if you miss a class her or there, but regular presence is needed.
+
+
+## Grading Scheme
+
+  + Quizzes: 35%
+  + Final exam: 30%
+  + WebAssign Homework: 30% 
+  + In-class attendance/particpation: 5%
+  +  Number-to-letter conversion: These cutoffs might be slightly adjusted, but only in the downward direction, after the final exam.
+    
+| A  |A$-$  |B+  | B  |B$-$  | C+ | C  |C$-$  |D + | D  |  F |
+|----|----|----|----|----|----|----|----|----|----|----|
+|93  |89  | 85 | 80 | 75 | 70 | 65 | 60 | 55 | 50 |<50 |
+    
+    
+
+##  Drop, Withdrawal, and Incomplete
+
+  + The last day to drop/add with no record is February 7th. 
+  + The last day to drop with a W is April 4th.
+  + An incomplete is possible only if all of the following apply: (1) you have a compelling personal reason, e.g., serious illness; (2) your work so far 
+    would receive a passing grade; and (3) there is a good chance you will  complete the course with a passing grade within the allotted time. Thus, *expecting to fail the class is no reason to ask for an incomplete*.
+
+
+## Absence during quizz/exams
+
+  +  You should contact me at the beginning of the semester if you must miss a quiz or exam due to religious observance. 
+  +  If you must miss a quiz or exam due to medical reasons, you should notify me at least two weeks in advance of the exam. 
+  + If you have a medical or non-medical emergency, you should notify me as soon as possible. In either case, barring exceptional circumstances, 
+    you need to provide documentation, for example from your medical provider or the Dean of Students. You need not disclose any details, but there must 
+    be enough information to allow the absence to be excused.
+  + If you have a final exam conflict that entitles you to a make-up exam from me (for example, three final exams in one day and our exam is in the middle), 
+    you must notify me at least 2 weeks in advance to schedule the make-up after the regular exam time. You must also provide proof of conflict from the 
+    Registrar's office. Make sure to not book any travel during exams. Travel is not an excuse to miss the exam.
+  +  It is impossible to anticipate all of the possible things that can occur. In case of an exceptional event beyond those covered above, contact me 
+    and explain the problem. You should be prepared to provide a written statement if necessary.
+
+
+## Inclusion:
+This page  <https://www.umass.edu/studentlife/advocacy-inclusion-support>  links  to support centers for different groups of students. 
+
+
+##  Class etiquette statement:
+
++ Except for emergency, do not send text messages/emails or
+  make/receive phone calls during lectures.
++  If you arrive late to class, sit in the first seat you can find
+  so as not to disturb others, and do not come up to the front of the
+  room to pick up or hand in papers.
++ You can use laptops and tablets during class provided that you
+  do not disturb your fellow classmates or my lectures. They are not allowed during exams.
++ Please read *Guidelines for Classroom Civility and Respect*: <http://www.umass.edu/dean_students/campus-policies/classroom>
+
+
+## Accommodation statement 
+
+The University of Massachusetts Amherst is committed to providing an equal educational opportunity for all students. If you have a documented physical, 
+psychological, or learning disability on file with Disability Services (DS), you may be eligible for reasonable academic accommodations to help you 
+succeed in this course. If you have a documented disability that requires an accommodation, please notify me within the first two weeks of the semester 
+so that we may make appropriate arrangements.
+
+## Academic honesty statement 
+
+Since the integrity of the academic enterprise of any institution of higher education requires honesty in scholarship and research, academic honesty is 
+required of all students at the University of Massachusetts Amherst. Academic dishonesty is prohibited in all programs of the University. Academic dishonesty 
+includes but is not limited to: cheating, fabrication, plagiarism, and facilitating dishonesty. Appropriate sanctions may be imposed on any student who has 
+committed an act of academic dishonesty. Instructors should take reasonable steps to address academic misconduct.  Any person who has reason to believe that 
+a student has committed academic dishonesty should bring such information to the attention of the appropriate course instructor as soon as possible. Instances 
+of academic dishonesty not related to a specific course should be brought to the attention of the appropriate department Head or Chair. Since students are 
+expected to be familiar with this policy and the commonly accepted standards of academic integrity, ignorance of such standards is not normally sufficient 
+evidence of lack of intent, see <http://www.umass.edu/dean_students/codeofconduct/acadhonesty/>. Seeking answers from websites like Chegg, Discord, etc is a 
+clear violation of the academic honesty policy, while submitting course materials to these sites or similar ones is a violation of the instructor’s copyright. 
+
+
+
+## Title IX statement
+
+In accordance with Title IX of the Education Amendments of 1972 that prohibits gender-based discrimination in educational settings that receive federal funds, 
+the University of Massachusetts Amherst is committed to providing a safe learning environment for all students, free from all forms of discrimination, including 
+sexual assault, sexual harassment, domestic violence, dating violence, stalking, and retaliation. This includes interactions in person or online through digital 
+platforms and social media. Title IX also protects against discrimination on the basis of pregnancy, childbirth, false pregnancy, miscarriage, abortion, or 
+related conditions, including recovery. There are resources here on campus to support you. A summary of the available Title IX resources (confidential 
+and non-confidential) can be found at the following link:<https://www.umass.edu/titleix/resources>. You do not need to make a formal report to access them. If 
+you need immediate support, you are not alone. Free and confidential support is available 24 hours a day / 7 days a week / 365 days a year at the 
+SASA Hotline 413-545-0800.  
+
+
+

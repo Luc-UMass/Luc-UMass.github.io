@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.540">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Luc Rey-Bellet">
+
+<title>Luc Rey-Bellet Home Page - Syllabus Stat 315, Spring 2025</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PP012BY7MS"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-PP012BY7MS', { 'anonymize_ip': true});
+</script>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Math606-S25.html">Current Teaching</a></li><li class="breadcrumb-item"><a href="./Stat315-S25.html">Stat 315 (S25)</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Luc Rey-Bellet Home Page</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home page</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Publications</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./publications.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Articles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lecturenotes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture Notes</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Current Teaching</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Math606-S25.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Math 606 (S25)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Stat315-S25.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Stat 315 (S25)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Math605-F24.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Math 605 (F24)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Stat315-S24.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Stat 315 (S24)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Math606-S24.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Math 606 (S24)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Stat315-S25.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Math606-S25.html">Current Teaching</a></li><li class="breadcrumb-item"><a href="./Stat315-S25.html">Stat 315 (S25)</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Syllabus Stat 315, Spring 2025</h1>
+<p class="subtitle lead">Statistics I</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Luc Rey-Bellet </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            University of Massachusetts Amherst
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="instructor" class="level2">
+<h2 class="anchored" data-anchor-id="instructor">Instructor</h2>
+<p>Luc Rey-Bellet<br>
+LGRT 1423K<br>
+<a href="mailto:luc@math.umass.edu" class="email">luc@math.umass.edu</a></p>
+</section>
+<section id="class-meeting" class="level2">
+<h2 class="anchored" data-anchor-id="class-meeting">Class Meeting</h2>
+<ul>
+<li><p>Where: LGRC A201</p></li>
+<li><p>When: TuTh 2:30 PM – 3:45 PM</p></li>
+</ul>
+</section>
+<section id="office-hours" class="level2">
+<h2 class="anchored" data-anchor-id="office-hours">Office hours</h2>
+<ul>
+<li>Tuesday 3:00 PM-4:00 PM in LGRT 1423 K or on <a href="https://umass-amherst.zoom.us/my/luc.reybellet.office.hours">ZOOM</a></li>
+<li>Friday 1:00 PM-2:00 in LGRT 1423 K or on <a href="https://umass-amherst.zoom.us/my/luc.reybellet.office.hours">ZOOM</a></li>
+<li>By appointment is always possible and welcome and/or ask your questions be email.</li>
+</ul>
+</section>
+<section id="course-information-and-communication" class="level2">
+<h2 class="anchored" data-anchor-id="course-information-and-communication">Course information and communication</h2>
+<ul>
+<li><p>We will be using Canvas <a href="https://umamherst.instructure.com/courses/27131" class="uri">https://umamherst.instructure.com/courses/27131</a> to post supplementary materials and course information. In particular all class announcements<br>
+are sent though Canvas and archived there. Make you sure you adjust your Canvas settings so that you receive all class annoucements.</p></li>
+<li><p>The quizzes will uploaded and and graded on gradesceope. You do not ned to enroll and it is linked to canvas.</p></li>
+<li><p>The homework is done on Webassign, linked to canvas as well.</p></li>
+</ul>
+</section>
+<section id="teaching-assistants" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-assistants">Teaching assistants:</h2>
+</section>
+<section id="class-tas" class="level2">
+<h2 class="anchored" data-anchor-id="class-tas">Class TAs</h2>
+<p>There are 3 course wide TA’s. Help sessions are held every day in the evening.</p>
+<ul>
+<li>Monday:</li>
+<li>Tuesday:</li>
+<li>Wednesday:</li>
+<li>Thursday:</li>
+<li>Friday:</li>
+</ul>
+<section id="supplementary-instruction" class="level3">
+<h3 class="anchored" data-anchor-id="supplementary-instruction">Supplementary Instruction</h3>
+<p>The undergraduate SI, Auden Cote-LHeureux will run two 75 minutes session each week, starting February 9. Worksheets with solution will be provided.<br>
+Details will follow but you should be enrolled to the SI Canvas page.</p>
+</section>
+</section>
+<section id="course-description" class="level2">
+<h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
+<p>This course provides a calculus based introduction to probability (an emphasis on probabilistic concepts used in statistical modeling). Coverage includes basic axioms of probability, sample spaces, counting rules, conditional probability, independence, random variables (and various associated discrete and continuous distributions), expectation, variance, covariance and correlation, probability inequalities, the central limit theorem, the Poisson approximation, sampling distributions, concentration inequalities and non-asymptotic statistics.</p>
+</section>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h2>
+<p>Develop a working knowledge of the basic concepts in probability (mean, variance, covariance, conditional probability, independence, Bayes theorem, etc.) as well as the basic probability models (the classical discrete and continuous random variables and their interpretation as modeling tools). Learn multivariate analysis. Understand and apply the law of large numbers and the central limit theorem.</p>
+</section>
+<section id="prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
+<p>Two semesters of single variable calculus (Math 131-132) or the equivalent, with a grade of ``C” or better in Math 132. Math 233 is strongly recommended but not required; in particular, multivariable integration will be introduced/reviewed mid-semester.</p>
+</section>
+<section id="required-materials" class="level2">
+<h2 class="anchored" data-anchor-id="required-materials">Required materials:</h2>
+<p>The official text is <strong>Mathematical Statistics with Applications</strong>, Authors: Wackerly, Mendenhall, Schaeffer (ISBN-13: 978-0495110811), Edition: 7th. Some additional material will also be made freely available through the class Canvas site. WebAssign is required for your weekly online homework assignments and a online edition of the textbook is availabel in Webassign. </p>
+</section>
+<section id="weekly-syllabus-subject-to-adjustments" class="level2">
+<h2 class="anchored" data-anchor-id="weekly-syllabus-subject-to-adjustments">Weekly syllabus (subject to adjustments)</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Week</th>
+<th>Sections (Class)</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>#1: 1/30</td>
+<td>2.1-2.3</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>#2: 2/4, 2/6</td>
+<td>2.4-2.7.</td>
+<td>Add/Drop 2/5</td>
+</tr>
+<tr class="odd">
+<td>#3: 2/11, 2/13</td>
+<td>2.8-2.12.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>#4: 2/18,</td>
+<td>2.12, 3.1-3.3</td>
+<td><strong>Quizz 1</strong> (2/18): 2.1-2.8</td>
+</tr>
+<tr class="odd">
+<td>#5: 2/25, 2/27</td>
+<td>3.4-3.8.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>#6: 3/4, 3/6</td>
+<td>5.1-5.8 discrete</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>#7: 3/11,3/13</td>
+<td>5.8-5.9,4.1-4.3</td>
+<td><strong>Quizz 2</strong> (3/11): 2.9-2.12,3.1-3.8</td>
+</tr>
+<tr class="even">
+<td>Spring Break</td>
+<td></td>
+<td>Relax and enjoy!</td>
+</tr>
+<tr class="odd">
+<td>#8: 3/25, 3/27</td>
+<td>4.1-4.6.</td>
+<td><strong>Quizz 3</strong>(3/27):</td>
+</tr>
+<tr class="even">
+<td>#9: 4/1, 4/3</td>
+<td>5.1-5.9(continuous)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>#10: 4/8, 4/10</td>
+<td>5.10-11, 3.9, 3.11</td>
+<td><strong>Quizz 4</strong></td>
+</tr>
+<tr class="even">
+<td>#11: 4/15, 4/17</td>
+<td>4.9-10, 6.1-6.2</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>#12: 4/22, 4/24</td>
+<td>6.3-6.55</td>
+<td><strong>Quizz 5</strong></td>
+</tr>
+<tr class="even">
+<td>#13: 4/29, 5/1</td>
+<td>7.3, 7.5 + LLN</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>#14: 5/6, 5/8</td>
+<td>7.2, Review</td>
+<td><strong>Quizz 6</strong></td>
+</tr>
+<tr class="even">
+<td>#15: 5/15</td>
+<td></td>
+<td><strong>Final</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="homework-30" class="level2">
+<h2 class="anchored" data-anchor-id="homework-30">Homework (30%)</h2>
+<p>Here are the instructions to sign-up on Webassign <a href=""></a> The WebAssign homeworks are due roughly once a week, usually Friday night (unless otherwise specified). There is no drop-HW policy, but you can submit answers up to 5 days late for a 25% penalty (on submitted problems). Keep in mind, however, of the material you will be quizzed on. Make sure to follow the up-to-date HW due dates on your Canvas/Webassign pages.</p>
+</section>
+<section id="quizzes-35" class="level2">
+<h2 class="anchored" data-anchor-id="quizzes-35">Quizzes (35%)</h2>
+<p>There will be 6 <strong>in-class</strong> quizzes, usually about 30 minutes and 2 problems in length. You can bring up <strong>1 page (8.5 by 11 inches) of hand-written notes single-sided</strong> and a calculator. No internet-based devices are allowed. The lowest quiz will be dropped. Make sure to follow the up-to-date quiz dates on your Canvas page. The quizzes will be uploaded into gradescope and graded there. You gradescope class is <a href="https://www.gradescope.com/courses/965889" class="uri">https://www.gradescope.com/courses/965889</a> and is linked to canvas, you will be enrolled automatically.</p>
+</section>
+<section id="final-exam-30" class="level2">
+<h2 class="anchored" data-anchor-id="final-exam-30">Final Exam (30%)</h2>
+<p>The uniform (all-section) final exam is tentatively scheduled for . This may change so keep track of the date on your Spire page. You can bring <strong>a single page of (8.5 by 11 inches) hand-written notes double-sided</strong>, no calculator. No internet devices are allowed. The <span class="math inline">z</span>-table from the book will be included with your exam booklet, if it is needed. The exam will cover all the material from the main textbook (the sections covered in Chapters 2-7), which is also the material covered in WebAssign. The questions on the exam will be very similar in style to the quiz questions and WebAssign questions. Look at your Canvas page for old exams and other relevant information.</p>
+</section>
+<section id="in-class-attendance-5" class="level2">
+<h2 class="anchored" data-anchor-id="in-class-attendance-5">In-class attendance (5%)</h2>
+<p>Regular attendance and participation is required. This being said, stuff happens and I understand if you miss a class her or there, but regular presence is needed.</p>
+</section>
+<section id="grading-scheme" class="level2">
+<h2 class="anchored" data-anchor-id="grading-scheme">Grading Scheme</h2>
+<ul>
+<li>Quizzes: 35%</li>
+<li>Final exam: 30%</li>
+<li>WebAssign Homework: 30%</li>
+<li>In-class attendance/particpation: 5%</li>
+<li>Number-to-letter conversion: These cutoffs might be slightly adjusted, but only in the downward direction, after the final exam.</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>A</th>
+<th>A<span class="math inline">-</span></th>
+<th>B+</th>
+<th>B</th>
+<th>B<span class="math inline">-</span></th>
+<th>C+</th>
+<th>C</th>
+<th>C<span class="math inline">-</span></th>
+<th>D +</th>
+<th>D</th>
+<th>F</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>93</td>
+<td>89</td>
+<td>85</td>
+<td>80</td>
+<td>75</td>
+<td>70</td>
+<td>65</td>
+<td>60</td>
+<td>55</td>
+<td>50</td>
+<td>&lt;50</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="drop-withdrawal-and-incomplete" class="level2">
+<h2 class="anchored" data-anchor-id="drop-withdrawal-and-incomplete">Drop, Withdrawal, and Incomplete</h2>
+<ul>
+<li>The last day to drop/add with no record is February 7th.</li>
+<li>The last day to drop with a W is April 4th.</li>
+<li>An incomplete is possible only if all of the following apply: (1) you have a compelling personal reason, e.g., serious illness; (2) your work so far would receive a passing grade; and (3) there is a good chance you will complete the course with a passing grade within the allotted time. Thus, <em>expecting to fail the class is no reason to ask for an incomplete</em>.</li>
+</ul>
+</section>
+<section id="absence-during-quizzexams" class="level2">
+<h2 class="anchored" data-anchor-id="absence-during-quizzexams">Absence during quizz/exams</h2>
+<ul>
+<li>You should contact me at the beginning of the semester if you must miss a quiz or exam due to religious observance.</li>
+<li>If you must miss a quiz or exam due to medical reasons, you should notify me at least two weeks in advance of the exam.</li>
+<li>If you have a medical or non-medical emergency, you should notify me as soon as possible. In either case, barring exceptional circumstances, you need to provide documentation, for example from your medical provider or the Dean of Students. You need not disclose any details, but there must be enough information to allow the absence to be excused.</li>
+<li>If you have a final exam conflict that entitles you to a make-up exam from me (for example, three final exams in one day and our exam is in the middle), you must notify me at least 2 weeks in advance to schedule the make-up after the regular exam time. You must also provide proof of conflict from the Registrar’s office. Make sure to not book any travel during exams. Travel is not an excuse to miss the exam.</li>
+<li>It is impossible to anticipate all of the possible things that can occur. In case of an exceptional event beyond those covered above, contact me and explain the problem. You should be prepared to provide a written statement if necessary.</li>
+</ul>
+</section>
+<section id="inclusion" class="level2">
+<h2 class="anchored" data-anchor-id="inclusion">Inclusion:</h2>
+<p>This page <a href="https://www.umass.edu/studentlife/advocacy-inclusion-support" class="uri">https://www.umass.edu/studentlife/advocacy-inclusion-support</a> links to support centers for different groups of students.</p>
+</section>
+<section id="class-etiquette-statement" class="level2">
+<h2 class="anchored" data-anchor-id="class-etiquette-statement">Class etiquette statement:</h2>
+<ul>
+<li>Except for emergency, do not send text messages/emails or make/receive phone calls during lectures.</li>
+<li>If you arrive late to class, sit in the first seat you can find so as not to disturb others, and do not come up to the front of the room to pick up or hand in papers.</li>
+<li>You can use laptops and tablets during class provided that you do not disturb your fellow classmates or my lectures. They are not allowed during exams.</li>
+<li>Please read <em>Guidelines for Classroom Civility and Respect</em>: <a href="http://www.umass.edu/dean_students/campus-policies/classroom" class="uri">http://www.umass.edu/dean_students/campus-policies/classroom</a></li>
+</ul>
+</section>
+<section id="accommodation-statement" class="level2">
+<h2 class="anchored" data-anchor-id="accommodation-statement">Accommodation statement</h2>
+<p>The University of Massachusetts Amherst is committed to providing an equal educational opportunity for all students. If you have a documented physical, psychological, or learning disability on file with Disability Services (DS), you may be eligible for reasonable academic accommodations to help you succeed in this course. If you have a documented disability that requires an accommodation, please notify me within the first two weeks of the semester so that we may make appropriate arrangements.</p>
+</section>
+<section id="academic-honesty-statement" class="level2">
+<h2 class="anchored" data-anchor-id="academic-honesty-statement">Academic honesty statement</h2>
+<p>Since the integrity of the academic enterprise of any institution of higher education requires honesty in scholarship and research, academic honesty is required of all students at the University of Massachusetts Amherst. Academic dishonesty is prohibited in all programs of the University. Academic dishonesty includes but is not limited to: cheating, fabrication, plagiarism, and facilitating dishonesty. Appropriate sanctions may be imposed on any student who has committed an act of academic dishonesty. Instructors should take reasonable steps to address academic misconduct. Any person who has reason to believe that a student has committed academic dishonesty should bring such information to the attention of the appropriate course instructor as soon as possible. Instances of academic dishonesty not related to a specific course should be brought to the attention of the appropriate department Head or Chair. Since students are expected to be familiar with this policy and the commonly accepted standards of academic integrity, ignorance of such standards is not normally sufficient evidence of lack of intent, see <a href="http://www.umass.edu/dean_students/codeofconduct/acadhonesty/" class="uri">http://www.umass.edu/dean_students/codeofconduct/acadhonesty/</a>. Seeking answers from websites like Chegg, Discord, etc is a clear violation of the academic honesty policy, while submitting course materials to these sites or similar ones is a violation of the instructor’s copyright.</p>
+</section>
+<section id="title-ix-statement" class="level2">
+<h2 class="anchored" data-anchor-id="title-ix-statement">Title IX statement</h2>
+<p>In accordance with Title IX of the Education Amendments of 1972 that prohibits gender-based discrimination in educational settings that receive federal funds, the University of Massachusetts Amherst is committed to providing a safe learning environment for all students, free from all forms of discrimination, including sexual assault, sexual harassment, domestic violence, dating violence, stalking, and retaliation. This includes interactions in person or online through digital platforms and social media. Title IX also protects against discrimination on the basis of pregnancy, childbirth, false pregnancy, miscarriage, abortion, or related conditions, including recovery. There are resources here on campus to support you. A summary of the available Title IX resources (confidential and non-confidential) can be found at the following link:<a href="https://www.umass.edu/titleix/resources" class="uri">https://www.umass.edu/titleix/resources</a>. You do not need to make a formal report to access them. If you need immediate support, you are not alone. Free and confidential support is available 24 hours a day / 7 days a week / 365 days a year at the SASA Hotline 413-545-0800.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
