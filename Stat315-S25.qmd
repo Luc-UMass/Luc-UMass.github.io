@@ -83,6 +83,13 @@ Some additional material will also be made freely available through the class Ca
 and a online edition of the textbook is availabel in Webassign. 
 \medskip
 
+## Class slides
+
++ [Syllabus](https://luc-umass.github.io/pdf/)
+
++ Probbaility
+
+
 
 ## Weekly syllabus (subject to adjustments)
 
