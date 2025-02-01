@@ -67,9 +67,43 @@ The first basic objective is to introduce the basic stochastic processes, learn 
 
 ## Grade/assignment 
 
-Weekly homework, one midterm and one final exam, each valued  1/3 of your grade. 
 
-The homework can be found at the end of each section in the slides. It will be submitted via gradescope <https://www.gradescope.com/courses/712199>
++ There will be a weekly homework submitted via Gradescope <https://www.gradescope.com/courses/966887>. The homework problem canbe found at the end of each section 
+in the slides.  The homeworks will be not graded in detail but I will post solutions for each homework. 
+
++ There will be a few quizzes (in class) to check your knowledge during the semester. The problems will of the same type as the homework problems.
+
++ There is a comprehensive final exam
+
++ To extend the reach of the class I expect a final project from you. I am somewhat flexible about topics but I will provide a list to choose from. Talk to me about your ideas. You should select a topic by the end of February.  I will expect you to create a poster for a group presentation at the end of the class. 
+
+
+    Here is a list of topics
+
+
+    +  Mixing time of Markov chains:  several projects can be carved out starting from the book *Markov chain and mixing times* by David A. Levin, Yuval Peres, and Elizabeth L. Wilmer.  
+
+    + Continous-time Markov chains for chemical reactions networks.  Widely used in biological and biochemical applications.  
+
+    + Queueing models. 
+
+    + Markov chains and chaotic dynamical systems. Deterministic chaotic systems can often be described using Markov chains. Learn how to do this.
+
+    +  Lyapunov function techniques to analyze Markov chain. Useful for Markov chains with continuous and non-compact state spaces.  Good topics for an anal;ysis minded student
+
+    + Quantum Markov chains. Understand the basic of quantum probability and quantum Markov chains.
+
+
+    + More forthcoming....   
+
+
+
+
+
+
+
++ Grading scheme:  Handing you homework consistently 30%,  quizz 20%,  project 25%,  final 25%
+
 
 ##  Textbooks
 
