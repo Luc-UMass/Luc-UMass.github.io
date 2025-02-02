@@ -35,12 +35,11 @@ LGRT 1423K
 
 ##  Course information and communication 
 
-+ We will be using  Canvas  <https://umamherst.instructure.com/courses/27131> to post supplementary materials and course information. In particular all class announcements  
-are sent  though Canvas and archived there.  Make you sure you adjust your Canvas settings so that you receive all class annoucements.
++ We will be using  Canvas  <https://umamherst.instructure.com/courses/27131> to post supplementary materials and course information. In particular all class announcements  are sent  though Canvas and archived there.  Make you sure you adjust your Canvas settings so that you receive all class annoucements.
 
 + The quizzes will uploaded and and graded on gradesceope. You do not ned to enroll and it is linked to canvas.
 
-+ The homework is done on Webassign, linked to canvas as well.  
++ The homework is done on Webassign. You need to purchase a license for the homewokr and the ebook.  Do it there  <https://startstrong.cengage.com/>
 
 ## Teaching assistants:
 
@@ -59,6 +58,16 @@ There are 3 course wide TA's.  Help sessions are held every day in the evening.
 
 The undergraduate SI, Auden Cote-LHeureux will run two 75 minutes session each week, starting February 9.  Worksheets with solution will be provided.  
 Details will follow but you will be enrolled to the SI Canvas page.
+
+
+## Class slides
+
++ [Syllabus](https://luc-umass.github.io/pdf/Slides25-00.pdf)
+
++ [Probability Basics](https://luc-umass.github.io/pdf/Slides25-01.pdf)
+
+
+
 
 
 ## Course Description
@@ -82,12 +91,6 @@ The official text is **Mathematical Statistics with Applications**, Authors: Wac
 Some additional material will also be made freely available through the class Canvas site. WebAssign is required for your weekly online homework assignments 
 and a online edition of the textbook is availabel in Webassign. 
 \medskip
-
-## Class slides
-
-+ [Syllabus](https://luc-umass.github.io/pdf/Slides25-00.pdf)
-
-+ [Probability Basics](https://luc-umass.github.io/pdf/Slides25-01.pdf)
 
 
 
