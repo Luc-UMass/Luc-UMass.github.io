@@ -9,6 +9,8 @@ project:
     - "html/Part1.html"
     - "html/Part2.html"
     - "html/Part3.html"
+    - "pdf/Slides25-00.pdf"
+    - "*.pdf"
 
 website:
   google-analytics: G-PP012BY7MS
