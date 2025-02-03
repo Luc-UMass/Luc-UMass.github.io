@@ -62,9 +62,9 @@ Details will follow but you will be enrolled to the SI Canvas page.
 
 ## Class slides
 
-+ [Syllabus](https://luc-umass.github.io/pdf/Slides25-00.pdf)
++ [Slides00-Syllabus](https://luc-umass.github.io/pdf/Slides25-00.pdf)
 
-+ [Probability Basics](https://luc-umass.github.io/pdf/Slides25-01.pdf)
++ [Slides01-Probability Basics](https://luc-umass.github.io/pdf/Slides25-01.pdf)
 
 
 
