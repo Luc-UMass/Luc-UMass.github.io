@@ -68,7 +68,7 @@ Details will follow but you will be enrolled to the SI Canvas page.
 
 + [Slides02-Counting](https://luc-umass.github.io/pdf/Slides25-02.pdf)
 
-
++ [Slides03-Conditional Probability](https://luc-umass.github.io/pdf/Slides25-03.pdf)
 
 ## Course Description
 This course provides a calculus based introduction to probability (an emphasis on probabilistic concepts used in statistical modeling). Coverage includes 
