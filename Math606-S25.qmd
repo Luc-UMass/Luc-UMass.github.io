@@ -83,6 +83,10 @@ in the slides.  The homeworks will be not graded in detail but I will post solut
 
     +  Mixing time of Markov chains:  several projects can be carved out starting from the book *Markov chain and mixing times* by David A. Levin, Yuval Peres, and Elizabeth L. Wilmer.  
 
+    + Hidden Markov models
+
+    + 
+
     + Continous-time Markov chains for chemical reactions networks.  Widely used in biological and biochemical applications.  
 
     + Queueing models. 
