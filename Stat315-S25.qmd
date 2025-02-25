@@ -77,6 +77,11 @@ There are 3 course wide TA's.  Help sessions are held every day in the evening.
 
 + [Slides04-Conditioning and Bayes rule](https://luc-umass.github.io/pdf/Slides25-04.pdf)
 
++ [Slides05-Random variables and expected value](https://luc-umass.github.io/pdf/Slides25-05.pdf)
+
++ [Slides06-Functions of random variables and variance](https://luc-umass.github.io/pdf/Slides25-06.pdf)
+
+
 
 ## Course Description
 This course provides a calculus based introduction to probability (an emphasis on probabilistic concepts used in statistical modeling). Coverage includes 
