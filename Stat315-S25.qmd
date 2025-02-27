@@ -81,6 +81,9 @@ There are 3 course wide TA's.  Help sessions are held every day in the evening.
 
 + [Slides06-Functions of random variables and variance](https://luc-umass.github.io/pdf/Slides25-06.pdf)
 
++ [Slides07-Binomial random variables](https://luc-umass.github.io/pdf/Slides25-07.pdf)
+
++ [Slides08-Geometric random variables](https://luc-umass.github.io/pdf/Slides25-08.pdf)
 
 
 ## Course Description
