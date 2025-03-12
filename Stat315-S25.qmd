@@ -95,6 +95,11 @@ There are 3 course wide TA's.  Help sessions are held every day in the evening.
 
 + [Slides13-Continuous random variables](https://luc-umass.github.io/pdf/Slides25-13.pdf)
 
++ [Slides14-Uniform random variables](https://luc-umass.github.io/pdf/Slides25-14.pdf)
+
++ [Slides15-Normal random variables](https://luc-umass.github.io/pdf/Slides25-15.pdf)
+
++ [Slides16-Exponential random variables](https://luc-umass.github.io/pdf/Slides25-16.pdf)
 
 ## Course Description
 This course provides a calculus based introduction to probability (an emphasis on probabilistic concepts used in statistical modeling). Coverage includes 
