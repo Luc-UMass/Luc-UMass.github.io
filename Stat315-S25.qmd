@@ -101,6 +101,8 @@ There are 3 course wide TA's.  Help sessions are held every day in the evening.
 
 + [Slides16-Exponential random variables](https://luc-umass.github.io/pdf/Slides25-16.pdf)
 
++ [Slides17-Joint continuous random variables](https://luc-umass.github.io/pdf/Slides25-16.pdf)
+
 ## Course Description
 This course provides a calculus based introduction to probability (an emphasis on probabilistic concepts used in statistical modeling). Coverage includes 
 basic axioms of probability, sample spaces, counting rules, conditional probability, independence, random variables (and various associated discrete and 
