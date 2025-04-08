@@ -103,7 +103,7 @@ There are 3 course wide TA's.  Help sessions are held every day in the evening.
 
 + [Slides17-Joint continuous random variables](https://luc-umass.github.io/pdf/Slides25-17.pdf)
 
-+ [Slides17-Conditional expectation](https://luc-umass.github.io/pdf/Slides25-18.pdf)
++ [Slides18-Conditional expectation](https://luc-umass.github.io/pdf/Slides25-18.pdf)
 
 ## Course Description
 This course provides a calculus based introduction to probability (an emphasis on probabilistic concepts used in statistical modeling). Coverage includes 
