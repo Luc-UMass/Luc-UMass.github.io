@@ -586,7 +586,7 @@
     "href": "Stat315-S25.html#class-slides",
     "title": "Syllabus Stat 315, Spring 2025",
     "section": "Class slides",
-    "text": "Class slides\n\nSlides00-Syllabus\nSlides01-Probability Basics\nSlides02-Counting\nSlides03-Conditional Probability\nSlides04-Conditioning and Bayes rule\nSlides05-Random variables and expected value\nSlides06-Functions of random variables and variance\nSlides07-Binomial random variables\nSlides08-Geometric random variables\nSlides09-Hypergeometric random variables\nSlides10-Poisson random variables\nSlides11-Joint discrete random variables: pdf and independence\nSlides12-Joint discrete random variables: covariance\nSlides13-Continuous random variables\nSlides14-Uniform random variables\nSlides15-Normal random variables\nSlides16-Exponential random variables\nSlides17-Joint continuous random variables",
+    "text": "Class slides\n\nSlides00-Syllabus\nSlides01-Probability Basics\nSlides02-Counting\nSlides03-Conditional Probability\nSlides04-Conditioning and Bayes rule\nSlides05-Random variables and expected value\nSlides06-Functions of random variables and variance\nSlides07-Binomial random variables\nSlides08-Geometric random variables\nSlides09-Hypergeometric random variables\nSlides10-Poisson random variables\nSlides11-Joint discrete random variables: pdf and independence\nSlides12-Joint discrete random variables: covariance\nSlides13-Continuous random variables\nSlides14-Uniform random variables\nSlides15-Normal random variables\nSlides16-Exponential random variables\nSlides17-Joint continuous random variables\nSlides17-Conditional expectation",
     "crumbs": [
       "Current Teaching",
       "Stat 315 (S25)"
@@ -641,7 +641,7 @@
     "href": "Stat315-S25.html#weekly-syllabus-subject-to-adjustments",
     "title": "Syllabus Stat 315, Spring 2025",
     "section": "Weekly syllabus (subject to adjustments)",
-    "text": "Weekly syllabus (subject to adjustments)\n\n\n\nWeek\nSections (Class)\nComments\n\n\n\n\n#1: 1/30\n2.1-2.3\n\n\n\n#2: 2/4, 2/6\n2.4-2.7.\nAdd/Drop 2/5\n\n\n#3: 2/11, 2/13\n2.8-2.12.\n\n\n\n#4: 2/18,\n2.12, 3.1-3.3\nQuizz 1 (2/18): 2.1-2.8\n\n\n#5: 2/25, 2/27\n3.4-3.8.\n\n\n\n#6: 3/4, 3/6\n5.1-5.8 discrete\n\n\n\n#7: 3/11,3/13\n4.1-4.6\nQuizz 2 (3/11): 2.9-2.12,3.1-3.8\n\n\nSpring Break\n\nRelax and enjoy!\n\n\n#8: 3/25, 3/27\n4.1-4.6, 5.2-5.4\nQuizz 3(3/27):\n\n\n#9: 4/1, 4/3\n5.5-5.8,\nDrop with W 4/3\n\n\n#10: 4/8, 4/10\n5.11 -3.9, 3.11\nQuizz 4\n\n\n#11: 4/15, 4/17\n4.9-4.10.\n\n\n\n#12: 4/22, 4/24\n6.3-6.5\nQuizz 5\n\n\n#13: 4/29, 5/1\n7.3, 7.5 + LLN\n\n\n\n#14: 5/6, 5/8\n7.2, Review\nQuizz 6\n\n\n#15: 5/15\n\nFinal",
+    "text": "Weekly syllabus (subject to adjustments)\n\n\n\nWeek\nSections (Class)\nComments\n\n\n\n\n#1: 1/30\n2.1-2.3\n\n\n\n#2: 2/4, 2/6\n2.4-2.7.\nAdd/Drop 2/5\n\n\n#3: 2/11, 2/13\n2.8-2.12.\n\n\n\n#4: 2/18,\n2.12, 3.1-3.3\nQuizz 1 (2/18): 2.1-2.8\n\n\n#5: 2/25, 2/27\n3.4-3.8.\n\n\n\n#6: 3/4, 3/6\n5.1-5.8 discrete\n\n\n\n#7: 3/11,3/13\n4.1-4.6\nQuizz 2 (3/11): 2.9-2.12,3.1-3.8\n\n\nSpring Break\n\nRelax and enjoy!\n\n\n#8: 3/25, 3/27\n4.1-4.6, 5.2-5.4\nQuizz 3(3/27):\n\n\n#9: 4/1, 4/3\n5.5-5.8,\nDrop with W 4/3\n\n\n#10: 4/8, 4/10\n5.11 -3.9, 3.11\nQuizz 4 (4/10)\n\n\n#11: 4/15, 4/17\n4.9-4.10.\n\n\n\n#12: 4/22, 4/24\n6.3-6.5\nQuizz 5 (4/24)\n\n\n#13: 4/29, 5/1\n7.3, 7.5 + LLN\n\n\n\n#14: 5/6, 5/8\n7.2, Review\nQuizz 6 (5/8)\n\n\n#15: 5/15\n\nFinal",
     "crumbs": [
       "Current Teaching",
       "Stat 315 (S25)"

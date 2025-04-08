@@ -101,7 +101,9 @@ There are 3 course wide TA's.  Help sessions are held every day in the evening.
 
 + [Slides16-Exponential random variables](https://luc-umass.github.io/pdf/Slides25-16.pdf)
 
-+ [Slides17-Joint continuous random variables](https://luc-umass.github.io/pdf/Slides25-16.pdf)
++ [Slides17-Joint continuous random variables](https://luc-umass.github.io/pdf/Slides25-17.pdf)
+
++ [Slides17-Conditional expectation](https://luc-umass.github.io/pdf/Slides25-18.pdf)
 
 ## Course Description
 This course provides a calculus based introduction to probability (an emphasis on probabilistic concepts used in statistical modeling). Coverage includes 
@@ -142,11 +144,11 @@ and a online edition of the textbook is availabel in Webassign.
 | Spring Break  |                | Relax and enjoy!|
 |#8: 3/25, 3/27 |4.1-4.6, 5.2-5.4         |**Quizz 3**(3/27):|
 |#9: 4/1, 4/3   |5.5-5.8,    |  Drop with W 4/3|
-|#10: 4/8, 4/10 |5.11 -3.9, 3.11|  **Quizz 4**   |            
+|#10: 4/8, 4/10 |5.11 -3.9, 3.11|  **Quizz 4** (4/10)   |            
 |#11: 4/15, 4/17|4.9-4.10.         |                  |
-|#12: 4/22, 4/24|6.3-6.5        |  **Quizz 5**     |
+|#12: 4/22, 4/24|6.3-6.5        |  **Quizz 5**  (4/24)    |
 |#13: 4/29, 5/1 | 7.3, 7.5 + LLN |                  |   
-|#14: 5/6, 5/8  | 7.2, Review		|  **Quizz 6**      |
+|#14: 5/6, 5/8  | 7.2, Review		|  **Quizz 6**  (5/8)    |
 |#15: 5/15      |                | **Final**
 
 
