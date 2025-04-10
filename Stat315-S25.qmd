@@ -105,6 +105,8 @@ There are 3 course wide TA's.  Help sessions are held every day in the evening.
 
 + [Slides18-Conditional expectation](https://luc-umass.github.io/pdf/Slides25-18.pdf)
 
++ [Slides19-Moment generating functions](https://luc-umass.github.io/pdf/Slides25-19.pdf)
+
 ## Course Description
 This course provides a calculus based introduction to probability (an emphasis on probabilistic concepts used in statistical modeling). Coverage includes 
 basic axioms of probability, sample spaces, counting rules, conditional probability, independence, random variables (and various associated discrete and 
