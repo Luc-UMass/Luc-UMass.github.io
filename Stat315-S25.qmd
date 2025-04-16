@@ -109,6 +109,8 @@ There are 3 course wide TA's.  Help sessions are held every day in the evening.
 
 + [Slides20-Chebyshev inequality](https://luc-umass.github.io/pdf/Slides25-20.pdf)
 
++ [Slides20-Function of RV: CDF method](https://luc-umass.github.io/pdf/Slides25-21.pdf)
+
 
 ## Course Description
 This course provides a calculus based introduction to probability (an emphasis on probabilistic concepts used in statistical modeling). Coverage includes 
