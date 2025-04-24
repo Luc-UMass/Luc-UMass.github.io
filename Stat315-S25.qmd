@@ -113,6 +113,9 @@ There are 3 course wide TA's.  Help sessions are held every day in the evening.
 
 + [Slides22-Function of RV: MGF method](https://luc-umass.github.io/pdf/Slides25-22.pdf)
 
++ [Slides23-Law of Large Numbers](https://luc-umass.github.io/pdf/Slides25-23.pdf)
+
+
 ## Course Description
 This course provides a calculus based introduction to probability (an emphasis on probabilistic concepts used in statistical modeling). Coverage includes 
 basic axioms of probability, sample spaces, counting rules, conditional probability, independence, random variables (and various associated discrete and 
