@@ -115,6 +115,8 @@ There are 3 course wide TA's.  Help sessions are held every day in the evening.
 
 + [Slides23-Law of Large Numbers](https://luc-umass.github.io/pdf/Slides25-23.pdf)
 
++ [Slides24-Central Limit Theorem](https://luc-umass.github.io/pdf/Slides25-24.pdf)
+
 
 ## Course Description
 This course provides a calculus based introduction to probability (an emphasis on probabilistic concepts used in statistical modeling). Coverage includes 
