@@ -45,7 +45,7 @@ format:
 +   DOE Grant 2016 (3 year, co-PI (with 4 PI) $900K) 
 +   AFOSR Grant 2019 (3 year, co-PI (with 2 PIs) $900 K)
 +   NSF Grant 2020 (3 year, PI (with 1 Co-PI) $ 370K)
-+   AFOSR Grant 2022 (4 year (with 2 PIs) $1.950M) 
++   AFOSR Grant 2021 (4 year (with 2 PIs) $1.950M) 
 +   NSF Grant 2023 (3 year,  PI (with 1 Co-PI) $300K) 
 
 
@@ -63,8 +63,9 @@ format:
 +  Jeremiah Birrell (Postdoctoral fellow, 2017-2022, Texas State University)
 +  Pangiota Birmpa (Postdoctoral fellow, 2018-2022, Heriott-Watt University)
 +  Hyemin Gu (Graduate Student since 2021 )
-+  Benjamin Zhang (Postdoctoral fellow, 2022-2024, Brown University)
-+  Ziyu Chen (Postdoctoral fellow, 2022-2025)
++  Benjamin Zhang (Postdoctoral fellow, 2022-2024, UNC Chapel Hill)
++  Ziyu Chen (Postdoctoral fellow, 2022-2025, UNC Chapel Hill)
++ Thejani Gamage (Postdoctoral fellow, 2024-)
 
 ## Publications
 
@@ -1335,9 +1336,8 @@ Submitted.
 +  114th Statistical Mechanics Conference, Rutgers, December 2015
 + Computational Statistics and Molecular Simulation (COSMOS), Paris, February 2016
 +  Numerical Aspects of Nonequilibrium Dynamics, Paris, April 2017
-+ BIRS-CMO Workshop, Oaxaca,
-November 2018
-+  Worskshop on Entropic Fluctuation Relations,  Montreal, October 2018
++ BIRS-CMO Workshop, Oaxaca, November 2018
++ Worskshop on Entropic Fluctuation Relations,  Montreal, October 2018
 + Ki-Net: Dimension reduction in physical and data sciences. Duke.  April 2019
 + Bernoulli Center, EPFL, May 2019
 + Quantissima III, Venice, August 2019.
@@ -1351,6 +1351,8 @@ November 2018
 + AFOSR PI Meeting, Arlington, VA, August 2023
 + AFOSR PI Meeting, Arlington, VA, August 2024
 + ICERM Meeting. Providence, RI, September 2024
++ JMM Meeting. Seattle, WA, January 2025
++ IPAM Workshop. Los Angeles, CA, July 2025
 </ol>
 
 

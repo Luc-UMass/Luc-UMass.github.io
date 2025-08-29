@@ -16,10 +16,10 @@ Submitted.
 <li>
 Jeremiah Birrell, Markos A. Katsoulakis, Luc Rey-Bellet, Benjamin Zhang, and Wei Zhu.    
 **Nonlinear denoising score matching for enhanced learning of structured distributions**.     
-Submitted.    
-<a class="arXiv" href="https://arxiv.org/abs/arXiv:2405.15625  "> arXiv:2405.15625   </a>      
-<br>
-</li>
+ Computer Methods in Applied Mechanics and Engineering, <b>446</b> (2025), Part A, Article 118226  
+<a class="DOI" href="https://doi.org/10.1016/j.cma.2025.118226"> DOI: 10.1016/j.cma.2025.118226 </a> &ensp; 
+<a class="reprint" href="pdf/BirrellDenoising.pdf"> Reprint in PDF </a>  
+
 
 
 <li>
@@ -34,10 +34,23 @@ Submitted.
 <li>
 Ziyu Chen, Markos A. Katsoulakis, Luc Rey-Bellet, and Wei Zhu.        
 **Statistical Guarantees of Group-Invariant GANs**.
-Submitted.   
-<a class="arXiv" href="https://arxiv.org/abs/arXiv:2305.13517 "> arXiv:2305.13517  </a>      
+SIAM/ASA Journal on Uncertainty Quantification <b> 13 </b> (2025), no.2, pp. 862--890
+<a class="DOI" href="https://doi.org/10.1137/24M1666628"> DOI: 10.1137/24M1666628 </a> &ensp; 
+<a class="reprint" href="pdf/Ziyu1.pdf"> Reprint in PDF </a>    
 <br>
 </li>
+
+
+<li>
+Hyemin Gu, Panagiota Birmpa, Yannis Pantazis, Luc Rey-Bellet, and Markos A. Katsoulakis.   
+**Lipschitz-regularized gradient flows and generative particle algorithms for high-dimensional scarce data**.    
+Siam Journal on Mathematics of Data Science <b> 6 </b> (2024), no.4, pp. 1205-1235     
+<a class="DOI" href="https://doi.org/10.1137/23M1587841"> DOI:10.1137/23M1587841 </a> &ensp; 
+<a class="reprint" href="pdf/Hyemin1.pdf"> Reprint in PDF </a>       
+<br>
+</li>
+
+
 
 
 <li>
@@ -50,14 +63,6 @@ Proceedings of 40th International Conference on Machine Learning, PMLR 202 (2023
 <br>
 </li>
 
-
-<li>
-Hyemin Gu, Panagiota Birmpa, Yannis Pantazis, Luc Rey-Bellet, and Markos A. Katsoulakis.   
-**Lipschitz-regularized gradient flows and generative particle algorithms for high-dimensional scarce data**.   
-To appear in Siam Journal on Mathematics of Data Science (2024).    
-<a class="arXiv" href="https://arxiv.org/abs/arXiv:2210.17230 "> arXiv:2210.17230  </a>      
-<br>
-</li>
 
 
 <li>
