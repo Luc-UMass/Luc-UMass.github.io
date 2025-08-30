@@ -42,6 +42,8 @@ Detailed class information are in the [Class Syllabus](https://luc-umass.github.
 
 - Homework is due on Thursdays at 11:59 PM  except on the dates of the two midterms, Th October 9 and Th November 13.    
 
+- We use Piazza as a class forum and Gradescope for the exam.
+
 - Grade: 25% homework, 25% quiz, 25% midterm, 25% final
 | A  |A$-$  |B+  | B  |B$-$  | C+ | C  |C$-$  |D + | D  |  F |
 |----|----|----|----|----|----|----|----|----|----|----|
@@ -72,6 +74,8 @@ There are 3 course wide TA's.
 
 ## Class slides
 
+The slides are continuously updated and you should use these links for the latest version.
+
 + [Slides00-Syllabus](https://luc-umass.github.io/pdf/Slides25-00.pdf)
 
 + [Slides01-Probability Basics](https://luc-umass.github.io/pdf/Slides25-01.pdf)
@@ -88,7 +92,7 @@ There are 3 course wide TA's.
 
 + [Slides07-Binomial random variables](https://luc-umass.github.io/pdf/Slides25-07.pdf)
 
-+ [Slides08-Geometric random variables](https://luc-umass.github.io/pdf/Slides25-08.pdf)
++ [Slides08-Geometric and negative binomial random variables](https://luc-umass.github.io/pdf/Slides25-08.pdf)
 
 + [Slides09-Hypergeometric random variables](https://luc-umass.github.io/pdf/Slides25-09.pdf)
 
@@ -104,7 +108,7 @@ There are 3 course wide TA's.
 
 + [Slides15-Normal random variables](https://luc-umass.github.io/pdf/Slides25-15.pdf)
 
-+ [Slides16-Exponential random variables](https://luc-umass.github.io/pdf/Slides25-16.pdf)
++ [Slides16-Exponential and gamma random variables](https://luc-umass.github.io/pdf/Slides25-16.pdf)
 
 + [Slides17-Joint continuous random variables](https://luc-umass.github.io/pdf/Slides25-17.pdf)
 
@@ -144,7 +148,7 @@ The official text is **Mathematical Statistics with Applications**, Authors: Wac
 Some additional material will also be made freely available through the class Canvas site. 
 --> 
 
-
+<!--
 ## Weekly syllabus (subject to adjustments)
 
 
@@ -167,7 +171,7 @@ Some additional material will also be made freely available through the class Ca
 |#14: 5/6, 5/8  | 7.2, Review		|  **Quizz 6**  (5/8)    |
 |#15: 5/15      |                | **Final**
 
-
+-->
 
 <!-- ## Homework (30%)
 
