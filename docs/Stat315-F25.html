@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Luc Rey-Bellet">
 
-<title>Luc Rey-Bellet Home Page - About</title>
+<title>Luc Rey-Bellet Home Page - Stat 315, Fall 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -76,6 +77,49 @@ gtag('js', new Date());
 gtag('config', 'G-PP012BY7MS', { 'anonymize_ip': true});
 </script>
 
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -89,9 +133,7 @@ gtag('config', 'G-PP012BY7MS', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
-      Luc Rey-Bellet Home Page
-      </li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Stat315-F25.html">Current Teaching</a></li><li class="breadcrumb-item"><a href="./Stat315-F25.html">Stat 315 (F25)</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -156,7 +198,7 @@ gtag('config', 'G-PP012BY7MS', { 'anonymize_ip': true});
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Stat315-F25.html" class="sidebar-item-text sidebar-link">
+  <a href="./Stat315-F25.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Stat 315 (F25)</span></a>
   </div>
 </li>
@@ -209,21 +251,34 @@ gtag('config', 'G-PP012BY7MS', { 'anonymize_ip': true});
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Stat315-F25.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Stat315-F25.html">Current Teaching</a></li><li class="breadcrumb-item"><a href="./Stat315-F25.html">Stat 315 (F25)</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Stat 315, Fall 2025</h1>
+<p class="subtitle lead">Statistics I</p>
 </div>
 
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Luc Rey-Bellet </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            University of Massachusetts Amherst
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta">
 
-    
+      
   
     
   </div>
@@ -233,9 +288,343 @@ gtag('config', 'G-PP012BY7MS', { 'anonymize_ip': true});
 </header>
 
 
-<p>About this site</p>
+<section id="instructor" class="level2">
+<h2 class="anchored" data-anchor-id="instructor">Instructor</h2>
+<p>Luc Rey-Bellet<br>
+LGRT 1423K<br>
+<a href="mailto:luc@cns.umass.edu" class="email">luc@cns.umass.edu</a></p>
+</section>
+<section id="class-meeting" class="level2">
+<h2 class="anchored" data-anchor-id="class-meeting">Class Meeting</h2>
+<ul>
+<li><p>Section 2: LGRC A203, MWF 12:20 PM –1:10 PM</p></li>
+<li><p>Section 4: LGRC A201, MWF 1:25 PM – 2:15 PM</p></li>
+</ul>
+</section>
+<section id="office-hours" class="level2">
+<h2 class="anchored" data-anchor-id="office-hours">Office hours</h2>
+<ul>
+<li>W 3:00-4:00 PM in LGRT 1423 K or on <a href="https://umass-amherst.zoom.us/my/luc.reybellet.office.hours">ZOOM</a></li>
+<li>Th 1:00 PM-2:00 in LGRT 1423 K or on <a href="https://umass-amherst.zoom.us/my/luc.reybellet.office.hours">ZOOM</a></li>
+<li>By appointment is always possible and welcome and/or ask your questions be email.</li>
+</ul>
+</section>
+<section id="syllabus" class="level2">
+<h2 class="anchored" data-anchor-id="syllabus">Syllabus</h2>
+<p>Detailed class information are in the <a href="https://luc-umass.github.io/pdf/STAT%20315%20syllabus%20F2025-1.pdf">Class Syllabus</a></p>
+</section>
+<section id="basic-course-information" class="level2">
+<h2 class="anchored" data-anchor-id="basic-course-information">Basic Course information</h2>
+<ul>
+<li><p>There is a single <a href="https://umamherst.instructure.com/courses/31946">canvas page</a> common for all sections where you will submit your <strong>handwritten</strong> weekly homework and do your 5 quizzes.</p></li>
+<li><p>Homework is due on Thursdays at 11:59 PM except on the dates of the two midterms, Th October 9 and Th November 13.</p></li>
+<li><p>Grade: 25% homework, 25% quiz, 25% midterm, 25% final</p></li>
+</ul>
+<!-- 
+## Teaching assistants:
+
+There are 3 course wide TA's. 
 
 
+ Help sessions are held every day in the evening.
+
++ Monday:  5:30pm - 6:30pm (LGRT 206) Mst Afsana Mimi
++ Tuesday: 4:15pm - 5:15pm (LGRC A301) Cheng Wang
++ Wednesday: 5:30pm - 6:30pm (LGRT 171) Mst Afsana Mimi
++ Thursday: 4:15pm - 5:15pm (LGRC A301) Rui Chen
++ Friday: 5:30pm - 6:30pm (LGRT 206) Rui Chen
+
+
+## Supplementary Instruction 
+
+
+ + Tuesday-Thursday 5:30 pm - 6:45 pm (Room TBA) Auden Cote-LHeureux (Worksheets with solution will be provided).  -->
+</section>
+<section id="class-slides" class="level2">
+<h2 class="anchored" data-anchor-id="class-slides">Class slides</h2>
+<ul>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-00.pdf">Slides00-Syllabus</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-01.pdf">Slides01-Probability Basics</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-02.pdf">Slides02-Counting</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-03.pdf">Slides03-Conditional Probability</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-04.pdf">Slides04-Conditioning and Bayes rule</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-05.pdf">Slides05-Random variables and expected value</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-06.pdf">Slides06-Functions of random variables and variance</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-07.pdf">Slides07-Binomial random variables</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-08.pdf">Slides08-Geometric random variables</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-09.pdf">Slides09-Hypergeometric random variables</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-10.pdf">Slides10-Poisson random variables</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-11.pdf">Slides11-Joint discrete random variables: pdf and independence</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-12.pdf">Slides12-Joint discrete random variables: covariance</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-13.pdf">Slides13-Continuous random variables</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-14.pdf">Slides14-Uniform random variables</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-15.pdf">Slides15-Normal random variables</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-16.pdf">Slides16-Exponential random variables</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-17.pdf">Slides17-Joint continuous random variables</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-18.pdf">Slides18-Conditional expectation</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-19.pdf">Slides19-Moment generating functions</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-20.pdf">Slides20-Chebyshev inequality</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-21.pdf">Slides21-Function of RV: CDF method</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-22.pdf">Slides22-Function of RV: MGF method</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-23.pdf">Slides23-Law of Large Numbers</a></p></li>
+<li><p><a href="https://luc-umass.github.io/pdf/Slides25-24.pdf">Slides24-Central Limit Theorem</a></p></li>
+</ul>
+<!-- ## Course Description
+This course provides a calculus based introduction to probability (an emphasis on probabilistic concepts used in statistical modeling). Coverage includes 
+basic axioms of probability, sample spaces, counting rules, conditional probability, independence, random variables (and various associated discrete and 
+continuous distributions), expectation, variance, covariance and correlation, probability inequalities, the central limit theorem, the Poisson approximation, 
+sampling distributions, concentration inequalities and non-asymptotic statistics.
+
+##  Learning objectives
+Develop a working knowledge of the basic concepts in probability (mean, variance, covariance, conditional probability, independence, Bayes theorem, etc.) 
+as well as the basic probability models (the classical discrete and continuous random variables and their interpretation as modeling tools). 
+Learn multivariate analysis. Understand and apply the law of large numbers and the central limit theorem.
+
+## Prerequisites
+Two semesters of single variable calculus (Math 131-132) or the equivalent, with a grade of ``C" or better in Math 132. 
+Math 233 is strongly recommended but not required; in particular, multivariable integration will be introduced/reviewed mid-semester.
+
+
+## Required materials:
+The official text is **Mathematical Statistics with Applications**, Authors: Wackerly, Mendenhall, Schaeffer (ISBN-13: 978-0495110811), Edition: 7th. 
+Some additional material will also be made freely available through the class Canvas site. 
+-->
+</section>
+<section id="weekly-syllabus-subject-to-adjustments" class="level2">
+<h2 class="anchored" data-anchor-id="weekly-syllabus-subject-to-adjustments">Weekly syllabus (subject to adjustments)</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Week</th>
+<th>Sections (Class)</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>#1: 1/30</td>
+<td>2.1-2.3</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>#2: 2/4, 2/6</td>
+<td>2.4-2.7.</td>
+<td>Add/Drop 2/5</td>
+</tr>
+<tr class="odd">
+<td>#3: 2/11, 2/13</td>
+<td>2.8-2.12.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>#4: 2/18,</td>
+<td>2.12, 3.1-3.3</td>
+<td><strong>Quizz 1</strong> (2/18): 2.1-2.8</td>
+</tr>
+<tr class="odd">
+<td>#5: 2/25, 2/27</td>
+<td>3.4-3.8.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>#6: 3/4, 3/6</td>
+<td>5.1-5.8 discrete</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>#7: 3/11,3/13</td>
+<td>4.1-4.6</td>
+<td><strong>Quizz 2</strong> (3/11): 2.9-2.12,3.1-3.8</td>
+</tr>
+<tr class="even">
+<td>Spring Break</td>
+<td></td>
+<td>Relax and enjoy!</td>
+</tr>
+<tr class="odd">
+<td>#8: 3/25, 3/27</td>
+<td>4.1-4.6, 5.2-5.4</td>
+<td><strong>Quizz 3</strong>(3/27):</td>
+</tr>
+<tr class="even">
+<td>#9: 4/1, 4/3</td>
+<td>5.5-5.8,</td>
+<td>Drop with W 4/3</td>
+</tr>
+<tr class="odd">
+<td>#10: 4/8, 4/10</td>
+<td>5.11 -3.9, 3.11</td>
+<td><strong>Quizz 4</strong> (4/10)</td>
+</tr>
+<tr class="even">
+<td>#11: 4/15, 4/17</td>
+<td>4.9-4.10.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>#12: 4/22, 4/24</td>
+<td>6.3-6.5</td>
+<td><strong>Quizz 5</strong> (4/24)</td>
+</tr>
+<tr class="even">
+<td>#13: 4/29, 5/1</td>
+<td>7.3, 7.5 + LLN</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>#14: 5/6, 5/8</td>
+<td>7.2, Review</td>
+<td><strong>Quizz 6</strong> (5/8)</td>
+</tr>
+<tr class="even">
+<td>#15: 5/15</td>
+<td></td>
+<td><strong>Final</strong></td>
+</tr>
+</tbody>
+</table>
+<!-- ## Homework (30%)
+
+Here are the instructions to sign-up on Webassign []()
+The WebAssign homeworks are due roughly once a week, usually Friday night (unless otherwise specified).  There is no drop-HW policy, but you can submit answers up to 5 days late for a 25% penalty (on submitted problems). Keep in mind, however, of the material you will be quizzed on.  Make sure to follow the up-to-date HW due dates on your Canvas/Webassign pages.
+
+
+## Quizzes (35%)
+There will be 6 **in-class** quizzes, usually about 30 minutes and 2 problems in length. You can bring up **1 page (8.5 by 11 inches) of hand-written notes 
+single-sided** and a calculator. No internet-based devices are allowed. The lowest quiz will be dropped. Make sure to follow the up-to-date quiz dates 
+on your Canvas page.  The quizzes will be uploaded into gradescope and graded there.  You gradescope class is <https://www.gradescope.com/courses/965889> and 
+is linked to canvas, you will be enrolled automatically. 
+
+
+## Final Exam (30%)
+The uniform (all-section) final exam is tentatively scheduled for \textbf{TBA}. This may change so keep track of the date on your Spire page. You can bring **a 
+single page of (8.5 by 11 inches)  hand-written notes double-sided**, no calculator.  No internet devices are allowed.  The $z$-table from the book will 
+be included with your exam booklet, if it is needed. The exam will cover all the material from the main textbook (the sections covered in Chapters 2-7),
+which is also the material covered in WebAssign. The questions on the exam will be very similar in style to the quiz questions and WebAssign questions. 
+Look at your Canvas page for old exams and other relevant information.
+
+
+
+##  In-class attendance (5%)
+Regular attendance and participation is required. This being said, stuff happens and I understand if you miss a class her or there, but regular presence is needed.
+
+-->
+</section>
+<section id="grading-scheme" class="level2">
+<h2 class="anchored" data-anchor-id="grading-scheme">Grading Scheme</h2>
+<ul>
+<li>Quizzes: 35%</li>
+<li>Final exam: 30%</li>
+<li>WebAssign Homework: 30%</li>
+<li>In-class attendance/particpation: 5%</li>
+<li>Number-to-letter conversion: These cutoffs might be slightly adjusted, but only in the downward direction, after the final exam.</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>A</th>
+<th>A<span class="math inline">-</span></th>
+<th>B+</th>
+<th>B</th>
+<th>B<span class="math inline">-</span></th>
+<th>C+</th>
+<th>C</th>
+<th>C<span class="math inline">-</span></th>
+<th>D +</th>
+<th>D</th>
+<th>F</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>93</td>
+<td>89</td>
+<td>85</td>
+<td>80</td>
+<td>75</td>
+<td>70</td>
+<td>65</td>
+<td>60</td>
+<td>55</td>
+<td>50</td>
+<td>&lt;50</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="drop-withdrawal-and-incomplete" class="level2">
+<h2 class="anchored" data-anchor-id="drop-withdrawal-and-incomplete">Drop, Withdrawal, and Incomplete</h2>
+<ul>
+<li>The last day to drop/add with no record is February 5th.</li>
+<li>The last day to drop with a W is April 3th.</li>
+<li>An incomplete is possible only if all of the following apply: (1) you have a compelling personal reason, e.g., serious illness; (2) your work so far would receive a passing grade; and (3) there is a good chance you will complete the course with a passing grade within the allotted time. Thus, <em>expecting to fail the class is no reason to ask for an incomplete</em>.</li>
+</ul>
+<!--
+## Absence during quizz/exams
+
+  +  You should contact me at the beginning of the semester if you must miss a quiz or exam due to religious observance. 
+  +  If you must miss a quiz or exam due to medical reasons, you should notify me at least two weeks in advance of the exam. 
+  + If you have a medical or non-medical emergency, you should notify me as soon as possible. In either case, barring exceptional circumstances, 
+    you need to provide documentation, for example from your medical provider or the Dean of Students. You need not disclose any details, but there must 
+    be enough information to allow the absence to be excused.
+  + If you have a final exam conflict that entitles you to a make-up exam from me (for example, three final exams in one day and our exam is in the middle), 
+    you must notify me at least 2 weeks in advance to schedule the make-up after the regular exam time. You must also provide proof of conflict from the 
+    Registrar's office. Make sure to not book any travel during exams. Travel is not an excuse to miss the exam.
+  +  It is impossible to anticipate all of the possible things that can occur. In case of an exceptional event beyond those covered above, contact me 
+    and explain the problem. You should be prepared to provide a written statement if necessary.
+
+
+## Inclusion:
+This page  <https://www.umass.edu/studentlife/advocacy-inclusion-support>  links  to support centers for different groups of students. 
+
+
+##  Class etiquette statement:
+
++ Except for emergency, do not send text messages/emails or
+  make/receive phone calls during lectures.
++  If you arrive late to class, sit in the first seat you can find
+  so as not to disturb others, and do not come up to the front of the
+  room to pick up or hand in papers.
++ You can use laptops and tablets during class provided that you
+  do not disturb your fellow classmates or my lectures. They are not allowed during exams.
++ Please read *Guidelines for Classroom Civility and Respect*: <http://www.umass.edu/dean_students/campus-policies/classroom>
+
+
+## Accommodation statement 
+
+The University of Massachusetts Amherst is committed to providing an equal educational opportunity for all students. If you have a documented physical, 
+psychological, or learning disability on file with Disability Services (DS), you may be eligible for reasonable academic accommodations to help you 
+succeed in this course. If you have a documented disability that requires an accommodation, please notify me within the first two weeks of the semester 
+so that we may make appropriate arrangements.
+
+## Academic honesty statement 
+
+Since the integrity of the academic enterprise of any institution of higher education requires honesty in scholarship and research, academic honesty is 
+required of all students at the University of Massachusetts Amherst. Academic dishonesty is prohibited in all programs of the University. Academic dishonesty 
+includes but is not limited to: cheating, fabrication, plagiarism, and facilitating dishonesty. Appropriate sanctions may be imposed on any student who has 
+committed an act of academic dishonesty. Instructors should take reasonable steps to address academic misconduct.  Any person who has reason to believe that 
+a student has committed academic dishonesty should bring such information to the attention of the appropriate course instructor as soon as possible. Instances 
+of academic dishonesty not related to a specific course should be brought to the attention of the appropriate department Head or Chair. Since students are 
+expected to be familiar with this policy and the commonly accepted standards of academic integrity, ignorance of such standards is not normally sufficient 
+evidence of lack of intent, see <http://www.umass.edu/dean_students/codeofconduct/acadhonesty/>. Seeking answers from websites like Chegg, Discord, etc is a 
+clear violation of the academic honesty policy, while submitting course materials to these sites or similar ones is a violation of the instructor’s copyright. 
+
+
+
+## Title IX statement
+
+In accordance with Title IX of the Education Amendments of 1972 that prohibits gender-based discrimination in educational settings that receive federal funds, 
+the University of Massachusetts Amherst is committed to providing a safe learning environment for all students, free from all forms of discrimination, including 
+sexual assault, sexual harassment, domestic violence, dating violence, stalking, and retaliation. This includes interactions in person or online through digital 
+platforms and social media. Title IX also protects against discrimination on the basis of pregnancy, childbirth, false pregnancy, miscarriage, abortion, or 
+related conditions, including recovery. There are resources here on campus to support you. A summary of the available Title IX resources (confidential 
+and non-confidential) can be found at the following link:<https://www.umass.edu/titleix/resources>. You do not need to make a formal report to access them. If 
+you need immediate support, you are not alone. Free and confidential support is available 24 hours a day / 7 days a week / 365 days a year at the 
+SASA Hotline 413-545-0800.  
+-->
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
