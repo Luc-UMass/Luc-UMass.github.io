@@ -45,6 +45,7 @@ Detailed class information are in the [Class Syllabus](https://luc-umass.github.
 - We use Piazza as a class forum and Gradescope for the exam.
 
 - Grade: 25% homework, 25% quiz, 25% midterm, 25% final
+
 | A  |A$-$  |B+  | B  |B$-$  | C+ | C  |C$-$  |D + | D  |  F |
 |----|----|----|----|----|----|----|----|----|----|----|
 |93  |89  | 85 | 80 | 75 | 70 | 65 | 60 | 55 | 50 |<50 |
