@@ -78,9 +78,9 @@ There are 3 course wide TA's.
 
 The slides are continuously updated and you should use these links for the latest version.
 
-+ [Slides00-Syllabus](https://luc-umass.github.io/pdf/Slides25-00.pdf)
++ [Slides00-Syllabus](https://luc-umass.github.io/pdf/NSlides25-00.pdf)
 
-+ [Slides01-Probability Basics](https://luc-umass.github.io/pdf/Slides25-01.pdf)
++ [Slides01-Probability Basics](https://luc-umass.github.io/pdf/NSlides25-01.pdf)
 
 + [Slides02-Counting](https://luc-umass.github.io/pdf/Slides25-02.pdf)
 
