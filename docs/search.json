@@ -70,7 +70,7 @@
     "href": "Stat315-F25.html#office-hours",
     "title": "Stat 315, Fall 2025",
     "section": "Office hours",
-    "text": "Office hours\n\nW 3:00-4:00 PM in LGRT 1423 K or on ZOOM\nTh 1:00 PM-2:00 in LGRT 1423 K or on ZOOM\nBy appointment is always possible and welcome and/or ask your questions be email.",
+    "text": "Office hours\n\nW 3:00-4:00 PM in LGRT 1423 K or on ZOOM\nTh 1:00 PM-2:00 on ZOOM\nBy appointment is always possible and welcome and/or ask your questions be email.",
     "crumbs": [
       "Current Teaching",
       "Stat 315 (F25)"
@@ -92,7 +92,7 @@
     "href": "Stat315-F25.html#basic-course-information",
     "title": "Stat 315, Fall 2025",
     "section": "Basic Course information",
-    "text": "Basic Course information\n\nThere is a single canvas page common for all sections where you will submit your handwritten weekly homework and do your 5 quizzes.\nHomework is due on Thursdays at 11:59 PM except on the dates of the two midterms, Th October 9 and Th November 13.\nWe use Piazza as a class forum and Gradescope for the exam.\nGrade: 25% homework, 25% quiz, 25% midterm, 25% final | A |A- |B+ | B |B- | C+ | C |C- |D + | D | F | |—-|—-|—-|—-|—-|—-|—-|—-|—-|—-|—-| |93 |89 | 85 | 80 | 75 | 70 | 65 | 60 | 55 | 50 |&lt;50 |",
+    "text": "Basic Course information\n\nThere is a single canvas page common for all sections where you will submit your handwritten weekly homework and do your 5 quizzes.\nHomework is due on Thursdays at 11:59 PM except on the dates of the two midterms, Th October 9 and Th November 13.\nWe use Piazza as a class forum and Gradescope for the exam.\nGrade: 25% homework, 25% quiz, 25% midterm, 25% final\n\n\n\n\nA\nA-\nB+\nB\nB-\nC+\nC\nC-\nD +\nD\nF\n\n\n\n\n93\n89\n85\n80\n75\n70\n65\n60\n55\n50\n&lt;50",
     "crumbs": [
       "Current Teaching",
       "Stat 315 (F25)"
@@ -103,7 +103,7 @@
     "href": "Stat315-F25.html#class-slides",
     "title": "Stat 315, Fall 2025",
     "section": "Class slides",
-    "text": "Class slides\nThe slides are continuously updated and you should use these links for the latest version.\n\nSlides00-Syllabus\nSlides01-Probability Basics\nSlides02-Counting\nSlides03-Conditional Probability\nSlides04-Conditioning and Bayes rule\nSlides05-Random variables and expected value\nSlides06-Functions of random variables and variance\nSlides07-Binomial random variables\nSlides08-Geometric random variables\nSlides09-Hypergeometric random variables\nSlides10-Poisson random variables\nSlides11-Joint discrete random variables: pdf and independence\nSlides12-Joint discrete random variables: covariance\nSlides13-Continuous random variables\nSlides14-Uniform random variables\nSlides15-Normal random variables\nSlides16-Exponential random variables\nSlides17-Joint continuous random variables\nSlides18-Conditional expectation\nSlides19-Moment generating functions\nSlides20-Chebyshev inequality\nSlides21-Function of RV: CDF method\nSlides22-Function of RV: MGF method\nSlides23-Law of Large Numbers\nSlides24-Central Limit Theorem",
+    "text": "Class slides\nThe slides are continuously updated and you should use these links for the latest version.\n\nSlides00-Syllabus\nSlides01-Probability Basics\nSlides02-Counting\nSlides03-Conditional Probability\nSlides04-Conditioning and Bayes rule\nSlides05-Random variables and expected value\nSlides06-Functions of random variables and variance\nSlides07-Binomial random variables\nSlides08-Geometric and negative binomial random variables\nSlides09-Hypergeometric random variables\nSlides10-Poisson random variables\nSlides11-Joint discrete random variables: pdf and independence\nSlides12-Joint discrete random variables: covariance\nSlides13-Continuous random variables\nSlides14-Uniform random variables\nSlides15-Normal random variables\nSlides16-Exponential and gamma random variables\nSlides17-Joint continuous random variables\nSlides18-Conditional expectation\nSlides19-Moment generating functions\nSlides20-Chebyshev inequality\nSlides21-Function of RV: CDF method\nSlides22-Function of RV: MGF method\nSlides23-Law of Large Numbers\nSlides24-Central Limit Theorem",
     "crumbs": [
       "Current Teaching",
       "Stat 315 (F25)"
