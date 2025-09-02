@@ -29,12 +29,13 @@ LGRT 1423K
 ## Office hours
 
   - W 3:00-4:00 PM in LGRT 1423 K or on [ZOOM](https://umass-amherst.zoom.us/my/luc.reybellet.office.hours)
-  - Th 1:00 PM-2:00 in LGRT 1423 K or on [ZOOM](https://umass-amherst.zoom.us/my/luc.reybellet.office.hours)
+  - Th 1:00 PM-2:00 on [ZOOM](https://umass-amherst.zoom.us/my/luc.reybellet.office.hours)
   - By appointment is always possible and welcome and/or ask your questions be email.
 
 ## Syllabus 
 
-Detailed class information are in the [Class Syllabus](https://luc-umass.github.io/pdf/STAT 315 syllabus F2025-1.pdf)
+Detailed class information are in the [Class Syllabus](https://umamherst.instructure.com/courses/31946/assignments/syllabus)
+
 
 ##  Basic Course information
 
@@ -42,7 +43,7 @@ Detailed class information are in the [Class Syllabus](https://luc-umass.github.
 
 - Homework is due on Thursdays at 11:59 PM  except on the dates of the two midterms, Th October 9 and Th November 13.    
 
-- We use Piazza as a class forum and Gradescope for the exam.
+- We use [Piazza](https://piazza.com/class/meyhwccwkpw66c) as a class forum and Gradescope for the exam.
 
 - Grade: 25% homework, 25% quiz, 25% midterm, 25% final
 
