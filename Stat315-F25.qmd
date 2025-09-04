@@ -82,7 +82,7 @@ The slides are continuously updated and you should use these links for the lates
 
 + [Slides01-Probability Basics](https://luc-umass.github.io/pdf/NSlides25-01.pdf)
 
-+ [Slides02-Counting](https://luc-umass.github.io/pdf/Slides25-02.pdf)
++ [Slides02-Counting](https://luc-umass.github.io/pdf/NSlides25-02.pdf)
 
 + [Slides03-Conditional Probability](https://luc-umass.github.io/pdf/Slides25-03.pdf)
 
