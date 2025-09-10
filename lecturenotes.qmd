@@ -15,17 +15,26 @@ These lectures notes on the ergodic properties of Markov processes (especially w
 
 ## Probability and stochastic processes graduate level class
 
-The slides/lecture notes are used when teaching the graduate probability sequence Math 606/606.  They are still under construction and will be updated regularly as I update the curriculum for the classes and polish the slides (in form and content).  Several sections are mssing as of now (e.g. martingales) but will added soon.
+The slides/lecture notes are used when teaching the graduate probability sequence Math 606/606.  They are permanently under construction.
 
 The slides are produced using the reveal.js slides which are parts of Quarto  <https://quarto.org/> line of products.  
 
 
-### Part 1: Probability   (htlml slides, version Fall 2023)
+### Part 1: Probability   (html slides, version Fall 2024)
 
- + [Probability Basics](html/Probabilitymodels.html)
+ + [Part 1: Warming Up](https://luc-umass.github.io/html/Part1.html) and <a class="reprint" href="pdf/Part1.pdf"> PDF Version</a>  
 
-### Part 2: Stochastic Processes (html, version Spring 2023) 
+  + [Part 2: Probability measures and Expectation](https://luc-umass.github.io/html/Part2.html) and  <a class="reprint" href="pdf/Part2.pdf"> PDF Version</a> 
 
-+ [Part2.1: Simulation and MC](html/StochasticProcesses-Part1-v23.html)
-+ [Part2.2: Markov chains](html/StochasticProcesses-Part2-v23.html)
-+ [Part2.3: Continuous-time](html/StochasticProcesses-Part3-v23.html)
+  + [Part 3: Measures on product spaces and conditional expectation](https://luc-umass.github.io/html/Part3.html) and <a class="reprint" href="pdf/Part3.pdf"> PDF Version</a>  
+
+  + [Part 4: Convergence of random variables and limit theorems](https://luc-umass.github.io/html/Part4.html) and <a class="reprint" href="pdf/Part4.pdf"> PDF Version</a>  
+
+### Part 2: Stochastic Processes (html slides, version Spring 2025) 
+
++ [Part1:  Markov chains](https://luc-umass.github.io/html/Markov.html) and <a class="reprint" href="pdf/Markov.pdf"> PDF Version</a>  
+
++ [Part2 : Poisson processes and continuous time Markov chains](https://luc-umass.github.io/html/Poisson.html) and <a class="reprint" href="pdf/Poisson.pdf"> PDF Version</a>  
+
++ [Part3 :Martingales](https://luc-umass.github.io/html/Martingale.html) and <a class="reprint" href="pdf/Martingale.pdf"> PDF Version</a>  
+
