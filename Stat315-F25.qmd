@@ -84,9 +84,9 @@ The slides are continuously updated and you should use these links for the lates
 
 + [Slides02-Counting](https://luc-umass.github.io/pdf/NSlides25-02.pdf)
 
-+ [Slides03-Conditional Probability](https://luc-umass.github.io/pdf/Slides25-03.pdf)
++ [Slides03-Conditional Probability](https://luc-umass.github.io/pdf/NSlides25-03.pdf)
 
-+ [Slides04-Conditioning and Bayes rule](https://luc-umass.github.io/pdf/Slides25-04.pdf)
++ [Slides04-Conditioning and Bayes rule](https://luc-umass.github.io/pdf/NSlides25-04.pdf)
 
 + [Slides05-Random variables and expected value](https://luc-umass.github.io/pdf/Slides25-05.pdf)
 
