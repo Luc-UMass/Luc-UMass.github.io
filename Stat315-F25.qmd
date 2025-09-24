@@ -88,9 +88,9 @@ The slides are continuously updated and you should use these links for the lates
 
 + [Slides04-Conditioning and Bayes rule](https://luc-umass.github.io/pdf/NSlides25-04.pdf)
 
-+ [Slides05-Random variables and expected value](https://luc-umass.github.io/pdf/Slides25-05.pdf)
++ [Slides05-Random variables and expected value](https://luc-umass.github.io/pdf/NSlides25-05.pdf)
 
-+ [Slides06-Functions of random variables and variance](https://luc-umass.github.io/pdf/Slides25-06.pdf)
++ [Slides06-Functions of random variables and variance](https://luc-umass.github.io/pdf/NSlides25-06.pdf)
 
 + [Slides07-Binomial random variables](https://luc-umass.github.io/pdf/Slides25-07.pdf)
 
