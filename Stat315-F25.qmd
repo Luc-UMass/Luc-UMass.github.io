@@ -92,9 +92,9 @@ The slides are continuously updated and you should use these links for the lates
 
 + [Slides06-Functions of random variables and variance](https://luc-umass.github.io/pdf/NSlides25-06.pdf)
 
-+ [Slides07-Binomial random variables](https://luc-umass.github.io/pdf/Slides25-07.pdf)
++ [Slides07-Binomial random variables](https://luc-umass.github.io/pdf/NSlides25-07.pdf)
 
-+ [Slides08-Geometric and negative binomial random variables](https://luc-umass.github.io/pdf/Slides25-08.pdf)
++ [Slides08-Geometric and negative binomial random variables](https://luc-umass.github.io/pdf/NSlides25-08.pdf)
 
 + [Slides09-Hypergeometric random variables](https://luc-umass.github.io/pdf/Slides25-09.pdf)
 
