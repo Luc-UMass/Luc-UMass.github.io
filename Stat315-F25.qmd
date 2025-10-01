@@ -96,9 +96,11 @@ The slides are continuously updated and you should use these links for the lates
 
 + [Slides08-Geometric and negative binomial random variables](https://luc-umass.github.io/pdf/NSlides25-08.pdf)
 
-+ [Slides09-Hypergeometric random variables](https://luc-umass.github.io/pdf/Slides25-09.pdf)
++ [Slides09-Hypergeometric random variables](https://luc-umass.github.io/pdf/NSlides25-09.pdf)
 
 + [Slides10-Poisson random variables](https://luc-umass.github.io/pdf/Slides25-10.pdf)
+
+---------------------------- OLD Slides -----------------------------------------
 
 + [Slides11-Joint discrete random variables: pdf and independence](https://luc-umass.github.io/pdf/Slides25-11.pdf)
 
