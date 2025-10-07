@@ -73,6 +73,12 @@ There are 3 course wide TA's.
  + Tuesday-Thursday 5:30 pm - 6:45 pm (Room TBA) Auden Cote-LHeureux (Worksheets with solution will be provided).  -->
 
 
+## Online Ressources 
+
+[Online Lectures by John Tsitsiklis](https://www.youtube.com/playlist?list=PLUl4u3cNGP60hI9ATjSFgLZpbNJ7myAg6)
+
+The lectures are conveniently split into short videos treating one single topic and are good for review.
+
 
 ## Class slides
 
@@ -98,7 +104,9 @@ The slides are continuously updated and you should use these links for the lates
 
 + [Slides09-Hypergeometric random variables](https://luc-umass.github.io/pdf/NSlides25-09.pdf)
 
-+ [Slides10-Poisson random variables](https://luc-umass.github.io/pdf/Slides25-10.pdf)
++ [Slides10-Poisson random variables](https://luc-umass.github.io/pdf/NSlides25-10.pdf)
+
++ [Slides11-Continuous random variables](https://luc-umass.github.io/pdf/NSlides25-11.pdf)
 
 ---------------------------- OLD Slides -----------------------------------------
 
