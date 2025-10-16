@@ -112,6 +112,10 @@ The slides are continuously updated and you should use these links for the lates
 
 + [Slides13-Normal random variables](https://luc-umass.github.io/pdf/NSlides25-13.pdf)
 
++ [Slides14-Exponential and gamma random variables](https://luc-umass.github.io/pdf/NSlides25-14.pdf)
+
++ [Slides15-Beta random variables](https://luc-umass.github.io/pdf/NSlides25-15.pdf)
+
 ---------------------------- OLD Slides -----------------------------------------
 
 + [Slides11-Joint discrete random variables: pdf and independence](https://luc-umass.github.io/pdf/Slides25-11.pdf)
@@ -122,9 +126,9 @@ The slides are continuously updated and you should use these links for the lates
 
 + [Slides14-Uniform random variables](https://luc-umass.github.io/pdf/Slides25-14.pdf)
 
-+ [Slides15-Normal random variables](https://luc-umass.github.io/pdf/Slides25-15.pdf) -->
++ [Slides15-Normal random variables](https://luc-umass.github.io/pdf/Slides25-15.pdf) 
 
-+ [Slides16-Exponential and gamma random variables](https://luc-umass.github.io/pdf/Slides25-16.pdf)
++ [Slides16-Exponential and gamma random variables](https://luc-umass.github.io/pdf/Slides25-16.pdf) -->
 
 + [Slides17-Joint continuous random variables](https://luc-umass.github.io/pdf/Slides25-17.pdf)
 
