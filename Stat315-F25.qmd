@@ -120,6 +120,7 @@ The slides are continuously updated and you should use these links for the lates
 
 + [Slides17-Joint discrete random variables: pdf and independence](https://luc-umass.github.io/pdf/NSlides25-17.pdf)
 
++ [Slides18-Joint continuous random variables: pdf and independence](https://luc-umass.github.io/pdf/NSlides25-18.pdf)
 
 ---------------------------- OLD Slides -----------------------------------------
 
