@@ -130,15 +130,9 @@ The slides are continuously updated and you should use these links for the lates
 
 
 
-+ [Slides12-Joint discrete random variables: covariance](https://luc-umass.github.io/pdf/Slides25-12.pdf)
-
-+ [Slides17-Joint continuous random variables](https://luc-umass.github.io/pdf/Slides25-17.pdf)
-
 + [Slides18-Conditional expectation](https://luc-umass.github.io/pdf/Slides25-18.pdf)
 
 + [Slides19-Moment generating functions](https://luc-umass.github.io/pdf/Slides25-19.pdf)
-
-+ [Slides20-Chebyshev inequality](https://luc-umass.github.io/pdf/Slides25-20.pdf)
 
 + [Slides21-Function of RV: CDF method](https://luc-umass.github.io/pdf/Slides25-21.pdf)
 
