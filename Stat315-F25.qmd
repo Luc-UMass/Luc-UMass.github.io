@@ -126,21 +126,19 @@ The slides are continuously updated and you should use these links for the lates
 
 + [Slides20-Binomial, Hypergeometric and Multinomial](https://luc-umass.github.io/pdf/NSlides25-20.pdf)
 
----------------------------- OLD Slides -----------------------------------------
++ [Slides21-Conditional expectation](https://luc-umass.github.io/pdf/NSlides25-21.pdf)
 
++ [Slides22-Moment generating functions](https://luc-umass.github.io/pdf/NSlides25-22.pdf)
 
++ [Slides23-Function of RV: CDF method](https://luc-umass.github.io/pdf/NSlides25-23.pdf)
 
-+ [Slides18-Conditional expectation](https://luc-umass.github.io/pdf/Slides25-18.pdf)
++ [Slides24-Order Statistics](https://luc-umass.github.io/pdf/NSlides25-24.pdf)
 
-+ [Slides19-Moment generating functions](https://luc-umass.github.io/pdf/Slides25-19.pdf)
++ [Slides25-Function of RV: MGF method](https://luc-umass.github.io/pdf/NSlides25-25.pdf)
 
-+ [Slides21-Function of RV: CDF method](https://luc-umass.github.io/pdf/Slides25-21.pdf)
++ [Slides26-Law of Large Numbers](https://luc-umass.github.io/pdf/NSlides25-26.pdf)
 
-+ [Slides22-Function of RV: MGF method](https://luc-umass.github.io/pdf/Slides25-22.pdf)
-
-+ [Slides23-Law of Large Numbers](https://luc-umass.github.io/pdf/Slides25-23.pdf)
-
-+ [Slides24-Central Limit Theorem](https://luc-umass.github.io/pdf/Slides25-24.pdf)
++ [Slides27-Central Limit Theorem](https://luc-umass.github.io/pdf/NSlides25-27.pdf)
 
 
 <!-- ## Course Description
