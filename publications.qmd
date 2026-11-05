@@ -4,29 +4,74 @@ title: "Publications of Luc Rey-Bellet"
 
 <ol reversed>
 
+
 <li>
-Ricardo Baptista, Panagiota Birmpa, Markos A. Katsoulakis, Luc Rey-Bellet, Benjamin J. Zhang
-**Proximal optimal transport divergences**
+Luc Rey-Bellet
+** Relative entropy with respect to KMS states at any temperature: Rényi decoupling and Stein bounds**.   
+Preprint. 
+a class="arXiv" href="https://arxiv.org/abs/arXiv:   "> arXiv: </a>   
+<a class="reprint" href="https://arxiv.org/pdf/"> Preprint in PDF </a> 
+<a class="reprint" href="pdf/KMSAISupplement.pdf"> AI Supplement </a> 
+
+<br>
+</li>
+
+
+<li>
+Luc Rey-Bellet
+**Quantum Robustness via Sandwiched Rényi divergences.**    
+Preprint.   
+<br>
+<a class="reprint" href="pdf/RenyiDRO.pdf"> Preprint in PDF </a> 
+</li> 
+
+
+<li>
+Luc Rey-Bellet.     
+**A Stieltjes representation of order p for tr[(A+tB)−p]: Heinävaara's measure, B-splines, and Stahl's theorem.**     
+Preprint.     
+<a class="arXiv" href="https://arxiv.org/abs/arXiv:2611.03208   "> arXiv:2611.03208 </a>   
+<a class="reprint" href="https://arxiv.org/pdf/2611.03208"> Preprint in PDF </a> 
+<br>
+</li>
+
+
+
+
+<li>  Thejani Gamage, Hyemin Gu, Zhizhen Zhang, Ziyu Chen, Markos A. Katsoulakis, Luc Rey-Bellet.    
+**Fine-tuning generative models for extreme events via CVaR-penalized Wasserstein gradient flows**.     
 Submitted.
-<a class="arXiv" href="https://arxiv.org/abs/2505.12097"> arXiv:2505.12097  </a>  
+<a class="arXiv" href="https://arxiv.org/abs/arXiv:2608.11544  "> arXiv:2608.11544 </a>
+<a class="reprint" href="https://arxiv.org/pdf/2407.11901"> Preprint in PDF </a>         
+<br>
+</li>
+
+<li>
+Ricardo Baptista, Panagiota Birmpa, Markos A. Katsoulakis, Luc Rey-Bellet, Benjamin J. Zhang.   
+**Proximal optimal transport divergences.**         
+Quarterly of Applied Mathematics <b> 84 </b> (2026), pp. 743-786.    
+<a class="DOI" href="https://doi.org/10.1090/qam/1749"> DOI: 0.1090/qam/1749 <a/> &ensp; 
+<a class="reprint" href="pdf/BBKRZ.pdf"> Reprint in PDF </a>   
 <br>
 </li>
 
 <li> 
 Hyemin Gu, Markos A. Katsoulakis, Luc Rey-Bellet, and Benjamin J. Zhang.    
-**Combining Wasserstein-1 and Wasserstein-2 proximals: robust manifold learning via well-posed generative flows**.   
-Submitted.      
-<a class="arXiv" href="https://arxiv.org/abs/arXiv:2407.11901  "> arXiv:2407.11901   </a>     
+**Combining Wasserstein-1 and Wasserstein-2 proximals: robust manifold learning via well-posed generative flows**.     
+Submitted.
+<a class="arXiv" href="https://arxiv.org/abs/arXiv:2407.11901  "> arXiv:2407.11901  </a>     
 <br>
 </li>
 
 <li>
 Jeremiah Birrell and Luc Rey-Bellet.    
-<b> Concentration inequalities and performance guarantees for hypocoercive MCMC samplers.</b>        
-Accepted for publication in Quartely of Applied Mathematics.    
-<a class="arXiv" href="https://arxiv.org/abs/1907.11973"> arXiv:1907.11973 </a> &ensp;    
+**Concentration inequalities and performance guarantees for hypocoercive MCMC samplers.**       
+Quarterly of  Applied Mathematics, <b> 84 </b> (2026), pp. 565-583.     
+<a class="DOI" href="https://doi.org/10.1090/qam/1732"> DOI: 10.1090/qam/1732 <a/> &ensp;
+<a class="reprint" href="pdf/BR.pdf"> Reprint in PDF </a>  
 <br>
 </li>
+
 
 <li>
 Jeremiah Birrell, Markos A. Katsoulakis, Luc Rey-Bellet, Benjamin Zhang, and Wei Zhu.       
@@ -34,7 +79,8 @@ Jeremiah Birrell, Markos A. Katsoulakis, Luc Rey-Bellet, Benjamin Zhang, and Wei
  Computer Methods in Applied Mechanics and Engineering, <b>446</b> (2025), Part A, Article 118226  
 <a class="DOI" href="https://doi.org/10.1016/j.cma.2025.118226"> DOI: 10.1016/j.cma.2025.118226 </a> &ensp; 
 <a class="reprint" href="pdf/BirrellDenoising.pdf"> Reprint in PDF </a>  
-
+<br>
+</li>
 
 
 <li>
@@ -49,7 +95,7 @@ Information and Inference: A Journal of the IMA, Volume 14, Issue 4, December 20
  
 <li>
 Ziyu Chen, Markos A. Katsoulakis, Luc Rey-Bellet, and Wei Zhu.        
-**Statistical Guarantees of Group-Invariant GANs**.
+**Statistical Guarantees of Group-Invariant GANs**.    
 SIAM/ASA Journal on Uncertainty Quantification <b> 13 </b> (2025), no.2, pp. 862--890
 <a class="DOI" href="https://doi.org/10.1137/24M1666628"> DOI: 10.1137/24M1666628 </a> &ensp; 
 <a class="reprint" href="pdf/Ziyu1.pdf"> Reprint in PDF </a>    
