@@ -9,16 +9,15 @@ title: "Publications of Luc Rey-Bellet"
 Luc Rey-Bellet
 ** Relative entropy with respect to KMS states at any temperature: Rényi decoupling and Stein bounds**.   
 Preprint. 
-a class="arXiv" href="https://arxiv.org/abs/arXiv:   "> arXiv: </a>   
-<a class="reprint" href="https://arxiv.org/pdf/"> Preprint in PDF </a> 
+a class="arXiv" href="https://arxiv.org/abs/arXiv:   "> arXiv: </a>      
+<a class="reprint" href="https://arxiv.org/pdf/"> Preprint in PDF </a> &ensp;  
 <a class="reprint" href="pdf/KMSAISupplement.pdf"> AI Supplement </a> 
-
 <br>
 </li>
 
 
 <li>
-Luc Rey-Bellet
+Luc Rey-Bellet.    
 **Quantum Robustness via Sandwiched Rényi divergences.**    
 Preprint.   
 <br>
@@ -27,11 +26,11 @@ Preprint.
 
 
 <li>
-Luc Rey-Bellet.     
+Luc Rey-Bellet.         
 **A Stieltjes representation of order p for tr[(A+tB)−p]: Heinävaara's measure, B-splines, and Stahl's theorem.**     
-Preprint.     
-<a class="arXiv" href="https://arxiv.org/abs/arXiv:2611.03208   "> arXiv:2611.03208 </a>   
-<a class="reprint" href="https://arxiv.org/pdf/2611.03208"> Preprint in PDF </a> 
+Preprint.
+<a class="arXiv" href="https://arxiv.org/abs/arXiv:2611.03208   "> arXiv:2611.03208 </a>  &ensp;  
+<a class="reprint" href="https://arxiv.org/pdf/2611.03208"> Preprint in PDF </a>    
 <br>
 </li>
 
@@ -41,7 +40,7 @@ Preprint.
 <li>  Thejani Gamage, Hyemin Gu, Zhizhen Zhang, Ziyu Chen, Markos A. Katsoulakis, Luc Rey-Bellet.    
 **Fine-tuning generative models for extreme events via CVaR-penalized Wasserstein gradient flows**.     
 Submitted.
-<a class="arXiv" href="https://arxiv.org/abs/arXiv:2608.11544  "> arXiv:2608.11544 </a>
+<a class="arXiv" href="https://arxiv.org/abs/arXiv:2608.11544  "> arXiv:2608.11544 </a> &ensp; 
 <a class="reprint" href="https://arxiv.org/pdf/2407.11901"> Preprint in PDF </a>         
 <br>
 </li>
