@@ -11,7 +11,6 @@ Luc Rey-Bellet
 Preprint. 
 a class="arXiv" href="https://arxiv.org/abs/arXiv:   "> arXiv: </a>      
 <a class="reprint" href="https://arxiv.org/pdf/"> Preprint in PDF </a> &ensp;  
-<a class="reprint" href="pdf/KMSAISupplement.pdf"> AI Supplement </a> 
 <br>
 </li>
 
